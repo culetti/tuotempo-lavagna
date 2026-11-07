@@ -90441,8 +90441,8 @@
         "name"
       ],
       "narration": {
-        "en": "They still needed a name, and a domain that was available or affordable. They remember names like MioTempo, InTempo and Bookino, and variants like TuTempo and TuTiempo. The alternatives flew past. Only TuoTempo remained.",
-        "it": "Serviva ancora un nome, e un dominio libero o a buon prezzo. Ricordano nomi come MioTempo, InTempo e Bookino, e varianti come TuTempo e TuTiempo. Le alternative passavano veloci. Alla fine restò solo TuoTempo."
+        "en": "They still needed a name, and a domain that was available or affordable. The alternatives flew past. Only TuoTempo remained.",
+        "it": "Serviva ancora un nome, e un dominio libero o a buon prezzo. Le alternative passavano veloci. Alla fine restò solo TuoTempo."
       },
       "cues": [
         {
@@ -90450,39 +90450,31 @@
           "it": "Serviva ancora un nome, e un dominio libero o a buon prezzo.",
           "art": "name",
           "start": 0.131,
-          "end": 4.224541,
-          "duration": 4.093541
-        },
-        {
-          "en": "They remember names like MioTempo, InTempo and Bookino, and variants like TuTempo and TuTiempo.",
-          "it": "Ricordano nomi come MioTempo, InTempo e Bookino, e varianti come TuTempo e TuTiempo.",
-          "art": "name",
-          "start": 4.224541,
-          "end": 10.706,
-          "duration": 6.481459
+          "end": 4.212958,
+          "duration": 4.081958
         },
         {
           "en": "The alternatives flew past.",
           "it": "Le alternative passavano veloci.",
           "art": "name",
-          "start": 10.706,
-          "end": 12.757416,
-          "duration": 2.051416
+          "start": 4.212958,
+          "end": 6.275916,
+          "duration": 2.062958
         },
         {
           "en": "Only TuoTempo remained.",
           "it": "Alla fine restò solo TuoTempo.",
           "art": "name",
-          "start": 12.757416,
-          "end": 14.856,
-          "duration": 2.098584
+          "start": 6.275916,
+          "end": 8.376,
+          "duration": 2.100084
         }
       ],
       "audio": "audio/name-en.mp3",
       "photo": null,
       "notes": "Nomi ricordati su Slack il 07/11/2026 nel gruppo Don/Lele/Gef. Don: TuTempo (dominio più caro, orientamento ispanico), InTempo (secondo me), MioTempo (credo, punto di partenza); Lele: TuTiempo e Bookino. Gef: ricerca di un dominio libero o a buon mercato; proposta TuoTempo attribuita a Gef e confermata da Don. Ordine del ciclo puramente visivo, NON cronologia certa. Nessun nome inventato. Qualcosa con Ora non è un nome completo, quindi escluso. Luogo e giorno della scelta ancora ignoti.",
       "incomplete": false,
-      "audioDuration": 14.856,
+      "audioDuration": 8.376,
       "candidateNames": [
         "MioTempo",
         "InTempo",

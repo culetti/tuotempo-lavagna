@@ -72,14 +72,23 @@ function check(token){if(token!==runToken)throw new Cancelled();}
 function tween(ms,fn,token){return new Promise((resolve,reject)=>{const t0=performance.now();function tick(now){if(token!==runToken)return reject(new Cancelled());const t=Math.min(1,(now-t0)/(ms/speed));fn(t);render();if(t<1)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});}
 async function moveCamera(target,token,ms=560){setPhase('camera');const from={...cam};await tween(ms,t=>{const e=ease(t);for(const k of ['cx','cy','w'])cam[k]=from[k]+(target[k]-from[k])*e;},token);}
 function cameraFor(o){const height=o.h*o.scale;const width=Math.max(o.width*1.14,height*1.7778*1.28);return {cx:o.x+o.width/2,cy:o.y+height/2+height*.055,w:width};}
+function drawSheet(g,s){if(s.alpha<=0)return;ctx.save();ctx.globalAlpha=s.alpha;ctx.translate(g.cx+s.dx,g.cy);ctx.rotate(s.rot);ctx.fillStyle='#fffdf6';ctx.strokeStyle='#555';ctx.lineWidth=3;ctx.lineJoin='round';ctx.beginPath();ctx.moveTo(-g.sw/2,-g.sh/2);ctx.lineTo(g.sw/2+3,-g.sh/2+2);ctx.lineTo(g.sw/2,g.sh/2);ctx.lineTo(-g.sw/2-2,g.sh/2-2);ctx.closePath();ctx.fill();ctx.stroke();ctx.restore();}
+function drawNameSheets(g){drawSheet(g,g.frame.oldSheet);drawSheet(g,g.frame.newSheet);}
 function render(){ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#fff';ctx.fillRect(0,0,W,H);const z=W/cam.w;ctx.setTransform(z,0,0,z,W/2-cam.cx*z,H/2-cam.cy*z);
  // Each group is part of the same permanent whiteboard, never a slide replacement.
+ if(nameGag)drawNameSheets(nameGag);
  for(const o of Object.values(objects)){if(!o.shown)continue;if(o.dirty){const c=o.comp.getContext('2d');c.globalCompositeOperation='copy';c.drawImage(o.mask,0,0);c.globalCompositeOperation='source-in';c.drawImage(o.image,0,0);o.dirty=false;}ctx.drawImage(o.comp,o.x,o.y,o.width,o.h*o.scale);}
  ctx.fillStyle=RED;ctx.font='54px Hand';
  const labels=[['origins','1 · Bologna → Valencia',90,105],['football','2 · L’idea del calcetto',2130,105],['remote','3 · Nati da remoto',2130,1400],['dentist','4 · Client number one',110,1400]];
  for(const [id,text,x,y] of labels){if(DATA.sections.find(s=>s.id===id).art.some(a=>objects[a].shown))ctx.fillText(text,x,y);}
  if(finalProgress>0){const p=DATA.final.tooth;ctx.strokeStyle=RED;ctx.lineWidth=8;ctx.lineCap='round';ctx.beginPath();ctx.ellipse(p.x,p.y,p.rx,p.ry,-.13,-Math.PI/2,-Math.PI/2+Math.PI*2*Math.min(1,finalProgress*1.6));ctx.stroke();if(finalProgress>.65){ctx.font='72px Hand';ctx.fillStyle=RED;const text=DATA.final.years;ctx.fillText(text.slice(0,Math.ceil((finalProgress-.65)/.35*text.length)),1800,2480);}}
- if(nameGag?.frame.label){const f=nameGag.frame;ctx.save();ctx.globalAlpha=f.alpha;ctx.translate(nameGag.cx,nameGag.cy+22+f.offset);ctx.font='64px Hand';ctx.fillStyle='#333';ctx.textAlign='center';ctx.fillText(f.label,0,0);if(f.cut>0){const w=ctx.measureText(f.label).width;ctx.strokeStyle=RED;ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-w/2-6,-18);ctx.lineTo(-w/2-6+(w+12)*f.cut,-15);ctx.stroke();}ctx.restore();}
+ if(nameGag){const g=nameGag,f=g.frame,lh=Math.min(78,(g.sh-70)/f.list.length),top=g.cy-lh*(f.list.length-1)/2+20;g.hand=null;ctx.save();ctx.font='60px Hand';ctx.textAlign='left';
+  if(f.oldSheet.alpha>0){ctx.save();ctx.globalAlpha=f.oldSheet.alpha;ctx.translate(g.cx+f.oldSheet.dx,g.cy);ctx.rotate(f.oldSheet.rot);ctx.translate(-g.cx,-g.cy);
+   f.list.forEach((it,i)=>{if(it.write<=0)return;const y=top+i*lh,w=ctx.measureText(it.label).width,x=g.cx-w/2;ctx.save();ctx.beginPath();ctx.rect(x-10,y-lh,(w+20)*it.write,lh*1.3);ctx.clip();ctx.fillStyle='#333';ctx.fillText(it.label,x,y);ctx.restore();
+    if(it.cut>0){ctx.strokeStyle=RED;ctx.lineWidth=5;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x-12,y-18);ctx.lineTo(x-12+(w+24)*it.cut,y-15-3*it.cut);ctx.stroke();}
+    if(f.handAt&&f.handAt.i===i&&f.oldSheet.dx===0)g.hand={x:x+w*f.handAt.p,y:f.handAt.kind==='cut'?y-16:y-8};});
+   ctx.restore();}
+  ctx.restore();}
  if(hand&&handImage){ctx.save();ctx.translate(hand.x,hand.y);ctx.rotate(DATA.hand.rotation);const hs=DATA.hand.width/handImage.width/(Math.max(1,z*.48));ctx.drawImage(handImage,-DATA.hand.tip[0]*hs,-DATA.hand.tip[1]*hs,handImage.width*hs,handImage.height*hs);ctx.restore();}
 }
 function prepareSegments(o){const segs=[];let prev=null,total=0;for(const p of o.path){if(p===null){prev=null;continue;}if(prev){const len=Math.hypot(p[0]-prev[0],p[1]-prev[1]);if(len){segs.push({a:prev,b:p,len,start:total});total+=len;}}prev=p;}o.segments=segs;o.total=total;o.drawn=0;o.si=0;}
@@ -98,27 +107,35 @@ async function showPhoto(section,token){check(token);clearAudio();subtitle(null)
 }
 // Pure time-based filter: remembered alternatives, not a claimed historical order.
 function nameFilterFrame(section,seconds){
- const stop=section.cues[section.cues.length-1].start;
- const index=section.cues.findIndex(c=>seconds<c.end),cueIndex=index<0?section.cues.length-1:index;
- if(seconds>=stop)return {cueIndex,label:null,offset:0,alpha:0,cut:0,final:Math.min(1,(seconds-stop)/section.nameSequence.finalReveal)};
- const period=section.nameSequence.interval,step=Math.floor(Math.max(0,seconds)/period),p=(Math.max(0,seconds)%period)/period;
- const names=section.candidateNames;
- return {cueIndex,label:names[step%names.length],offset:(.5-p)*34,alpha:Math.min(1,p/.12,(1-p)/.12),cut:Math.min(1,Math.max(0,(p-.65)/.25)),final:0};
+ // Hand writes the remembered names on a sheet, strikes them one by one, swaps the sheet, then TuoTempo is drawn on the new one.
+ const cues=section.cues,stop=cues[cues.length-1].start,cutStart=cues.length>1?cues[1].start:stop*.6;
+ const index=cues.findIndex(c=>seconds<c.end),cueIndex=index<0?cues.length-1:index;
+ const names=section.candidateNames,n=names.length,clamp=v=>Math.min(1,Math.max(0,v));
+ const writeStart=Math.min(.35,cutStart*.1),writeEach=Math.min(.5,(cutStart-writeStart-.15)/n);
+ const swapDur=Math.min(.5,(stop-cutStart)*.25),cutEnd=stop-swapDur,cutEach=Math.min(.4,(cutEnd-cutStart-.1)/n);
+ const list=names.map((label,i)=>({label,write:clamp((seconds-writeStart-i*writeEach)/(writeEach*.9)),cut:clamp((seconds-cutStart-i*cutEach)/(cutEach*.85))}));
+ const swap=clamp((seconds-cutEnd)/swapDur),e=swap*swap*(3-2*swap);
+ const final=seconds>=stop?Math.min(1,(seconds-stop)/section.nameSequence.finalReveal):0;
+ let handAt=null;
+ if(seconds<cutStart){const i=Math.min(n-1,Math.max(0,Math.floor((seconds-writeStart)/writeEach)));if(seconds>=writeStart&&list[i].write<1)handAt={kind:'write',i,p:list[i].write};}
+ else if(seconds<cutEnd){const i=Math.min(n-1,Math.floor((seconds-cutStart)/cutEach));if(list[i].cut<1)handAt={kind:'cut',i,p:list[i].cut};}
+ return {cueIndex,list,handAt,oldSheet:{dx:-e*1300,rot:-e*.35,alpha:1-e},newSheet:{dx:(1-e)*1300,rot:(1-e)*.3,alpha:swap>0?Math.min(1,swap*1.5):0},swap,final};
 }
 async function nameStop(section,token){subtitle(null);const o=objects.name;
  // Focus the actual lettering (the source image includes a wide blank margin).
  const points=o.path.filter(Boolean),xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
  const cx=o.x+(Math.min(...xs)+Math.max(...xs))/2*o.scale,cy=o.y+(Math.min(...ys)+Math.max(...ys))/2*o.scale;
  await moveCamera({cx,cy,w:900},token);
- nameGag={cx,cy,frame:nameFilterFrame(section,0)};
+ const bw=(Math.max(...xs)-Math.min(...xs))*o.scale,bh=(Math.max(...ys)-Math.min(...ys))*o.scale;
+ nameGag={cx,cy,sw:Math.max(520,bw+120),sh:Math.max(470,bh+140),frame:nameFilterFrame(section,0)};
  subtitle(section.cues[0]);setPhase('drawing');const a=await startAudio(section,token);
  const total=(a&&Number.isFinite(a.duration)&&a.duration>0?a.duration:section.audioDuration)*1000;
  await tween(total,t=>{const seconds=a&&Number.isFinite(a.duration)?a.currentTime:t*total/1000;
   nameGag.frame=nameFilterFrame(section,seconds);
   const cue=section.cues[nameGag.frame.cueIndex];const local=cue&&cue.start!=null&&cue.end!=null?(seconds-cue.start)/Math.max(0.05,cue.end-cue.start):0;showSubtitleAt(cue, local);
-  if(nameGag.frame.final>0)revealTo(o,nameGag.frame.final);
+  if(nameGag.frame.final>0)revealTo(o,nameGag.frame.final);else hand=nameGag.hand||null;
  },token);
- revealTo(o,1);hand=null;nameGag=null;render();clearAudio();subtitle(null);setPhase('name');await waitForNext(token);check(token);subtitle(null);}
+ revealTo(o,1);hand=null;render();clearAudio();subtitle(null);setPhase('name');await waitForNext(token);check(token);nameGag=null;subtitle(null);}
 async function playSection(section,token){currentSection=section;$('chapter').textContent='';
  if(section.id==='name'){await nameStop(section,token);return;}
  // All subtitle timings are editable. Optional cue.start/end override proportional local audio timing.
