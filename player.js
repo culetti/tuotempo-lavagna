@@ -10,7 +10,7 @@ const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
 class Cancelled extends Error{}
 function loadImage(src){return new Promise((res,rej)=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error('Immagine non caricabile: '+src.slice(0,80)));im.src=src;});}
 function setPhase(p){phase=p;document.body.dataset.phase=p;updateStatus();}
-function updateStatus(){const names={loading:'Caricamento…',ready:'Pronto · EN',camera:'',drawing:'',hold:'',photo:'In pausa · a braccio',name:'Il nome · a braccio',final:'',ended:'Lavagna completa · R per ricominciare'};$('status').textContent=names[phase]??'';if(currentCue&&['drawing','hold'].includes(phase))$('status').textContent=lang.toUpperCase()+(audio?' · voce':' · senza voce');}
+function updateStatus(){const names={loading:'Caricamento…',ready:'Pronto · EN',camera:'',drawing:'',hold:'',photo:'In pausa',name:'Il nome',final:'',ended:'Lavagna completa · R per ricominciare'};$('status').textContent=names[phase]??'';if(currentCue&&['drawing','hold'].includes(phase))$('status').textContent=lang.toUpperCase()+(audio?' · voce':' · senza voce');}
 function subtitle(cue=currentCue){currentCue=cue;$('sub').textContent=cue?cue[lang]:'';$('sub').classList.toggle('on',!!cue);updateStatus();}
 function check(token){if(token!==runToken)throw new Cancelled();}
 function tween(ms,fn,token){return new Promise((resolve,reject)=>{const t0=performance.now();function tick(now){if(token!==runToken)return reject(new Cancelled());const t=Math.min(1,(now-t0)/(ms/speed));fn(t);render();if(t<1)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});}
