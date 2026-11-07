@@ -11,7 +11,63 @@ class Cancelled extends Error{}
 function loadImage(src){return new Promise((res,rej)=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error('Immagine non caricabile: '+src.slice(0,80)));im.src=src;});}
 function setPhase(p){phase=p;document.body.dataset.phase=p;updateStatus();}
 function updateStatus(){const names={loading:'Caricamento…',ready:'Pronto · EN',camera:'',drawing:'',hold:'',photo:'In pausa',name:'Il nome',final:'',ended:'Lavagna completa · R per ricominciare'};$('status').textContent=names[phase]??'';if(currentCue&&['drawing','hold'].includes(phase))$('status').textContent=lang.toUpperCase()+(audio?' · voce':' · senza voce');}
-function subtitle(cue=currentCue){currentCue=cue;$('sub').textContent=cue?cue[lang]:'';$('sub').classList.toggle('on',!!cue);updateStatus();}
+function subtitle(cue=currentCue){showSubtitleAt(cue, cue===currentCue?subProgress:0);}
+let subProgress=0;
+function splitSubtitle(text, maxLen=72){
+ const raw=String(text||'').replace(/\s+/g,' ').trim();
+ if(!raw)return [''];
+ if(raw.length<=maxLen)return [raw];
+ const chunks=[];
+ let remaining=raw;
+ const minCut=Math.max(20, Math.floor(maxLen*0.38));
+ while(remaining.length>maxLen){
+  const slice=remaining.slice(0, maxLen+1);
+  let cut=-1;
+  const re=/[.!?;:]["”')\]]?(?=\s|$)|,\s*| — | – | - /g;
+  let m,last=-1;
+  while((m=re.exec(slice))){
+   const end=m.index+m[0].length;
+   if(end<=maxLen && m.index>=minCut) last=end;
+  }
+  if(last>0) cut=last;
+  else{
+   const space=slice.lastIndexOf(' ', maxLen);
+   cut=space>=minCut?space:maxLen;
+  }
+  chunks.push(remaining.slice(0,cut).trim());
+  remaining=remaining.slice(cut).trim();
+ }
+ if(remaining) chunks.push(remaining);
+ for(let i=chunks.length-1;i>0;i--){
+  if(chunks[i].length<16 && chunks[i-1].length+1+chunks[i].length<=maxLen+24){
+   chunks[i-1]+=' '+chunks[i];
+   chunks.splice(i,1);
+  }
+ }
+ return chunks.length?chunks:[''];
+}
+function showSubtitleAt(cue, t){
+ currentCue=cue;
+ subProgress=Math.min(1, Math.max(0, Number(t)||0));
+ const el=$('sub');
+ if(!cue){el.textContent='';el.classList.remove('on');updateStatus();return;}
+ const chunks=splitSubtitle(cue[lang]||'');
+ const weights=chunks.map(c=>Math.max(10,c.length));
+ const total=weights.reduce((a,b)=>a+b,0)||1;
+ let acc=0, idx=chunks.length-1;
+ const p=Math.min(0.999, subProgress)*total;
+ for(let i=0;i<chunks.length;i++){acc+=weights[i];if(p<acc){idx=i;break;}}
+ const next=chunks[idx]||'';
+ if(el.textContent!==next) el.textContent=next;
+ el.classList.toggle('on',!!next);
+ updateStatus();
+}
+function cueProgress(cue, t, sectionAudio){
+ if(cue&&cue.start!=null&&cue.end!=null&&sectionAudio&&Number.isFinite(sectionAudio.currentTime)){
+  return (sectionAudio.currentTime-cue.start)/Math.max(0.05, cue.end-cue.start);
+ }
+ return t;
+}
 function check(token){if(token!==runToken)throw new Cancelled();}
 function tween(ms,fn,token){return new Promise((resolve,reject)=>{const t0=performance.now();function tick(now){if(token!==runToken)return reject(new Cancelled());const t=Math.min(1,(now-t0)/(ms/speed));fn(t);render();if(t<1)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});}
 async function moveCamera(target,token,ms=560){setPhase('camera');const from={...cam};await tween(ms,t=>{const e=ease(t);for(const k of ['cx','cy','w'])cam[k]=from[k]+(target[k]-from[k])*e;},token);}
@@ -37,7 +93,7 @@ function waitForNext(token){check(token);return new Promise((resolve,reject)=>{w
 async function showPhoto(section,token){check(token);clearAudio();subtitle(null);hand=null;render();const ph=section.photo;$('pol').className='pol '+ph.kind;$('photoContent').replaceChildren();
  if(ph.src){const img=document.createElement('img');img.src=ph.src;img.alt=ph.caption;$('photoContent').append(img);}else{const box=document.createElement('div');box.className='missing';const strong=document.createElement('strong');strong.textContent=ph.display;const span=document.createElement('span');span.textContent=ph.disclosure;box.append(strong,span);$('photoContent').append(box);}
  $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');
- if(ph.intro){subtitle({en:ph.intro.en,it:ph.intro.it});if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,()=>{},token);}clearAudio();}}
+ if(ph.intro){const introCue={en:ph.intro.en,it:ph.intro.it};showSubtitleAt(introCue,0);if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,t=>{const p=audio&&Number.isFinite(audio.duration)&&audio.duration>0?audio.currentTime/audio.duration:t;showSubtitleAt(introCue,p);},token);}clearAudio();}}
  await waitForNext(token);check(token);$('photo').classList.remove('on');subtitle(null);
 }
 // Pure time-based filter: remembered alternatives, not a claimed historical order.
@@ -59,7 +115,7 @@ async function nameStop(section,token){subtitle(null);const o=objects.name;
  const total=(a&&Number.isFinite(a.duration)&&a.duration>0?a.duration:section.audioDuration)*1000;
  await tween(total,t=>{const seconds=a&&Number.isFinite(a.duration)?a.currentTime:t*total/1000;
   nameGag.frame=nameFilterFrame(section,seconds);
-  const cue=section.cues[nameGag.frame.cueIndex];if(cue!==currentCue)subtitle(cue);
+  const cue=section.cues[nameGag.frame.cueIndex];const local=cue&&cue.start!=null&&cue.end!=null?(seconds-cue.start)/Math.max(0.05,cue.end-cue.start):0;showSubtitleAt(cue, local);
   if(nameGag.frame.final>0)revealTo(o,nameGag.frame.final);
  },token);
  revealTo(o,1);hand=null;nameGag=null;render();clearAudio();subtitle(null);setPhase('name');await waitForNext(token);check(token);subtitle(null);}
@@ -72,13 +128,14 @@ async function playSection(section,token){currentSection=section;$('chapter').te
  if(section.cues.length){sectionAudio=await startAudio(section,token);if(sectionAudio&&Number.isFinite(sectionAudio.duration)&&sectionAudio.duration>0)durationFactor=sectionAudio.duration/totalTime;}
  for(let i=0;i<section.cues.length;i++){check(token);const cue=section.cues[i],o=objects[cue.art];
   if(activeArt!==cue.art){subtitle(null);await moveCamera(cameraFor(o),token);activeArt=cue.art;}
-  check(token);subtitle(cue);setPhase('drawing');const from=o.progress||0;played[cue.art]=(played[cue.art]||0)+cue.duration;const target=Math.min(1,played[cue.art]/totals[cue.art]);
+  check(token);showSubtitleAt(cue,0);setPhase('drawing');const from=o.progress||0;played[cue.art]=(played[cue.art]||0)+cue.duration;const target=Math.min(1,played[cue.art]/totals[cue.art]);
   let duration=(cue.start!=null&&cue.end!=null)?(cue.end-cue.start)*1000:cue.duration*durationFactor*1000;
   if(sectionAudio&&Number.isFinite(sectionAudio.currentTime)&&cue.end!=null)duration=Math.max(160,(cue.end-sectionAudio.currentTime)*1000);
   const revealSpan=Math.max(0,target-from);
   const drawMs=revealSpan>0.002?duration:(sectionAudio?0:Math.min(duration,Math.max(200,1850)));
-  if(drawMs)await tween(drawMs,t=>revealTo(o,from+revealSpan*t),token);
-  else {revealTo(o,target);render();if(sectionAudio&&duration>30)await tween(duration,()=>{},token);}
+  const followSub=t=>{showSubtitleAt(cue, cueProgress(cue,t,sectionAudio));};
+  if(drawMs)await tween(drawMs,t=>{revealTo(o,from+revealSpan*t);followSub(t);},token);
+  else {revealTo(o,target);render();if(sectionAudio&&duration>30)await tween(duration,followSub,token);}
   const nextSame=i+1<section.cues.length&&section.cues[i+1].art===cue.art;
   if(!nextSame){hand=null;render();}
  }
