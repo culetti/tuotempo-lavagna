@@ -23,7 +23,7 @@ function render(){ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#fff';ctx.fillRec
  const labels=[['origins','1 · Bologna → Valencia',90,105],['football','2 · L’idea del calcetto',2130,105],['remote','3 · Nati da remoto',2130,1400],['dentist','4 · Client number one',110,1400]];
  for(const [id,text,x,y] of labels){if(DATA.sections.find(s=>s.id===id).art.some(a=>objects[a].shown))ctx.fillText(text,x,y);}
  if(finalProgress>0){const p=DATA.final.tooth;ctx.strokeStyle=RED;ctx.lineWidth=8;ctx.lineCap='round';ctx.beginPath();ctx.ellipse(p.x,p.y,p.rx,p.ry,-.13,-Math.PI/2,-Math.PI/2+Math.PI*2*Math.min(1,finalProgress*1.6));ctx.stroke();if(finalProgress>.65){ctx.font='72px Hand';ctx.fillStyle=RED;const text=DATA.final.years;ctx.fillText(text.slice(0,Math.ceil((finalProgress-.65)/.35*text.length)),1800,2480);}}
- if(nameGag){for(const it of nameGag.items){const al=it.a*it.f;if(al<=0)continue;ctx.save();ctx.globalAlpha=al;ctx.translate(it.x,it.y);ctx.rotate(it.rot);ctx.font=it.size+'px Hand';ctx.fillStyle='#333';ctx.textAlign='center';ctx.fillText(it.t,0,0);if(it.s>0){const w=ctx.measureText(it.t).width;ctx.strokeStyle=RED;ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(-w/2-6,-it.size*.3);ctx.lineTo(-w/2-6+(w+12)*it.s,-it.size*.25);ctx.stroke();}ctx.restore();}}
+ if(nameGag?.frame.label){const f=nameGag.frame;ctx.save();ctx.globalAlpha=f.alpha;ctx.translate(nameGag.cx,nameGag.cy+22+f.offset);ctx.font='64px Hand';ctx.fillStyle='#333';ctx.textAlign='center';ctx.fillText(f.label,0,0);if(f.cut>0){const w=ctx.measureText(f.label).width;ctx.strokeStyle=RED;ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-w/2-6,-18);ctx.lineTo(-w/2-6+(w+12)*f.cut,-15);ctx.stroke();}ctx.restore();}
  if(hand&&handImage){ctx.save();ctx.translate(hand.x,hand.y);ctx.rotate(DATA.hand.rotation);const hs=DATA.hand.width/handImage.width/(Math.max(1,z*.48));ctx.drawImage(handImage,-DATA.hand.tip[0]*hs,-DATA.hand.tip[1]*hs,handImage.width*hs,handImage.height*hs);ctx.restore();}
 }
 function prepareSegments(o){const segs=[];let prev=null,total=0;for(const p of o.path){if(p===null){prev=null;continue;}if(prev){const len=Math.hypot(p[0]-prev[0],p[1]-prev[1]);if(len){segs.push({a:prev,b:p,len,start:total});total+=len;}}prev=p;}o.segments=segs;o.total=total;o.drawn=0;o.si=0;}
@@ -40,14 +40,30 @@ async function showPhoto(section,token){check(token);clearAudio();subtitle(null)
  if(ph.intro){subtitle({en:ph.intro.en,it:ph.intro.it});if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,()=>{},token);}clearAudio();}}
  await waitForNext(token);check(token);$('photo').classList.remove('on');subtitle(null);
 }
-async function nameStop(section,token){subtitle(null);const o=objects.name;await moveCamera(cameraFor(o),token);
- // Visual gag only: invented names, NOT the historical shortlist.
- const pool=section.gagNames||[],cx=o.x+o.width/2,cy=o.y+o.h*o.scale/2;let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
- nameGag={items:pool.map((t,i)=>{let x,y;do{x=cx+(rnd()-.5)*1080;y=cy+(rnd()-.5)*560;}while(Math.abs(x-cx)<380&&Math.abs(y-cy)<120);return {t,x,y,rot:(rnd()-.5)*.35,size:40+rnd()*26,appear:rnd()*.3,cut:.38+rnd()*.42,a:0,s:0,f:1}}),final:0};
- subtitle({en:section.narration.en,it:section.narration.it});setPhase('drawing');const a=await startAudio(section,token);let total=6300;if(a&&Number.isFinite(a.duration)&&a.duration>0)total=a.duration*1000;
- await tween(total,t=>{for(const it of nameGag.items){it.a=Math.min(1,Math.max(0,(t-it.appear)/.08));it.s=Math.min(1,Math.max(0,(t-it.cut)/.06));it.f=1-Math.min(1,Math.max(0,(t-it.cut-.06)/.08));}nameGag.final=Math.max(0,(t-.82)/.18);if(t>.82)revealTo(o,Math.min(1,(t-.82)/.17));},token);
- revealTo(o,1);hand=null;nameGag.items=[];render();clearAudio();subtitle({en:'Over to Lele and Don · SPACE or click to continue',it:'Spazio a Lele e Don · SPAZIO o clic per continuare'});setPhase('name');await waitForNext(token);check(token);nameGag=null;subtitle(null);}
-async function playSection(section,token){currentSection=section;$('chapter').textContent='Lavagna 1 · '+section.title;
+// Pure time-based filter: remembered alternatives, not a claimed historical order.
+function nameFilterFrame(section,seconds){
+ const stop=section.cues[section.cues.length-1].start;
+ const index=section.cues.findIndex(c=>seconds<c.end),cueIndex=index<0?section.cues.length-1:index;
+ if(seconds>=stop)return {cueIndex,label:null,offset:0,alpha:0,cut:0,final:Math.min(1,(seconds-stop)/section.nameSequence.finalReveal)};
+ const period=section.nameSequence.interval,step=Math.floor(Math.max(0,seconds)/period),p=(Math.max(0,seconds)%period)/period;
+ const names=section.candidateNames;
+ return {cueIndex,label:names[step%names.length],offset:(.5-p)*34,alpha:Math.min(1,p/.12,(1-p)/.12),cut:Math.min(1,Math.max(0,(p-.65)/.25)),final:0};
+}
+async function nameStop(section,token){subtitle(null);const o=objects.name;
+ // Focus the actual lettering (the source image includes a wide blank margin).
+ const points=o.path.filter(Boolean),xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
+ const cx=o.x+(Math.min(...xs)+Math.max(...xs))/2*o.scale,cy=o.y+(Math.min(...ys)+Math.max(...ys))/2*o.scale;
+ await moveCamera({cx,cy,w:900},token);
+ nameGag={cx,cy,frame:nameFilterFrame(section,0)};
+ subtitle(section.cues[0]);setPhase('drawing');const a=await startAudio(section,token);
+ const total=(a&&Number.isFinite(a.duration)&&a.duration>0?a.duration:section.audioDuration)*1000;
+ await tween(total,t=>{const seconds=a&&Number.isFinite(a.duration)?a.currentTime:t*total/1000;
+  nameGag.frame=nameFilterFrame(section,seconds);
+  const cue=section.cues[nameGag.frame.cueIndex];if(cue!==currentCue)subtitle(cue);
+  if(nameGag.frame.final>0)revealTo(o,nameGag.frame.final);
+ },token);
+ revealTo(o,1);hand=null;nameGag=null;render();clearAudio();subtitle(null);setPhase('name');await waitForNext(token);check(token);subtitle(null);}
+async function playSection(section,token){currentSection=section;$('chapter').textContent='';
  if(section.id==='name'){await nameStop(section,token);return;}
  // All subtitle timings are editable. Optional cue.start/end override proportional local audio timing.
  let activeArt=null,sectionAudio=null;const totalTime=section.cues.reduce((s,c)=>s+c.duration,0);let durationFactor=1;
@@ -74,7 +90,7 @@ async function playSection(section,token){currentSection=section;$('chapter').te
  }
  await showPhoto(section,token);
 }
-async function finale(token){subtitle(null);$('chapter').textContent='Le origini · 2005–2007';await moveCamera({cx:DATA.board.width/2,cy:DATA.board.height/2,w:Math.max(DATA.board.width+220,(DATA.board.height+180)*16/9)},token,1100);setPhase('final');await tween(1300,t=>{finalProgress=t;const p=DATA.final.tooth;if(t<.65){const a=-Math.PI/2+t/.65*Math.PI*2;hand={x:p.x+Math.cos(a)*p.rx,y:p.y+Math.sin(a)*p.ry};}else hand={x:1800+(t-.65)/.35*340,y:2460};},token);hand=null;render();setPhase('ended');$('progress').style.width='100%';}
+async function finale(token){subtitle(null);$('chapter').textContent='';await moveCamera({cx:DATA.board.width/2,cy:DATA.board.height/2,w:Math.max(DATA.board.width+220,(DATA.board.height+180)*16/9)},token,1100);setPhase('final');await tween(1300,t=>{finalProgress=t;const p=DATA.final.tooth;if(t<.65){const a=-Math.PI/2+t/.65*Math.PI*2;hand={x:p.x+Math.cos(a)*p.rx,y:p.y+Math.sin(a)*p.ry};}else hand={x:1800+(t-.65)/.35*340,y:2460};},token);hand=null;render();setPhase('ended');$('progress').style.width='100%';}
 function cancel(){runToken++;if(waiter){waiter.reject(new Cancelled());waiter=null;}clearAudio();hand=null;}
 async function run(){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}
  $('photo').classList.remove('on');nameGag=null;$('start').style.display='none';$('frame').classList.add('clean');$('progress').style.width='0';cam={cx:900,cy:480,w:2000};render();
@@ -90,5 +106,5 @@ function fullscreen(){if(document.fullscreenElement){if(document.exitFullscreen)
 $('fullBtn').onclick=fullscreen;$('hideBtn').onclick=()=>$('frame').classList.toggle('clean');
 document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'||e.key==='ArrowRight'){e.preventDefault();next();}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')$('frame').classList.toggle('clean');});
 // Read-only diagnostics for local verification; no network, telemetry or external API.
-window.Whiteboard={getState:()=>({waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},finalProgress}),next,restart:run,toggleLanguage};
+window.Whiteboard={getState:()=>({waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress}),next,restart:run,toggleLanguage};
 init();

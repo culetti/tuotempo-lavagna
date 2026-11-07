@@ -90441,42 +90441,65 @@
         "name"
       ],
       "narration": {
-        "en": "They still needed a name. A lot of strange names came and went, until one remained: TuoTempo.",
-        "it": "Serviva ancora un nome. Tanti nomi strani, uno dopo l'altro, finché ne restò uno: TuoTempo."
+        "en": "They still needed a name, and a domain that was available or affordable. They remember names like MioTempo, InTempo and Bookino, and variants like TuTempo and TuTiempo. The alternatives flew past. Only TuoTempo remained.",
+        "it": "Serviva ancora un nome, e un dominio libero o a buon prezzo. Ricordano nomi come MioTempo, InTempo e Bookino, e varianti come TuTempo e TuTiempo. Le alternative passavano veloci. Alla fine restò solo TuoTempo."
       },
-      "cues": [],
+      "cues": [
+        {
+          "en": "They still needed a name, and a domain that was available or affordable.",
+          "it": "Serviva ancora un nome, e un dominio libero o a buon prezzo.",
+          "art": "name",
+          "start": 0.131,
+          "end": 4.224541,
+          "duration": 4.093541
+        },
+        {
+          "en": "They remember names like MioTempo, InTempo and Bookino, and variants like TuTempo and TuTiempo.",
+          "it": "Ricordano nomi come MioTempo, InTempo e Bookino, e varianti come TuTempo e TuTiempo.",
+          "art": "name",
+          "start": 4.224541,
+          "end": 10.706,
+          "duration": 6.481459
+        },
+        {
+          "en": "The alternatives flew past.",
+          "it": "Le alternative passavano veloci.",
+          "art": "name",
+          "start": 10.706,
+          "end": 12.757416,
+          "duration": 2.051416
+        },
+        {
+          "en": "Only TuoTempo remained.",
+          "it": "Alla fine restò solo TuoTempo.",
+          "art": "name",
+          "start": 12.757416,
+          "end": 14.856,
+          "duration": 2.098584
+        }
+      ],
       "audio": "audio/name-en.mp3",
       "photo": null,
-      "notes": "Gag visiva: i nomi nella nuvola sono inventati, NON la rosa storica (alternative reali [NON SO], in attesa di Don e Gianfranco).",
+      "notes": "Nomi ricordati su Slack il 07/11/2026 nel gruppo Don/Lele/Gef. Don: TuTempo (dominio più caro, orientamento ispanico), InTempo (secondo me), MioTempo (credo, punto di partenza); Lele: TuTiempo e Bookino. Gef: ricerca di un dominio libero o a buon mercato; proposta TuoTempo attribuita a Gef e confermata da Don. Ordine del ciclo puramente visivo, NON cronologia certa. Nessun nome inventato. Qualcosa con Ora non è un nome completo, quindi escluso. Luogo e giorno della scelta ancora ignoti.",
       "incomplete": false,
-      "gagNames": [
-        "WebAgenda",
-        "e-Visita",
+      "audioDuration": 14.856,
+      "candidateNames": [
         "MioTempo",
-        "TempoTuo",
-        "PrenotaDoc",
-        "DocClick",
-        "AgendaFacile",
-        "OraCerta",
-        "ClickCura",
-        "StudioWeb",
-        "Prenotami",
-        "DottorOra",
-        "SanitaOnLine",
-        "SlotMedico",
-        "TuaAgenda",
-        "MediSlot",
-        "AppuntaBene",
-        "VisitaFlash",
-        "CuraExpress",
-        "TempoPerTe",
-        "PrenotoSubito",
-        "BookDent",
-        "e-Dottore",
-        "WebStudio",
-        "OrarioFacile",
-        "LaTuaVisita"
-      ]
+        "InTempo",
+        "Bookino",
+        "TuTempo",
+        "TuTiempo"
+      ],
+      "nameSequence": {
+        "interval": 0.18,
+        "finalReveal": 0.7
+      },
+      "sourceDiscussion": {
+        "channel": "C02JTPF922X",
+        "parentTs": "1793983500.310839",
+        "url": "https://docplanner.slack.com/archives/C02JTPF922X/p1793983500310839",
+        "date": "2026-11-07"
+      }
     },
     {
       "id": "dentist",
@@ -90568,7 +90591,7 @@
     "years": "2005–2007"
   },
   "unknowns": [
-    "Il nome: confermato solo che fu inventato insieme fra tanti nomi; alternative reali [NON SO] (in attesa di Don e Gianfranco). I nomi dell'animazione sono una gag.",
+    "Il nome: alternative ricordate su Slack 07/11/2026: MioTempo, InTempo, Bookino, TuTempo, TuTiempo; proposta TuoTempo di Gef confermata da Don. Ordine completo, luogo e giorno della scelta ancora ignoti; MioTempo e InTempo citati con incertezza. Il ciclo non rappresenta una cronologia storica.",
     "Sito: cattura archive.org di tuotempo.com del 9 febbraio 2007 (non il sito 2006); al posto del banner Flash, non archiviato, una ricostruzione nello stile della pagina."
   ]
 }
