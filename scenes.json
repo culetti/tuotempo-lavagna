@@ -90339,89 +90339,89 @@
         "remote"
       ],
       "narration": {
-        "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, much of the early work at Gianfranco's house, with a few friends helping for free. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Donatello's flat in via San Felice in Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
-        "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\", la receptionist medica che si poteva prenotare online. In Europa: niente. E ricordate il 2006: niente iPhone, niente app, niente cloud. Due medici su tre tengono gli appuntamenti su carta. Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere. Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, gran parte del lavoro iniziale a casa di Gianfranco, con qualche amico che aiuta gratis. Così, tra il 2005 e il 2006, tre amici fondano una società. Tuotempo nasce remota: la casa di Donatello in via San Felice a Bologna da una parte, Valencia dall'altra, Skype in mezzo, e ogni tanto un volo low cost."
+        "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
+        "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\", la receptionist medica che si poteva prenotare online. In Europa: niente. E ricordate il 2006: niente iPhone, niente app, niente cloud. Due medici su tre tengono gli appuntamenti su carta. Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere. Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli. Così, tra il 2005 e il 2006, tre amici fondano una società. Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra, Skype in mezzo, e ogni tanto un volo low cost."
       },
       "cues": [
         {
           "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel',",
           "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\",",
-          "duration": 6.59,
+          "duration": 6.377291,
           "art": "mabel",
-          "start": 0.0,
-          "end": 6.586
+          "start": 0.107875,
+          "end": 6.485166
         },
         {
           "en": "the medical receptionist you could book online.",
           "it": "la receptionist medica che si poteva prenotare online.",
-          "duration": 2.58,
+          "duration": 2.141208,
           "art": "mabel",
-          "start": 6.586,
-          "end": 9.17
+          "start": 6.6935,
+          "end": 8.834708
         },
         {
           "en": "In Europe: nothing.",
           "it": "In Europa: niente.",
-          "duration": 1.78,
+          "duration": 1.458374,
           "art": "mabel",
-          "start": 9.17,
-          "end": 10.949
+          "start": 9.201375,
+          "end": 10.659749
         },
         {
           "en": "And remember 2006: no iPhone, no apps, no cloud.",
           "it": "E ricordate il 2006: niente iPhone, niente app, niente cloud.",
-          "duration": 4.66,
+          "duration": 4.294,
           "art": "mabel",
-          "start": 10.949,
-          "end": 15.613
+          "start": 11.030083,
+          "end": 15.324083
         },
         {
           "en": "Two doctors out of three kept their appointments on paper.",
           "it": "Due medici su tre tengono gli appuntamenti su carta.",
-          "duration": 3.41,
+          "duration": 3.032416,
           "art": "mabel",
-          "start": 15.613,
-          "end": 19.018
+          "start": 15.6625,
+          "end": 18.694916
         },
         {
           "en": "They called the third friend in Valencia, because there was no AI to ask.",
           "it": "Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere.",
-          "duration": 4.19,
+          "duration": 3.865707,
           "art": "remote",
-          "start": 19.018,
-          "end": 23.206
+          "start": 19.0625,
+          "end": 22.928207
         },
         {
-          "en": "He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, much of the early work at Gianfranco's house, with a few friends helping for free.",
-          "it": "Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, gran parte del lavoro iniziale a casa di Gianfranco, con qualche amico che aiuta gratis.",
-          "duration": 10.52,
+          "en": "He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators.",
+          "it": "Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli.",
+          "duration": 8.101832,
           "art": "remote",
-          "start": 23.206,
-          "end": 33.726
+          "start": 23.298625,
+          "end": 31.400457
         },
         {
           "en": "So, somewhere between 2005 and 2006, three friends founded a company.",
           "it": "Così, tra il 2005 e il 2006, tre amici fondano una società.",
-          "duration": 5.78,
+          "duration": 5.405125,
           "art": "remote",
-          "start": 33.726,
-          "end": 39.502
+          "start": 31.75925,
+          "end": 37.164375
         },
         {
-          "en": "Tuotempo was born remote: Donatello's flat in via San Felice in Bologna on one end, Valencia on the other,",
-          "it": "Tuotempo nasce remota: la casa di Donatello in via San Felice a Bologna da una parte, Valencia dall'altra,",
-          "duration": 6.2,
+          "en": "Tuotempo was born remote: Bologna on one end, Valencia on the other,",
+          "it": "Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra,",
+          "duration": 4.062499,
           "art": "remote",
-          "start": 39.502,
-          "end": 45.703
+          "start": 37.511583,
+          "end": 41.574082
         },
         {
           "en": "Skype in between, and a cheap flight every now and then.",
           "it": "Skype in mezzo, e ogni tanto un volo low cost.",
-          "duration": 3.26,
+          "duration": 3.134875,
           "art": "remote",
-          "start": 45.703,
-          "end": 48.96
+          "start": 41.817125,
+          "end": 44.952
         }
       ],
       "audio": "audio/remote-en.mp3",
