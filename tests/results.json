@@ -1,0 +1,55 @@
+{
+  "engine": "jsdom + @napi-rs/canvas (NOT browser)",
+  "stops": [
+    "origins",
+    "football",
+    "remote",
+    "name",
+    "dentist"
+  ],
+  "errors": [
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method",
+    "Not implemented: HTMLMediaElement's play() method",
+    "Not implemented: HTMLMediaElement's pause() method"
+  ],
+  "finalState": {
+    "waiting": false,
+    "phase": "ended",
+    "lang": "it",
+    "section": "dentist",
+    "token": 3,
+    "shown": [
+      "university",
+      "map",
+      "valencia",
+      "football",
+      "cousin",
+      "mabel",
+      "remote",
+      "dentist",
+      "lunch",
+      "name"
+    ],
+    "cam": {
+      "cx": 2020,
+      "cy": 1270,
+      "w": 4835.555555555556
+    },
+    "finalProgress": 1
+  }
+}
