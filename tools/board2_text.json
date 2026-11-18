@@ -1,0 +1,42 @@
+[
+ {"id":"l2-clients","cues":[
+  ["2007.","2007."],
+  ["The first customers weren't hospitals.","I primi clienti non erano ospedali."],
+  ["They were a dental practice, a sports centre, a day spa, a beauty centre.","Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico."],
+  ["That summer, the very first automatic reminder went out.","Quell'estate partì il primo promemoria automatico."],
+  ["And to explain it all, Tuotempo even made a promotional video, in English.","E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese."]]},
+ {"id":"l2-troiano","cues":[
+  ["2008: the first real integration, with the software dentists used to run their practices.","2008: la prima integrazione vera, con il gestionale dei dentisti."],
+  ["Back then, there were no APIs to plug into.","Allora non c'erano API a cui collegarsi."],
+  ["So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary.","Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda."],
+  ["Everyone called it the Trojan horse: the most polite guest a computer ever had.","Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto."]]},
+ {"id":"l2-salotto","cues":[
+  ["In 2009, the company got an office in Bologna, in via Ugo Bassi.","Nel 2009 l'azienda ebbe un ufficio a Bologna, in via Ugo Bassi."],
+  ["On paper, a business-centre phone number.","Sulla carta, il numero di telefono di un business center."],
+  ["In reality, the living room of a family flat, with a sofa.","In realtà, la sala di una casa di famiglia, con un divano."],
+  ["Up to eight people worked in there, and customers came to meetings in that living room.","Ci lavoravano fino a otto persone, e i clienti venivano alle riunioni in quella sala."]]},
+ {"id":"l2-voce","cues":[
+  ["In the 2007 video there was a promise: patients with only a landline would get a voice message at home.","Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale."],
+  ["It took two years to keep it.","Ci vollero due anni per mantenerla."],
+  ["In 2009, a robot voice started calling patients to remind them of their appointments.","Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti."],
+  ["Tuotempo was among the first to do it.","Tuotempo fu tra i primi a farlo."]]},
+ {"id":"l2-cloud","cues":[
+  ["Meanwhile, the servers.","Intanto, i server."],
+  ["One night in 2009, the production server, in a data centre in Rome, switched itself off,","Una notte del 2009 il server di produzione, in un data center a Roma, si spense,"],
+  ["and would not switch on again until someone went there in person.","e non si riaccese finché qualcuno non andò a metterci le mani."],
+  ["That was enough.","Bastò quello."],
+  ["Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.","Tuotempo passò al cloud di Amazon a Dublino, e dall'inizio del 2010 fu la sua unica casa."]]},
+ {"id":"l2-serverino","cues":[
+  ["But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them.","Ma gli SMS passavano ancora da un vecchio PC in ufficio, con un modem GSM e SIM fatte arrivare dall'estero, fra cui una greca."],
+  ["Patients replied one to confirm, zero to cancel.","I pazienti rispondevano 1 per confermare, 0 per disdire."],
+  ["Then, one summer night in 2011, at two in the morning, the building's main switch tripped.","Poi, una notte d'estate del 2011, alle due, saltò il generale del palazzo."],
+  ["The next morning, the whole company's reminders were silent, until someone went and switched it back on.","La mattina dopo tutti i promemoria dell'azienda tacevano, finché qualcuno non andò a riaccenderlo."]]},
+ {"id":"l2-machu","cues":[
+  ["Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day.","Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero."],
+  ["And one of the founders was on top of Machu Picchu.","E uno dei fondatori era in cima a Machu Picchu."],
+  ["Hands joined, praying to a different kind of cloud.","A mani giunte, a pregare un altro tipo di nuvola."]]},
+ {"id":"l2-indip","cues":[
+  ["Through all of this: no investors, no funding rounds.","In tutto questo: niente investitori, niente round."],
+  ["Only friends and family who believed in it, and the customers.","Solo amici e famiglia che ci credevano, e i clienti."],
+  ["They fought to stay independent. And they did.","Hanno faticato per restare indipendenti. E ci sono riusciti."]]}
+]
