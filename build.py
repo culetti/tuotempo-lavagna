@@ -1,3 +1,4 @@
+"""Assemble boards/*.json into the single self-contained index.html."""
 from pathlib import Path
 import json,base64,mimetypes
 P=Path(__file__).parent
@@ -5,7 +6,9 @@ P=Path(__file__).parent
 def uri(path):
  p=P/path;mime=mimetypes.guess_type(p)[0] or 'application/octet-stream'
  return 'data:'+mime+';base64,'+base64.b64encode(p.read_bytes()).decode()
-d=json.loads((P/'scenes.json').read_text())
+import sys;sys.path.insert(0,str(P/'tools'))
+from boardfiles import load_all
+d=load_all()  # boards/common.json + boards/lavagnaN.json + boards/lavagnaN.art.json
 for art in d['art'].values():art['src']=uri(art['src'])
 d['hand']['src']=uri(d['hand']['src'])
 for s in d['sections']:

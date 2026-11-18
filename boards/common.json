@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "title": "TuoTempo · Le origini",
+  "years": "2005–2007",
+  "sourceDoc": "1dA9Ja1mzXY14iAMeijzxuCZBTltaXgKtXV0viZfAXMs",
+  "sourceRevision": "AHj4eMTER_DYvPjEEmkjrP62x_qHjY7vajf3RGEPAIrOceunWxgQEO42gYyKWsnkxjTx7AJ4pQvC94Bsps0-NyC9UEUI3ESxg4nGbOdFBXk",
+  "board": {
+    "width": 4040,
+    "height": 2540
+  },
+  "hand": {
+    "src": "assets/hand.png",
+    "tip": [
+      355,
+      240
+    ],
+    "rotation": 0.12,
+    "width": 324
+  },
+  "final": {
+    "tooth": {
+      "x": 1040,
+      "y": 1600,
+      "rx": 110,
+      "ry": 145
+    },
+    "label": "client number one",
+    "years": "2005–2007"
+  },
+  "boardOrder": [
+    "lavagna1",
+    "lavagna2",
+    "lavagna3",
+    "lavagna4"
+  ]
+}

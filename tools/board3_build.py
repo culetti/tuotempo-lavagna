@@ -1,5 +1,8 @@
-"""Lavagna 3 (2009-2016): process generated art, align cues, insert into scenes.json.
-Rebuilds from tools/scenes.board12.json (Lavagne 1+2) each run. Does not touch prepare_assets.py."""
+"""Lavagna 3 (2009-2016): process generated art, align cues, write boards/lavagna3*.json.
+Does not touch prepare_assets.py.
+WARNING: regenerates boards/lavagna3.json and boards/lavagna3.art.json from scratch (art paths, cues, notes),
+overwriting hand edits made later in those files. For text fixes edit boards/lavagna3.json directly.
+Dry run: BOARDS_OUT=/tmp/x python3 tools/board3_build.py"""
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 import numpy as np,cv2,json,re,subprocess
@@ -64,24 +67,11 @@ for sec in T:
  assert wi==len(words),sid
  sections.append({'id':sid,'board':'lavagna3','title':titles[sid],'art':[sid],'narration':{'en':' '.join(c[0] for c in sec['cues']),'it':' '.join(c[1] for c in sec['cues'])},'cues':cues,'audio':f'audio/{sid}-en.mp3','photo':photos.get(sid),'notes':sectnotes[sid],'incomplete':False})
 cs=art['l3-consegne'];sc=cs['width']/cs['w']
-base_text=(P/'tools/scenes.board12.json').read_text();base=json.loads(base_text)
-boards=base['boards']+[{'id':'lavagna3','title':'L’espansione e gli schiaffi','years':'2009–2016','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}]
-labels=base['labels']+labels
+board={'id':'lavagna3','title':'L’espansione e gli schiaffi','years':'2009–2016','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
 unk=['Lavagna 3 · cravatte nel deserto: disegno provvisorio; manca una foto confermata di Abu Dhabi (quella di Don nel deserto, EXIF 12/12/2008, non è confermata).',
      'Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.',
      'Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos.']
-s=base_text
-dump=lambda o,ind:('\n'+' '*ind).join(json.dumps(o,ensure_ascii=False,indent=2).split('\n'))
-def artdump(a):
- head={k:v for k,v in a.items() if k!='path'}
- return dump(head,4)[:-1].rstrip()+',\n      "path": '+json.dumps(a['path'],separators=(',',':'))+'\n    }'
-anchor='\n  },\n  "sections": [';assert s.count(anchor)==1
-s=s.replace(anchor,''.join(',\n    "%s": %s'%(k,artdump(v)) for k,v in art.items())+anchor)
-anchor='\n  ],\n  "final": {';assert s.count(anchor)==1
-s=s.replace(anchor,''.join(',\n    '+dump(x,4) for x in sections)+anchor)
-i=s.index('\n  "boards": ');j=s.index('\n  "unknowns": [')
-s=s[:i]+'\n  "boards": '+dump(boards,2)+',\n  "labels": '+dump(labels,2)+','+s[j:]
-i=s.rstrip().rfind('\n  ]')
-s=s[:i]+''.join(',\n    '+json.dumps(u,ensure_ascii=False) for u in unk)+s[i:]
-d=json.loads(s);(P/'scenes.json').write_text(s,encoding='utf8')
-print('sections',len(d['sections']),'art',len(d['art']),'boards',[b['id'] for b in d['boards']],'voice',round(sum(c['duration'] for x in sections for c in x['cues']),1))
+import sys;sys.path.insert(0,str(P/'tools'))
+from boardfiles import write_board
+write_board('lavagna3',board,sections,labels,unk,art)
+print('sections',len(sections),'art',len(art),'voice',round(sum(c['duration'] for x in sections for c in x['cues']),1))

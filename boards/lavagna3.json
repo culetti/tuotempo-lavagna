@@ -1,0 +1,375 @@
+{
+  "board": {
+    "id": "lavagna3",
+    "title": "L’espansione e gli schiaffi",
+    "years": "2009–2016",
+    "color": "#2a8a4a",
+    "sections": [
+      "l3-spagna",
+      "l3-abudhabi",
+      "l3-cravatte",
+      "l3-sanitas",
+      "l3-firma",
+      "l3-consegne"
+    ],
+    "region": {
+      "x": 8840,
+      "y": 0,
+      "w": 4040,
+      "h": 2540
+    },
+    "final": {
+      "circle": {
+        "x": 12084,
+        "y": 1692,
+        "rx": 120,
+        "ry": 120
+      },
+      "yearsAt": [
+        10600,
+        2300
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "l3-spagna",
+      "board": "lavagna3",
+      "title": "La Spagna",
+      "art": [
+        "l3-spagna"
+      ],
+      "narration": {
+        "en": "2009. Spain began with a phone call. One evening at half past six, when it was already dark, Donatello found a number in a file, and dialled it. The man who answered would open Spain for Tuotempo. Soon came the first distribution agreement: around sixty dental clinics, from Tarragona to Andorra. As they still say: Spain exists because, at half past six, it was dark.",
+        "it": "2009. La Spagna cominciò con una telefonata. Una sera alle sei e mezza, quando era già buio, Donatello trovò un numero in un file, e lo chiamò. Chi rispose avrebbe aperto la Spagna per Tuotempo. Presto arrivò il primo accordo di distribuzione: circa sessanta cliniche dentali, da Tarragona ad Andorra. Come si dice ancora: la Spagna esiste perché alle sei e mezza era buio."
+      },
+      "cues": [
+        {
+          "en": "2009. Spain began with a phone call.",
+          "it": "2009. La Spagna cominciò con una telefonata.",
+          "art": "l3-spagna",
+          "start": 0.099083,
+          "end": 3.085166,
+          "duration": 2.986083
+        },
+        {
+          "en": "One evening at half past six, when it was already dark, Donatello found a number in a file, and dialled it.",
+          "it": "Una sera alle sei e mezza, quando era già buio, Donatello trovò un numero in un file, e lo chiamò.",
+          "art": "l3-spagna",
+          "start": 3.449083,
+          "end": 9.583333,
+          "duration": 6.13425
+        },
+        {
+          "en": "The man who answered would open Spain for Tuotempo.",
+          "it": "Chi rispose avrebbe aperto la Spagna per Tuotempo.",
+          "art": "l3-spagna",
+          "start": 9.930541,
+          "end": 12.835624,
+          "duration": 2.905083
+        },
+        {
+          "en": "Soon came the first distribution agreement: around sixty dental clinics, from Tarragona to Andorra.",
+          "it": "Presto arrivò il primo accordo di distribuzione: circa sessanta cliniche dentali, da Tarragona ad Andorra.",
+          "art": "l3-spagna",
+          "start": 13.194458,
+          "end": 19.0625,
+          "duration": 5.868042
+        },
+        {
+          "en": "As they still say: Spain exists because, at half past six, it was dark.",
+          "it": "Come si dice ancora: la Spagna esiste perché alle sei e mezza era buio.",
+          "art": "l3-spagna",
+          "start": 19.432875,
+          "end": 24.432,
+          "duration": 4.999125
+        }
+      ],
+      "audio": "audio/l3-spagna-en.mp3",
+      "photo": {
+        "src": "assets/l3-mail-acuerdos.png",
+        "caption": "«Acuerdos» · 24 settembre 2009",
+        "kind": "doc",
+        "disclosure": "Testo originale della mail, ricomposto; mittente coperto"
+      },
+      "notes": "Master §3 “Come nasce la Spagna” e §6 momento 9. Telefonata delle 18:30 (RICORDO, data incerta: 2009 o poco prima); mail “Acuerdos” 24/09/2009 (CERTO): accordo di distribuzione con i partner Infomed per Tarragona, Lleida, Huesca e Andorra, circa 60 cliniche dentali. Nessun nome del collaboratore in voce. Stop: mail ricomposta dal testo originale (Gmail di Lele).",
+      "incomplete": false
+    },
+    {
+      "id": "l3-abudhabi",
+      "board": "lavagna3",
+      "title": "Abu Dhabi",
+      "art": [
+        "l3-abudhabi"
+      ],
+      "narration": {
+        "en": "Then came the first big hospital, in Abu Dhabi. It arrived through a former colleague from the Cezanne days, who had become the medical director of a hospital group. A big customer, far from home… and the first customer who didn't pay. In March 2010 came the first ever last notice: service suspended on the 1st of April.",
+        "it": "Poi arrivò il primo grande ospedale, ad Abu Dhabi. Arrivò grazie a un ex collega dei tempi di Cezanne, diventato direttore sanitario di un gruppo ospedaliero. Un grande cliente, lontano da casa… e il primo cliente che non pagava. A marzo 2010 partì il primo avviso di sospensione della storia: servizio sospeso dal 1° aprile."
+      },
+      "cues": [
+        {
+          "en": "Then came the first big hospital, in Abu Dhabi.",
+          "it": "Poi arrivò il primo grande ospedale, ad Abu Dhabi.",
+          "art": "l3-abudhabi",
+          "start": 0.131,
+          "end": 3.024541,
+          "duration": 2.893541
+        },
+        {
+          "en": "It arrived through a former colleague from the Cezanne days, who had become the medical director of a hospital group.",
+          "it": "Arrivò grazie a un ex collega dei tempi di Cezanne, diventato direttore sanitario di un gruppo ospedaliero.",
+          "art": "l3-abudhabi",
+          "start": 3.391208,
+          "end": 9.039333,
+          "duration": 5.648125
+        },
+        {
+          "en": "A big customer, far from home… and the first customer who didn't pay.",
+          "it": "Un grande cliente, lontano da casa… e il primo cliente che non pagava.",
+          "art": "l3-abudhabi",
+          "start": 9.398166,
+          "end": 13.472249,
+          "duration": 4.074083
+        },
+        {
+          "en": "In March 2010 came the first ever last notice: service suspended on the 1st of April.",
+          "it": "A marzo 2010 partì il primo avviso di sospensione della storia: servizio sospeso dal 1° aprile.",
+          "art": "l3-abudhabi",
+          "start": 13.819458,
+          "end": 19.344,
+          "duration": 5.524542
+        }
+      ],
+      "audio": "audio/l3-abudhabi-en.mp3",
+      "photo": {
+        "src": "assets/l3-mail-lastnotice.png",
+        "caption": "«Last Notice» · 21 marzo 2010",
+        "kind": "doc",
+        "disclosure": "Testo originale della mail, ricomposto; mittente e destinatari coperti, importi omessi"
+      },
+      "notes": "Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) non è confermata come Abu Dhabi: non usata.",
+      "incomplete": false
+    },
+    {
+      "id": "l3-cravatte",
+      "board": "lavagna3",
+      "title": "Le cravatte nel deserto",
+      "art": [
+        "l3-cravatte"
+      ],
+      "narration": {
+        "en": "One January, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
+        "it": "Un gennaio, due dei fondatori volarono laggiù in giacca e cravatta. E finirono nel deserto: due cravatte nella sabbia, lontanissimo da Bologna."
+      },
+      "cues": [
+        {
+          "en": "One January, two of the founders flew out there in jacket and tie.",
+          "it": "Un gennaio, due dei fondatori volarono laggiù in giacca e cravatta.",
+          "art": "l3-cravatte",
+          "start": 0.131,
+          "end": 3.799999,
+          "duration": 3.668999
+        },
+        {
+          "en": "And ended up in the desert: two ties in the sand, a long way from Bologna.",
+          "it": "E finirono nel deserto: due cravatte nella sabbia, lontanissimo da Bologna.",
+          "art": "l3-cravatte",
+          "start": 4.166666,
+          "end": 8.568,
+          "duration": 4.401334
+        }
+      ],
+      "audio": "audio/l3-cravatte-en.mp3",
+      "photo": null,
+      "notes": "Master §3 (giacca e cravatta nel deserto a gennaio: RICORDO; c’erano Lele e Don: CERTO, Lele 11/11) e §6 momento 11. Anno non noto. Disegno in attesa di una foto di Abu Dhabi da Don.",
+      "incomplete": false
+    },
+    {
+      "id": "l3-sanitas",
+      "board": "lavagna3",
+      "title": "Il teatro napoletano",
+      "art": [
+        "l3-sanitas"
+      ],
+      "narration": {
+        "en": "2011. Sanitas, one of the biggest health insurers in Spain, wanted proof that Tuotempo could take the load. So the demo was pure Neapolitan theatre: a terminal, a timer, and searches connected to clinic twenty-three, twenty-four, twenty-eight… On the slides, a search dropped from seventy seconds to five. Sanitas bought, and became the biggest customer in Spain.",
+        "it": "2011. Sanitas, una delle più grandi assicurazioni sanitarie di Spagna, voleva la prova che Tuotempo reggesse il carico. Così la demo fu puro teatro napoletano: un terminale, un timer, e ricerche collegate alla clinica 23, 24, 28… Sulle slide, una ricerca scendeva da settanta secondi a cinque. Sanitas comprò, e diventò il cliente più grande di Spagna."
+      },
+      "cues": [
+        {
+          "en": "2011. Sanitas, one of the biggest health insurers in Spain, wanted proof that Tuotempo could take the load.",
+          "it": "2011. Sanitas, una delle più grandi assicurazioni sanitarie di Spagna, voleva la prova che Tuotempo reggesse il carico.",
+          "art": "l3-sanitas",
+          "start": 0.099083,
+          "end": 6.615249,
+          "duration": 6.516166
+        },
+        {
+          "en": "So the demo was pure Neapolitan theatre: a terminal, a timer, and searches connected to clinic twenty-three, twenty-four, twenty-eight…",
+          "it": "Così la demo fu puro teatro napoletano: un terminale, un timer, e ricerche collegate alla clinica 23, 24, 28…",
+          "art": "l3-sanitas",
+          "start": 6.967583,
+          "end": 14.861083,
+          "duration": 7.8935
+        },
+        {
+          "en": "On the slides, a search dropped from seventy seconds to five.",
+          "it": "Sulle slide, una ricerca scendeva da settanta secondi a cinque.",
+          "art": "l3-sanitas",
+          "start": 15.2315,
+          "end": 18.773166,
+          "duration": 3.541666
+        },
+        {
+          "en": "Sanitas bought, and became the biggest customer in Spain.",
+          "it": "Sanitas comprò, e diventò il cliente più grande di Spagna.",
+          "art": "l3-sanitas",
+          "start": 19.1435,
+          "end": 22.728,
+          "duration": 3.5845
+        }
+      ],
+      "audio": "audio/l3-sanitas-en.mp3",
+      "photo": {
+        "src": "assets/l3-sanitas-slides.png",
+        "caption": "tuOtempO_Sanitas_Performance.ppt · 20 luglio 2011",
+        "kind": "doc",
+        "disclosure": "Due slide originali: la stessa ricerca, 70 secondi senza cache, 5 con la cache"
+      },
+      "notes": "Master §3 “Sanitas” e §6 momento 12. Il trucco del terminale col timer è RICORDO; la ppt del 20/07/2011 (allegato “tuOtempO_Sanita_Perfromance.ppt”, mail di Don) mostra 70 secondi senza cache e 5 con cache. Stop: due slide originali.",
+      "incomplete": false
+    },
+    {
+      "id": "l3-firma",
+      "board": "lavagna3",
+      "title": "La firma da multinazionale",
+      "art": [
+        "l3-firma"
+      ],
+      "narration": {
+        "en": "By 2014, every email ended with a signature worthy of a multinational: Bologna, Barcelona, Lyon, Abu Dhabi. Behind most of those cities, one single person. And Bologna was still a living room.",
+        "it": "Nel 2014 ogni mail finiva con una firma da multinazionale: Bologna, Barcellona, Lione, Abu Dhabi. Dietro quasi ognuna di quelle città, una persona sola. E Bologna era ancora un salotto."
+      },
+      "cues": [
+        {
+          "en": "By 2014, every email ended with a signature worthy of a multinational: Bologna, Barcelona, Lyon, Abu Dhabi.",
+          "it": "Nel 2014 ogni mail finiva con una firma da multinazionale: Bologna, Barcellona, Lione, Abu Dhabi.",
+          "art": "l3-firma",
+          "start": 0.107875,
+          "end": 7.665749,
+          "duration": 7.557874
+        },
+        {
+          "en": "Behind most of those cities, one single person.",
+          "it": "Dietro quasi ognuna di quelle città, una persona sola.",
+          "art": "l3-firma",
+          "start": 8.00925,
+          "end": 10.9375,
+          "duration": 2.92825
+        },
+        {
+          "en": "And Bologna was still a living room.",
+          "it": "E Bologna era ancora un salotto.",
+          "art": "l3-firma",
+          "start": 11.307875,
+          "end": 13.512,
+          "duration": 2.204125
+        }
+      ],
+      "audio": "audio/l3-firma-en.mp3",
+      "photo": {
+        "src": "assets/l3-mail-firma.png",
+        "caption": "La firma · 9 settembre 2014",
+        "kind": "doc",
+        "disclosure": "Mail originale, ricomposta; nome e recapiti coperti"
+      },
+      "notes": "Master §3 (firme “BOLOGNA | BARCELONA | LYON | ABU DHABI” 2014–2018; a Lione e a Barcellona di fatto una persona; Bologna = la sala di via Ugo Bassi) e §6 momento 13. Stop: mail del 09/09/2014 con la firma, nome e recapiti coperti.",
+      "incomplete": false
+    },
+    {
+      "id": "l3-consegne",
+      "board": "lavagna3",
+      "title": "Il passaggio di consegne",
+      "art": [
+        "l3-consegne"
+      ],
+      "narration": {
+        "en": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Gianfranco took the baton, and the customers had a new point of reference. A handover between old friends.",
+        "it": "Nel 2015 uno dei due amici della pausa pranzo in Cezanne prese in mano i clienti. Gianfranco prese il testimone, e i clienti ebbero un nuovo punto di riferimento. Un passaggio di consegne fra vecchi amici."
+      },
+      "cues": [
+        {
+          "en": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand.",
+          "it": "Nel 2015 uno dei due amici della pausa pranzo in Cezanne prese in mano i clienti.",
+          "art": "l3-consegne",
+          "start": 0.131,
+          "end": 5.003708,
+          "duration": 4.872708
+        },
+        {
+          "en": "Gianfranco took the baton, and the customers had a new point of reference.",
+          "it": "Gianfranco prese il testimone, e i clienti ebbero un nuovo punto di riferimento.",
+          "art": "l3-consegne",
+          "start": 5.338416,
+          "end": 9.412499,
+          "duration": 4.074083
+        },
+        {
+          "en": "A handover between old friends.",
+          "it": "Un passaggio di consegne fra vecchi amici.",
+          "art": "l3-consegne",
+          "start": 9.780083,
+          "end": 12.024,
+          "duration": 2.243917
+        }
+      ],
+      "audio": "audio/l3-consegne-en.mp3",
+      "photo": null,
+      "notes": "Master §3 “Verso il 2016” e §6 momento 15: casella attivata il 22–23/09/2015, firma “Customer Services Director”. Mostrato solo come passaggio di consegne, senza dire che era uscito e rientrato (deciso da Lele 18/11). Le tre demo di Milano (momento 14) vanno nella Lavagna 4.",
+      "incomplete": false
+    }
+  ],
+  "labels": [
+    {
+      "section": "l3-spagna",
+      "text": "1 · La Spagna",
+      "x": 8980,
+      "y": 310
+    },
+    {
+      "section": "l3-abudhabi",
+      "text": "2 · Abu Dhabi",
+      "x": 10280,
+      "y": 310
+    },
+    {
+      "section": "l3-cravatte",
+      "text": "3 · Le cravatte nel deserto",
+      "x": 11580,
+      "y": 310
+    },
+    {
+      "section": "l3-sanitas",
+      "text": "4 · Il teatro napoletano",
+      "x": 8980,
+      "y": 1330
+    },
+    {
+      "section": "l3-firma",
+      "text": "5 · La firma da multinazionale",
+      "x": 10280,
+      "y": 1330
+    },
+    {
+      "section": "l3-consegne",
+      "text": "6 · Il passaggio di consegne",
+      "x": 11580,
+      "y": 1330
+    }
+  ],
+  "unknowns": [
+    "Lavagna 3 · cravatte nel deserto: disegno provvisorio; manca una foto confermata di Abu Dhabi (quella di Don nel deserto, EXIF 12/12/2008, non è confermata).",
+    "Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.",
+    "Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos."
+  ]
+}

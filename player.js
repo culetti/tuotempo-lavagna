@@ -84,6 +84,7 @@ function render(){ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#fff';ctx.fillRec
  ctx.font='54px Hand';
  for(const l of (DATA.labels||[])){const sec=DATA.sections.find(s=>s.id===l.section);if(sec&&sec.art.some(a=>objects[a]&&objects[a].shown)){ctx.fillStyle=boardOf(l.section).color;ctx.fillText(l.text,l.x,l.y);}}
  for(const b of BOARDS){const fp=finals[b.id]||0;if(fp<=0)continue;const p=b.final.circle,col=b.color;ctx.strokeStyle=col;ctx.lineWidth=8;ctx.lineCap='round';ctx.beginPath();ctx.ellipse(p.x,p.y,p.rx,p.ry,-.13,-Math.PI/2,-Math.PI/2+Math.PI*2*Math.min(1,fp*1.6));ctx.stroke();if(fp>.65){ctx.font='72px Hand';ctx.fillStyle=col;const text=b.years;ctx.fillText(text.slice(0,Math.ceil((fp-.65)/.35*text.length)),b.final.yearsAt[0],b.final.yearsAt[1]);}}
+ drawClosing();
  if(nameGag){const g=nameGag,f=g.frame,lh=Math.min(78,(g.sh-70)/f.list.length),top=g.cy-lh*(f.list.length-1)/2+20;g.hand=null;ctx.save();ctx.font='60px Hand';ctx.textAlign='left';
   if(f.oldSheet.alpha>0){ctx.save();ctx.globalAlpha=f.oldSheet.alpha;ctx.translate(g.cx+f.oldSheet.dx,g.cy);ctx.rotate(f.oldSheet.rot);ctx.translate(-g.cx,-g.cy);
    f.list.forEach((it,i)=>{if(it.write<=0)return;const y=top+i*lh,w=ctx.measureText(it.label).width,x=g.cx-w/2;ctx.save();ctx.beginPath();ctx.rect(x-10,y-lh,(w+20)*it.write,lh*1.3);ctx.clip();ctx.fillStyle='#333';ctx.fillText(it.label,x,y);ctx.restore();
@@ -167,9 +168,17 @@ async function playSection(section,token){currentSection=section;$('chapter').te
  }
  await showPhoto(section,token);
 }
-async function finale(board,token,last){subtitle(null);$('chapter').textContent='';const r=board.region;await moveCamera({cx:r.x+r.w/2,cy:r.y+r.h/2,w:Math.max(r.w+220,(r.h+180)*16/9)},token,1100);setPhase('final');const [yx,yy]=board.final.yearsAt;await tween(1300,t=>{finals[board.id]=t;finalProgress=t;const p=board.final.circle;if(t<.65){const a=-Math.PI/2+t/.65*Math.PI*2;hand={x:p.x+Math.cos(a)*p.rx,y:p.y+Math.sin(a)*p.ry};}else hand={x:yx+(t-.65)/.35*340,y:yy-20};},token);hand=null;render();if(last){setPhase('ended');$('progress').style.width='100%';}else{setPhase('boardEnd');await waitForNext(token);check(token);}}
+// Closing shot: after the last board, zoom out over every board of the talk and draw one timeline under them all.
+let closing=0;const TL_Y=2840;
+function drawClosing(){if(closing<=0)return;const xs=BOARDS.map(b=>b.region.x),x0=Math.min(...xs)+40,x1=Math.max(...BOARDS.map(b=>b.region.x+b.region.w))-40,tip=x0+(x1-x0)*closing;ctx.save();ctx.lineCap='round';ctx.lineJoin='round';ctx.textAlign='center';ctx.font='250px Hand';
+ BOARDS.forEach((b,i)=>{const a=Math.max(x0,b.region.x),e=i<BOARDS.length-1?BOARDS[i+1].region.x:x1;if(tip<=a)return;const end=Math.min(tip,e);ctx.strokeStyle=b.color;ctx.lineWidth=28;ctx.beginPath();ctx.moveTo(a,TL_Y);ctx.lineTo(end,TL_Y);ctx.stroke();ctx.beginPath();ctx.moveTo(a,TL_Y-90);ctx.lineTo(a,TL_Y+90);ctx.stroke();
+  const mid=b.region.x+b.region.w/2;if(tip>mid){ctx.fillStyle=b.color;ctx.fillText(b.years,mid,TL_Y+330);}});
+ if(closing>=1){const b=BOARDS[BOARDS.length-1];ctx.strokeStyle=b.color;ctx.lineWidth=28;ctx.beginPath();ctx.moveTo(x1-120,TL_Y-90);ctx.lineTo(x1,TL_Y);ctx.lineTo(x1-120,TL_Y+90);ctx.stroke();}
+ ctx.restore();}
+async function closingShot(token){if(BOARDS.length<2)return;await tween(900,()=>{},token);const x0=Math.min(...BOARDS.map(b=>b.region.x)),x1=Math.max(...BOARDS.map(b=>b.region.x+b.region.w)),y0=Math.min(...BOARDS.map(b=>b.region.y)),y1=TL_Y+420;await moveCamera({cx:(x0+x1)/2,cy:(y0+y1)/2,w:Math.max(x1-x0+360,(y1-y0+240)*16/9)},token,3200);setPhase('final');await tween(3600,t=>{closing=t;hand={x:x0+40+(x1-x0-80)*t,y:TL_Y};},token);hand=null;render();}
+async function finale(board,token,last){subtitle(null);$('chapter').textContent='';const r=board.region;await moveCamera({cx:r.x+r.w/2,cy:r.y+r.h/2,w:Math.max(r.w+220,(r.h+180)*16/9)},token,1100);setPhase('final');const [yx,yy]=board.final.yearsAt;await tween(1300,t=>{finals[board.id]=t;finalProgress=t;const p=board.final.circle;if(t<.65){const a=-Math.PI/2+t/.65*Math.PI*2;hand={x:p.x+Math.cos(a)*p.rx,y:p.y+Math.sin(a)*p.ry};}else hand={x:yx+(t-.65)/.35*340,y:yy-20};},token);hand=null;render();if(last){await closingShot(token);setPhase('ended');$('progress').style.width='100%';}else{setPhase('boardEnd');await waitForNext(token);check(token);}}
 function cancel(){runToken++;if(waiter){waiter.reject(new Cancelled());waiter=null;}clearAudio();hand=null;}
-async function run(){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}
+async function run(){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}
  $('photo').classList.remove('on');nameGag=null;$('start').style.display='none';$('frame').classList.add('clean');$('progress').style.width='0';cam={cx:900,cy:480,w:2000};render();
  try{let done=0;for(let bi=0;bi<BOARDS.length;bi++){const b=BOARDS[bi],secs=b.sections.map(id=>DATA.sections.find(s=>s.id===id)).filter(Boolean);
   if(bi>0&&secs.length){const first=objects[secs[0].art[0]];if(first)await moveCamera(cameraFor(first),token,1600);}

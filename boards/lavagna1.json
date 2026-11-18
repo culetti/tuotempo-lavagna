@@ -1,0 +1,457 @@
+{
+  "board": {
+    "id": "lavagna1",
+    "title": "Le origini",
+    "years": "2005–2007",
+    "color": "#bd282b",
+    "sections": [
+      "origins",
+      "football",
+      "remote",
+      "name",
+      "dentist"
+    ],
+    "region": {
+      "x": 0,
+      "y": 0,
+      "w": 4040,
+      "h": 2540
+    },
+    "final": {
+      "circle": {
+        "x": 1040,
+        "y": 1600,
+        "rx": 110,
+        "ry": 145
+      },
+      "yearsAt": [
+        1800,
+        2480
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "origins",
+      "title": "Da Bologna a Valencia",
+      "art": [
+        "university",
+        "map",
+        "valencia"
+      ],
+      "narration": {
+        "en": "Once upon a time, three boys came up the Adriatic coast to study at the Alma Mater of Bologna: one from Ancona, two from Pescara. They became friends. Then life scattered them: two ended up in the same software company in Bologna, Cezanne, building an HR portal; the third ran off to Valencia, where he lived at his parents' expense, occupying himself with art and technology. In the photograph you can already glimpse the three founders — and a strange omen.",
+        "it": "C'era una volta tre ragazzi saliti lungo l'Adriatico per studiare all'Alma Mater di Bologna: uno da Ancona, due da Pescara. Diventarono amici. Poi la vita li sparpagliò: due finirono nella stessa software house di Bologna, Cezanne, a costruire un portale HR; il terzo scappò a Valencia, dove viveva a carico dei genitori occupandosi di arte e tecnologia. Nella foto si possono già intravedere i tre founder — e uno strano presagio."
+      },
+      "cues": [
+        {
+          "en": "Once upon a time, three boys came up the Adriatic coast to study at the Alma Mater of Bologna:",
+          "it": "C'era una volta tre ragazzi saliti lungo l'Adriatico per studiare all'Alma Mater di Bologna:",
+          "duration": 5.174,
+          "art": "university",
+          "start": 0.131,
+          "end": 5.305
+        },
+        {
+          "en": "one from Ancona, two from Pescara.",
+          "it": "uno da Ancona, due da Pescara.",
+          "duration": 2.164,
+          "art": "map",
+          "start": 5.652,
+          "end": 7.816
+        },
+        {
+          "en": "They became friends.",
+          "it": "Diventarono amici.",
+          "duration": 1.169,
+          "art": "map",
+          "start": 8.183,
+          "end": 9.352
+        },
+        {
+          "en": "Then life scattered them: two ended up in the same software company in Bologna, Cezanne, building an HR portal;",
+          "it": "Poi la vita li sparpagliò: due finirono nella stessa software house di Bologna, Cezanne, a costruire un portale HR;",
+          "duration": 6.088,
+          "art": "valencia",
+          "start": 9.711,
+          "end": 15.799
+        },
+        {
+          "en": "the third ran off to Valencia, where he lived at his parents' expense, occupying himself with art and technology.",
+          "it": "il terzo scappò a Valencia, dove viveva a carico dei genitori occupandosi di arte e tecnologia.",
+          "duration": 5.521,
+          "art": "valencia",
+          "start": 16.088,
+          "end": 21.609
+        },
+        {
+          "en": "In the photograph you can already glimpse the three founders — and a strange omen.",
+          "it": "Nella foto si possono già intravedere i tre founder — e uno strano presagio.",
+          "duration": 4.016,
+          "art": "valencia",
+          "start": 21.956,
+          "end": 25.972
+        }
+      ],
+      "audio": "audio/origins-en.mp3",
+      "photo": {
+        "src": "assets/laurea.jpg",
+        "caption": "The three founders — and a strange omen.",
+        "kind": "original",
+        "disclosure": "Bologna · Alma Mater"
+      },
+      "notes": " chi siete, da dove venite, il gossip universitario; \"ognuno ha fatto il suo percorso\" in due frasi, senza raccontare le vite. Ponte col concerto: nella foto c'è anche Albe, che stasera suona con Caval Donato.",
+      "incomplete": false
+    },
+    {
+      "id": "football",
+      "title": "L’idea del calcetto",
+      "art": [
+        "lunch",
+        "football",
+        "cousin"
+      ],
+      "narration": {
+        "en": "Late 2005. In the lunch breaks at Cezanne, Donatello and Gianfranco were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
+        "it": "Fine 2005. Nelle pause pranzo in Cezanne, Donatello e Gianfranco cercano un'idea tutta loro. La preferita: prenotare online i campi da calcetto. Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello. Niente computer al banco, agenda di carta, nessuna voglia di cambiare. Il calcetto muore quel pomeriggio."
+      },
+      "cues": [
+        {
+          "en": "Late 2005.",
+          "it": "Fine 2005.",
+          "duration": 1.85,
+          "art": "lunch",
+          "start": 0.0,
+          "end": 2.478
+        },
+        {
+          "en": "In the lunch breaks at Cezanne, Donatello and Gianfranco were hunting for an idea of their own.",
+          "it": "Nelle pause pranzo in Cezanne, Donatello e Gianfranco cercano un'idea tutta loro.",
+          "duration": 4.56,
+          "art": "lunch",
+          "start": 2.478,
+          "end": 8.585
+        },
+        {
+          "en": "The favourite: booking five-a-side football pitches online.",
+          "it": "La preferita: prenotare online i campi da calcetto.",
+          "duration": 1.99,
+          "art": "football",
+          "start": 8.585,
+          "end": 11.25
+        },
+        {
+          "en": "So they went to interview the only sports-centre owner they knew, Donatello's cousin.",
+          "it": "Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello.",
+          "duration": 3.53,
+          "art": "cousin",
+          "start": 11.25,
+          "end": 15.978
+        },
+        {
+          "en": "No computer at the desk, a paper diary, no intention to change.",
+          "it": "Niente computer al banco, agenda di carta, nessuna voglia di cambiare.",
+          "duration": 3.28,
+          "art": "cousin",
+          "start": 15.978,
+          "end": 20.37
+        },
+        {
+          "en": "The football idea died that afternoon.",
+          "it": "Il calcetto muore quel pomeriggio.",
+          "duration": 1.85,
+          "art": "cousin",
+          "start": 20.37,
+          "end": 22.848
+        }
+      ],
+      "audio": "audio/football-en.mp3",
+      "photo": {
+        "src": "assets/agenda-2005.jpg",
+        "caption": "L’agenda di carta · 2005",
+        "kind": "reconstruction",
+        "disclosure": "Ricostruzione AI · agenda del centro sportivo"
+      },
+      "notes": " Donatello, la cugina che uccide il calcetto. Lele, lo spavento e la richiesta \"almeno la sanità\". Gag delle due memorie diverse, 30 secondi: Lele \"io ho chiesto la sanità\", Don \"l'ha ucciso mia cugina\"; chiusura a due voci: \"la decisione l'abbiamo presa insieme, questo sì\".",
+      "incomplete": false
+    },
+    {
+      "id": "remote",
+      "title": "Nati da remoto",
+      "art": [
+        "mabel",
+        "remote"
+      ],
+      "narration": {
+        "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
+        "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\", la receptionist medica che si poteva prenotare online. In Europa: niente. E ricordate il 2006: niente iPhone, niente app, niente cloud. Due medici su tre tengono gli appuntamenti su carta. Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere. Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli. Così, tra il 2005 e il 2006, tre amici fondano una società. Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra, Skype in mezzo, e ogni tanto un volo low cost."
+      },
+      "cues": [
+        {
+          "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel',",
+          "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\",",
+          "duration": 6.377291,
+          "art": "mabel",
+          "start": 0.107875,
+          "end": 6.485166
+        },
+        {
+          "en": "the medical receptionist you could book online.",
+          "it": "la receptionist medica che si poteva prenotare online.",
+          "duration": 2.141208,
+          "art": "mabel",
+          "start": 6.6935,
+          "end": 8.834708
+        },
+        {
+          "en": "In Europe: nothing.",
+          "it": "In Europa: niente.",
+          "duration": 1.458374,
+          "art": "mabel",
+          "start": 9.201375,
+          "end": 10.659749
+        },
+        {
+          "en": "And remember 2006: no iPhone, no apps, no cloud.",
+          "it": "E ricordate il 2006: niente iPhone, niente app, niente cloud.",
+          "duration": 4.294,
+          "art": "mabel",
+          "start": 11.030083,
+          "end": 15.324083
+        },
+        {
+          "en": "Two doctors out of three kept their appointments on paper.",
+          "it": "Due medici su tre tengono gli appuntamenti su carta.",
+          "duration": 3.032416,
+          "art": "mabel",
+          "start": 15.6625,
+          "end": 18.694916
+        },
+        {
+          "en": "They called the third friend in Valencia, because there was no AI to ask.",
+          "it": "Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere.",
+          "duration": 3.865707,
+          "art": "remote",
+          "start": 19.0625,
+          "end": 22.928207
+        },
+        {
+          "en": "He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators.",
+          "it": "Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli.",
+          "duration": 8.101832,
+          "art": "remote",
+          "start": 23.298625,
+          "end": 31.400457
+        },
+        {
+          "en": "So, somewhere between 2005 and 2006, three friends founded a company.",
+          "it": "Così, tra il 2005 e il 2006, tre amici fondano una società.",
+          "duration": 5.405125,
+          "art": "remote",
+          "start": 31.75925,
+          "end": 37.164375
+        },
+        {
+          "en": "Tuotempo was born remote: Bologna on one end, Valencia on the other,",
+          "it": "Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra,",
+          "duration": 4.062499,
+          "art": "remote",
+          "start": 37.511583,
+          "end": 41.574082
+        },
+        {
+          "en": "Skype in between, and a cheap flight every now and then.",
+          "it": "Skype in mezzo, e ogni tanto un volo low cost.",
+          "duration": 3.134875,
+          "art": "remote",
+          "start": 41.817125,
+          "end": 44.952
+        }
+      ],
+      "audio": "audio/remote-en.mp3",
+      "photo": {
+        "src": "assets/sito-tuotempo-20060621-firefox.png",
+        "caption": "www.tuotempo.net · 21 giugno 2006",
+        "kind": "original",
+        "disclosure": "Screenshot originale: il sito appena disegnato, aperto in Firefox"
+      },
+      "notes": " Donatello, \"non c'era l'AI, sennò non l'avremmo chiamato\". Lele, il garage tecnologico di Valencia con gli amici volontari, e la donazione all'open source mai fatta \"per non farci sgamare\" (a braccio, senza nominare il progetto).",
+      "incomplete": false
+    },
+    {
+      "id": "name",
+      "title": "Il nome",
+      "art": [
+        "name"
+      ],
+      "narration": {
+        "en": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Gianfranco's idea won: not 'my time', but 'your time'. TuoTempo.",
+        "it": "Erano tutti e tre a Bologna, il prototipo era pronto, ma serviva ancora un nome, e un dominio che potessero permettersi. I nomi finivano sul foglio, e poi venivano cancellati. Alla fine vinse l'idea di Gianfranco: non \"mio tempo\", ma \"tuo tempo\". TuoTempo."
+      },
+      "cues": [
+        {
+          "en": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford.",
+          "it": "Erano tutti e tre a Bologna, il prototipo era pronto, ma serviva ancora un nome, e un dominio che potessero permettersi.",
+          "art": "name",
+          "start": 0.131,
+          "end": 5.894916,
+          "duration": 5.763916
+        },
+        {
+          "en": "Names went on the sheet, and came off again.",
+          "it": "I nomi finivano sul foglio, e poi venivano cancellati.",
+          "art": "name",
+          "start": 6.25,
+          "end": 8.622666,
+          "duration": 2.372666
+        },
+        {
+          "en": "In the end, Gianfranco's idea won:",
+          "it": "Alla fine vinse l'idea di Gianfranco:",
+          "art": "name",
+          "start": 8.993041,
+          "end": 11.168957,
+          "duration": 2.175916
+        },
+        {
+          "en": "not 'my time', but 'your time'. TuoTempo.",
+          "it": "non \"mio tempo\", ma \"tuo tempo\". TuoTempo.",
+          "art": "name",
+          "start": 11.458333,
+          "end": 14.904,
+          "duration": 3.445667
+        }
+      ],
+      "audio": "audio/name-en.mp3",
+      "photo": null,
+      "notes": "Fonte: master raw/handover_storia-tuotempo_2026-11-07.md, Lavagna 3 \"Il nome TuoTempo\" (Slack Don/Lele/Gef, girato da Lele il 18/11; WhatsApp di Gef 18/11). Si partiva da MioTempo; TuoTempo proposto da Gianfranco (confermato da Don); poi le varianti: TuTempo (Don, dominio più caro, più ammiccante al mercato ispanico), TuTiempo (Lele, alla spagnola), InTempo, \"qualcosa con Ora\" (nome non preciso, quindi non scritto), Bookino (Lele, risata generale). Tutto nasce dalla caccia a un dominio libero o a buon mercato (il primo sito, giugno 2006, è su tuotempo.net). Quando e dove: tutti e tre a Bologna, Donatello già fuori da Cezanne da mesi, prototipo di agenda di Lele già pronto. Sul foglio i nomi nell'ordine del master; la voce non li elenca. Fuori dalla narrazione: le tracce dell'open source tolte in due diligence.",
+      "incomplete": false,
+      "audioDuration": 14.904,
+      "candidateNames": [
+        "MioTempo",
+        "TuTempo",
+        "TuTiempo",
+        "InTempo",
+        "Bookino"
+      ],
+      "nameSequence": {
+        "interval": 0.18,
+        "finalReveal": 0.7
+      },
+      "sourceDiscussion": {
+        "channel": "C02JTPF922X",
+        "parentTs": "1793983500.310839",
+        "url": "https://docplanner.slack.com/archives/C02JTPF922X/p1793983500310839",
+        "date": "2026-11-07"
+      }
+    },
+    {
+      "id": "dentist",
+      "title": "Client number one",
+      "art": [
+        "dentist"
+      ],
+      "narration": {
+        "en": "The idea was not a marketplace, but an online diary each doctor could put on his own website. Except most doctors had no website, and no diary a computer could read. So they went knocking on dentists' doors, starting with the nearest one: Donatello's own dentist, in Bologna. He said yes, and became client number one. One of them, on the viali of Bologna, threw them out so thoroughly that they looked at each other and said: it cannot be this hard. But by then, client number one was already booking online.",
+        "it": "L'idea non era un portale, ma un'agenda online che ogni medico potesse mettere sul proprio sito. Solo che i medici il sito non ce l'avevano, né un'agenda leggibile da un computer. Allora andarono a bussare dai dentisti, cominciando dal più vicino: il dentista di Donatello, a Bologna. Disse sì, e diventò il cliente numero uno. Uno, sui viali di Bologna, li cacciò così bene che si guardarono e dissero: non può essere così difficile. Ma intanto il cliente numero uno prenotava già online."
+      },
+      "cues": [
+        {
+          "en": "The idea was not a marketplace, but an online diary each doctor could put on his own website.",
+          "it": "L'idea non era un portale, ma un'agenda online che ogni medico potesse mettere sul proprio sito.",
+          "duration": 4.82,
+          "art": "dentist",
+          "start": 0.0,
+          "end": 5.738
+        },
+        {
+          "en": "Except most doctors had no website, and no diary a computer could read.",
+          "it": "Solo che i medici il sito non ce l'avevano, né un'agenda leggibile",
+          "duration": 3.53,
+          "art": "dentist",
+          "start": 5.738,
+          "end": 9.94
+        },
+        {
+          "en": "So they went knocking on dentists' doors, starting with the nearest one: Donatello's own dentist, in Bologna.",
+          "it": "da un computer. Allora andarono a bussare dai dentisti, cominciando dal più vicino: il dentista",
+          "duration": 4.56,
+          "art": "dentist",
+          "start": 9.94,
+          "end": 15.368
+        },
+        {
+          "en": "He said yes, and became client number one.",
+          "it": "di Donatello, a Bologna. Disse sì, e diventò",
+          "duration": 2.25,
+          "art": "dentist",
+          "start": 15.368,
+          "end": 18.046
+        },
+        {
+          "en": "One of them, on the viali of Bologna, threw them out so thoroughly that they looked at each other",
+          "it": "il cliente numero uno. Uno, sui viali di Bologna, li cacciò così bene che si guardarono e",
+          "duration": 5.07,
+          "art": "dentist",
+          "start": 18.046,
+          "end": 24.082
+        },
+        {
+          "en": "and said: it cannot be this hard.",
+          "it": "dissero: non può essere così difficile.",
+          "duration": 1.99,
+          "art": "dentist",
+          "start": 24.082,
+          "end": 26.451
+        },
+        {
+          "en": "But by then, client number one was already booking online.",
+          "it": "Ma intanto il cliente numero uno prenotava già online.",
+          "duration": 2.76,
+          "art": "dentist",
+          "start": 26.451,
+          "end": 29.736
+        }
+      ],
+      "audio": "audio/dentist-en.mp3",
+      "photo": {
+        "src": "assets/dentista-viali-disegno.jpg",
+        "caption": "Il dentista dei viali · Bologna",
+        "kind": "reconstruction",
+        "disclosure": "disegno · in attesa di una foto d’epoca"
+      },
+      "notes": " Lele, il Mac del dentista con FileMaker e il tentativo di collegarsi al suo database mentre Don lo distraeva con le domande. Donatello, il suo dentista Fabio Rossi che diventa il primo cliente (l'intervista, la poltrona), e i dentisti come target sbagliato. Chiusura della lavagna sul \"client number one\".",
+      "incomplete": false
+    }
+  ],
+  "labels": [
+    {
+      "section": "origins",
+      "text": "1 · Bologna → Valencia",
+      "x": 90,
+      "y": 105
+    },
+    {
+      "section": "football",
+      "text": "2 · L’idea del calcetto",
+      "x": 2130,
+      "y": 105
+    },
+    {
+      "section": "remote",
+      "text": "3 · Nati da remoto",
+      "x": 2130,
+      "y": 1400
+    },
+    {
+      "section": "dentist",
+      "text": "4 · Client number one",
+      "x": 110,
+      "y": 1400
+    }
+  ],
+  "unknowns": [
+    "Il nome: ordine reale dei passaggi fra le varianti non noto oltre MioTempo → TuoTempo (Gef); \"qualcosa con Ora\" senza un nome preciso, quindi non scritto sul foglio.",
+    "Sito: screenshot autentico di www.tuotempo.net del 21/06/2006 (mail \"WEB TUOTEMPO\" di Beatriz Ballester, Drive Materiali); nessun bisogno di ricostruzioni."
+  ]
+}

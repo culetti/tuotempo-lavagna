@@ -1,0 +1,344 @@
+{
+  "board": {
+    "id": "lavagna4",
+    "title": "Verso Docplanner",
+    "years": "2016–2019",
+    "color": "#7442b8",
+    "sections": [
+      "l4-milano",
+      "l4-pretendenti",
+      "l4-scelta",
+      "l4-ciacco",
+      "l4-si"
+    ],
+    "region": {
+      "x": 13280,
+      "y": 0,
+      "w": 4040,
+      "h": 2540
+    },
+    "final": {
+      "circle": {
+        "x": 15887,
+        "y": 1804,
+        "rx": 150,
+        "ry": 120
+      },
+      "yearsAt": [
+        16530,
+        2300
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "l4-milano",
+      "board": "lavagna4",
+      "title": "Tre demo a Milano",
+      "art": [
+        "l4-milano"
+      ],
+      "narration": {
+        "en": "2016. Milan: three hospital demos in a single day. San Raffaele, Multimedica, and the European Institute of Oncology. Three of them in one car, back-to-back appointments, impossible parking. The dress code was jacket and tie… and one of them turned up in a leather jacket. Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original. On the way home they were sure they had won them. A few months later, they really had.",
+        "it": "2016. Milano: tre demo in tre ospedali, in un giorno solo. San Raffaele, Multimedica e l’Istituto Europeo di Oncologia. In tre su una macchina, appuntamenti a raffica, parcheggi impossibili. Il dress code era giacca e cravatta… e uno si presentò col giubbotto di pelle. Donatello raccontava il prodotto e la visione; gli altri intervenivano con uscite imbarazzanti, ma originali. Al ritorno erano convinti di averle prese. Qualche mese dopo, le avevano prese davvero."
+      },
+      "cues": [
+        {
+          "en": "2016. Milan: three hospital demos in a single day.",
+          "it": "2016. Milano: tre demo in tre ospedali, in un giorno solo.",
+          "art": "l4-milano",
+          "start": 0.099083,
+          "end": 4.34675,
+          "duration": 4.247667
+        },
+        {
+          "en": "San Raffaele, Multimedica, and the European Institute of Oncology.",
+          "it": "San Raffaele, Multimedica e l’Istituto Europeo di Oncologia.",
+          "art": "l4-milano",
+          "start": 4.699083,
+          "end": 9.050957,
+          "duration": 4.351874
+        },
+        {
+          "en": "Three of them in one car, back-to-back appointments, impossible parking.",
+          "it": "In tre su una macchina, appuntamenti a raffica, parcheggi impossibili.",
+          "art": "l4-milano",
+          "start": 9.409708,
+          "end": 13.506958,
+          "duration": 4.09725
+        },
+        {
+          "en": "The dress code was jacket and tie… and one of them turned up in a leather jacket.",
+          "it": "Il dress code era giacca e cravatta… e uno si presentò col giubbotto di pelle.",
+          "art": "l4-milano",
+          "start": 13.877333,
+          "end": 17.986125,
+          "duration": 4.108792
+        },
+        {
+          "en": "Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original.",
+          "it": "Donatello raccontava il prodotto e la visione; gli altri intervenivano con uscite imbarazzanti, ma originali.",
+          "art": "l4-milano",
+          "start": 18.324541,
+          "end": 24.099999,
+          "duration": 5.775458
+        },
+        {
+          "en": "On the way home they were sure they had won them. A few months later, they really had.",
+          "it": "Al ritorno erano convinti di averle prese. Qualche mese dopo, le avevano prese davvero.",
+          "art": "l4-milano",
+          "start": 24.467583,
+          "end": 29.64,
+          "duration": 5.172417
+        }
+      ],
+      "audio": "audio/l4-milano-en.mp3",
+      "photo": {
+        "src": "assets/l4-mail-ieo.png",
+        "caption": "«analisi per attivazione tuOtempO» · 15 giugno 2016",
+        "kind": "doc",
+        "disclosure": "Testo originale della mail di IEO, ricomposto; mittente coperto"
+      },
+      "notes": "Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata.",
+      "incomplete": false
+    },
+    {
+      "id": "l4-pretendenti",
+      "board": "lavagna4",
+      "title": "Due pretendenti alla porta",
+      "art": [
+        "l4-pretendenti"
+      ],
+      "narration": {
+        "en": "2018. One autumn, two suitors knocked at the living-room door at the same time. The first was a fund, which wanted to take Tuotempo to America. Nobody had gone looking for it: it simply turned up. A few weeks later, the second one knocked: Docplanner.",
+        "it": "2018. Un autunno, due pretendenti bussarono insieme alla porta del salotto. Il primo era un fondo, che voleva portare Tuotempo in America. Nessuno l’aveva cercato: si era presentato da solo. Poche settimane dopo bussò il secondo: Docplanner."
+      },
+      "cues": [
+        {
+          "en": "2018. One autumn, two suitors knocked at the living-room door at the same time.",
+          "it": "2018. Un autunno, due pretendenti bussarono insieme alla porta del salotto.",
+          "art": "l4-pretendenti",
+          "start": 0.099083,
+          "end": 5.110666,
+          "duration": 5.011583
+        },
+        {
+          "en": "The first was a fund, which wanted to take Tuotempo to America.",
+          "it": "Il primo era un fondo, che voleva portare Tuotempo in America.",
+          "art": "l4-pretendenti",
+          "start": 5.474541,
+          "end": 9.189832,
+          "duration": 3.715291
+        },
+        {
+          "en": "Nobody had gone looking for it: it simply turned up.",
+          "it": "Nessuno l’aveva cercato: si era presentato da solo.",
+          "art": "l4-pretendenti",
+          "start": 9.548625,
+          "end": 12.546332,
+          "duration": 2.997707
+        },
+        {
+          "en": "A few weeks later, the second one knocked: Docplanner.",
+          "it": "Poche settimane dopo bussò il secondo: Docplanner.",
+          "art": "l4-pretendenti",
+          "start": 12.916666,
+          "end": 16.536,
+          "duration": 3.619334
+        }
+      ],
+      "audio": "audio/l4-pretendenti-en.mp3",
+      "photo": null,
+      "notes": "Master §3 “Il finale” e §6 momento 17. Autunno 2018: term sheet del fondo 23/09–01/10/2018, Docplanner dal 15/10/2018 (CERTO). Il fondo resta anonimo; niente cifre (regola dell’11/11).",
+      "incomplete": false
+    },
+    {
+      "id": "l4-scelta",
+      "board": "lavagna4",
+      "title": "La scelta",
+      "art": [
+        "l4-scelta"
+      ],
+      "narration": {
+        "en": "When Docplanner came forward, Donatello went back to the fund. And the fund itself understood: the founders didn't want to start again from scratch, on the other side of the ocean. The choice fell on Docplanner.",
+        "it": "Quando si fece avanti Docplanner, Donatello tornò dal fondo. E fu il fondo stesso a capirlo: i fondatori non volevano ripartire da zero, dall’altra parte dell’oceano. La scelta cadde su Docplanner."
+      },
+      "cues": [
+        {
+          "en": "When Docplanner came forward, Donatello went back to the fund.",
+          "it": "Quando si fece avanti Docplanner, Donatello tornò dal fondo.",
+          "art": "l4-scelta",
+          "start": 0.131,
+          "end": 3.718958,
+          "duration": 3.587958
+        },
+        {
+          "en": "And the fund itself understood: the founders didn't want to start again from scratch, on the other side of the ocean.",
+          "it": "E fu il fondo stesso a capirlo: i fondatori non volevano ripartire da zero, dall’altra parte dell’oceano.",
+          "art": "l4-scelta",
+          "start": 4.085666,
+          "end": 9.733833,
+          "duration": 5.648167
+        },
+        {
+          "en": "The choice fell on Docplanner.",
+          "it": "La scelta cadde su Docplanner.",
+          "art": "l4-scelta",
+          "start": 10.072208,
+          "end": 12.072,
+          "duration": 1.999792
+        }
+      ],
+      "audio": "audio/l4-scelta-en.mp3",
+      "photo": null,
+      "notes": "Master §3 “Perché Docplanner” e §6 momento 18 (RICORDO, registrazione 11/11): Don torna dal fondo, il fondo capisce che i fondatori non vogliono ripartire con round ed espansione USA. Lasciato fuori l’aspetto personale.",
+      "incomplete": false
+    },
+    {
+      "id": "l4-ciacco",
+      "board": "lavagna4",
+      "title": "La cena da Ciacco",
+      "art": [
+        "l4-ciacco"
+      ],
+      "narration": {
+        "en": "The decisive dinner was in Bologna, at Ciacco, in via Farini. Gianfranco arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+        "it": "La cena decisiva fu a Bologna, da Ciacco, in via Farini. Gianfranco arrivò dritto dalla Spagna, ancora col trolley. Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante. Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team. Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi. A fine serata l’idea era sul tavolo: uniamo le forze."
+      },
+      "cues": [
+        {
+          "en": "The decisive dinner was in Bologna, at Ciacco, in via Farini.",
+          "it": "La cena decisiva fu a Bologna, da Ciacco, in via Farini.",
+          "art": "l4-ciacco",
+          "start": 0.131,
+          "end": 4.008333,
+          "duration": 3.877333
+        },
+        {
+          "en": "Gianfranco arrived straight from Spain, still pulling his trolley.",
+          "it": "Gianfranco arrivò dritto dalla Spagna, ancora col trolley.",
+          "art": "l4-ciacco",
+          "start": 4.351833,
+          "end": 7.905083,
+          "duration": 3.55325
+        },
+        {
+          "en": "Around the table, the founders and the people from Docplanner. It began a little hesitantly.",
+          "it": "Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante.",
+          "art": "l4-ciacco",
+          "start": 8.275458,
+          "end": 13.784749,
+          "duration": 5.509291
+        },
+        {
+          "en": "Then came the questions: which languages, which tools, how the team worked.",
+          "it": "Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team.",
+          "art": "l4-ciacco",
+          "start": 14.1435,
+          "end": 18.587958,
+          "duration": 4.444458
+        },
+        {
+          "en": "Same tools, the same distributed way of working, similar services in different markets.",
+          "it": "Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi.",
+          "art": "l4-ciacco",
+          "start": 18.94675,
+          "end": 24.236083,
+          "duration": 5.289333
+        },
+        {
+          "en": "By the end of the evening, the idea was on the table: let's join forces.",
+          "it": "A fine serata l’idea era sul tavolo: uniamo le forze.",
+          "art": "l4-ciacco",
+          "start": 24.583333,
+          "end": 29.088,
+          "duration": 4.504667
+        }
+      ],
+      "audio": "audio/l4-ciacco-en.mp3",
+      "photo": null,
+      "notes": "Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data della cena non nota (fra ottobre e novembre 2018).",
+      "incomplete": false
+    },
+    {
+      "id": "l4-si",
+      "board": "lavagna4",
+      "title": "Il sì",
+      "art": [
+        "l4-si"
+      ],
+      "narration": {
+        "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo… and the start of the next one. Over to Gianfranco.",
+        "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence. Ed era un sì. La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gianfranco."
+      },
+      "cues": [
+        {
+          "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed.",
+          "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence.",
+          "art": "l4-si",
+          "start": 0.131,
+          "end": 6.099541,
+          "duration": 5.968541
+        },
+        {
+          "en": "And it was a yes.",
+          "it": "Ed era un sì.",
+          "art": "l4-si",
+          "start": 6.469916,
+          "end": 7.523166,
+          "duration": 1.05325
+        },
+        {
+          "en": "The end of the first chapter of Tuotempo… and the start of the next one. Over to Gianfranco.",
+          "it": "La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gianfranco.",
+          "art": "l4-si",
+          "start": 7.8935,
+          "end": 13.872,
+          "duration": 5.9785
+        }
+      ],
+      "audio": "audio/l4-si-en.mp3",
+      "photo": null,
+      "notes": "Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gianfranco.",
+      "incomplete": false
+    }
+  ],
+  "labels": [
+    {
+      "section": "l4-milano",
+      "text": "1 · Tre demo a Milano",
+      "x": 13420,
+      "y": 310
+    },
+    {
+      "section": "l4-pretendenti",
+      "text": "2 · Due pretendenti alla porta",
+      "x": 14720,
+      "y": 310
+    },
+    {
+      "section": "l4-scelta",
+      "text": "3 · La scelta",
+      "x": 16020,
+      "y": 310
+    },
+    {
+      "section": "l4-ciacco",
+      "text": "4 · La cena da Ciacco",
+      "x": 14070,
+      "y": 1330
+    },
+    {
+      "section": "l4-si",
+      "text": "5 · Il sì",
+      "x": 15370,
+      "y": 1330
+    }
+  ],
+  "unknowns": [
+    "Lavagna 4 · tre demo a Milano: disegno provvisorio; nessuna foto della giornata (auto, ospedali); stop sulla mail IEO del 15/06/2016.",
+    "Lavagna 4 · cena da Ciacco: disegno provvisorio; sostituibile con una foto della trattoria Ciacco (via Farini) o della cena; data esatta non nota.",
+    "Lavagna 4 · due pretendenti e la scelta: nessun reperto mostrabile senza cifre; disegni della porta e del bivio.",
+    "Lavagna 4 · il sì: nessun reperto; possibile stop futuro sulla mail “DOCPLANNER › JOIN › 13 MAY” se ritagliata senza dati sensibili."
+  ]
+}

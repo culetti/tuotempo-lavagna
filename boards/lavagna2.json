@@ -1,0 +1,510 @@
+{
+  "board": {
+    "id": "lavagna2",
+    "title": "Le architetture artigianali",
+    "years": "2007–2012",
+    "color": "#1f5fbf",
+    "sections": [
+      "l2-clients",
+      "l2-troiano",
+      "l2-salotto",
+      "l2-voce",
+      "l2-cloud",
+      "l2-serverino",
+      "l2-machu",
+      "l2-indip"
+    ],
+    "region": {
+      "x": 4400,
+      "y": 0,
+      "w": 4040,
+      "h": 2540
+    },
+    "final": {
+      "circle": {
+        "x": 7791,
+        "y": 1471,
+        "rx": 95,
+        "ry": 95
+      },
+      "yearsAt": [
+        6160,
+        2150
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "l2-clients",
+      "board": "lavagna2",
+      "title": "I primi clienti",
+      "art": [
+        "l2-clients"
+      ],
+      "narration": {
+        "en": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
+        "it": "2007. I primi clienti non erano ospedali. Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico. Quell'estate partì il primo promemoria automatico. E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese."
+      },
+      "cues": [
+        {
+          "en": "2007.",
+          "it": "2007.",
+          "art": "l2-clients",
+          "start": 0.099083,
+          "end": 1.291208,
+          "duration": 1.192125
+        },
+        {
+          "en": "The first customers weren't hospitals.",
+          "it": "I primi clienti non erano ospedali.",
+          "art": "l2-clients",
+          "start": 1.673166,
+          "end": 3.72175,
+          "duration": 2.048584
+        },
+        {
+          "en": "They were a dental practice, a sports centre, a day spa, a beauty centre.",
+          "it": "Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico.",
+          "art": "l2-clients",
+          "start": 4.085666,
+          "end": 8.414375,
+          "duration": 4.328709
+        },
+        {
+          "en": "That summer, the very first automatic reminder went out.",
+          "it": "Quell'estate partì il primo promemoria automatico.",
+          "art": "l2-clients",
+          "start": 8.784708,
+          "end": 12.15275,
+          "duration": 3.368042
+        },
+        {
+          "en": "And to explain it all, Tuotempo even made a promotional video, in English.",
+          "it": "E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese.",
+          "art": "l2-clients",
+          "start": 12.523166,
+          "end": 17.328,
+          "duration": 4.804834
+        }
+      ],
+      "audio": "audio/l2-clients-en.mp3",
+      "photo": {
+        "src": "assets/memo2007-agenda.png",
+        "caption": "L’agenda · giovedì 14 giugno 2007",
+        "kind": "screen",
+        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007)"
+      },
+      "notes": "Master §3 (primi clienti nelle mail 2007: studio dentistico, Clinica Tiro de Pichón, K-Sport, Hedoniste Day Spa, Japanese Beauty Center…; primo memo automatico agosto 2007) e §6 momento 1. Il gancio di §6 cita parrucchiere e tiro a volo: non trovati nell’elenco del master, quindi in voce solo tipologie verificate. Stop: fotogramma reale del video 2007.",
+      "incomplete": false
+    },
+    {
+      "id": "l2-troiano",
+      "board": "lavagna2",
+      "title": "Il troiano",
+      "art": [
+        "l2-troiano"
+      ],
+      "narration": {
+        "en": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. Everyone called it the Trojan horse: the most polite guest a computer ever had.",
+        "it": "2008: la prima integrazione vera, con il gestionale dei dentisti. Allora non c'erano API a cui collegarsi. Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda. Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto."
+      },
+      "cues": [
+        {
+          "en": "2008: the first real integration, with the software dentists used to run their practices.",
+          "it": "2008: la prima integrazione vera, con il gestionale dei dentisti.",
+          "art": "l2-troiano",
+          "start": 0.099083,
+          "end": 5.67775,
+          "duration": 5.578667
+        },
+        {
+          "en": "Back then, there were no APIs to plug into.",
+          "it": "Allora non c'erano API a cui collegarsi.",
+          "art": "l2-troiano",
+          "start": 6.0185,
+          "end": 8.784708,
+          "duration": 2.766208
+        },
+        {
+          "en": "So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary.",
+          "it": "Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda.",
+          "art": "l2-troiano",
+          "start": 9.1435,
+          "end": 15.393499,
+          "duration": 6.249999
+        },
+        {
+          "en": "Everyone called it the Trojan horse: the most polite guest a computer ever had.",
+          "it": "Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto.",
+          "art": "l2-troiano",
+          "start": 15.74075,
+          "end": 20.472,
+          "duration": 4.73125
+        }
+      ],
+      "audio": "audio/l2-troiano-en.mp3",
+      "photo": {
+        "src": "assets/memo2007-sincro.png",
+        "caption": "tuOtempO SINCRO · 2007",
+        "kind": "screen",
+        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007); la sincronizzazione con il gestionale era già annunciata"
+      },
+      "notes": "Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”: Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.",
+      "incomplete": false
+    },
+    {
+      "id": "l2-salotto",
+      "board": "lavagna2",
+      "title": "Il salotto di via Ugo Bassi",
+      "art": [
+        "l2-salotto"
+      ],
+      "narration": {
+        "en": "In 2009, the company got an office in Bologna, in via Ugo Bassi. On paper, a business-centre phone number. In reality, the living room of a family flat, with a sofa. Up to eight people worked in there, and customers came to meetings in that living room.",
+        "it": "Nel 2009 l'azienda ebbe un ufficio a Bologna, in via Ugo Bassi. Sulla carta, il numero di telefono di un business center. In realtà, la sala di una casa di famiglia, con un divano. Ci lavoravano fino a otto persone, e i clienti venivano alle riunioni in quella sala."
+      },
+      "cues": [
+        {
+          "en": "In 2009, the company got an office in Bologna, in via Ugo Bassi.",
+          "it": "Nel 2009 l'azienda ebbe un ufficio a Bologna, in via Ugo Bassi.",
+          "art": "l2-salotto",
+          "start": 0.131,
+          "end": 4.911124,
+          "duration": 4.780124
+        },
+        {
+          "en": "On paper, a business-centre phone number.",
+          "it": "Sulla carta, il numero di telefono di un business center.",
+          "art": "l2-salotto",
+          "start": 5.254625,
+          "end": 7.592583,
+          "duration": 2.337958
+        },
+        {
+          "en": "In reality, the living room of a family flat, with a sofa.",
+          "it": "In realtà, la sala di una casa di famiglia, con un divano.",
+          "art": "l2-salotto",
+          "start": 7.962958,
+          "end": 11.655083,
+          "duration": 3.692125
+        },
+        {
+          "en": "Up to eight people worked in there, and customers came to meetings in that living room.",
+          "it": "Ci lavoravano fino a otto persone, e i clienti venivano alle riunioni in quella sala.",
+          "art": "l2-salotto",
+          "start": 12.013875,
+          "end": 16.56,
+          "duration": 4.546125
+        }
+      ],
+      "audio": "audio/l2-salotto-en.mp3",
+      "photo": null,
+      "notes": "Master §3 (marzo 2009 via Ugo Bassi 11) e §6 momento 3 (sala della casa dei genitori di Don, fino a 8 persone). Disegno in attesa di una foto della sala o del palazzo (chiedere a Don).",
+      "incomplete": false
+    },
+    {
+      "id": "l2-voce",
+      "board": "lavagna2",
+      "title": "La voce",
+      "art": [
+        "l2-voce"
+      ],
+      "narration": {
+        "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
+        "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale. Ci vollero due anni per mantenerla. Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti. Tuotempo fu tra i primi a farlo."
+      },
+      "cues": [
+        {
+          "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home.",
+          "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale.",
+          "art": "l2-voce",
+          "start": 0.131,
+          "end": 5.894916,
+          "duration": 5.763916
+        },
+        {
+          "en": "It took two years to keep it.",
+          "it": "Ci vollero due anni per mantenerla.",
+          "art": "l2-voce",
+          "start": 6.229625,
+          "end": 7.907874,
+          "duration": 1.678249
+        },
+        {
+          "en": "In 2009, a robot voice started calling patients to remind them of their appointments.",
+          "it": "Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti.",
+          "art": "l2-voce",
+          "start": 8.275458,
+          "end": 13.391207,
+          "duration": 5.115749
+        },
+        {
+          "en": "Tuotempo was among the first to do it.",
+          "it": "Tuotempo fu tra i primi a farlo.",
+          "art": "l2-voce",
+          "start": 13.729625,
+          "end": 16.44,
+          "duration": 2.710375
+        }
+      ],
+      "audio": "audio/l2-voce-en.mp3",
+      "photo": {
+        "src": "assets/memo2007-voice.png",
+        "caption": "«Voice Message» · la promessa del 2007",
+        "kind": "screen",
+        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007); la voce arriverà nel 2009"
+      },
+      "notes": "Master §3 (voce nel 2009 con Voxeo, tesi su VoiceXML) e Reperto video 2007: nel 2007 la voce era una promessa (Lele 18/11). “Fra i primi” è RICORDO di Lele. Stop: fotogramma reale “Voice Message” del video 2007.",
+      "incomplete": false
+    },
+    {
+      "id": "l2-cloud",
+      "board": "lavagna2",
+      "title": "Dal server al cloud",
+      "art": [
+        "l2-cloud"
+      ],
+      "narration": {
+        "en": "Meanwhile, the servers. One night in 2009, the production server, in a data centre in Rome, switched itself off, and would not switch on again until someone went there in person. That was enough. Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.",
+        "it": "Intanto, i server. Una notte del 2009 il server di produzione, in un data center a Roma, si spense, e non si riaccese finché qualcuno non andò a metterci le mani. Bastò quello. Tuotempo passò al cloud di Amazon a Dublino, e dall'inizio del 2010 fu la sua unica casa."
+      },
+      "cues": [
+        {
+          "en": "Meanwhile, the servers.",
+          "it": "Intanto, i server.",
+          "art": "l2-cloud",
+          "start": 0.107875,
+          "end": 1.647249,
+          "duration": 1.539374
+        },
+        {
+          "en": "One night in 2009, the production server, in a data centre in Rome, switched itself off,",
+          "it": "Una notte del 2009 il server di produzione, in un data center a Roma, si spense,",
+          "art": "l2-cloud",
+          "start": 2.013875,
+          "end": 7.650458,
+          "duration": 5.636583
+        },
+        {
+          "en": "and would not switch on again until someone went there in person.",
+          "it": "e non si riaccese finché qualcuno non andò a metterci le mani.",
+          "art": "l2-cloud",
+          "start": 7.92825,
+          "end": 10.682874,
+          "duration": 2.754624
+        },
+        {
+          "en": "That was enough.",
+          "it": "Bastò quello.",
+          "art": "l2-cloud",
+          "start": 11.05325,
+          "end": 12.025458,
+          "duration": 0.972208
+        },
+        {
+          "en": "Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.",
+          "it": "Tuotempo passò al cloud di Amazon a Dublino, e dall'inizio del 2010 fu la sua unica casa.",
+          "art": "l2-cloud",
+          "start": 12.363875,
+          "end": 17.856,
+          "duration": 5.492125
+        }
+      ],
+      "audio": "audio/l2-cloud-en.mp3",
+      "photo": null,
+      "notes": "Master §3 Hosting (server di produzione spento il 07/07/2009, AWS Dublino da settembre 2009, unico hosting da febbraio 2010) e §6 momento 5. Il down di 24 ore con Don a Manfredonia resta a braccio. Stop sul disegno (a braccio).",
+      "incomplete": false
+    },
+    {
+      "id": "l2-serverino",
+      "board": "lavagna2",
+      "title": "Il serverino degli SMS",
+      "art": [
+        "l2-serverino"
+      ],
+      "narration": {
+        "en": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them. Patients replied one to confirm, zero to cancel. Then, one summer night in 2011, at two in the morning, the building's main switch tripped. The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
+        "it": "Ma gli SMS passavano ancora da un vecchio PC in ufficio, con un modem GSM e SIM fatte arrivare dall'estero, fra cui una greca. I pazienti rispondevano 1 per confermare, 0 per disdire. Poi, una notte d'estate del 2011, alle due, saltò il generale del palazzo. La mattina dopo tutti i promemoria dell'azienda tacevano, finché qualcuno non andò a riaccenderlo."
+      },
+      "cues": [
+        {
+          "en": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them.",
+          "it": "Ma gli SMS passavano ancora da un vecchio PC in ufficio, con un modem GSM e SIM fatte arrivare dall'estero, fra cui una greca.",
+          "art": "l2-serverino",
+          "start": 0.099083,
+          "end": 7.818957,
+          "duration": 7.719874
+        },
+        {
+          "en": "Patients replied one to confirm, zero to cancel.",
+          "it": "I pazienti rispondevano 1 per confermare, 0 per disdire.",
+          "art": "l2-serverino",
+          "start": 8.159708,
+          "end": 11.342583,
+          "duration": 3.182875
+        },
+        {
+          "en": "Then, one summer night in 2011, at two in the morning, the building's main switch tripped.",
+          "it": "Poi, una notte d'estate del 2011, alle due, saltò il generale del palazzo.",
+          "art": "l2-serverino",
+          "start": 11.712958,
+          "end": 16.979166,
+          "duration": 5.266208
+        },
+        {
+          "en": "The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
+          "it": "La mattina dopo tutti i promemoria dell'azienda tacevano, finché qualcuno non andò a riaccenderlo.",
+          "art": "l2-serverino",
+          "start": 17.349541,
+          "end": 23.016,
+          "duration": 5.666459
+        }
+      ],
+      "audio": "audio/l2-serverino-en.mp3",
+      "photo": null,
+      "notes": "Master §3 (macchinetta degli SMS in via Ugo Bassi, modem GSM, SIM dall’estero, SIM greca; “Serverino Down” 20/07/2011, generale saltato alle due di notte) e §6 momento 6. Nessun nome in voce (chi è salito a riaccenderla resta a braccio). Disegno in attesa di una foto del serverino.",
+      "incomplete": false
+    },
+    {
+      "id": "l2-machu",
+      "board": "lavagna2",
+      "title": "Machu Picchu",
+      "art": [
+        "l2-machu"
+      ],
+      "narration": {
+        "en": "Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day. And one of the founders was on top of Machu Picchu. Hands joined, praying to a different kind of cloud.",
+        "it": "Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero. E uno dei fondatori era in cima a Machu Picchu. A mani giunte, a pregare un altro tipo di nuvola."
+      },
+      "cues": [
+        {
+          "en": "Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day.",
+          "it": "Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero.",
+          "art": "l2-machu",
+          "start": 0.107875,
+          "end": 6.589375,
+          "duration": 6.4815
+        },
+        {
+          "en": "And one of the founders was on top of Machu Picchu.",
+          "it": "E uno dei fondatori era in cima a Machu Picchu.",
+          "art": "l2-machu",
+          "start": 6.932875,
+          "end": 9.733791,
+          "duration": 2.800916
+        },
+        {
+          "en": "Hands joined, praying to a different kind of cloud.",
+          "it": "A mani giunte, a pregare un altro tipo di nuvola.",
+          "art": "l2-machu",
+          "start": 10.104166,
+          "end": 13.32,
+          "duration": 3.215834
+        }
+      ],
+      "audio": "audio/l2-machu-en.mp3",
+      "photo": null,
+      "notes": "Master §3 (7 aprile 2011, “Blackout di tt_site”, giornata intera down, Lele a Machu Picchu) e §6 momento 7. Esiste una foto vera di Lele a mani giunte (Google Foto, album Tuotempo): disegno provvisorio finché non arriva il file.",
+      "incomplete": false
+    },
+    {
+      "id": "l2-indip",
+      "board": "lavagna2",
+      "title": "Indipendenti",
+      "art": [
+        "l2-indip"
+      ],
+      "narration": {
+        "en": "Through all of this: no investors, no funding rounds. Only friends and family who believed in it, and the customers. They fought to stay independent. And they did.",
+        "it": "In tutto questo: niente investitori, niente round. Solo amici e famiglia che ci credevano, e i clienti. Hanno faticato per restare indipendenti. E ci sono riusciti."
+      },
+      "cues": [
+        {
+          "en": "Through all of this: no investors, no funding rounds.",
+          "it": "In tutto questo: niente investitori, niente round.",
+          "art": "l2-indip",
+          "start": 0.107875,
+          "end": 3.556957,
+          "duration": 3.449082
+        },
+        {
+          "en": "Only friends and family who believed in it, and the customers.",
+          "it": "Solo amici e famiglia che ci credevano, e i clienti.",
+          "art": "l2-indip",
+          "start": 3.888875,
+          "end": 7.118083,
+          "duration": 3.229208
+        },
+        {
+          "en": "They fought to stay independent. And they did.",
+          "it": "Hanno faticato per restare indipendenti. E ci sono riusciti.",
+          "art": "l2-indip",
+          "start": 7.488416,
+          "end": 10.656,
+          "duration": 3.167584
+        }
+      ],
+      "audio": "audio/l2-indip-en.mp3",
+      "photo": null,
+      "notes": "Master §3 “L’indipendenza” (niente round, family & friends) e §6 momento 8. La storia dei 20.000 € resta a braccio; nessuna cifra in voce. Stop sul disegno, poi chiusura della lavagna.",
+      "incomplete": false
+    }
+  ],
+  "labels": [
+    {
+      "section": "l2-clients",
+      "text": "1 · I primi clienti",
+      "x": 4510,
+      "y": 310
+    },
+    {
+      "section": "l2-troiano",
+      "text": "2 · Il troiano",
+      "x": 5480,
+      "y": 310
+    },
+    {
+      "section": "l2-salotto",
+      "text": "3 · Il salotto di via Ugo Bassi",
+      "x": 6450,
+      "y": 310
+    },
+    {
+      "section": "l2-voce",
+      "text": "4 · La voce",
+      "x": 7420,
+      "y": 310
+    },
+    {
+      "section": "l2-cloud",
+      "text": "5 · Dal server al cloud",
+      "x": 4510,
+      "y": 1260
+    },
+    {
+      "section": "l2-serverino",
+      "text": "6 · Il serverino degli SMS",
+      "x": 5480,
+      "y": 1260
+    },
+    {
+      "section": "l2-machu",
+      "text": "7 · Machu Picchu",
+      "x": 6450,
+      "y": 1260
+    },
+    {
+      "section": "l2-indip",
+      "text": "8 · Indipendenti",
+      "x": 7420,
+      "y": 1260
+    }
+  ],
+  "unknowns": [
+    "Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).",
+    "Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.",
+    "Lavagna 2 · Machu Picchu: disegno provvisorio; la foto vera (Lele a mani giunte, iPhone 3G) è nell’album Google Foto “Tuotempo”, non accessibile dal box.",
+    "Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.",
+    "Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico."
+  ]
+}

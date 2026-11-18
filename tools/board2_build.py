@@ -1,5 +1,8 @@
-"""Lavagna 2 (2007-2012): process generated art, align cues from WordBoundary, insert into scenes.json.
-Own script (does not touch prepare_assets.py). Rebuilds from tools/scenes.board1.json each run."""
+"""Lavagna 2 (2007-2012): process generated art, align cues from WordBoundary, write boards/lavagna2*.json.
+Own script (does not touch prepare_assets.py).
+WARNING: regenerates boards/lavagna2.json and boards/lavagna2.art.json from scratch (art paths, cues, notes),
+overwriting hand edits made later in those files. For text fixes edit boards/lavagna2.json directly.
+Dry run: BOARDS_OUT=/tmp/x python3 tools/board2_build.py"""
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 import numpy as np,cv2,json,re
@@ -84,24 +87,9 @@ unk=['Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto
      'Lavagna 2 · Machu Picchu: disegno provvisorio; la foto vera (Lele a mani giunte, iPhone 3G) è nell’album Google Foto “Tuotempo”, non accessibile dal box.',
      'Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.',
      'Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico.']
-s=(P/'tools/scenes.board1.json').read_text()
-dump=lambda o,ind:('\n'+' '*ind).join(json.dumps(o,ensure_ascii=False,indent=2).split('\n'))
-def artdump(a):
- head={k:v for k,v in a.items() if k!='path'}
- return dump(head,4)[:-1].rstrip()+',\n      "path": '+json.dumps(a['path'],separators=(',',':'))+'\n    }'
-anchor='\n  },\n  "sections": ['
-assert s.count(anchor)==1
-s=s.replace(anchor,''.join(',\n    "%s": %s'%(k,artdump(v)) for k,v in art.items())+anchor)
-anchor='\n  ],\n  "final": {'
-assert s.count(anchor)==1
-s=s.replace(anchor,''.join(',\n    '+dump(x,4) for x in sections)+anchor)
-anchor='\n  "unknowns": ['
-assert s.count(anchor)==1
-s=s.replace(anchor,'\n  "boards": '+dump(boards,2)+',\n  "labels": '+dump(labels1+labels,2)+','+anchor)
-assert s.endswith('\n  ]\n}') or s.rstrip().endswith(']\n}')
-i=s.rstrip().rfind('\n  ]')
-s=s[:i]+''.join(',\n    '+json.dumps(u,ensure_ascii=False) for u in unk)+s[i:]
-d=json.loads(s)
-(P/'scenes.json').write_text(s,encoding='utf8')
-print('sections',len(d['sections']),'art',len(d['art']),'audio total',round(sum(c['duration'] for x in sections for c in x['cues']),1))
+import sys;sys.path.insert(0,str(P/'tools'))
+from boardfiles import write_board
+write_board('lavagna2',boards[1],sections,labels,unk,art)
+d={'sections':sections,'art':art}
+print('sections',len(sections),'art',len(art),'audio total',round(sum(c['duration'] for x in sections for c in x['cues']),1))
 for x in sections: print(x['id'],[(c['start'],c['end']) for c in x['cues']])
