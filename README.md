@@ -1,6 +1,16 @@
 # TuoTempo · Lavagna 1 — Le origini
 
 
+
+## Link
+- Tutte le lavagne (2005–2019): https://culetti.github.io/tuotempo-lavagna/
+- Lavagna 1 · Le origini (2005–2007): https://culetti.github.io/tuotempo-lavagna/?lavagna=1
+- Lavagna 2 · Le architetture artigianali (2007–2012): https://culetti.github.io/tuotempo-lavagna/?lavagna=2
+- Lavagna 3 · L’espansione e gli schiaffi (2009–2016): https://culetti.github.io/tuotempo-lavagna/?lavagna=3
+- Lavagna 4 · Verso Docplanner (2016–2019): https://culetti.github.io/tuotempo-lavagna/?lavagna=4
+
+Con `?lavagna=N` (oppure `#lavagnaN`, valido anche per il file `index.html` aperto in locale) la schermata iniziale mostra gli anni di quella lavagna, il player parte direttamente da lì e si ferma sulla sua chiusura (cerchio e anni), senza passare alla lavagna successiva né fare lo zoom finale su tutte. Senza parametro il player è quello completo. Si combina con `speed`, per esempio `?lavagna=3&speed=2`.
+
 ## Struttura a file per lavagna (dal 18/11/2026)
 Il vecchio `scenes.json` unico è diviso per lavagna, così per correggere una lavagna si apre solo il suo file:
 

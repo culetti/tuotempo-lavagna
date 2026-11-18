@@ -5,7 +5,10 @@ const $=id=>document.getElementById(id),ctx=$('cv').getContext('2d');
 const W=1920,H=1080,RED='#bd282b';
 let lang='en',runToken=0,waiter=null,currentCue=null,currentSection=null,phase='loading',hand=null,audio=null,finalProgress=0,finals={};
 // Boards share one world; each has its own marker colour, region and closing mark.
-const BOARDS=DATA.boards||[{id:'lavagna1',years:DATA.final.years,color:RED,sections:DATA.sections.map(s=>s.id),region:{x:0,y:0,w:DATA.board.width,h:DATA.board.height},final:{circle:DATA.final.tooth,yearsAt:[1800,2480]}}];
+const ALL_BOARDS=DATA.boards||[{id:'lavagna1',years:DATA.final.years,color:RED,sections:DATA.sections.map(s=>s.id),region:{x:0,y:0,w:DATA.board.width,h:DATA.board.height},final:{circle:DATA.final.tooth,yearsAt:[1800,2480]}}];
+// Single-board link: ?lavagna=3 or #lavagna3 plays only that board and ends on its own closing.
+const ONLY=(()=>{const m=(new URLSearchParams(location.search).get('lavagna')||'').match(/^\d+$/)||location.hash.match(/^#lavagna(\d+)$/i);const n=m&&Number(m[1]??m[0]);return n&&ALL_BOARDS[n-1]?ALL_BOARDS[n-1]:null;})();
+const BOARDS=ONLY?[ONLY]:ALL_BOARDS;const PLAY_SECTIONS=BOARDS.reduce((n,b)=>n+b.sections.length,0);
 const boardOf=id=>BOARDS.find(b=>b.sections.includes(id))||BOARDS[0];
 let nameGag=null;let cam={cx:900,cy:480,w:2000},objects={},handImage=null,startAt=0;
 const speed=Math.max(.02,Math.min(20,Number(new URLSearchParams(location.search).get('speed'))||1));
@@ -179,16 +182,16 @@ async function closingShot(token){if(BOARDS.length<2)return;await tween(900,()=>
 async function finale(board,token,last){subtitle(null);$('chapter').textContent='';const r=board.region;await moveCamera({cx:r.x+r.w/2,cy:r.y+r.h/2,w:Math.max(r.w+220,(r.h+180)*16/9)},token,1100);setPhase('final');const [yx,yy]=board.final.yearsAt;await tween(1300,t=>{finals[board.id]=t;finalProgress=t;const p=board.final.circle;if(t<.65){const a=-Math.PI/2+t/.65*Math.PI*2;hand={x:p.x+Math.cos(a)*p.rx,y:p.y+Math.sin(a)*p.ry};}else hand={x:yx+(t-.65)/.35*340,y:yy-20};},token);hand=null;render();if(last){await closingShot(token);setPhase('ended');$('progress').style.width='100%';}else{setPhase('boardEnd');await waitForNext(token);check(token);}}
 function cancel(){runToken++;if(waiter){waiter.reject(new Cancelled());waiter=null;}clearAudio();hand=null;}
 async function run(){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}
- $('photo').classList.remove('on');nameGag=null;$('start').style.display='none';$('frame').classList.add('clean');$('progress').style.width='0';cam={cx:900,cy:480,w:2000};render();
+ $('photo').classList.remove('on');nameGag=null;$('start').style.display='none';$('frame').classList.add('clean');$('progress').style.width='0';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};render();
  try{let done=0;for(let bi=0;bi<BOARDS.length;bi++){const b=BOARDS[bi],secs=b.sections.map(id=>DATA.sections.find(s=>s.id===id)).filter(Boolean);
   if(bi>0&&secs.length){const first=objects[secs[0].art[0]];if(first)await moveCamera(cameraFor(first),token,1600);}
-  for(const sec of secs){check(token);await playSection(sec,token);done++;$('progress').style.width=(done/DATA.sections.length*95)+'%';}
+  for(const sec of secs){check(token);await playSection(sec,token);done++;$('progress').style.width=(done/PLAY_SECTIONS*95)+'%';}
   await finale(b,token,bi===BOARDS.length-1);}}catch(e){if(!(e instanceof Cancelled))showError(e);}
 }
 function next(){if(phase==='loading')return;if(phase==='ready'){run();return;}if(waiter){const w=waiter;waiter=null;if(w.token===runToken){setPhase('camera');w.resolve();}}}
 function toggleLanguage(){lang=lang==='en'?'it':'en';subtitle();$('langBtn').textContent=lang.toUpperCase()+' · cambia lingua';}
 function showError(e){console.error(e);cancel();$('error').style.display='block';$('error').textContent='Impossibile aprire la lavagna: '+e.message;setPhase('error');}
-async function init(){try{const entries=await Promise.all(Object.entries(DATA.art).map(async([key,a])=>{const image=await loadImage(a.src),mask=document.createElement('canvas'),comp=document.createElement('canvas');mask.width=comp.width=a.w;mask.height=comp.height=a.h;const o={...a,image,mask,comp,scale:a.width/a.w,dirty:true,shown:false,progress:0};prepareSegments(o);return [key,o];}));objects=Object.fromEntries(entries);handImage=await loadImage(DATA.hand.src);await document.fonts.ready;$('loading').style.display='none';setPhase('ready');render();}catch(e){showError(e);}}
+async function init(){if(ONLY){const t='TuoTempo · '+ONLY.years;document.title=t;const y=document.querySelector('#start p');if(y)y.textContent=ONLY.years;}try{const entries=await Promise.all(Object.entries(DATA.art).map(async([key,a])=>{const image=await loadImage(a.src),mask=document.createElement('canvas'),comp=document.createElement('canvas');mask.width=comp.width=a.w;mask.height=comp.height=a.h;const o={...a,image,mask,comp,scale:a.width/a.w,dirty:true,shown:false,progress:0};prepareSegments(o);return [key,o];}));objects=Object.fromEntries(entries);handImage=await loadImage(DATA.hand.src);await document.fonts.ready;$('loading').style.display='none';setPhase('ready');render();}catch(e){showError(e);}}
 $('frame').addEventListener('click',e=>{if(!e.target.closest('#toolbar'))next();});
 $('nextBtn').onclick=next;$('resetBtn').onclick=()=>{if(phase!=='loading')run();};$('langBtn').onclick=toggleLanguage;
 function fullscreen(){if(document.fullscreenElement){if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});}else if($('frame').requestFullscreen)$('frame').requestFullscreen().catch(()=>{});}
