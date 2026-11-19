@@ -30,7 +30,12 @@ Aprire **index.html** in Chrome, Edge o Safari. È un file autonomo: include sce
 - **R**: ricomincia immediatamente anche durante una foto o un disegno.
 - **I**: cambia EN/IT subito, senza ricominciare (la voce resta EN).
 - **F** o pulsante: tutto schermo; ESC per uscire.
-- **H**: nasconde/mostra i comandi. All'avvio vengono nascosti; ricompaiono puntando il mouse direttamente sulla fascia inferiore.
+- **H**: nasconde/mostra i comandi e la barra di avanzamento. All'avvio vengono nascosti; ricompaiono puntando il mouse direttamente sulla fascia inferiore.
+- **→** (o pulsante **Avanti ▸▸**): salta alla fine della scena in corso (allo stop foto/pausa se c'è); su uno stop passa alla scena successiva.
+- **←** (o pulsante **◂◂ Indietro**): torna all'inizio della scena; se si è entro i primi 2 secondi, alla scena precedente.
+- **+** / **=** e **−** / **_** (o pulsante **Velocità**): 1× → 2× → 4×. Voce (playbackRate), disegno, mano e camera accelerano insieme; quando non si è a 1× compare l'indicatore in alto a destra.
+- **Barra di avanzamento** (in cima alla fascia comandi): clic o trascinamento per saltare in qualsiasi punto dell'intervento (con `?lavagna=N` solo di quella lavagna). Segmenti nel colore di ogni lavagna, tacche bianche sugli stop foto, nome della scena al passaggio del mouse. Dopo un salto voce, sottotitoli e disegno si riallineano (le scene precedenti compaiono già complete). Si vede solo insieme ai comandi (H o mouse sulla fascia bassa): in proiezione con i comandi nascosti non c'è.
+- Limiti: la barra misura il tempo della voce (movimenti di camera e finali non contano); lo stop "Il nome" riparte sempre dall'inizio.
 - Gli stop non scadono mai da soli. Il finale resta visibile finché non si preme R.
 
 I quattro spezzoni hanno foto/stop; tra 3 e 4 è incluso uno stop breve **Il nome, inventato insieme**, senza voce inventata. Lo stop del sito 2006 è dichiaratamente **immagine d'archivio da inserire**, non un falso screenshot. Le due ricostruzioni AI sono etichettate sempre.
@@ -44,6 +49,9 @@ Durata automatica attuale: circa **3 minuti e 15 secondi**, più il tempo dei ci
 4. Confronto finale con Lele della ricostruzione del dentista e prova sul browser/HDMI effettivo. Le somiglianze AI sono approssimative, non foto storiche.
 
 La mano reale da Pakutaso è stata integrata con chroma key, non è più quella da fumetto. Il file fornito non mostra una mano particolarmente pelosa; non sono stati aggiunti peli artificiali. La punta è ancorata al tratto. Restano da approvare artisticamente questo aspetto e lo stile complessivo.
+
+## Ordine dei tratti (dal 18/11/2026)
+`build.py` passa ogni disegno per `tools/stroke_order.py`: la mano completa un oggetto prima di passare al successivo. Gli oggetti sono i blocchi d'inchiostro separati (figure, parole, cartelli); un blocco grande quanto una scena viene diviso in parti compatte, tenendo separato l'inchiostro colorato (es. l'auto viola). Oggetti da sinistra a destra, ogni parola scritta lettera per lettera da sinistra a destra. Le fini degli oggetti (`breaks`) servono al player per chiudere ogni sottotitolo su un oggetto finito (tolleranza ±8% del disegno). I file `boards/*.art.json` conservano l'ordine grezzo dei generatori: rigenerare una lavagna non perde la correzione. Anteprime: `python3 tools/preview_stroke_order.py` → `/workspace/previews/ordine-tratti/`.
 
 ## Correggere scene e aggiungere voce
 La fonte modificabile sono i file in **boards/** (vedi sopra), non l'HTML generato; qui sotto «scenes.json» indica quei file. `sections` contiene testi, sottotitoli EN/IT, durate, assegnazioni ai disegni, foto e audio. `art` contiene asset e percorsi del pennarello. Il player non legge JSON esterni all'apertura per evitare i blocchi `file://` dei browser.

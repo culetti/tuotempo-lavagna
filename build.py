@@ -9,6 +9,8 @@ def uri(path):
 import sys;sys.path.insert(0,str(P/'tools'))
 from boardfiles import load_all
 d=load_all()  # boards/common.json + boards/lavagnaN.json + boards/lavagnaN.art.json
+from stroke_order import reorder  # each object drawn completely before the next one
+for k,a in d['art'].items():d['art'][k]=reorder(a,P)
 for art in d['art'].values():art['src']=uri(art['src'])
 d['hand']['src']=uri(d['hand']['src'])
 for s in d['sections']:
