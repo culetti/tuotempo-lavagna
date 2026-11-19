@@ -47,50 +47,50 @@
         {
           "en": "Once upon a time, three boys came up the Adriatic coast to study at the Alma Mater of Bologna:",
           "it": "C'era una volta tre ragazzi saliti lungo l'Adriatico per studiare all'Alma Mater di Bologna:",
-          "duration": 5.174,
+          "duration": 5.375,
           "art": "university",
-          "start": 0.131,
-          "end": 5.305
+          "start": 0.1,
+          "end": 5.475
         },
         {
           "en": "one from Ancona, two from Pescara.",
           "it": "uno da Ancona, due da Pescara.",
-          "duration": 2.164,
+          "duration": 2.475,
           "art": "map",
-          "start": 5.652,
-          "end": 7.816
+          "start": 6.1625,
+          "end": 8.6375
         },
         {
           "en": "They became friends.",
           "it": "Diventarono amici.",
-          "duration": 1.169,
+          "duration": 1.1625,
           "art": "map",
-          "start": 8.183,
-          "end": 9.352
+          "start": 9.0375,
+          "end": 10.2
         },
         {
           "en": "Then life scattered them: two ended up in the same software company in Bologna, Cezanne, building an HR portal;",
           "it": "Poi la vita li sparpagliò: due finirono nella stessa software house di Bologna, Cezanne, a costruire un portale HR;",
-          "duration": 6.088,
+          "duration": 6.95,
           "art": "valencia",
-          "start": 9.711,
-          "end": 15.799
+          "start": 10.6125,
+          "end": 17.5625
         },
         {
           "en": "the third ran off to Valencia, where he lived at his parents' expense, occupying himself with art and technology.",
           "it": "il terzo scappò a Valencia, dove viveva a carico dei genitori occupandosi di arte e tecnologia.",
-          "duration": 5.521,
+          "duration": 6.4125,
           "art": "valencia",
-          "start": 16.088,
-          "end": 21.609
+          "start": 18.3125,
+          "end": 24.725
         },
         {
           "en": "In the photograph you can already glimpse the three founders — and a strange omen.",
           "it": "Nella foto si possono già intravedere i tre founder — e uno strano presagio.",
-          "duration": 4.016,
+          "duration": 4.683,
           "art": "valencia",
-          "start": 21.956,
-          "end": 25.972
+          "start": 25.125,
+          "end": 29.808
         }
       ],
       "audio": "audio/origins-en.mp3",
@@ -119,50 +119,50 @@
         {
           "en": "Late 2005.",
           "it": "Fine 2005.",
-          "duration": 1.689791,
+          "duration": 1.35,
           "art": "lunch",
-          "start": 0.107875,
-          "end": 1.797666
+          "start": 0.1,
+          "end": 1.45
         },
         {
           "en": "In the lunch breaks at Cezanne, Donatello and Gef were hunting for an idea of their own.",
           "it": "Nelle pause pranzo in Cezanne, Donatello e Gef cercano un'idea tutta loro.",
-          "duration": 4.733791,
+          "duration": 4.95,
           "art": "lunch",
-          "start": 2.141208,
-          "end": 6.874999
+          "start": 1.85,
+          "end": 6.8
         },
         {
           "en": "The favourite: booking five-a-side football pitches online.",
           "it": "La preferita: prenotare online i campi da calcetto.",
-          "duration": 3.333333,
+          "duration": 3.375,
           "art": "football",
-          "start": 7.245375,
-          "end": 10.578708
+          "start": 7.2125,
+          "end": 10.5875
         },
         {
           "en": "So they went to interview the only sports-centre owner they knew, Donatello's cousin.",
           "it": "Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello.",
-          "duration": 4.351875,
+          "duration": 4.625,
           "art": "cousin",
-          "start": 10.925916,
-          "end": 15.277791
+          "start": 10.9875,
+          "end": 15.6125
         },
         {
           "en": "No computer at the desk, a paper diary, no intention to change.",
           "it": "Niente computer al banco, agenda di carta, nessuna voglia di cambiare.",
-          "duration": 3.923624,
+          "duration": 4.2625,
           "art": "cousin",
-          "start": 15.636583,
-          "end": 19.560207
+          "start": 16.0125,
+          "end": 20.275
         },
         {
           "en": "The football idea died that afternoon.",
           "it": "Il calcetto muore quel pomeriggio.",
-          "duration": 2.580584,
+          "duration": 2.557,
           "art": "cousin",
-          "start": 19.907416,
-          "end": 22.488
+          "start": 20.675,
+          "end": 23.232
         }
       ],
       "audio": "audio/football-en.mp3",
@@ -190,82 +190,82 @@
         {
           "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel',",
           "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\",",
-          "duration": 6.377291,
+          "duration": 7.25,
           "art": "mabel",
-          "start": 0.107875,
-          "end": 6.485166
+          "start": 0.1,
+          "end": 7.35
         },
         {
           "en": "the medical receptionist you could book online.",
           "it": "la receptionist medica che si poteva prenotare online.",
-          "duration": 2.141208,
+          "duration": 2.4,
           "art": "mabel",
-          "start": 6.6935,
-          "end": 8.834708
+          "start": 7.6625,
+          "end": 10.0625
         },
         {
           "en": "In Europe: nothing.",
           "it": "In Europa: niente.",
-          "duration": 1.458374,
+          "duration": 1.475,
           "art": "mabel",
-          "start": 9.201375,
-          "end": 10.659749
+          "start": 10.4625,
+          "end": 11.9375
         },
         {
           "en": "And remember 2006: no iPhone, no apps, no cloud.",
           "it": "E ricordate il 2006: niente iPhone, niente app, niente cloud.",
-          "duration": 4.294,
+          "duration": 3.775,
           "art": "mabel",
-          "start": 11.030083,
-          "end": 15.324083
+          "start": 12.3375,
+          "end": 16.1125
         },
         {
           "en": "Two doctors out of three kept their appointments on paper.",
           "it": "Due medici su tre tengono gli appuntamenti su carta.",
-          "duration": 3.032416,
+          "duration": 2.9625,
           "art": "mabel",
-          "start": 15.6625,
-          "end": 18.694916
+          "start": 16.5125,
+          "end": 19.475
         },
         {
           "en": "They called the third friend in Valencia, because there was no AI to ask.",
           "it": "Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere.",
-          "duration": 3.865707,
+          "duration": 4.0125,
           "art": "remote",
-          "start": 19.0625,
-          "end": 22.928207
+          "start": 19.8875,
+          "end": 23.9
         },
         {
           "en": "He and Gef built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators.",
           "it": "Lui e Gef costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli.",
-          "duration": 7.708333,
+          "duration": 8.5875,
           "art": "remote",
-          "start": 23.298625,
-          "end": 31.006958
+          "start": 24.3125,
+          "end": 32.9
         },
         {
           "en": "So, somewhere between 2005 and 2006, three friends founded a company.",
           "it": "Così, tra il 2005 e il 2006, tre amici fondano una società.",
-          "duration": 5.405083,
+          "duration": 5.1375,
           "art": "remote",
-          "start": 31.36575,
-          "end": 36.770833
+          "start": 33.3,
+          "end": 38.4375
         },
         {
           "en": "Tuotempo was born remote: Bologna on one end, Valencia on the other,",
           "it": "Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra,",
-          "duration": 4.0625,
+          "duration": 4.6875,
           "art": "remote",
-          "start": 37.118041,
-          "end": 41.180541
+          "start": 38.8375,
+          "end": 43.525
         },
         {
           "en": "Skype in between, and a cheap flight every now and then.",
           "it": "Skype in mezzo, e ogni tanto un volo low cost.",
-          "duration": 3.120375,
+          "duration": 3.121,
           "art": "remote",
-          "start": 41.423625,
-          "end": 44.544
+          "start": 43.775,
+          "end": 46.896
         }
       ],
       "audio": "audio/remote-en.mp3",
@@ -293,40 +293,40 @@
           "en": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford.",
           "it": "Erano tutti e tre a Bologna, il prototipo era pronto, ma serviva ancora un nome, e un dominio che potessero permettersi.",
           "art": "name",
-          "start": 0.131,
-          "end": 5.894916,
-          "duration": 5.763916
+          "start": 0.1,
+          "end": 6.2625,
+          "duration": 6.1625
         },
         {
           "en": "Names went on the sheet, and came off again.",
           "it": "I nomi finivano sul foglio, e poi venivano cancellati.",
           "art": "name",
-          "start": 6.25,
-          "end": 8.622666,
-          "duration": 2.372666
+          "start": 6.675,
+          "end": 9.125,
+          "duration": 2.45
         },
         {
           "en": "In the end, Gef's idea won:",
           "it": "Alla fine vinse l'idea di Gef:",
           "art": "name",
-          "start": 8.993041,
-          "end": 10.763874,
-          "duration": 1.770833
+          "start": 9.525,
+          "end": 11.175,
+          "duration": 1.65
         },
         {
           "en": "not 'my time', but 'your time'. TuoTempo.",
           "it": "non \"mio tempo\", ma \"tuo tempo\". TuoTempo.",
           "art": "name",
-          "start": 11.041666,
-          "end": 14.472,
-          "duration": 3.430334
+          "start": 11.5375,
+          "end": 15.312,
+          "duration": 3.7745
         }
       ],
       "audio": "audio/name-en.mp3",
       "photo": null,
       "notes": "Fonte: master raw/handover_storia-tuotempo_2026-11-07.md, Lavagna 3 \"Il nome TuoTempo\" (Slack Don/Lele/Gef, girato da Lele il 18/11; WhatsApp di Gef 18/11). Si partiva da MioTempo; TuoTempo proposto da Gianfranco (confermato da Don); poi le varianti: TuTempo (Don, dominio più caro, più ammiccante al mercato ispanico), TuTiempo (Lele, alla spagnola), InTempo, \"qualcosa con Ora\" (nome non preciso, quindi non scritto), Bookino (Lele, risata generale). Tutto nasce dalla caccia a un dominio libero o a buon mercato (il primo sito, giugno 2006, è su tuotempo.net). Quando e dove: tutti e tre a Bologna, Donatello già fuori da Cezanne da mesi, prototipo di agenda di Lele già pronto. Sul foglio i nomi nell'ordine del master; la voce non li elenca. Fuori dalla narrazione: le tracce dell'open source tolte in due diligence.",
       "incomplete": false,
-      "audioDuration": 14.472,
+      "audioDuration": 15.312,
       "candidateNames": [
         "MioTempo",
         "TuTempo",
@@ -359,58 +359,58 @@
         {
           "en": "The idea was not a marketplace, but an online diary each doctor could put on his own website.",
           "it": "L'idea non era un portale, ma un'agenda online che ogni medico potesse mettere sul proprio sito.",
-          "duration": 4.82,
+          "duration": 5.4125,
           "art": "dentist",
-          "start": 0.0,
-          "end": 5.738
+          "start": 0.0875,
+          "end": 5.5
         },
         {
           "en": "Except most doctors had no website, and no diary a computer could read.",
           "it": "Solo che i medici il sito non ce l'avevano, né un'agenda leggibile",
-          "duration": 3.53,
+          "duration": 4.3375,
           "art": "dentist",
-          "start": 5.738,
-          "end": 9.94
+          "start": 5.9,
+          "end": 10.2375
         },
         {
           "en": "So they went knocking on dentists' doors, starting with the nearest one: Donatello's own dentist, in Bologna.",
           "it": "da un computer. Allora andarono a bussare dai dentisti, cominciando dal più vicino: il dentista",
-          "duration": 4.56,
+          "duration": 6.425,
           "art": "dentist",
-          "start": 9.94,
-          "end": 15.368
+          "start": 10.6375,
+          "end": 17.0625
         },
         {
           "en": "He said yes, and became client number one.",
           "it": "di Donatello, a Bologna. Disse sì, e diventò",
-          "duration": 2.25,
+          "duration": 2.3875,
           "art": "dentist",
-          "start": 15.368,
-          "end": 18.046
+          "start": 17.475,
+          "end": 19.8625
         },
         {
           "en": "One of them, on the viali of Bologna, threw them out so thoroughly that they looked at each other",
           "it": "il cliente numero uno. Uno, sui viali di Bologna, li cacciò così bene che si guardarono e",
-          "duration": 5.07,
+          "duration": 5.05,
           "art": "dentist",
-          "start": 18.046,
-          "end": 24.082
+          "start": 20.2625,
+          "end": 25.3125
         },
         {
           "en": "and said: it cannot be this hard.",
           "it": "dissero: non può essere così difficile.",
-          "duration": 1.99,
+          "duration": 2.0875,
           "art": "dentist",
-          "start": 24.082,
-          "end": 26.451
+          "start": 25.325,
+          "end": 27.4125
         },
         {
           "en": "But by then, client number one was already booking online.",
           "it": "Ma intanto il cliente numero uno prenotava già online.",
-          "duration": 2.76,
+          "duration": 3.543,
           "art": "dentist",
-          "start": 26.451,
-          "end": 29.736
+          "start": 27.825,
+          "end": 31.368
         }
       ],
       "audio": "audio/dentist-en.mp3",

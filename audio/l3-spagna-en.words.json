@@ -1,332 +1,333 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "2009. Spain began with a phone call. One evening at half past six, when it was already dark, Donatello found a number in a file, and dialled it. The man who answered would open Spain for Tuotempo. Soon came the first distribution agreement: around sixty dental clinics, from Tarragona to Andorra. As they still say: Spain exists because, at half past six, it was dark.",
+ "spoken": "2009. Spain began with a phone call. One evening at half past six, when it was already dark, Donatello found a number in a file, and dialled it. The man who answered would open Spain for Tuotempo. Soon came the first distribution agreement: around sixty dental clinics, from Tarragona to Andorra. As they still say: Spain exists because, at half past six, it was dark.",
  "words": [
   {
-   "offset": 990830,
-   "duration": 11226670,
+   "offset": 875000,
+   "duration": 9125000,
    "text": "2009"
   },
   {
-   "offset": 15458330,
-   "duration": 3125000,
+   "offset": 15000000,
+   "duration": 3625000,
    "text": "Spain"
   },
   {
-   "offset": 18699160,
-   "duration": 3240830,
+   "offset": 18750000,
+   "duration": 3625000,
    "text": "began"
   },
   {
-   "offset": 22055410,
-   "duration": 1388750,
+   "offset": 22500000,
+   "duration": 1500000,
    "text": "with"
   },
   {
-   "offset": 23560000,
-   "duration": 462909,
+   "offset": 24125000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 24138750,
-   "duration": 2662080,
+   "offset": 24750000,
+   "duration": 3000000,
    "text": "phone"
   },
   {
-   "offset": 26916660,
-   "duration": 3935000,
+   "offset": 27875000,
+   "duration": 4375000,
    "text": "call"
   },
   {
-   "offset": 34490830,
-   "duration": 2315000,
+   "offset": 36375000,
+   "duration": 2125000,
    "text": "One"
   },
   {
-   "offset": 36921250,
-   "duration": 3819580,
+   "offset": 38625000,
+   "duration": 3750000,
    "text": "evening"
   },
   {
-   "offset": 40856660,
-   "duration": 925830,
+   "offset": 42500000,
+   "duration": 875000,
    "text": "at"
   },
   {
-   "offset": 41898330,
-   "duration": 2662080,
+   "offset": 43500000,
+   "duration": 2625000,
    "text": "half"
   },
   {
-   "offset": 44675830,
-   "duration": 3240830,
+   "offset": 46250000,
+   "duration": 3250000,
    "text": "past"
   },
   {
-   "offset": 48032500,
-   "duration": 4166660,
+   "offset": 49625000,
+   "duration": 4375000,
    "text": "six"
   },
   {
-   "offset": 54050830,
-   "duration": 1157500,
+   "offset": 56125000,
+   "duration": 1625000,
    "text": "when"
   },
   {
-   "offset": 55324160,
-   "duration": 810000,
+   "offset": 57875000,
+   "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 56250000,
-   "duration": 1388750,
+   "offset": 58875000,
+   "duration": 1625000,
    "text": "was"
   },
   {
-   "offset": 57754580,
-   "duration": 3009160,
+   "offset": 60625000,
+   "duration": 4125000,
    "text": "already"
   },
   {
-   "offset": 60879580,
-   "duration": 4050830,
+   "offset": 64875000,
+   "duration": 4000000,
    "text": "dark"
   },
   {
-   "offset": 67708330,
-   "duration": 5902910,
+   "offset": 72000000,
+   "duration": 6500000,
    "text": "Donatello"
   },
   {
-   "offset": 73726660,
-   "duration": 2777910,
+   "offset": 78625000,
+   "duration": 2625000,
    "text": "found"
   },
   {
-   "offset": 76620410,
-   "duration": 347080,
+   "offset": 81375000,
+   "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 77083330,
-   "duration": 3009160,
+   "offset": 81875000,
+   "duration": 3750000,
    "text": "number"
   },
   {
-   "offset": 80208330,
-   "duration": 810000,
+   "offset": 85750000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 81134160,
-   "duration": 462909,
+   "offset": 86875000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 81712910,
-   "duration": 4166660,
+   "offset": 87625000,
+   "duration": 5000000,
    "text": "file"
   },
   {
-   "offset": 87962910,
-   "duration": 1041660,
+   "offset": 94875000,
+   "duration": 875000,
    "text": "and"
   },
   {
-   "offset": 89120410,
-   "duration": 3472080,
+   "offset": 95875000,
+   "duration": 4125000,
    "text": "dialled"
   },
   {
-   "offset": 92708330,
-   "duration": 3125000,
+   "offset": 100125000,
+   "duration": 2625000,
    "text": "it"
   },
   {
-   "offset": 99305410,
-   "duration": 1273330,
+   "offset": 106875000,
+   "duration": 750000,
    "text": "The"
   },
   {
-   "offset": 100694580,
-   "duration": 2430410,
+   "offset": 107750000,
+   "duration": 2625000,
    "text": "man"
   },
   {
-   "offset": 103240830,
-   "duration": 1851660,
+   "offset": 110500000,
+   "duration": 1625000,
    "text": "who"
   },
   {
-   "offset": 105208330,
-   "duration": 4398330,
+   "offset": 112250000,
+   "duration": 4500000,
    "text": "answered"
   },
   {
-   "offset": 109722080,
-   "duration": 1388750,
+   "offset": 116875000,
+   "duration": 1500000,
    "text": "would"
   },
   {
-   "offset": 111226660,
-   "duration": 3009160,
+   "offset": 118500000,
+   "duration": 3125000,
    "text": "open"
   },
   {
-   "offset": 114351660,
-   "duration": 4282500,
+   "offset": 121750000,
+   "duration": 3875000,
    "text": "Spain"
   },
   {
-   "offset": 118750000,
-   "duration": 1388750,
+   "offset": 125750000,
+   "duration": 1750000,
    "text": "for"
   },
   {
-   "offset": 120254580,
-   "duration": 8101660,
+   "offset": 127625000,
+   "duration": 7750000,
    "text": "Tuotempo"
   },
   {
-   "offset": 131944580,
-   "duration": 3587910,
+   "offset": 139500000,
+   "duration": 3125000,
    "text": "Soon"
   },
   {
-   "offset": 135648330,
-   "duration": 2315000,
+   "offset": 142750000,
+   "duration": 2250000,
    "text": "came"
   },
   {
-   "offset": 138078750,
-   "duration": 925830,
+   "offset": 145125000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 139120410,
-   "duration": 3356660,
+   "offset": 146125000,
+   "duration": 3625000,
    "text": "first"
   },
   {
-   "offset": 142592500,
-   "duration": 6018330,
+   "offset": 149875000,
+   "duration": 6875000,
    "text": "distribution"
   },
   {
-   "offset": 148726660,
-   "duration": 5092500,
+   "offset": 156875000,
+   "duration": 5500000,
    "text": "agreement"
   },
   {
-   "offset": 156944580,
-   "duration": 3356660,
+   "offset": 167875000,
+   "duration": 3000000,
    "text": "around"
   },
   {
-   "offset": 160416660,
-   "duration": 3703750,
+   "offset": 171000000,
+   "duration": 4125000,
    "text": "sixty"
   },
   {
-   "offset": 164236250,
-   "duration": 3356660,
+   "offset": 175250000,
+   "duration": 3500000,
    "text": "dental"
   },
   {
-   "offset": 167708330,
-   "duration": 4861250,
+   "offset": 178875000,
+   "duration": 5750000,
    "text": "clinics"
   },
   {
-   "offset": 175000000,
-   "duration": 1620410,
+   "offset": 187125000,
+   "duration": 1875000,
    "text": "from"
   },
   {
-   "offset": 176736250,
-   "duration": 6597080,
+   "offset": 189125000,
+   "duration": 6125000,
    "text": "Tarragona"
   },
   {
-   "offset": 183449160,
-   "duration": 1388750,
+   "offset": 195375000,
+   "duration": 1625000,
    "text": "to"
   },
   {
-   "offset": 184953750,
-   "duration": 5671250,
+   "offset": 197125000,
+   "duration": 6250000,
    "text": "Andorra"
   },
   {
-   "offset": 194328750,
-   "duration": 1273330,
+   "offset": 207500000,
+   "duration": 1375000,
    "text": "As"
   },
   {
-   "offset": 195717500,
-   "duration": 1157500,
+   "offset": 209000000,
+   "duration": 1250000,
    "text": "they"
   },
   {
-   "offset": 196990830,
-   "duration": 2893330,
+   "offset": 210375000,
+   "duration": 2750000,
    "text": "still"
   },
   {
-   "offset": 200000000,
-   "duration": 3587910,
+   "offset": 213250000,
+   "duration": 3125000,
    "text": "say"
   },
   {
-   "offset": 206365830,
-   "duration": 3240830,
+   "offset": 221375000,
+   "duration": 3375000,
    "text": "Spain"
   },
   {
-   "offset": 209722080,
-   "duration": 4513750,
+   "offset": 224875000,
+   "duration": 4375000,
    "text": "exists"
   },
   {
-   "offset": 214351660,
-   "duration": 4513750,
+   "offset": 229375000,
+   "duration": 3500000,
    "text": "because"
   },
   {
-   "offset": 220486250,
-   "duration": 1157500,
+   "offset": 233125000,
+   "duration": 875000,
    "text": "at"
   },
   {
-   "offset": 221759160,
-   "duration": 2662080,
+   "offset": 234125000,
+   "duration": 2750000,
    "text": "half"
   },
   {
-   "offset": 224537080,
-   "duration": 3125000,
+   "offset": 237000000,
+   "duration": 3250000,
    "text": "past"
   },
   {
-   "offset": 227777910,
-   "duration": 3819580,
+   "offset": 240375000,
+   "duration": 3625000,
    "text": "six"
   },
   {
-   "offset": 233449160,
-   "duration": 925830,
+   "offset": 244250000,
+   "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 234490830,
-   "duration": 1388750,
+   "offset": 245250000,
+   "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 235995410,
-   "duration": 4745410,
+   "offset": 247125000,
+   "duration": 4375000,
    "text": "dark"
   }
  ]

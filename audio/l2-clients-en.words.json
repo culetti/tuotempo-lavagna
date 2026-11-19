@@ -1,217 +1,218 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
+ "spoken": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
  "words": [
   {
-   "offset": 990830,
-   "duration": 11921250,
+   "offset": 1000000,
+   "duration": 10500000,
    "text": "2007"
   },
   {
-   "offset": 16731660,
-   "duration": 810000,
+   "offset": 17250000,
+   "duration": 1000000,
    "text": "The"
   },
   {
-   "offset": 17657500,
-   "duration": 3356660,
+   "offset": 18375000,
+   "duration": 3625000,
    "text": "first"
   },
   {
-   "offset": 21129580,
-   "duration": 5555410,
+   "offset": 22125000,
+   "duration": 5875000,
    "text": "customers"
   },
   {
-   "offset": 26800830,
-   "duration": 2893330,
+   "offset": 28125000,
+   "duration": 2625000,
    "text": "weren't"
   },
   {
-   "offset": 29810000,
-   "duration": 7407500,
+   "offset": 30875000,
+   "duration": 8750000,
    "text": "hospitals"
   },
   {
-   "offset": 40856660,
-   "duration": 1388750,
+   "offset": 43875000,
+   "duration": 1250000,
    "text": "They"
   },
   {
-   "offset": 42361250,
-   "duration": 1388750,
+   "offset": 45250000,
+   "duration": 1375000,
    "text": "were"
   },
   {
-   "offset": 43865830,
-   "duration": 694580,
+   "offset": 46750000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 44675830,
-   "duration": 3472080,
+   "offset": 47500000,
+   "duration": 3375000,
    "text": "dental"
   },
   {
-   "offset": 48263750,
-   "duration": 5902910,
+   "offset": 51000000,
+   "duration": 6125000,
    "text": "practice"
   },
   {
-   "offset": 56250000,
-   "duration": 347080,
+   "offset": 57375000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 56712910,
-   "duration": 3819580,
+   "offset": 58000000,
+   "duration": 4250000,
    "text": "sports"
   },
   {
-   "offset": 60648330,
-   "duration": 4050830,
+   "offset": 62375000,
+   "duration": 4750000,
    "text": "centre"
   },
   {
-   "offset": 67361250,
-   "duration": 462909,
+   "offset": 69250000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 67940000,
-   "duration": 1851660,
+   "offset": 70000000,
+   "duration": 2125000,
    "text": "day"
   },
   {
-   "offset": 69907500,
-   "duration": 3819580,
+   "offset": 72250000,
+   "duration": 4500000,
    "text": "spa"
   },
   {
-   "offset": 75578750,
-   "duration": 462909,
+   "offset": 79750000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 76157500,
-   "duration": 3009160,
+   "offset": 80500000,
+   "duration": 3250000,
    "text": "beauty"
   },
   {
-   "offset": 79282500,
-   "duration": 4861250,
+   "offset": 83875000,
+   "duration": 5625000,
    "text": "centre"
   },
   {
-   "offset": 87847080,
-   "duration": 2430410,
+   "offset": 93625000,
+   "duration": 1875000,
    "text": "That"
   },
   {
-   "offset": 90393330,
-   "duration": 4166660,
+   "offset": 95625000,
+   "duration": 4750000,
    "text": "summer"
   },
   {
-   "offset": 96759160,
-   "duration": 925830,
+   "offset": 102250000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 97800830,
-   "duration": 2777910,
+   "offset": 103375000,
+   "duration": 3125000,
    "text": "very"
   },
   {
-   "offset": 100694580,
-   "duration": 3819580,
+   "offset": 106625000,
+   "duration": 3750000,
    "text": "first"
   },
   {
-   "offset": 104629580,
-   "duration": 5787080,
+   "offset": 110500000,
+   "duration": 5875000,
    "text": "automatic"
   },
   {
-   "offset": 110532500,
-   "duration": 4398330,
+   "offset": 116500000,
+   "duration": 4875000,
    "text": "reminder"
   },
   {
-   "offset": 115046250,
-   "duration": 2430410,
+   "offset": 121500000,
+   "duration": 2375000,
    "text": "went"
   },
   {
-   "offset": 117592500,
-   "duration": 3935000,
+   "offset": 124000000,
+   "duration": 4375000,
    "text": "out"
   },
   {
-   "offset": 125231660,
-   "duration": 1388750,
+   "offset": 132500000,
+   "duration": 1375000,
    "text": "And"
   },
   {
-   "offset": 126736250,
-   "duration": 1157500,
+   "offset": 134000000,
+   "duration": 1375000,
    "text": "to"
   },
   {
-   "offset": 128009160,
-   "duration": 4050830,
+   "offset": 135500000,
+   "duration": 4375000,
    "text": "explain"
   },
   {
-   "offset": 132175830,
-   "duration": 1388750,
+   "offset": 140000000,
+   "duration": 1000000,
    "text": "it"
   },
   {
-   "offset": 133680410,
-   "duration": 2777910,
+   "offset": 141125000,
+   "duration": 3375000,
    "text": "all"
   },
   {
-   "offset": 139236250,
-   "duration": 6828750,
+   "offset": 147250000,
+   "duration": 7000000,
    "text": "Tuotempo"
   },
   {
-   "offset": 146180410,
-   "duration": 2777910,
+   "offset": 154375000,
+   "duration": 3000000,
    "text": "even"
   },
   {
-   "offset": 149074160,
-   "duration": 2083330,
+   "offset": 157500000,
+   "duration": 1750000,
    "text": "made"
   },
   {
-   "offset": 151273330,
-   "duration": 578750,
+   "offset": 159375000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 151967500,
-   "duration": 5324160,
+   "offset": 160000000,
+   "duration": 5875000,
    "text": "promotional"
   },
   {
-   "offset": 157407500,
-   "duration": 4282500,
+   "offset": 166000000,
+   "duration": 4500000,
    "text": "video"
   },
   {
-   "offset": 163310000,
-   "duration": 1157500,
+   "offset": 172250000,
+   "duration": 1375000,
    "text": "in"
   },
   {
-   "offset": 164583330,
-   "duration": 5324160,
+   "offset": 173750000,
+   "duration": 6125000,
    "text": "English"
   }
  ]

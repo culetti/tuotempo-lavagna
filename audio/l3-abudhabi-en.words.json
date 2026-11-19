@@ -1,292 +1,293 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "Then came the first big hospital, in Abu Dhabi. It arrived through a former colleague from the Cezanne days, who had become the medical director of a hospital group. A big customer, far from home\u2026 and the first customer who didn't pay. In March 2010 came the first ever last notice: service suspended on the 1st of April.",
+ "spoken": "Then came the first big hospital, in Abu Dhabi. It arrived through a former colleague from the Cezanne days, who had become the medical director of a hospital group. A big customer, far from home\u2026 and the first customer who didn't pay. In March 2010 came the first ever last notice: service suspended on the 1st of April.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 2546250,
+   "offset": 1000000,
+   "duration": 1875000,
    "text": "Then"
   },
   {
-   "offset": 3972080,
-   "duration": 2546250,
+   "offset": 3000000,
+   "duration": 2250000,
    "text": "came"
   },
   {
-   "offset": 6634160,
-   "duration": 925830,
+   "offset": 5375000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 7675830,
-   "duration": 3935000,
+   "offset": 6375000,
+   "duration": 3625000,
    "text": "first"
   },
   {
-   "offset": 11726660,
-   "duration": 1736250,
+   "offset": 10125000,
+   "duration": 1625000,
    "text": "big"
   },
   {
-   "offset": 13578750,
-   "duration": 5787080,
+   "offset": 11875000,
+   "duration": 6500000,
    "text": "hospital"
   },
   {
-   "offset": 21217500,
-   "duration": 1041660,
+   "offset": 20500000,
+   "duration": 1375000,
    "text": "in"
   },
   {
-   "offset": 22375000,
-   "duration": 2893330,
+   "offset": 22000000,
+   "duration": 2625000,
    "text": "Abu"
   },
   {
-   "offset": 25384160,
-   "duration": 4861250,
+   "offset": 24750000,
+   "duration": 4875000,
    "text": "Dhabi"
   },
   {
-   "offset": 33912080,
-   "duration": 1273330,
+   "offset": 33625000,
+   "duration": 1000000,
    "text": "It"
   },
   {
-   "offset": 35300830,
-   "duration": 4398330,
+   "offset": 34750000,
+   "duration": 4125000,
    "text": "arrived"
   },
   {
-   "offset": 39815000,
-   "duration": 2315000,
+   "offset": 39000000,
+   "duration": 1750000,
    "text": "through"
   },
   {
-   "offset": 42245410,
-   "duration": 578750,
+   "offset": 40875000,
+   "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 42940000,
-   "duration": 3472080,
+   "offset": 41750000,
+   "duration": 3875000,
    "text": "former"
   },
   {
-   "offset": 46527910,
-   "duration": 4513750,
+   "offset": 45750000,
+   "duration": 3750000,
    "text": "colleague"
   },
   {
-   "offset": 51157500,
-   "duration": 1736250,
+   "offset": 49625000,
+   "duration": 1875000,
    "text": "from"
   },
   {
-   "offset": 53009160,
-   "duration": 810000,
+   "offset": 51625000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 53935000,
-   "duration": 3935000,
+   "offset": 52625000,
+   "duration": 5250000,
    "text": "Cezanne"
   },
   {
-   "offset": 57986250,
-   "duration": 3587910,
+   "offset": 58000000,
+   "duration": 4250000,
    "text": "days"
   },
   {
-   "offset": 64351660,
-   "duration": 810000,
+   "offset": 65125000,
+   "duration": 875000,
    "text": "who"
   },
   {
-   "offset": 65277910,
-   "duration": 1273330,
+   "offset": 66125000,
+   "duration": 1250000,
    "text": "had"
   },
   {
-   "offset": 66666660,
-   "duration": 2893330,
+   "offset": 67500000,
+   "duration": 3375000,
    "text": "become"
   },
   {
-   "offset": 69675830,
-   "duration": 810000,
+   "offset": 71000000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 70601660,
-   "duration": 3703750,
+   "offset": 71875000,
+   "duration": 4125000,
    "text": "medical"
   },
   {
-   "offset": 74421250,
-   "duration": 5092500,
+   "offset": 76125000,
+   "duration": 5250000,
    "text": "director"
   },
   {
-   "offset": 79629580,
-   "duration": 1273330,
+   "offset": 81500000,
+   "duration": 750000,
    "text": "of"
   },
   {
-   "offset": 81018330,
-   "duration": 347080,
+   "offset": 82375000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 81481660,
-   "duration": 4861250,
+   "offset": 83125000,
+   "duration": 5375000,
    "text": "hospital"
   },
   {
-   "offset": 86458330,
-   "duration": 3935000,
+   "offset": 88625000,
+   "duration": 4375000,
    "text": "group"
   },
   {
-   "offset": 93981660,
-   "duration": 925830,
+   "offset": 97000000,
+   "duration": 1125000,
    "text": "A"
   },
   {
-   "offset": 95023330,
-   "duration": 2199160,
+   "offset": 98250000,
+   "duration": 2250000,
    "text": "big"
   },
   {
-   "offset": 97337910,
-   "duration": 5671250,
+   "offset": 100625000,
+   "duration": 6125000,
    "text": "customer"
   },
   {
-   "offset": 105092500,
-   "duration": 2083330,
+   "offset": 107625000,
+   "duration": 2625000,
    "text": "far"
   },
   {
-   "offset": 107291660,
-   "duration": 1967500,
+   "offset": 110375000,
+   "duration": 2125000,
    "text": "from"
   },
   {
-   "offset": 109375000,
-   "duration": 3587910,
+   "offset": 112625000,
+   "duration": 3875000,
    "text": "home"
   },
   {
-   "offset": 116550830,
-   "duration": 694580,
+   "offset": 120500000,
+   "duration": 1000000,
    "text": "and"
   },
   {
-   "offset": 117361250,
-   "duration": 925830,
+   "offset": 121625000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 118402910,
-   "duration": 3125000,
+   "offset": 122625000,
+   "duration": 3375000,
    "text": "first"
   },
   {
-   "offset": 121643330,
-   "duration": 4629580,
+   "offset": 126125000,
+   "duration": 5000000,
    "text": "customer"
   },
   {
-   "offset": 126388750,
-   "duration": 1388750,
+   "offset": 131250000,
+   "duration": 1250000,
    "text": "who"
   },
   {
-   "offset": 127893330,
-   "duration": 2893330,
+   "offset": 132625000,
+   "duration": 2875000,
    "text": "didn't"
   },
   {
-   "offset": 130902910,
-   "duration": 3819580,
+   "offset": 135625000,
+   "duration": 4000000,
    "text": "pay"
   },
   {
-   "offset": 138194580,
-   "duration": 1273330,
+   "offset": 143625000,
+   "duration": 1125000,
    "text": "In"
   },
   {
-   "offset": 139583330,
-   "duration": 10069159,
+   "offset": 144875000,
+   "duration": 12500000,
    "text": "March 2010"
   },
   {
-   "offset": 149768330,
-   "duration": 2315000,
+   "offset": 157500000,
+   "duration": 2125000,
    "text": "came"
   },
   {
-   "offset": 152199160,
-   "duration": 925830,
+   "offset": 159750000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 153240830,
-   "duration": 3935000,
+   "offset": 160875000,
+   "duration": 3875000,
    "text": "first"
   },
   {
-   "offset": 157291660,
-   "duration": 1736250,
+   "offset": 164875000,
+   "duration": 2375000,
    "text": "ever"
   },
   {
-   "offset": 159143330,
-   "duration": 3009160,
+   "offset": 167375000,
+   "duration": 3125000,
    "text": "last"
   },
   {
-   "offset": 162268330,
-   "duration": 4861250,
+   "offset": 170625000,
+   "duration": 5250000,
    "text": "notice"
   },
   {
-   "offset": 170138750,
-   "duration": 3819580,
+   "offset": 182375000,
+   "duration": 4125000,
    "text": "service"
   },
   {
-   "offset": 174074160,
-   "duration": 5208330,
+   "offset": 186625000,
+   "duration": 5375000,
    "text": "suspended"
   },
   {
-   "offset": 179398330,
-   "duration": 1273330,
+   "offset": 192125000,
+   "duration": 1125000,
    "text": "on"
   },
   {
-   "offset": 180787080,
-   "duration": 810000,
+   "offset": 193375000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 181712910,
-   "duration": 3009160,
+   "offset": 194250000,
+   "duration": 3500000,
    "text": "1st"
   },
   {
-   "offset": 184837910,
-   "duration": 810000,
+   "offset": 197875000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 185763750,
-   "duration": 4282500,
+   "offset": 199000000,
+   "duration": 5125000,
    "text": "April"
   }
  ]

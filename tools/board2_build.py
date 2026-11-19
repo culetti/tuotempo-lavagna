@@ -81,7 +81,7 @@ for sec in T:
  sections.append({'id':sid,'board':'lavagna2','title':titles[sid],'art':[sid],'narration':{'en':' '.join(c[0] for c in sec['cues']),'it':' '.join(c[1] for c in sec['cues'])},'cues':cues,'audio':f'audio/{sid}-en.mp3','photo':photos.get(sid),'notes':sectnotes[sid],'incomplete':False})
 ind=art['l2-indip'];sc=ind['width']/ind['w']
 boards=[{'id':'lavagna1','title':'Le origini','years':'2005–2007','color':'#bd282b','sections':['origins','football','remote','name','dentist'],'region':{'x':0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':1040,'y':1600,'rx':110,'ry':145},'yearsAt':[1800,2480]}},
-        {'id':'lavagna2','title':'Le architetture artigianali','years':'2007–2012','color':BLUE,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(ind['x']+525*sc),'y':round(ind['y']+205*sc),'rx':95,'ry':95},'yearsAt':[X0+1760,2150]}}]
+        {'id':'lavagna2','title':'Le architetture artigianali','tag':'In casa','years':'2007–2011','color':BLUE,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(ind['x']+525*sc),'y':round(ind['y']+205*sc),'rx':95,'ry':95},'yearsAt':[X0+1760,2150]}}]
 labels1=[{'section':'origins','text':'1 · Bologna → Valencia','x':90,'y':105},{'section':'football','text':'2 · L’idea del calcetto','x':2130,'y':105},{'section':'remote','text':'3 · Nati da remoto','x':2130,'y':1400},{'section':'dentist','text':'4 · Client number one','x':110,'y':1400}]
 unk=['Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).',
      'Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.',

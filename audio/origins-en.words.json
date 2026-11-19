@@ -1,0 +1,409 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Once upon a time, three boys came up the Adriatic coast to study at the Alma Mater of Bologna: one from Ancona, two from Pescara. They became friends. Then life scattered them: two ended up in the same software company in Bologna, Cezanne, building an HR portal; the third ran off to Valencia, where he lived at his parents' expense, occupying himself with art and technology. In the photograph you can already glimpse the three founders \u2014 and a strange omen.",
+ "spoken": "Once upon a time, three boys came up the Adriatic coast to study at the Alma Mater of Bologna: one from Ancona, two from Pescara. They became friends. Then life scattered them: two ended up in the same software company in Bologna, Cezanne, building an HR portal; the third ran off to Valencia, where he lived at his parents' expense, occupying himself with art and technology. In the photograph you can already glimpse the three founders \u2014 and a strange omen.",
+ "words": [
+  {
+   "offset": 1000000,
+   "duration": 2500000,
+   "text": "Once"
+  },
+  {
+   "offset": 3625000,
+   "duration": 2875000,
+   "text": "upon"
+  },
+  {
+   "offset": 6625000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 7250000,
+   "duration": 4250000,
+   "text": "time"
+  },
+  {
+   "offset": 13375000,
+   "duration": 2375000,
+   "text": "three"
+  },
+  {
+   "offset": 15875000,
+   "duration": 3500000,
+   "text": "boys"
+  },
+  {
+   "offset": 19500000,
+   "duration": 2375000,
+   "text": "came"
+  },
+  {
+   "offset": 22000000,
+   "duration": 1375000,
+   "text": "up"
+  },
+  {
+   "offset": 23500000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 24625000,
+   "duration": 5875000,
+   "text": "Adriatic"
+  },
+  {
+   "offset": 30625000,
+   "duration": 3250000,
+   "text": "coast"
+  },
+  {
+   "offset": 34000000,
+   "duration": 875000,
+   "text": "to"
+  },
+  {
+   "offset": 35000000,
+   "duration": 3875000,
+   "text": "study"
+  },
+  {
+   "offset": 39000000,
+   "duration": 1000000,
+   "text": "at"
+  },
+  {
+   "offset": 40125000,
+   "duration": 1250000,
+   "text": "the"
+  },
+  {
+   "offset": 41500000,
+   "duration": 2875000,
+   "text": "Alma"
+  },
+  {
+   "offset": 44500000,
+   "duration": 3375000,
+   "text": "Mater"
+  },
+  {
+   "offset": 48000000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 49125000,
+   "duration": 5625000,
+   "text": "Bologna"
+  },
+  {
+   "offset": 61625000,
+   "duration": 2125000,
+   "text": "one"
+  },
+  {
+   "offset": 63875000,
+   "duration": 1875000,
+   "text": "from"
+  },
+  {
+   "offset": 65875000,
+   "duration": 6250000,
+   "text": "Ancona"
+  },
+  {
+   "offset": 75000000,
+   "duration": 1875000,
+   "text": "two"
+  },
+  {
+   "offset": 77000000,
+   "duration": 2125000,
+   "text": "from"
+  },
+  {
+   "offset": 79250000,
+   "duration": 7125000,
+   "text": "Pescara"
+  },
+  {
+   "offset": 90375000,
+   "duration": 1125000,
+   "text": "They"
+  },
+  {
+   "offset": 91625000,
+   "duration": 3875000,
+   "text": "became"
+  },
+  {
+   "offset": 95625000,
+   "duration": 6375000,
+   "text": "friends"
+  },
+  {
+   "offset": 106125000,
+   "duration": 2250000,
+   "text": "Then"
+  },
+  {
+   "offset": 108500000,
+   "duration": 2375000,
+   "text": "life"
+  },
+  {
+   "offset": 111000000,
+   "duration": 4375000,
+   "text": "scattered"
+  },
+  {
+   "offset": 115500000,
+   "duration": 2500000,
+   "text": "them"
+  },
+  {
+   "offset": 123125000,
+   "duration": 2000000,
+   "text": "two"
+  },
+  {
+   "offset": 125250000,
+   "duration": 2875000,
+   "text": "ended"
+  },
+  {
+   "offset": 128250000,
+   "duration": 1500000,
+   "text": "up"
+  },
+  {
+   "offset": 129875000,
+   "duration": 750000,
+   "text": "in"
+  },
+  {
+   "offset": 130750000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 131750000,
+   "duration": 3000000,
+   "text": "same"
+  },
+  {
+   "offset": 134875000,
+   "duration": 4750000,
+   "text": "software"
+  },
+  {
+   "offset": 139750000,
+   "duration": 4375000,
+   "text": "company"
+  },
+  {
+   "offset": 144250000,
+   "duration": 1000000,
+   "text": "in"
+  },
+  {
+   "offset": 145375000,
+   "duration": 5625000,
+   "text": "Bologna"
+  },
+  {
+   "offset": 153625000,
+   "duration": 6125000,
+   "text": "Cezanne"
+  },
+  {
+   "offset": 162375000,
+   "duration": 3500000,
+   "text": "building"
+  },
+  {
+   "offset": 166000000,
+   "duration": 1250000,
+   "text": "an"
+  },
+  {
+   "offset": 167375000,
+   "duration": 3750000,
+   "text": "HR"
+  },
+  {
+   "offset": 171250000,
+   "duration": 4375000,
+   "text": "portal"
+  },
+  {
+   "offset": 183125000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 184250000,
+   "duration": 2875000,
+   "text": "third"
+  },
+  {
+   "offset": 187250000,
+   "duration": 1625000,
+   "text": "ran"
+  },
+  {
+   "offset": 189000000,
+   "duration": 1500000,
+   "text": "off"
+  },
+  {
+   "offset": 190625000,
+   "duration": 1125000,
+   "text": "to"
+  },
+  {
+   "offset": 191875000,
+   "duration": 6125000,
+   "text": "Valencia"
+  },
+  {
+   "offset": 201250000,
+   "duration": 1250000,
+   "text": "where"
+  },
+  {
+   "offset": 202625000,
+   "duration": 1250000,
+   "text": "he"
+  },
+  {
+   "offset": 204000000,
+   "duration": 2875000,
+   "text": "lived"
+  },
+  {
+   "offset": 207000000,
+   "duration": 750000,
+   "text": "at"
+  },
+  {
+   "offset": 207875000,
+   "duration": 1625000,
+   "text": "his"
+  },
+  {
+   "offset": 209625000,
+   "duration": 3750000,
+   "text": "parents'"
+  },
+  {
+   "offset": 213500000,
+   "duration": 6000000,
+   "text": "expense"
+  },
+  {
+   "offset": 222750000,
+   "duration": 5875000,
+   "text": "occupying"
+  },
+  {
+   "offset": 228750000,
+   "duration": 4625000,
+   "text": "himself"
+  },
+  {
+   "offset": 233500000,
+   "duration": 1625000,
+   "text": "with"
+  },
+  {
+   "offset": 235250000,
+   "duration": 2625000,
+   "text": "art"
+  },
+  {
+   "offset": 238000000,
+   "duration": 1000000,
+   "text": "and"
+  },
+  {
+   "offset": 239125000,
+   "duration": 8125000,
+   "text": "technology"
+  },
+  {
+   "offset": 251250000,
+   "duration": 875000,
+   "text": "In"
+  },
+  {
+   "offset": 252250000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 253375000,
+   "duration": 6125000,
+   "text": "photograph"
+  },
+  {
+   "offset": 259625000,
+   "duration": 1000000,
+   "text": "you"
+  },
+  {
+   "offset": 260750000,
+   "duration": 1500000,
+   "text": "can"
+  },
+  {
+   "offset": 262375000,
+   "duration": 3625000,
+   "text": "already"
+  },
+  {
+   "offset": 266125000,
+   "duration": 3375000,
+   "text": "glimpse"
+  },
+  {
+   "offset": 269625000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 270875000,
+   "duration": 2375000,
+   "text": "three"
+  },
+  {
+   "offset": 273375000,
+   "duration": 6625000,
+   "text": "founders"
+  },
+  {
+   "offset": 283625000,
+   "duration": 1250000,
+   "text": "and"
+  },
+  {
+   "offset": 285000000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 285625000,
+   "duration": 4500000,
+   "text": "strange"
+  },
+  {
+   "offset": 290250000,
+   "duration": 4125000,
+   "text": "omen"
+  }
+ ]
+}

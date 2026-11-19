@@ -1,152 +1,153 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "One winter, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
+ "spoken": "One winter, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 2315000,
+   "offset": 1000000,
+   "duration": 2125000,
    "text": "One"
   },
   {
-   "offset": 3740830,
-   "duration": 4745410,
+   "offset": 3250000,
+   "duration": 4875000,
    "text": "winter"
   },
   {
-   "offset": 11263750,
-   "duration": 1620410,
+   "offset": 11125000,
+   "duration": 1875000,
    "text": "two"
   },
   {
-   "offset": 13000000,
-   "duration": 810000,
+   "offset": 13125000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 13925830,
-   "duration": 925830,
+   "offset": 14250000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 14967500,
-   "duration": 4976660,
+   "offset": 15375000,
+   "duration": 4625000,
    "text": "founders"
   },
   {
-   "offset": 20060000,
-   "duration": 2199160,
+   "offset": 20125000,
+   "duration": 2500000,
    "text": "flew"
   },
   {
-   "offset": 22375000,
-   "duration": 2083330,
+   "offset": 22750000,
+   "duration": 1625000,
    "text": "out"
   },
   {
-   "offset": 24574160,
-   "duration": 1388750,
+   "offset": 24500000,
+   "duration": 1625000,
    "text": "there"
   },
   {
-   "offset": 26078750,
-   "duration": 1736250,
+   "offset": 26250000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 27930410,
-   "duration": 3935000,
+   "offset": 27500000,
+   "duration": 4000000,
    "text": "jacket"
   },
   {
-   "offset": 31981660,
-   "duration": 925830,
+   "offset": 31625000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 33023330,
-   "duration": 4050830,
+   "offset": 32875000,
+   "duration": 4500000,
    "text": "tie"
   },
   {
-   "offset": 40740830,
-   "duration": 1388750,
+   "offset": 41500000,
+   "duration": 1375000,
    "text": "And"
   },
   {
-   "offset": 42245410,
-   "duration": 2546250,
+   "offset": 43000000,
+   "duration": 2875000,
    "text": "ended"
   },
   {
-   "offset": 44907500,
-   "duration": 1388750,
+   "offset": 46000000,
+   "duration": 1500000,
    "text": "up"
   },
   {
-   "offset": 46412080,
-   "duration": 810000,
+   "offset": 47625000,
+   "duration": 750000,
    "text": "in"
   },
   {
-   "offset": 47337910,
-   "duration": 925830,
+   "offset": 48500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 48379580,
-   "duration": 4398330,
+   "offset": 49625000,
+   "duration": 5250000,
    "text": "desert"
   },
   {
-   "offset": 55555410,
-   "duration": 1967500,
+   "offset": 60000000,
+   "duration": 2000000,
    "text": "two"
   },
   {
-   "offset": 57638750,
-   "duration": 3240830,
+   "offset": 62125000,
+   "duration": 3500000,
    "text": "ties"
   },
   {
-   "offset": 60995410,
-   "duration": 694580,
+   "offset": 65750000,
+   "duration": 750000,
    "text": "in"
   },
   {
-   "offset": 61805410,
-   "duration": 810000,
+   "offset": 66625000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 62731660,
-   "duration": 4282500,
+   "offset": 67750000,
+   "duration": 4000000,
    "text": "sand"
   },
   {
-   "offset": 69444580,
-   "duration": 231660,
+   "offset": 74750000,
+   "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 69791660,
-   "duration": 2430410,
+   "offset": 75250000,
+   "duration": 3000000,
    "text": "long"
   },
   {
-   "offset": 72337910,
-   "duration": 1736250,
+   "offset": 78375000,
+   "duration": 1750000,
    "text": "way"
   },
   {
-   "offset": 74190000,
-   "duration": 1851660,
+   "offset": 80250000,
+   "duration": 1875000,
    "text": "from"
   },
   {
-   "offset": 76157500,
-   "duration": 5092500,
+   "offset": 82250000,
+   "duration": 6250000,
    "text": "Bologna"
   }
  ]

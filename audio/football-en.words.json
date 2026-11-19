@@ -1,293 +1,293 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "Late 2005. In the lunch breaks at Cezanne, Donatello and Gef were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
  "spoken": "Late 2005. In the lunch breaks at Cezanne, Donatello and Jeff were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
  "words": [
   {
-   "offset": 1078750,
-   "duration": 4050830,
+   "offset": 1000000,
+   "duration": 2250000,
    "text": "Late"
   },
   {
-   "offset": 5245410,
-   "duration": 12731250,
+   "offset": 3375000,
+   "duration": 11125000,
    "text": "2005"
   },
   {
-   "offset": 21412080,
-   "duration": 1157500,
+   "offset": 18500000,
+   "duration": 1000000,
    "text": "In"
   },
   {
-   "offset": 22685000,
-   "duration": 810000,
+   "offset": 19625000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 23611250,
-   "duration": 3009160,
+   "offset": 20750000,
+   "duration": 2875000,
    "text": "lunch"
   },
   {
-   "offset": 26736250,
-   "duration": 3240830,
+   "offset": 23750000,
+   "duration": 3375000,
    "text": "breaks"
   },
   {
-   "offset": 30092500,
-   "duration": 1041660,
+   "offset": 27250000,
+   "duration": 1125000,
    "text": "at"
   },
   {
-   "offset": 31250000,
-   "duration": 4976660,
+   "offset": 28500000,
+   "duration": 6375000,
    "text": "Cezanne"
   },
   {
-   "offset": 38773330,
-   "duration": 6712910,
+   "offset": 37750000,
+   "duration": 6125000,
    "text": "Donatello"
   },
   {
-   "offset": 46296250,
-   "duration": 1620410,
+   "offset": 44000000,
+   "duration": 1500000,
    "text": "and"
   },
   {
-   "offset": 48032500,
-   "duration": 3356660,
+   "offset": 45625000,
+   "duration": 3250000,
    "text": "Gef"
   },
   {
-   "offset": 51504580,
-   "duration": 925830,
+   "offset": 49000000,
+   "duration": 1125000,
    "text": "were"
   },
   {
-   "offset": 52546250,
-   "duration": 4050830,
+   "offset": 50250000,
+   "duration": 4000000,
    "text": "hunting"
   },
   {
-   "offset": 56712910,
-   "duration": 925830,
+   "offset": 54375000,
+   "duration": 1750000,
    "text": "for"
   },
   {
-   "offset": 57754580,
-   "duration": 925830,
+   "offset": 56250000,
+   "duration": 875000,
    "text": "an"
   },
   {
-   "offset": 58796250,
-   "duration": 3819580,
+   "offset": 57250000,
+   "duration": 4125000,
    "text": "idea"
   },
   {
-   "offset": 62731660,
-   "duration": 925830,
+   "offset": 61500000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 63773330,
-   "duration": 1273330,
+   "offset": 62625000,
+   "duration": 1875000,
    "text": "their"
   },
   {
-   "offset": 65162080,
-   "duration": 3587910,
+   "offset": 64625000,
+   "duration": 3375000,
    "text": "own"
   },
   {
-   "offset": 72453750,
-   "duration": 925830,
+   "offset": 72125000,
+   "duration": 875000,
    "text": "The"
   },
   {
-   "offset": 73495410,
-   "duration": 5671250,
+   "offset": 73125000,
+   "duration": 5750000,
    "text": "favourite"
   },
   {
-   "offset": 81944580,
-   "duration": 3472080,
+   "offset": 82250000,
+   "duration": 3375000,
    "text": "booking"
   },
   {
-   "offset": 85532500,
-   "duration": 6365830,
+   "offset": 85750000,
+   "duration": 6125000,
    "text": "five-a-side"
   },
   {
-   "offset": 92013750,
-   "duration": 3935000,
+   "offset": 92000000,
+   "duration": 4000000,
    "text": "football"
   },
   {
-   "offset": 96065000,
-   "duration": 3935000,
+   "offset": 96125000,
+   "duration": 4250000,
    "text": "pitches"
   },
   {
-   "offset": 100115830,
-   "duration": 5671250,
+   "offset": 100500000,
+   "duration": 5375000,
    "text": "online"
   },
   {
-   "offset": 109259160,
-   "duration": 1851660,
+   "offset": 109875000,
+   "duration": 1500000,
    "text": "So"
   },
   {
-   "offset": 111226660,
-   "duration": 1157500,
+   "offset": 111500000,
+   "duration": 1375000,
    "text": "they"
   },
   {
-   "offset": 112500000,
-   "duration": 2430410,
+   "offset": 113000000,
+   "duration": 2125000,
    "text": "went"
   },
   {
-   "offset": 115046250,
-   "duration": 925830,
+   "offset": 115250000,
+   "duration": 875000,
    "text": "to"
   },
   {
-   "offset": 116087910,
-   "duration": 5092500,
+   "offset": 116250000,
+   "duration": 4875000,
    "text": "interview"
   },
   {
-   "offset": 121296250,
-   "duration": 1504580,
+   "offset": 121250000,
+   "duration": 1500000,
    "text": "the"
   },
   {
-   "offset": 122916660,
-   "duration": 2662080,
+   "offset": 122875000,
+   "duration": 3125000,
    "text": "only"
   },
   {
-   "offset": 125694580,
-   "duration": 6944580,
+   "offset": 126125000,
+   "duration": 8000000,
    "text": "sports-centre"
   },
   {
-   "offset": 132754580,
-   "duration": 2662080,
+   "offset": 134250000,
+   "duration": 2250000,
    "text": "owner"
   },
   {
-   "offset": 135532500,
-   "duration": 1504580,
+   "offset": 136625000,
+   "duration": 1500000,
    "text": "they"
   },
   {
-   "offset": 137152910,
-   "duration": 3472080,
+   "offset": 138250000,
+   "duration": 3375000,
    "text": "knew"
   },
   {
-   "offset": 142708330,
-   "duration": 5671250,
+   "offset": 144250000,
+   "duration": 6750000,
    "text": "Donatello's"
   },
   {
-   "offset": 148495410,
-   "duration": 4282500,
+   "offset": 151125000,
+   "duration": 5000000,
    "text": "cousin"
   },
   {
-   "offset": 156365830,
-   "duration": 1967500,
+   "offset": 160125000,
+   "duration": 2250000,
    "text": "No"
   },
   {
-   "offset": 158449160,
-   "duration": 5208330,
+   "offset": 162500000,
+   "duration": 5375000,
    "text": "computer"
   },
   {
-   "offset": 163773330,
-   "duration": 1157500,
+   "offset": 168000000,
+   "duration": 1000000,
    "text": "at"
   },
   {
-   "offset": 165046250,
-   "duration": 925830,
+   "offset": 169125000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 166087910,
-   "duration": 4166660,
+   "offset": 170250000,
+   "duration": 4250000,
    "text": "desk"
   },
   {
-   "offset": 172222080,
-   "duration": 462909,
+   "offset": 176500000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 172800830,
-   "duration": 3240830,
+   "offset": 177125000,
+   "duration": 3875000,
    "text": "paper"
   },
   {
-   "offset": 176157500,
-   "duration": 4050830,
+   "offset": 181125000,
+   "duration": 4875000,
    "text": "diary"
   },
   {
-   "offset": 182638750,
-   "duration": 1504580,
+   "offset": 188250000,
+   "duration": 1875000,
    "text": "no"
   },
   {
-   "offset": 184259160,
-   "duration": 4861250,
+   "offset": 190250000,
+   "duration": 5250000,
    "text": "intention"
   },
   {
-   "offset": 189236250,
-   "duration": 925830,
+   "offset": 195625000,
+   "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 190277910,
-   "duration": 5324160,
+   "offset": 196875000,
+   "duration": 5875000,
    "text": "change"
   },
   {
-   "offset": 199074160,
-   "duration": 1157500,
+   "offset": 206750000,
+   "duration": 875000,
    "text": "The"
   },
   {
-   "offset": 200347080,
-   "duration": 4513750,
+   "offset": 207750000,
+   "duration": 5125000,
    "text": "football"
   },
   {
-   "offset": 204976660,
-   "duration": 4282500,
+   "offset": 213000000,
+   "duration": 3750000,
    "text": "idea"
   },
   {
-   "offset": 209375000,
-   "duration": 3125000,
+   "offset": 216875000,
+   "duration": 2750000,
    "text": "died"
   },
   {
-   "offset": 212615830,
-   "duration": 1967500,
+   "offset": 219750000,
+   "duration": 1750000,
    "text": "that"
   },
   {
-   "offset": 214699160,
-   "duration": 6597080,
+   "offset": 221625000,
+   "duration": 6875000,
    "text": "afternoon"
   }
  ]

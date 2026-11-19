@@ -1,0 +1,469 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "The idea was not a marketplace, but an online diary each doctor could put on his own website. Except most doctors had no website, and no diary a computer could read. So they went knocking on dentists' doors, starting with the nearest one: Donatello's own dentist, in Bologna. He said yes, and became client number one. One of them, on the viali of Bologna, threw them out so thoroughly that they looked at each other and said: it cannot be this hard. But by then, client number one was already booking online.",
+ "spoken": "The idea was not a marketplace, but an online diary each doctor could put on his own website. Except most doctors had no website, and no diary a computer could read. So they went knocking on dentists' doors, starting with the nearest one: Donatello's own dentist, in Bologna. He said yes, and became client number one. One of them, on the viali of Bologna, threw them out so thoroughly that they looked at each other and said: it cannot be this hard. But by then, client number one was already booking online.",
+ "words": [
+  {
+   "offset": 875000,
+   "duration": 1000000,
+   "text": "The"
+  },
+  {
+   "offset": 2000000,
+   "duration": 4125000,
+   "text": "idea"
+  },
+  {
+   "offset": 6250000,
+   "duration": 1625000,
+   "text": "was"
+  },
+  {
+   "offset": 8000000,
+   "duration": 2125000,
+   "text": "not"
+  },
+  {
+   "offset": 10250000,
+   "duration": 375000,
+   "text": "a"
+  },
+  {
+   "offset": 10750000,
+   "duration": 8625000,
+   "text": "marketplace"
+  },
+  {
+   "offset": 21500000,
+   "duration": 1375000,
+   "text": "but"
+  },
+  {
+   "offset": 23000000,
+   "duration": 1125000,
+   "text": "an"
+  },
+  {
+   "offset": 24250000,
+   "duration": 4125000,
+   "text": "online"
+  },
+  {
+   "offset": 28500000,
+   "duration": 4500000,
+   "text": "diary"
+  },
+  {
+   "offset": 33125000,
+   "duration": 2125000,
+   "text": "each"
+  },
+  {
+   "offset": 35375000,
+   "duration": 4250000,
+   "text": "doctor"
+  },
+  {
+   "offset": 39750000,
+   "duration": 1750000,
+   "text": "could"
+  },
+  {
+   "offset": 41625000,
+   "duration": 1875000,
+   "text": "put"
+  },
+  {
+   "offset": 43625000,
+   "duration": 1000000,
+   "text": "on"
+  },
+  {
+   "offset": 44750000,
+   "duration": 1750000,
+   "text": "his"
+  },
+  {
+   "offset": 46625000,
+   "duration": 1500000,
+   "text": "own"
+  },
+  {
+   "offset": 48250000,
+   "duration": 6750000,
+   "text": "website"
+  },
+  {
+   "offset": 59000000,
+   "duration": 4125000,
+   "text": "Except"
+  },
+  {
+   "offset": 63250000,
+   "duration": 2500000,
+   "text": "most"
+  },
+  {
+   "offset": 65875000,
+   "duration": 4250000,
+   "text": "doctors"
+  },
+  {
+   "offset": 70250000,
+   "duration": 1750000,
+   "text": "had"
+  },
+  {
+   "offset": 72125000,
+   "duration": 1750000,
+   "text": "no"
+  },
+  {
+   "offset": 74000000,
+   "duration": 5750000,
+   "text": "website"
+  },
+  {
+   "offset": 83500000,
+   "duration": 875000,
+   "text": "and"
+  },
+  {
+   "offset": 84500000,
+   "duration": 1750000,
+   "text": "no"
+  },
+  {
+   "offset": 86375000,
+   "duration": 4125000,
+   "text": "diary"
+  },
+  {
+   "offset": 90625000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 91375000,
+   "duration": 4625000,
+   "text": "computer"
+  },
+  {
+   "offset": 96125000,
+   "duration": 2000000,
+   "text": "could"
+  },
+  {
+   "offset": 98250000,
+   "duration": 4125000,
+   "text": "read"
+  },
+  {
+   "offset": 106375000,
+   "duration": 1625000,
+   "text": "So"
+  },
+  {
+   "offset": 108125000,
+   "duration": 1375000,
+   "text": "they"
+  },
+  {
+   "offset": 109625000,
+   "duration": 2125000,
+   "text": "went"
+  },
+  {
+   "offset": 111875000,
+   "duration": 3750000,
+   "text": "knocking"
+  },
+  {
+   "offset": 115750000,
+   "duration": 1375000,
+   "text": "on"
+  },
+  {
+   "offset": 117250000,
+   "duration": 4500000,
+   "text": "dentists'"
+  },
+  {
+   "offset": 121875000,
+   "duration": 4500000,
+   "text": "doors"
+  },
+  {
+   "offset": 129125000,
+   "duration": 3875000,
+   "text": "starting"
+  },
+  {
+   "offset": 133125000,
+   "duration": 1375000,
+   "text": "with"
+  },
+  {
+   "offset": 134625000,
+   "duration": 750000,
+   "text": "the"
+  },
+  {
+   "offset": 135500000,
+   "duration": 4375000,
+   "text": "nearest"
+  },
+  {
+   "offset": 140000000,
+   "duration": 3125000,
+   "text": "one"
+  },
+  {
+   "offset": 147500000,
+   "duration": 6750000,
+   "text": "Donatello's"
+  },
+  {
+   "offset": 154375000,
+   "duration": 1500000,
+   "text": "own"
+  },
+  {
+   "offset": 156000000,
+   "duration": 6125000,
+   "text": "dentist"
+  },
+  {
+   "offset": 162750000,
+   "duration": 1125000,
+   "text": "in"
+  },
+  {
+   "offset": 164000000,
+   "duration": 6625000,
+   "text": "Bologna"
+  },
+  {
+   "offset": 174750000,
+   "duration": 1125000,
+   "text": "He"
+  },
+  {
+   "offset": 176000000,
+   "duration": 2625000,
+   "text": "said"
+  },
+  {
+   "offset": 178750000,
+   "duration": 3625000,
+   "text": "yes"
+  },
+  {
+   "offset": 183125000,
+   "duration": 1125000,
+   "text": "and"
+  },
+  {
+   "offset": 184375000,
+   "duration": 3625000,
+   "text": "became"
+  },
+  {
+   "offset": 188125000,
+   "duration": 3750000,
+   "text": "client"
+  },
+  {
+   "offset": 192000000,
+   "duration": 2875000,
+   "text": "number"
+  },
+  {
+   "offset": 195000000,
+   "duration": 3625000,
+   "text": "one"
+  },
+  {
+   "offset": 202625000,
+   "duration": 1875000,
+   "text": "One"
+  },
+  {
+   "offset": 204625000,
+   "duration": 1125000,
+   "text": "of"
+  },
+  {
+   "offset": 205875000,
+   "duration": 2750000,
+   "text": "them"
+  },
+  {
+   "offset": 210875000,
+   "duration": 1125000,
+   "text": "on"
+  },
+  {
+   "offset": 212125000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 213125000,
+   "duration": 4375000,
+   "text": "viali"
+  },
+  {
+   "offset": 217625000,
+   "duration": 875000,
+   "text": "of"
+  },
+  {
+   "offset": 218625000,
+   "duration": 5625000,
+   "text": "Bologna"
+  },
+  {
+   "offset": 228875000,
+   "duration": 1750000,
+   "text": "threw"
+  },
+  {
+   "offset": 230750000,
+   "duration": 1500000,
+   "text": "them"
+  },
+  {
+   "offset": 232375000,
+   "duration": 1750000,
+   "text": "out"
+  },
+  {
+   "offset": 234250000,
+   "duration": 2125000,
+   "text": "so"
+  },
+  {
+   "offset": 236500000,
+   "duration": 5250000,
+   "text": "thoroughly"
+  },
+  {
+   "offset": 241875000,
+   "duration": 1625000,
+   "text": "that"
+  },
+  {
+   "offset": 243625000,
+   "duration": 1125000,
+   "text": "they"
+  },
+  {
+   "offset": 244875000,
+   "duration": 2750000,
+   "text": "looked"
+  },
+  {
+   "offset": 247750000,
+   "duration": 750000,
+   "text": "at"
+  },
+  {
+   "offset": 248625000,
+   "duration": 2000000,
+   "text": "each"
+  },
+  {
+   "offset": 250750000,
+   "duration": 2375000,
+   "text": "other"
+  },
+  {
+   "offset": 253250000,
+   "duration": 1125000,
+   "text": "and"
+  },
+  {
+   "offset": 254500000,
+   "duration": 3625000,
+   "text": "said"
+  },
+  {
+   "offset": 262000000,
+   "duration": 1000000,
+   "text": "it"
+  },
+  {
+   "offset": 263125000,
+   "duration": 3375000,
+   "text": "cannot"
+  },
+  {
+   "offset": 266625000,
+   "duration": 1125000,
+   "text": "be"
+  },
+  {
+   "offset": 267875000,
+   "duration": 1875000,
+   "text": "this"
+  },
+  {
+   "offset": 269875000,
+   "duration": 4250000,
+   "text": "hard"
+  },
+  {
+   "offset": 278250000,
+   "duration": 1125000,
+   "text": "But"
+  },
+  {
+   "offset": 279500000,
+   "duration": 1625000,
+   "text": "by"
+  },
+  {
+   "offset": 281250000,
+   "duration": 3625000,
+   "text": "then"
+  },
+  {
+   "offset": 285125000,
+   "duration": 3875000,
+   "text": "client"
+  },
+  {
+   "offset": 289125000,
+   "duration": 3000000,
+   "text": "number"
+  },
+  {
+   "offset": 292250000,
+   "duration": 2250000,
+   "text": "one"
+  },
+  {
+   "offset": 294625000,
+   "duration": 1750000,
+   "text": "was"
+  },
+  {
+   "offset": 296500000,
+   "duration": 3750000,
+   "text": "already"
+  },
+  {
+   "offset": 300375000,
+   "duration": 3625000,
+   "text": "booking"
+  },
+  {
+   "offset": 304125000,
+   "duration": 5750000,
+   "text": "online"
+  }
+ ]
+}

@@ -2,7 +2,8 @@
   "board": {
     "id": "lavagna2",
     "title": "Le architetture artigianali",
-    "years": "2007–2012",
+    "tag": "In casa",
+    "years": "2007–2011",
     "color": "#1f5fbf",
     "sections": [
       "l2-clients",
@@ -50,41 +51,41 @@
           "en": "2007.",
           "it": "2007.",
           "art": "l2-clients",
-          "start": 0.099083,
-          "end": 1.291208,
-          "duration": 1.192125
+          "start": 0.1,
+          "end": 1.15,
+          "duration": 1.05
         },
         {
           "en": "The first customers weren't hospitals.",
           "it": "I primi clienti non erano ospedali.",
           "art": "l2-clients",
-          "start": 1.673166,
-          "end": 3.72175,
-          "duration": 2.048584
+          "start": 1.725,
+          "end": 3.9625,
+          "duration": 2.2375
         },
         {
           "en": "They were a dental practice, a sports centre, a day spa, a beauty centre.",
           "it": "Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico.",
           "art": "l2-clients",
-          "start": 4.085666,
-          "end": 8.414375,
-          "duration": 4.328709
+          "start": 4.3875,
+          "end": 8.95,
+          "duration": 4.5625
         },
         {
           "en": "That summer, the very first automatic reminder went out.",
           "it": "Quell'estate partì il primo promemoria automatico.",
           "art": "l2-clients",
-          "start": 8.784708,
-          "end": 12.15275,
-          "duration": 3.368042
+          "start": 9.3625,
+          "end": 12.8375,
+          "duration": 3.475
         },
         {
           "en": "And to explain it all, Tuotempo even made a promotional video, in English.",
           "it": "E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese.",
           "art": "l2-clients",
-          "start": 12.523166,
-          "end": 17.328,
-          "duration": 4.804834
+          "start": 13.25,
+          "end": 18.36,
+          "duration": 5.11
         }
       ],
       "audio": "audio/l2-clients-en.mp3",
@@ -113,33 +114,33 @@
           "en": "2008: the first real integration, with the software dentists used to run their practices.",
           "it": "2008: la prima integrazione vera, con il gestionale dei dentisti.",
           "art": "l2-troiano",
-          "start": 0.099083,
-          "end": 5.67775,
-          "duration": 5.578667
+          "start": 0.0875,
+          "end": 6.35,
+          "duration": 6.2625
         },
         {
           "en": "Back then, there were no APIs to plug into.",
           "it": "Allora non c'erano API a cui collegarsi.",
           "art": "l2-troiano",
-          "start": 6.0185,
-          "end": 8.784708,
-          "duration": 2.766208
+          "start": 6.7625,
+          "end": 9.575,
+          "duration": 2.8125
         },
         {
           "en": "So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary.",
           "it": "Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda.",
           "art": "l2-troiano",
-          "start": 9.1435,
-          "end": 15.393499,
-          "duration": 6.249999
+          "start": 9.9875,
+          "end": 16.8875,
+          "duration": 6.9
         },
         {
           "en": "Everyone called it the Trojan horse: the most polite guest a computer ever had.",
           "it": "Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto.",
           "art": "l2-troiano",
-          "start": 15.74075,
-          "end": 20.472,
-          "duration": 4.73125
+          "start": 17.3,
+          "end": 22.632,
+          "duration": 5.332
         }
       ],
       "audio": "audio/l2-troiano-en.mp3",
@@ -168,33 +169,33 @@
           "en": "In 2009, the company got an office in Bologna, in via Ugo Bassi.",
           "it": "Nel 2009 l'azienda ebbe un ufficio a Bologna, in via Ugo Bassi.",
           "art": "l2-salotto",
-          "start": 0.131,
-          "end": 4.911124,
-          "duration": 4.780124
+          "start": 0.0875,
+          "end": 4.7625,
+          "duration": 4.675
         },
         {
           "en": "On paper, a business-centre phone number.",
           "it": "Sulla carta, il numero di telefono di un business center.",
           "art": "l2-salotto",
-          "start": 5.254625,
-          "end": 7.592583,
-          "duration": 2.337958
+          "start": 5.1625,
+          "end": 7.6,
+          "duration": 2.4375
         },
         {
           "en": "In reality, the living room of a family flat, with a sofa.",
           "it": "In realtà, la sala di una casa di famiglia, con un divano.",
           "art": "l2-salotto",
-          "start": 7.962958,
-          "end": 11.655083,
-          "duration": 3.692125
+          "start": 8.0125,
+          "end": 11.3875,
+          "duration": 3.375
         },
         {
           "en": "Up to eight people worked in there, and customers came to meetings in that living room.",
           "it": "Ci lavoravano fino a otto persone, e i clienti venivano alle riunioni in quella sala.",
           "art": "l2-salotto",
-          "start": 12.013875,
-          "end": 16.56,
-          "duration": 4.546125
+          "start": 11.7875,
+          "end": 16.752,
+          "duration": 4.9645
         }
       ],
       "audio": "audio/l2-salotto-en.mp3",
@@ -218,33 +219,33 @@
           "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home.",
           "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale.",
           "art": "l2-voce",
-          "start": 0.131,
-          "end": 5.894916,
-          "duration": 5.763916
+          "start": 0.0875,
+          "end": 6.3,
+          "duration": 6.2125
         },
         {
           "en": "It took two years to keep it.",
           "it": "Ci vollero due anni per mantenerla.",
           "art": "l2-voce",
-          "start": 6.229625,
-          "end": 7.907874,
-          "duration": 1.678249
+          "start": 6.725,
+          "end": 8.225,
+          "duration": 1.5
         },
         {
           "en": "In 2009, a robot voice started calling patients to remind them of their appointments.",
           "it": "Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti.",
           "art": "l2-voce",
-          "start": 8.275458,
-          "end": 13.391207,
-          "duration": 5.115749
+          "start": 8.625,
+          "end": 13.975,
+          "duration": 5.35
         },
         {
           "en": "Tuotempo was among the first to do it.",
           "it": "Tuotempo fu tra i primi a farlo.",
           "art": "l2-voce",
-          "start": 13.729625,
-          "end": 16.44,
-          "duration": 2.710375
+          "start": 14.3875,
+          "end": 16.968,
+          "duration": 2.5805
         }
       ],
       "audio": "audio/l2-voce-en.mp3",
@@ -273,41 +274,41 @@
           "en": "Meanwhile, the servers.",
           "it": "Intanto, i server.",
           "art": "l2-cloud",
-          "start": 0.107875,
-          "end": 1.647249,
-          "duration": 1.539374
+          "start": 0.0875,
+          "end": 1.475,
+          "duration": 1.3875
         },
         {
           "en": "One night in 2009, the production server, in a data centre in Rome, switched itself off,",
           "it": "Una notte del 2009 il server di produzione, in un data center a Roma, si spense,",
           "art": "l2-cloud",
-          "start": 2.013875,
-          "end": 7.650458,
-          "duration": 5.636583
+          "start": 1.8875,
+          "end": 7.7625,
+          "duration": 5.875
         },
         {
           "en": "and would not switch on again until someone went there in person.",
           "it": "e non si riaccese finché qualcuno non andò a metterci le mani.",
           "art": "l2-cloud",
-          "start": 7.92825,
-          "end": 10.682874,
-          "duration": 2.754624
+          "start": 8.075,
+          "end": 11.1375,
+          "duration": 3.0625
         },
         {
           "en": "That was enough.",
           "it": "Bastò quello.",
           "art": "l2-cloud",
-          "start": 11.05325,
-          "end": 12.025458,
-          "duration": 0.972208
+          "start": 11.55,
+          "end": 12.45,
+          "duration": 0.9
         },
         {
           "en": "Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.",
           "it": "Tuotempo passò al cloud di Amazon a Dublino, e dall'inizio del 2010 fu la sua unica casa.",
           "art": "l2-cloud",
-          "start": 12.363875,
-          "end": 17.856,
-          "duration": 5.492125
+          "start": 12.85,
+          "end": 18.936,
+          "duration": 6.086
         }
       ],
       "audio": "audio/l2-cloud-en.mp3",
@@ -331,33 +332,33 @@
           "en": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them.",
           "it": "Ma gli SMS passavano ancora da un vecchio PC in ufficio, con un modem GSM e SIM fatte arrivare dall'estero, fra cui una greca.",
           "art": "l2-serverino",
-          "start": 0.099083,
-          "end": 7.818957,
-          "duration": 7.719874
+          "start": 0.1,
+          "end": 8.45,
+          "duration": 8.35
         },
         {
           "en": "Patients replied one to confirm, zero to cancel.",
           "it": "I pazienti rispondevano 1 per confermare, 0 per disdire.",
           "art": "l2-serverino",
-          "start": 8.159708,
-          "end": 11.342583,
-          "duration": 3.182875
+          "start": 8.8625,
+          "end": 12.1,
+          "duration": 3.2375
         },
         {
           "en": "Then, one summer night in 2011, at two in the morning, the building's main switch tripped.",
           "it": "Poi, una notte d'estate del 2011, alle due, saltò il generale del palazzo.",
           "art": "l2-serverino",
-          "start": 11.712958,
-          "end": 16.979166,
-          "duration": 5.266208
+          "start": 12.5,
+          "end": 17.9625,
+          "duration": 5.4625
         },
         {
           "en": "The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
           "it": "La mattina dopo tutti i promemoria dell'azienda tacevano, finché qualcuno non andò a riaccenderlo.",
           "art": "l2-serverino",
-          "start": 17.349541,
-          "end": 23.016,
-          "duration": 5.666459
+          "start": 18.3875,
+          "end": 24.6,
+          "duration": 6.2125
         }
       ],
       "audio": "audio/l2-serverino-en.mp3",
@@ -381,33 +382,33 @@
           "en": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark.",
           "it": "Qualche mese prima, nella primavera del 2011, un fulmine colpì Amazon a Dublino, e Tuotempo si spense.",
           "art": "l2-machu",
-          "start": 0.107875,
-          "end": 6.288416,
-          "duration": 6.180541
+          "start": 0.0875,
+          "end": 7.0875,
+          "duration": 7.0
         },
         {
           "en": "And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud.",
           "it": "E uno dei fondatori era a Machu Picchu, a mani giunte, a pregare un altro tipo di nuvola.",
           "art": "l2-machu",
-          "start": 6.655083,
-          "end": 11.794,
-          "duration": 5.138917
+          "start": 7.4875,
+          "end": 12.9,
+          "duration": 5.4125
         },
         {
           "en": "A race down the mountain, an internet café in Aguas Calientes, nine hours moving Tuotempo to another zone…",
           "it": "Una corsa giù dalla montagna, un internet café ad Aguas Calientes, nove ore a spostare Tuotempo su un’altra zona…",
           "art": "l2-machu",
-          "start": 12.164333,
-          "end": 18.159708,
-          "duration": 5.995375
+          "start": 13.3,
+          "end": 19.9125,
+          "duration": 6.6125
         },
         {
           "en": "and just as he finished, the service came back by itself, right where it had always been.",
           "it": "e proprio alla fine, il servizio ripartì da solo, proprio dov’era sempre stato.",
           "art": "l2-machu",
-          "start": 18.483791,
-          "end": 23.088,
-          "duration": 4.604209
+          "start": 20.4875,
+          "end": 25.752,
+          "duration": 5.2645
         }
       ],
       "audio": "audio/l2-machu-en.mp3",
@@ -436,25 +437,25 @@
           "en": "Through all of this: no investors, no funding rounds.",
           "it": "In tutto questo: niente investitori, niente round.",
           "art": "l2-indip",
-          "start": 0.107875,
-          "end": 3.556957,
-          "duration": 3.449082
+          "start": 0.1,
+          "end": 3.6,
+          "duration": 3.5
         },
         {
           "en": "Only friends and family who believed in it, and the customers.",
           "it": "Solo amici e famiglia che ci credevano, e i clienti.",
           "art": "l2-indip",
-          "start": 3.888875,
-          "end": 7.118083,
-          "duration": 3.229208
+          "start": 4.0,
+          "end": 7.3625,
+          "duration": 3.3625
         },
         {
           "en": "They fought to stay independent. And they did.",
           "it": "Hanno faticato per restare indipendenti. E ci sono riusciti.",
           "art": "l2-indip",
-          "start": 7.488416,
-          "end": 10.656,
-          "duration": 3.167584
+          "start": 7.775,
+          "end": 10.896,
+          "duration": 3.121
         }
       ],
       "audio": "audio/l2-indip-en.mp3",

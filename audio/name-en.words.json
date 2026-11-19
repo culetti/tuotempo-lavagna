@@ -1,223 +1,223 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Gef's idea won: not 'my time', but 'your time'. TuoTempo.",
  "spoken": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Jeff's idea won: not 'my time', but 'your time'. TuoTempo.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 1851660,
+   "offset": 1000000,
+   "duration": 1875000,
    "text": "All"
   },
   {
-   "offset": 3277910,
-   "duration": 2893330,
+   "offset": 3000000,
+   "duration": 2875000,
    "text": "three"
   },
   {
-   "offset": 6287080,
-   "duration": 1388750,
+   "offset": 6000000,
+   "duration": 1500000,
    "text": "were"
   },
   {
-   "offset": 7791660,
-   "duration": 1041660,
+   "offset": 7625000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 8949160,
-   "duration": 5092500,
+   "offset": 8875000,
+   "duration": 5625000,
    "text": "Bologna"
   },
   {
-   "offset": 16125000,
-   "duration": 925830,
+   "offset": 17500000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 17166660,
-   "duration": 6018330,
+   "offset": 18750000,
+   "duration": 5750000,
    "text": "prototype"
   },
   {
-   "offset": 23300830,
-   "duration": 1388750,
+   "offset": 24625000,
+   "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 24805410,
-   "duration": 3472080,
+   "offset": 26500000,
+   "duration": 3500000,
    "text": "ready"
   },
   {
-   "offset": 31055410,
-   "duration": 1273330,
+   "offset": 32375000,
+   "duration": 1250000,
    "text": "but"
   },
   {
-   "offset": 32444580,
-   "duration": 1157500,
+   "offset": 33750000,
+   "duration": 1000000,
    "text": "it"
   },
   {
-   "offset": 33717500,
-   "duration": 2546250,
+   "offset": 34875000,
+   "duration": 3125000,
    "text": "still"
   },
   {
-   "offset": 36379580,
-   "duration": 2777910,
+   "offset": 38125000,
+   "duration": 3000000,
    "text": "needed"
   },
   {
-   "offset": 39273330,
-   "duration": 462909,
+   "offset": 41250000,
+   "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 39851660,
-   "duration": 3703750,
+   "offset": 41750000,
+   "duration": 4125000,
    "text": "name"
   },
   {
-   "offset": 45754580,
-   "duration": 810000,
+   "offset": 48375000,
+   "duration": 1000000,
    "text": "and"
   },
   {
-   "offset": 46680410,
-   "duration": 462909,
+   "offset": 49500000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 47259160,
-   "duration": 3703750,
+   "offset": 50250000,
+   "duration": 3750000,
    "text": "domain"
   },
   {
-   "offset": 51078750,
-   "duration": 925830,
+   "offset": 54125000,
+   "duration": 1125000,
    "text": "they"
   },
   {
-   "offset": 52120410,
-   "duration": 1620410,
+   "offset": 55375000,
+   "duration": 1500000,
    "text": "could"
   },
   {
-   "offset": 53856660,
-   "duration": 5092500,
+   "offset": 57000000,
+   "duration": 5625000,
    "text": "afford"
   },
   {
-   "offset": 62500000,
-   "duration": 3240830,
+   "offset": 66750000,
+   "duration": 3125000,
    "text": "Names"
   },
   {
-   "offset": 65856660,
-   "duration": 2315000,
+   "offset": 70000000,
+   "duration": 1875000,
    "text": "went"
   },
   {
-   "offset": 68287080,
-   "duration": 1041660,
+   "offset": 72000000,
+   "duration": 1250000,
    "text": "on"
   },
   {
-   "offset": 69444580,
-   "duration": 810000,
+   "offset": 73375000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 70370410,
-   "duration": 4166660,
+   "offset": 74250000,
+   "duration": 4250000,
    "text": "sheet"
   },
   {
-   "offset": 76851660,
-   "duration": 925830,
+   "offset": 80750000,
+   "duration": 875000,
    "text": "and"
   },
   {
-   "offset": 77893330,
-   "duration": 2315000,
+   "offset": 81750000,
+   "duration": 2625000,
    "text": "came"
   },
   {
-   "offset": 80324160,
-   "duration": 1620410,
+   "offset": 84500000,
+   "duration": 2000000,
    "text": "off"
   },
   {
-   "offset": 82060000,
-   "duration": 4166660,
+   "offset": 86625000,
+   "duration": 4625000,
    "text": "again"
   },
   {
-   "offset": 89930410,
-   "duration": 1157500,
+   "offset": 95250000,
+   "duration": 1125000,
    "text": "In"
   },
   {
-   "offset": 91203750,
-   "duration": 1504580,
+   "offset": 96500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 92824160,
-   "duration": 3240830,
+   "offset": 97625000,
+   "duration": 2875000,
    "text": "end"
   },
   {
-   "offset": 98032500,
-   "duration": 2777910,
+   "offset": 100750000,
+   "duration": 3500000,
    "text": "Gef's"
   },
   {
-   "offset": 100925830,
-   "duration": 3587910,
+   "offset": 104375000,
+   "duration": 3875000,
    "text": "idea"
   },
   {
-   "offset": 104629580,
-   "duration": 3009160,
+   "offset": 108375000,
+   "duration": 3375000,
    "text": "won"
   },
   {
-   "offset": 110416660,
-   "duration": 2083330,
+   "offset": 115375000,
+   "duration": 2000000,
    "text": "not"
   },
   {
-   "offset": 112615830,
-   "duration": 1273330,
+   "offset": 117625000,
+   "duration": 1500000,
    "text": "my"
   },
   {
-   "offset": 114004580,
-   "duration": 4513750,
+   "offset": 119250000,
+   "duration": 4250000,
    "text": "time"
   },
   {
-   "offset": 120486250,
-   "duration": 1620410,
+   "offset": 126750000,
+   "duration": 1875000,
    "text": "but"
   },
   {
-   "offset": 122222080,
-   "duration": 1273330,
+   "offset": 128875000,
+   "duration": 1125000,
    "text": "your"
   },
   {
-   "offset": 123611250,
-   "duration": 4629580,
+   "offset": 130125000,
+   "duration": 4750000,
    "text": "time"
   },
   {
-   "offset": 131625000,
-   "duration": 9722080,
+   "offset": 142125000,
+   "duration": 7375000,
    "text": "TuoTempo"
   }
  ]

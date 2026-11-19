@@ -1,232 +1,233 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "2018. One autumn, two suitors knocked at the living-room door at the same time. The first was a fund, which wanted to take Tuotempo to America. Nobody had gone looking for it: it simply turned up. A few weeks later, the second one knocked: Docplanner.",
+ "spoken": "2018. One autumn, two suitors knocked at the living-room door at the same time. The first was a fund, which wanted to take Tuotempo to America. Nobody had gone looking for it: it simply turned up. A few weeks later, the second one knocked: Docplanner.",
  "words": [
   {
-   "offset": 990830,
-   "duration": 9027920,
+   "offset": 875000,
+   "duration": 10375000,
    "text": "2018"
   },
   {
-   "offset": 14069580,
-   "duration": 1967500,
+   "offset": 18500000,
+   "duration": 1875000,
    "text": "One"
   },
   {
-   "offset": 16152910,
-   "duration": 4629580,
+   "offset": 20500000,
+   "duration": 4125000,
    "text": "autumn"
   },
   {
-   "offset": 23097080,
-   "duration": 1851660,
+   "offset": 27875000,
+   "duration": 1750000,
    "text": "two"
   },
   {
-   "offset": 25065000,
-   "duration": 4629580,
+   "offset": 29750000,
+   "duration": 4125000,
    "text": "suitors"
   },
   {
-   "offset": 29810000,
-   "duration": 2662080,
+   "offset": 34000000,
+   "duration": 3125000,
    "text": "knocked"
   },
   {
-   "offset": 32587910,
-   "duration": 694580,
+   "offset": 37250000,
+   "duration": 875000,
    "text": "at"
   },
   {
-   "offset": 33398330,
-   "duration": 810000,
+   "offset": 38250000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 34324160,
-   "duration": 4745410,
+   "offset": 39375000,
+   "duration": 5250000,
    "text": "living-room"
   },
   {
-   "offset": 39185000,
-   "duration": 2662080,
+   "offset": 44750000,
+   "duration": 2750000,
    "text": "door"
   },
   {
-   "offset": 41962910,
-   "duration": 1157500,
+   "offset": 47625000,
+   "duration": 1000000,
    "text": "at"
   },
   {
-   "offset": 43236250,
-   "duration": 810000,
+   "offset": 48750000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 44162080,
-   "duration": 2546250,
+   "offset": 49750000,
+   "duration": 3000000,
    "text": "same"
   },
   {
-   "offset": 46824160,
-   "duration": 4282500,
+   "offset": 52875000,
+   "duration": 4750000,
    "text": "time"
   },
   {
-   "offset": 54745410,
-   "duration": 1041660,
+   "offset": 61750000,
+   "duration": 875000,
    "text": "The"
   },
   {
-   "offset": 55902910,
-   "duration": 3703750,
+   "offset": 62750000,
+   "duration": 3500000,
    "text": "first"
   },
   {
-   "offset": 59722080,
-   "duration": 1388750,
+   "offset": 66375000,
+   "duration": 1375000,
    "text": "was"
   },
   {
-   "offset": 61226660,
-   "duration": 578750,
+   "offset": 67875000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 61921250,
-   "duration": 4282500,
+   "offset": 68625000,
+   "duration": 4500000,
    "text": "fund"
   },
   {
-   "offset": 68750000,
-   "duration": 1620410,
+   "offset": 76125000,
+   "duration": 1875000,
    "text": "which"
   },
   {
-   "offset": 70486250,
-   "duration": 3240830,
+   "offset": 78125000,
+   "duration": 2875000,
    "text": "wanted"
   },
   {
-   "offset": 73842500,
-   "duration": 810000,
+   "offset": 81125000,
+   "duration": 1000000,
    "text": "to"
   },
   {
-   "offset": 74768330,
-   "duration": 2777910,
+   "offset": 82250000,
+   "duration": 2500000,
    "text": "take"
   },
   {
-   "offset": 77662080,
-   "duration": 6712910,
+   "offset": 84875000,
+   "duration": 6375000,
    "text": "Tuotempo"
   },
   {
-   "offset": 84490830,
-   "duration": 1388750,
+   "offset": 91375000,
+   "duration": 1625000,
    "text": "to"
   },
   {
-   "offset": 85995410,
-   "duration": 5902910,
+   "offset": 93125000,
+   "duration": 6500000,
    "text": "America"
   },
   {
-   "offset": 95486250,
-   "duration": 4398330,
+   "offset": 103625000,
+   "duration": 4500000,
    "text": "Nobody"
   },
   {
-   "offset": 100000000,
-   "duration": 1620410,
+   "offset": 108250000,
+   "duration": 1750000,
    "text": "had"
   },
   {
-   "offset": 101736250,
-   "duration": 1967500,
+   "offset": 110125000,
+   "duration": 2500000,
    "text": "gone"
   },
   {
-   "offset": 103819580,
-   "duration": 3009160,
+   "offset": 112750000,
+   "duration": 3500000,
    "text": "looking"
   },
   {
-   "offset": 106944580,
-   "duration": 1851660,
+   "offset": 116375000,
+   "duration": 2375000,
    "text": "for"
   },
   {
-   "offset": 108912080,
-   "duration": 2199160,
+   "offset": 118875000,
+   "duration": 1875000,
    "text": "it"
   },
   {
-   "offset": 114004580,
-   "duration": 1041660,
+   "offset": 124875000,
+   "duration": 1125000,
    "text": "it"
   },
   {
-   "offset": 115162080,
-   "duration": 3819580,
+   "offset": 126125000,
+   "duration": 3625000,
    "text": "simply"
   },
   {
-   "offset": 119097080,
-   "duration": 2893330,
+   "offset": 129875000,
+   "duration": 3125000,
    "text": "turned"
   },
   {
-   "offset": 122106660,
-   "duration": 3356660,
+   "offset": 133125000,
+   "duration": 3500000,
    "text": "up"
   },
   {
-   "offset": 129166660,
-   "duration": 694580,
+   "offset": 140625000,
+   "duration": 625000,
    "text": "A"
   },
   {
-   "offset": 129976660,
-   "duration": 2315000,
+   "offset": 141375000,
+   "duration": 2625000,
    "text": "few"
   },
   {
-   "offset": 132407500,
-   "duration": 2546250,
+   "offset": 144125000,
+   "duration": 2875000,
    "text": "weeks"
   },
   {
-   "offset": 135069580,
-   "duration": 4282500,
+   "offset": 147125000,
+   "duration": 3625000,
    "text": "later"
   },
   {
-   "offset": 141666660,
-   "duration": 810000,
+   "offset": 151250000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 142592500,
-   "duration": 3819580,
+   "offset": 152375000,
+   "duration": 4000000,
    "text": "second"
   },
   {
-   "offset": 146527910,
-   "duration": 2083330,
+   "offset": 156500000,
+   "duration": 2125000,
    "text": "one"
   },
   {
-   "offset": 148726660,
-   "duration": 3935000,
+   "offset": 158750000,
+   "duration": 4375000,
    "text": "knocked"
   },
   {
-   "offset": 155324160,
-   "duration": 6597080,
+   "offset": 164875000,
+   "duration": 7750000,
    "text": "Docplanner"
   }
  ]

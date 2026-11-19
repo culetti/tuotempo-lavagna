@@ -5,8 +5,8 @@
 ## Link
 - Tutte le lavagne (2005–2019): https://culetti.github.io/tuotempo-lavagna/
 - Lavagna 1 · Le origini (2005–2007): https://culetti.github.io/tuotempo-lavagna/?lavagna=1
-- Lavagna 2 · Le architetture artigianali (2007–2012): https://culetti.github.io/tuotempo-lavagna/?lavagna=2
-- Lavagna 3 · L’espansione e gli schiaffi (2009–2016): https://culetti.github.io/tuotempo-lavagna/?lavagna=3
+- Lavagna 2 · Le architetture artigianali (In casa · 2007–2011): https://culetti.github.io/tuotempo-lavagna/?lavagna=2
+- Lavagna 3 · L’espansione e gli schiaffi (All’estero · 2009–2015): https://culetti.github.io/tuotempo-lavagna/?lavagna=3
 - Lavagna 4 · Verso Docplanner (2016–2019): https://culetti.github.io/tuotempo-lavagna/?lavagna=4
 
 Con `?lavagna=N` (oppure `#lavagnaN`, valido anche per il file `index.html` aperto in locale) la schermata iniziale mostra gli anni di quella lavagna, il player parte direttamente da lì e si ferma sulla sua chiusura (cerchio e anni), senza passare alla lavagna successiva né fare lo zoom finale su tutte. Senza parametro il player è quello completo. Si combina con `speed`, per esempio `?lavagna=3&speed=2`.
@@ -19,7 +19,7 @@ Il vecchio `scenes.json` unico è diviso per lavagna, così per correggere una l
 - `boards/lavagnaN.art.json`: i disegni della lavagna (immagine, posizione, percorsi del pennarello). File grosso, di solito non si tocca.
 - `build.py` legge i file nell'ordine di `boardOrder` (`tools/boardfiles.py`, `load_all`) e produce come prima un solo `index.html` autonomo.
 
-Script per lavagna in `tools/`: `boardN_text.json` (testi EN/IT), `boardN_tts.py` (voce edge-tts en-GB-SoniaNeural +8%, WordBoundary), `boardN_build.py` (disegni → percorsi, cue allineati alla voce, scrive `boards/lavagnaN*.json`; **riscrive da zero** i due file della lavagna, quindi le modifiche a mano vanno ripetute: per una prova `BOARDS_OUT=/tmp/x python3 tools/boardN_build.py`). Nella Lavagna 3, la maschera di Pulcinella sullo speaker della demo Sanitas (richiesta di Lele, 19/11/2026) nasce da `tools/l3_mask.py`: parte da `from-gen/l3-sanitas.orig.jpg` + `from-gen/pulcinella-mask.jpg` (cartella locale, non pubblicata), scrive `from-gen/l3-sanitas.jpg` e un percorso extra del pennarello (`from-gen/l3-sanitas.extra-path.json`) che `board3_build.py` inserisce, così la maschera sopravvive a ogni rigenerazione. La Lavagna 1 non ha uno script di generazione: si modifica direttamente `boards/lavagna1.json`. `tools/split_scenes.py` è lo script una tantum che ha fatto la divisione.
+Script per lavagna in `tools/`: `boardN_text.json` (testi EN/IT), `boardN_tts.py` (voce edge-tts dal file comune `tools/voice.py`: en-US-EmmaMultilingualNeural +0%, WordBoundary), `boardN_build.py` (disegni → percorsi, cue allineati alla voce, scrive `boards/lavagnaN*.json`; **riscrive da zero** i due file della lavagna, quindi le modifiche a mano vanno ripetute: per una prova `BOARDS_OUT=/tmp/x python3 tools/boardN_build.py`). Nella Lavagna 3, la maschera di Pulcinella sullo speaker della demo Sanitas (richiesta di Lele, 19/11/2026) nasce da `tools/l3_mask.py`: parte da `from-gen/l3-sanitas.orig.jpg` + `from-gen/pulcinella-mask.jpg` (cartella locale, non pubblicata), scrive `from-gen/l3-sanitas.jpg` e un percorso extra del pennarello (`from-gen/l3-sanitas.extra-path.json`) che `board3_build.py` inserisce, così la maschera sopravvive a ogni rigenerazione. La Lavagna 1 non ha uno script di generazione: si modifica direttamente `boards/lavagna1.json`. `tools/split_scenes.py` è lo script una tantum che ha fatto la divisione.
 
 Per aggiungere una lavagna: creare `boards/lavagnaN.json` e `.art.json` e aggiungere l'id a `boardOrder`. Alla fine dell'ultima lavagna il player fa uno zoom indietro su tutte le lavagne e resta fermo.
 
@@ -40,7 +40,7 @@ Aprire **index.html** in Chrome, Edge o Safari. È un file autonomo: include sce
 
 I quattro spezzoni hanno foto/stop; tra 3 e 4 è incluso uno stop breve **Il nome, inventato insieme**, senza voce inventata. Lo stop del sito 2006 è dichiaratamente **immagine d'archivio da inserire**, non un falso screenshot. Le due ricostruzioni AI sono etichettate sempre.
 
-Durata automatica attuale: circa **3 minuti e 15 secondi**, più il tempo dei cinque stop scelto dai presentatori. Non viene imposta una durata alle parti a braccio; i 15 minuti sono il riferimento dell'intero intervento, non un conto alla rovescia di questa sola lavagna.
+Durata automatica della sola Lavagna 1 nella prima versione: circa **3 minuti e 15 secondi** (voce attuale di tutte e quattro le lavagne: vedi sotto), più il tempo dei cinque stop scelto dai presentatori. Non viene imposta una durata alle parti a braccio; i 15 minuti sono il riferimento dell'intero intervento, non un conto alla rovescia di questa sola lavagna.
 
 ## Cosa manca prima della versione evento
 1. **Voce narrante EN**: nessun TTS gratuito già funzionante presente sul box; non sono stati attivati servizi. I testi EN sono in `audio/narration-en.txt`.
@@ -54,6 +54,12 @@ La mano reale da Pakutaso è stata integrata con chroma key, non è più quella 
 Nei testi (voce EN e sottotitoli EN/IT) Gianfranco è **Gef**. Gli script TTS passano a edge-tts "Jeff" (pronuncia corretta) ma tengono "Gef" nei sottotitoli e nei tempi parola per parola (`spoken` nei file `audio/*.words.json`). Lavagna 1 non ha un generatore: `python3 tools/board1_tts.py football remote name` rigenera la voce delle sezioni indicate e ritempra i loro sottotitoli direttamente in `boards/lavagna1.json`. Lavagne 2–4: `python3 tools/boardN_tts.py <sezioni>` e poi `python3 tools/boardN_build.py`.
 
 Sottotitoli: corpo circa +48% rispetto a prima (32 px su schermo 1920×1080, scala con lo schermo), al massimo 2 righe; durante gli stop foto i sottotitoli non compaiono.
+
+## Voce Emma ed etichette degli anni (dal 19/11/2026)
+- **Voce**: tutta la narrazione è **en-US-EmmaMultilingualNeural, velocità +0%** (scelta di Lele sul campione 03), impostata in un solo punto, `tools/voice.py`, usato da `board1_tts.py` … `board4_tts.py`. Le correzioni di pronuncia valgono solo per il testo dato alla voce (`SPOKEN` in `tools/voice.py`); sottotitoli e tempi tengono il testo scritto: Gef → "Jeff", Ugo → "Oogo" (Emma diceva "Yugo"), Farini → "Fareeni" (Emma diceva "Fa-rai-ni"). Controllo fatto con una trascrizione automatica (faster-whisper) della voce generata.
+- Durate voce: L1 2'27", L2 2'35", L3 1'47", L4 1'50", totale 8'39".
+- **Etichette**: le lavagne possono avere un `tag` oltre agli anni. Lavagna 2 «In casa · 2007–2011», Lavagna 3 «All’estero · 2009–2015» (2 e 3 sono storie parallele). L'etichetta compare nella schermata iniziale di `?lavagna=N`, nel cerchio finale della lavagna e nella linea del tempo finale. La linea del tempo finale è in anni (2005 → 2019): le lavagne che si sovrappongono stanno su tracce parallele (Lavagna 3 sotto la 2).
+- **Cartello** «intanto, all’estero…» (etichetta `small` in `tools/board3_build.py`): la mano lo scrive all'inizio della Lavagna 3, prima della voce (circa 2,8 s, non conteggiati nella barra); la voce non cambia.
 
 ## Ordine dei tratti (dal 18/11/2026)
 `build.py` passa ogni disegno per `tools/stroke_order.py`: la mano completa un oggetto prima di passare al successivo. Gli oggetti sono i blocchi d'inchiostro separati (figure, parole, cartelli); un blocco grande quanto una scena viene diviso in parti compatte, tenendo separato l'inchiostro colorato (es. l'auto viola). Oggetti da sinistra a destra, ogni parola scritta lettera per lettera da sinistra a destra. Le fini degli oggetti (`breaks`) servono al player per chiudere ogni sottotitolo su un oggetto finito (tolleranza ±8% del disegno). I file `boards/*.art.json` conservano l'ordine grezzo dei generatori: rigenerare una lavagna non perde la correzione. Anteprime: `python3 tools/preview_stroke_order.py` → `/workspace/previews/ordine-tratti/`.

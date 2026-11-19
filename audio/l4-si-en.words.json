@@ -1,188 +1,188 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo\u2026 and the start of the next one. Over to Gef.",
  "spoken": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo\u2026 and the start of the next one. Over to Jeff.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 1504580,
+   "offset": 875000,
+   "duration": 1500000,
    "text": "In"
   },
   {
-   "offset": 2930410,
-   "duration": 14351670,
+   "offset": 2500000,
+   "duration": 17250000,
    "text": "January 2019"
   },
   {
-   "offset": 17398330,
-   "duration": 2546250,
+   "offset": 19875000,
+   "duration": 2375000,
    "text": "came"
   },
   {
-   "offset": 20060000,
-   "duration": 925830,
+   "offset": 22375000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 21101660,
-   "duration": 5787080,
+   "offset": 23500000,
+   "duration": 6750000,
    "text": "preliminary"
   },
   {
-   "offset": 27004580,
-   "duration": 6250000,
+   "offset": 30375000,
+   "duration": 6750000,
    "text": "agreement"
   },
   {
-   "offset": 36690000,
-   "duration": 1504580,
+   "offset": 41125000,
+   "duration": 1625000,
    "text": "In"
   },
   {
-   "offset": 38310000,
-   "duration": 4513750,
+   "offset": 42875000,
+   "duration": 4375000,
    "text": "April"
   },
   {
-   "offset": 44907500,
-   "duration": 925830,
+   "offset": 47625000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 45949160,
-   "duration": 2083330,
+   "offset": 48875000,
+   "duration": 1875000,
    "text": "due"
   },
   {
-   "offset": 48148330,
-   "duration": 5324160,
+   "offset": 50875000,
+   "duration": 5750000,
    "text": "diligence"
   },
   {
-   "offset": 53587910,
-   "duration": 1504580,
+   "offset": 56750000,
+   "duration": 1625000,
    "text": "was"
   },
   {
-   "offset": 55208330,
-   "duration": 5787080,
+   "offset": 58500000,
+   "duration": 6125000,
    "text": "closed"
   },
   {
-   "offset": 64699160,
-   "duration": 1273330,
+   "offset": 68750000,
+   "duration": 1000000,
    "text": "And"
   },
   {
-   "offset": 66087910,
-   "duration": 1157500,
+   "offset": 69875000,
+   "duration": 1125000,
    "text": "it"
   },
   {
-   "offset": 67361250,
-   "duration": 1736250,
+   "offset": 71125000,
+   "duration": 1500000,
    "text": "was"
   },
   {
-   "offset": 69212910,
-   "duration": 578750,
+   "offset": 72750000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 69907500,
-   "duration": 5324160,
+   "offset": 73500000,
+   "duration": 5750000,
    "text": "yes"
   },
   {
-   "offset": 78935000,
-   "duration": 1620410,
+   "offset": 83250000,
+   "duration": 1000000,
    "text": "The"
   },
   {
-   "offset": 80671250,
-   "duration": 1967500,
+   "offset": 84375000,
+   "duration": 2375000,
    "text": "end"
   },
   {
-   "offset": 82754580,
-   "duration": 925830,
+   "offset": 86875000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 83796250,
-   "duration": 925830,
+   "offset": 87875000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 84837910,
-   "duration": 3356660,
+   "offset": 89000000,
+   "duration": 3500000,
    "text": "first"
   },
   {
-   "offset": 88310000,
-   "duration": 4166660,
+   "offset": 92625000,
+   "duration": 4250000,
    "text": "chapter"
   },
   {
-   "offset": 92592500,
-   "duration": 1620410,
+   "offset": 97000000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 94328750,
-   "duration": 7407500,
+   "offset": 98125000,
+   "duration": 8000000,
    "text": "Tuotempo"
   },
   {
-   "offset": 104166660,
-   "duration": 1157500,
+   "offset": 110500000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 105440000,
-   "duration": 925830,
+   "offset": 111875000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 106481660,
-   "duration": 3009160,
+   "offset": 112875000,
+   "duration": 3000000,
    "text": "start"
   },
   {
-   "offset": 109606660,
-   "duration": 810000,
+   "offset": 116000000,
+   "duration": 750000,
    "text": "of"
   },
   {
-   "offset": 110532500,
-   "duration": 810000,
+   "offset": 116875000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 111458330,
-   "duration": 3009160,
+   "offset": 117875000,
+   "duration": 3625000,
    "text": "next"
   },
   {
-   "offset": 114583330,
-   "duration": 2893330,
+   "offset": 121625000,
+   "duration": 3125000,
    "text": "one"
   },
   {
-   "offset": 120861250,
-   "duration": 3472080,
+   "offset": 128750000,
+   "duration": 2625000,
    "text": "Over"
   },
   {
-   "offset": 124449160,
-   "duration": 1273330,
+   "offset": 131500000,
+   "duration": 1375000,
    "text": "to"
   },
   {
-   "offset": 125837910,
-   "duration": 5092500,
+   "offset": 133000000,
+   "duration": 5000000,
    "text": "Gef"
   }
  ]

@@ -1,352 +1,353 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them. Patients replied one to confirm, zero to cancel. Then, one summer night in 2011, at two in the morning, the building's main switch tripped. The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
+ "spoken": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them. Patients replied one to confirm, zero to cancel. Then, one summer night in 2011, at two in the morning, the building's main switch tripped. The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
  "words": [
   {
-   "offset": 990830,
-   "duration": 1736250,
+   "offset": 1000000,
+   "duration": 1000000,
    "text": "But"
   },
   {
-   "offset": 2842500,
-   "duration": 925830,
+   "offset": 2125000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 3884160,
-   "duration": 3009160,
+   "offset": 3125000,
+   "duration": 3500000,
    "text": "text"
   },
   {
-   "offset": 7009160,
-   "duration": 4629580,
+   "offset": 6750000,
+   "duration": 5500000,
    "text": "messages"
   },
   {
-   "offset": 11754580,
-   "duration": 2662080,
+   "offset": 12375000,
+   "duration": 2875000,
    "text": "still"
   },
   {
-   "offset": 14532500,
-   "duration": 2083330,
+   "offset": 15375000,
+   "duration": 1875000,
    "text": "went"
   },
   {
-   "offset": 16731660,
-   "duration": 2199160,
+   "offset": 17375000,
+   "duration": 1750000,
    "text": "through"
   },
   {
-   "offset": 19046250,
-   "duration": 2199160,
+   "offset": 19250000,
+   "duration": 2250000,
    "text": "one"
   },
   {
-   "offset": 21361250,
-   "duration": 1851660,
+   "offset": 21625000,
+   "duration": 1750000,
    "text": "old"
   },
   {
-   "offset": 23328750,
-   "duration": 3703750,
+   "offset": 23500000,
+   "duration": 3750000,
    "text": "PC"
   },
   {
-   "offset": 27148330,
-   "duration": 810000,
+   "offset": 27375000,
+   "duration": 875000,
    "text": "in"
   },
   {
-   "offset": 28074160,
-   "duration": 925830,
+   "offset": 28375000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 29115830,
-   "duration": 4513750,
+   "offset": 29375000,
+   "duration": 5125000,
    "text": "office"
   },
   {
-   "offset": 36291660,
-   "duration": 1388750,
+   "offset": 37375000,
+   "duration": 1750000,
    "text": "with"
   },
   {
-   "offset": 37796250,
-   "duration": 578750,
+   "offset": 39250000,
+   "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 38490830,
-   "duration": 4513750,
+   "offset": 40125000,
+   "duration": 5750000,
    "text": "GSM"
   },
   {
-   "offset": 43120410,
-   "duration": 4050830,
+   "offset": 46000000,
+   "duration": 4125000,
    "text": "modem"
   },
   {
-   "offset": 47287080,
-   "duration": 1504580,
+   "offset": 52125000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 48907500,
-   "duration": 4282500,
+   "offset": 53375000,
+   "duration": 2375000,
    "text": "SIM"
   },
   {
-   "offset": 53305410,
-   "duration": 3240830,
+   "offset": 55875000,
+   "duration": 3250000,
    "text": "cards"
   },
   {
-   "offset": 56662080,
-   "duration": 2430410,
+   "offset": 59250000,
+   "duration": 3000000,
    "text": "shipped"
   },
   {
-   "offset": 59208330,
-   "duration": 1041660,
+   "offset": 62375000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 60365830,
-   "duration": 1504580,
+   "offset": 63500000,
+   "duration": 1875000,
    "text": "from"
   },
   {
-   "offset": 61986250,
-   "duration": 4282500,
+   "offset": 65500000,
+   "duration": 4625000,
    "text": "abroad"
   },
   {
-   "offset": 68583330,
-   "duration": 347080,
+   "offset": 73500000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 69046250,
-   "duration": 2662080,
+   "offset": 74250000,
+   "duration": 2875000,
    "text": "Greek"
   },
   {
-   "offset": 71824160,
-   "duration": 1388750,
+   "offset": 77250000,
+   "duration": 1625000,
    "text": "one"
   },
   {
-   "offset": 73328750,
-   "duration": 2315000,
+   "offset": 79000000,
+   "duration": 2750000,
    "text": "among"
   },
   {
-   "offset": 75759160,
-   "duration": 2430410,
+   "offset": 81875000,
+   "duration": 2625000,
    "text": "them"
   },
   {
-   "offset": 81597080,
-   "duration": 4976660,
+   "offset": 88625000,
+   "duration": 4750000,
    "text": "Patients"
   },
   {
-   "offset": 86690000,
-   "duration": 4629580,
+   "offset": 93500000,
+   "duration": 4375000,
    "text": "replied"
   },
   {
-   "offset": 91435000,
-   "duration": 2199160,
+   "offset": 98000000,
+   "duration": 2125000,
    "text": "one"
   },
   {
-   "offset": 93750000,
-   "duration": 1041660,
+   "offset": 100250000,
+   "duration": 1250000,
    "text": "to"
   },
   {
-   "offset": 94907500,
-   "duration": 5902910,
+   "offset": 101625000,
+   "duration": 5875000,
    "text": "confirm"
   },
   {
-   "offset": 103009160,
-   "duration": 3356660,
+   "offset": 110375000,
+   "duration": 3000000,
    "text": "zero"
   },
   {
-   "offset": 106481660,
-   "duration": 1157500,
+   "offset": 113500000,
+   "duration": 1500000,
    "text": "to"
   },
   {
-   "offset": 107754580,
-   "duration": 5671250,
+   "offset": 115125000,
+   "duration": 5875000,
    "text": "cancel"
   },
   {
-   "offset": 117129580,
-   "duration": 3703750,
+   "offset": 125000000,
+   "duration": 3125000,
    "text": "Then"
   },
   {
-   "offset": 123148330,
-   "duration": 2199160,
+   "offset": 128375000,
+   "duration": 2500000,
    "text": "one"
   },
   {
-   "offset": 125462910,
-   "duration": 2546250,
+   "offset": 131000000,
+   "duration": 3125000,
    "text": "summer"
   },
   {
-   "offset": 128125000,
-   "duration": 3009160,
+   "offset": 134250000,
+   "duration": 2500000,
    "text": "night"
   },
   {
-   "offset": 131250000,
-   "duration": 8680830,
+   "offset": 136875000,
+   "duration": 11250000,
    "text": "in 2011"
   },
   {
-   "offset": 141782500,
-   "duration": 1736250,
+   "offset": 150125000,
+   "duration": 1250000,
    "text": "at"
   },
   {
-   "offset": 143634160,
-   "duration": 1504580,
+   "offset": 151500000,
+   "duration": 2125000,
    "text": "two"
   },
   {
-   "offset": 145254580,
-   "duration": 694580,
+   "offset": 153750000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 146065000,
-   "duration": 694580,
+   "offset": 154875000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 146875000,
-   "duration": 4166660,
+   "offset": 155750000,
+   "duration": 4500000,
    "text": "morning"
   },
   {
-   "offset": 153356660,
-   "duration": 925830,
+   "offset": 162375000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 154398330,
-   "duration": 4861250,
+   "offset": 163500000,
+   "duration": 4625000,
    "text": "building's"
   },
   {
-   "offset": 159375000,
-   "duration": 2315000,
+   "offset": 168250000,
+   "duration": 2500000,
    "text": "main"
   },
   {
-   "offset": 161805410,
-   "duration": 3240830,
+   "offset": 170875000,
+   "duration": 3375000,
    "text": "switch"
   },
   {
-   "offset": 165162080,
-   "duration": 4629580,
+   "offset": 174375000,
+   "duration": 5250000,
    "text": "tripped"
   },
   {
-   "offset": 173495410,
-   "duration": 925830,
+   "offset": 183875000,
+   "duration": 875000,
    "text": "The"
   },
   {
-   "offset": 174537080,
-   "duration": 3009160,
+   "offset": 184875000,
+   "duration": 3500000,
    "text": "next"
   },
   {
-   "offset": 177662080,
-   "duration": 4282500,
+   "offset": 188500000,
+   "duration": 4500000,
    "text": "morning"
   },
   {
-   "offset": 183796250,
-   "duration": 694580,
+   "offset": 195625000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 184606660,
-   "duration": 2430410,
+   "offset": 196625000,
+   "duration": 2625000,
    "text": "whole"
   },
   {
-   "offset": 187152910,
-   "duration": 4513750,
+   "offset": 199375000,
+   "duration": 5250000,
    "text": "company's"
   },
   {
-   "offset": 191782500,
-   "duration": 5324160,
+   "offset": 204750000,
+   "duration": 5250000,
    "text": "reminders"
   },
   {
-   "offset": 197222080,
-   "duration": 925830,
+   "offset": 210125000,
+   "duration": 1250000,
    "text": "were"
   },
   {
-   "offset": 198263750,
-   "duration": 5555410,
+   "offset": 211500000,
+   "duration": 5500000,
    "text": "silent"
   },
   {
-   "offset": 206481660,
-   "duration": 2662080,
+   "offset": 220125000,
+   "duration": 2750000,
    "text": "until"
   },
   {
-   "offset": 209259160,
-   "duration": 3356660,
+   "offset": 223000000,
+   "duration": 4000000,
    "text": "someone"
   },
   {
-   "offset": 212731660,
-   "duration": 3240830,
+   "offset": 227125000,
+   "duration": 2500000,
    "text": "went"
   },
   {
-   "offset": 216087910,
-   "duration": 810000,
+   "offset": 229750000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 217013750,
-   "duration": 3240830,
+   "offset": 231125000,
+   "duration": 3625000,
    "text": "switched"
   },
   {
-   "offset": 220370410,
-   "duration": 925830,
+   "offset": 234875000,
+   "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 221412080,
-   "duration": 2199160,
+   "offset": 235875000,
+   "duration": 2750000,
    "text": "back"
   },
   {
-   "offset": 223726660,
-   "duration": 2893330,
+   "offset": 238750000,
+   "duration": 3500000,
    "text": "on"
   }
  ]

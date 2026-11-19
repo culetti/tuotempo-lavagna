@@ -1,403 +1,403 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Gef arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
- "spoken": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Jeff arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+ "spoken": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Fareeni. Jeff arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 1041660,
+   "offset": 1000000,
+   "duration": 875000,
    "text": "The"
   },
   {
-   "offset": 2467500,
-   "duration": 5440000,
+   "offset": 2000000,
+   "duration": 6000000,
    "text": "decisive"
   },
   {
-   "offset": 8023330,
-   "duration": 2893330,
+   "offset": 8125000,
+   "duration": 3125000,
    "text": "dinner"
   },
   {
-   "offset": 11032500,
-   "duration": 1620410,
+   "offset": 11375000,
+   "duration": 1875000,
    "text": "was"
   },
   {
-   "offset": 12768330,
-   "duration": 2083330,
+   "offset": 13375000,
+   "duration": 2375000,
    "text": "one"
   },
   {
-   "offset": 14967500,
-   "duration": 3472080,
+   "offset": 15875000,
+   "duration": 3625000,
    "text": "evening"
   },
   {
-   "offset": 18555410,
-   "duration": 810000,
+   "offset": 19625000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 19481660,
-   "duration": 12731250,
+   "offset": 20750000,
+   "duration": 15625000,
    "text": "October 2018"
   },
   {
-   "offset": 34759160,
-   "duration": 1157500,
+   "offset": 39750000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 36032500,
-   "duration": 5208330,
+   "offset": 40875000,
+   "duration": 6125000,
    "text": "Bologna"
   },
   {
-   "offset": 43092500,
-   "duration": 1620410,
+   "offset": 50000000,
+   "duration": 1250000,
    "text": "at"
   },
   {
-   "offset": 44828750,
-   "duration": 5324160,
+   "offset": 51375000,
+   "duration": 5375000,
    "text": "Ciacco"
   },
   {
-   "offset": 52120410,
-   "duration": 1273330,
+   "offset": 58625000,
+   "duration": 1250000,
    "text": "in"
   },
   {
-   "offset": 53509160,
-   "duration": 2546250,
+   "offset": 60000000,
+   "duration": 2750000,
    "text": "via"
   },
   {
-   "offset": 56171250,
-   "duration": 5092500,
+   "offset": 62875000,
+   "duration": 5875000,
    "text": "Farini"
   },
   {
-   "offset": 64601660,
-   "duration": 2430410,
+   "offset": 72750000,
+   "duration": 2250000,
    "text": "Gef"
   },
   {
-   "offset": 67148330,
-   "duration": 4050830,
+   "offset": 75125000,
+   "duration": 3625000,
    "text": "arrived"
   },
   {
-   "offset": 71315000,
-   "duration": 3240830,
+   "offset": 78875000,
+   "duration": 3000000,
    "text": "straight"
   },
   {
-   "offset": 74671250,
-   "duration": 1736250,
+   "offset": 82000000,
+   "duration": 1875000,
    "text": "from"
   },
   {
-   "offset": 76523330,
-   "duration": 4629580,
+   "offset": 84000000,
+   "duration": 4750000,
    "text": "Spain"
   },
   {
-   "offset": 83699160,
-   "duration": 2777910,
+   "offset": 91625000,
+   "duration": 2500000,
    "text": "still"
   },
   {
-   "offset": 86592500,
-   "duration": 3009160,
+   "offset": 94250000,
+   "duration": 3125000,
    "text": "pulling"
   },
   {
-   "offset": 89717500,
-   "duration": 1273330,
+   "offset": 97500000,
+   "duration": 1750000,
    "text": "his"
   },
   {
-   "offset": 91106660,
-   "duration": 4050830,
+   "offset": 99375000,
+   "duration": 5375000,
    "text": "trolley"
   },
   {
-   "offset": 98842500,
-   "duration": 3587910,
+   "offset": 108750000,
+   "duration": 3250000,
    "text": "Around"
   },
   {
-   "offset": 102546250,
-   "duration": 925830,
+   "offset": 112125000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 103587910,
-   "duration": 4629580,
+   "offset": 113000000,
+   "duration": 5250000,
    "text": "table"
   },
   {
-   "offset": 110416660,
-   "duration": 810000,
+   "offset": 121375000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 111342500,
-   "duration": 5787080,
+   "offset": 122500000,
+   "duration": 5625000,
    "text": "founders"
   },
   {
-   "offset": 117245410,
-   "duration": 1504580,
+   "offset": 128250000,
+   "duration": 1000000,
    "text": "and"
   },
   {
-   "offset": 118865830,
-   "duration": 925830,
+   "offset": 129375000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 119907500,
-   "duration": 3819580,
+   "offset": 130500000,
+   "duration": 3500000,
    "text": "people"
   },
   {
-   "offset": 123842500,
-   "duration": 1967500,
+   "offset": 134125000,
+   "duration": 2000000,
    "text": "from"
   },
   {
-   "offset": 125925830,
-   "duration": 6597080,
+   "offset": 136250000,
+   "duration": 7875000,
    "text": "Docplanner"
   },
   {
-   "offset": 136226660,
-   "duration": 1388750,
+   "offset": 148125000,
+   "duration": 1000000,
    "text": "It"
   },
   {
-   "offset": 137731660,
-   "duration": 4398330,
+   "offset": 149250000,
+   "duration": 3500000,
    "text": "began"
   },
   {
-   "offset": 142245410,
-   "duration": 462909,
+   "offset": 152875000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 142824160,
-   "duration": 3587910,
+   "offset": 153500000,
+   "duration": 2375000,
    "text": "little"
   },
   {
-   "offset": 146527910,
-   "duration": 7523330,
+   "offset": 156000000,
+   "duration": 8375000,
    "text": "hesitantly"
   },
   {
-   "offset": 157638750,
-   "duration": 2315000,
+   "offset": 168500000,
+   "duration": 1750000,
    "text": "Then"
   },
   {
-   "offset": 160069580,
-   "duration": 2199160,
+   "offset": 170375000,
+   "duration": 2375000,
    "text": "came"
   },
   {
-   "offset": 162384160,
-   "duration": 694580,
+   "offset": 172875000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 163194580,
-   "duration": 6365830,
+   "offset": 173875000,
+   "duration": 6500000,
    "text": "questions"
   },
   {
-   "offset": 172337910,
-   "duration": 2199160,
+   "offset": 181000000,
+   "duration": 2250000,
    "text": "which"
   },
   {
-   "offset": 174652910,
-   "duration": 6481660,
+   "offset": 183375000,
+   "duration": 7000000,
    "text": "languages"
   },
   {
-   "offset": 182870410,
-   "duration": 2315000,
+   "offset": 190875000,
+   "duration": 2625000,
    "text": "which"
   },
   {
-   "offset": 185300830,
-   "duration": 4629580,
+   "offset": 193625000,
+   "duration": 5000000,
    "text": "tools"
   },
   {
-   "offset": 191898330,
-   "duration": 1041660,
+   "offset": 201125000,
+   "duration": 1000000,
    "text": "how"
   },
   {
-   "offset": 193055410,
-   "duration": 1157500,
+   "offset": 202250000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 194328750,
-   "duration": 2546250,
+   "offset": 203500000,
+   "duration": 2875000,
    "text": "team"
   },
   {
-   "offset": 196990830,
-   "duration": 5092500,
+   "offset": 206500000,
+   "duration": 4500000,
    "text": "worked"
   },
   {
-   "offset": 205671250,
-   "duration": 3356660,
+   "offset": 215000000,
+   "duration": 3250000,
    "text": "Same"
   },
   {
-   "offset": 209143330,
-   "duration": 5092500,
+   "offset": 218375000,
+   "duration": 4875000,
    "text": "tools"
   },
   {
-   "offset": 216435000,
-   "duration": 1041660,
+   "offset": 225375000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 217592500,
-   "duration": 2777910,
+   "offset": 226625000,
+   "duration": 3000000,
    "text": "same"
   },
   {
-   "offset": 220486250,
-   "duration": 5671250,
+   "offset": 229750000,
+   "duration": 6125000,
    "text": "distributed"
   },
   {
-   "offset": 226273330,
-   "duration": 2083330,
+   "offset": 236000000,
+   "duration": 1750000,
    "text": "way"
   },
   {
-   "offset": 228472080,
-   "duration": 925830,
+   "offset": 237875000,
+   "duration": 1125000,
    "text": "of"
   },
   {
-   "offset": 229513750,
-   "duration": 4976660,
+   "offset": 239125000,
+   "duration": 5125000,
    "text": "working"
   },
   {
-   "offset": 237152910,
-   "duration": 3472080,
+   "offset": 246375000,
+   "duration": 4500000,
    "text": "similar"
   },
   {
-   "offset": 240740830,
-   "duration": 5787080,
+   "offset": 251000000,
+   "duration": 6375000,
    "text": "services"
   },
   {
-   "offset": 246643330,
-   "duration": 1388750,
+   "offset": 257500000,
+   "duration": 1375000,
    "text": "in"
   },
   {
-   "offset": 248148330,
-   "duration": 3703750,
+   "offset": 259000000,
+   "duration": 3375000,
    "text": "different"
   },
   {
-   "offset": 251967500,
-   "duration": 6597080,
+   "offset": 262500000,
+   "duration": 6500000,
    "text": "markets"
   },
   {
-   "offset": 262037080,
-   "duration": 1388750,
+   "offset": 273125000,
+   "duration": 1125000,
    "text": "By"
   },
   {
-   "offset": 263541660,
-   "duration": 1504580,
+   "offset": 274375000,
+   "duration": 1250000,
    "text": "the"
   },
   {
-   "offset": 265162080,
-   "duration": 1504580,
+   "offset": 275750000,
+   "duration": 2375000,
    "text": "end"
   },
   {
-   "offset": 266782500,
-   "duration": 810000,
+   "offset": 278250000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 267708330,
-   "duration": 810000,
+   "offset": 279250000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 268634160,
-   "duration": 4976660,
+   "offset": 280125000,
+   "duration": 5375000,
    "text": "evening"
   },
   {
-   "offset": 275810000,
-   "duration": 925830,
+   "offset": 288125000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 276851660,
-   "duration": 3935000,
+   "offset": 289125000,
+   "duration": 4125000,
    "text": "idea"
   },
   {
-   "offset": 280902910,
-   "duration": 1504580,
+   "offset": 293375000,
+   "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 282523330,
-   "duration": 1157500,
+   "offset": 295250000,
+   "duration": 1125000,
    "text": "on"
   },
   {
-   "offset": 283796250,
-   "duration": 810000,
+   "offset": 296500000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 284722080,
-   "duration": 4398330,
+   "offset": 297500000,
+   "duration": 4500000,
    "text": "table"
   },
   {
-   "offset": 292129580,
-   "duration": 2430410,
+   "offset": 306500000,
+   "duration": 2125000,
    "text": "let's"
   },
   {
-   "offset": 294675830,
-   "duration": 2546250,
+   "offset": 308750000,
+   "duration": 2875000,
    "text": "join"
   },
   {
-   "offset": 297337910,
-   "duration": 6365830,
+   "offset": 311750000,
+   "duration": 6750000,
    "text": "forces"
   }
  ]

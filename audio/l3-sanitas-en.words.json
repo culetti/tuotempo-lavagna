@@ -1,292 +1,293 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "2011. Sanitas, one of the biggest health insurers in Spain, wanted proof that Tuotempo could take the load. So the demo was pure Neapolitan theatre: a terminal, a timer, and searches connected to clinic twenty-three, twenty-four, twenty-eight\u2026 On the slides, a search dropped from seventy seconds to five. Sanitas bought, and became the biggest customer in Spain.",
+ "spoken": "2011. Sanitas, one of the biggest health insurers in Spain, wanted proof that Tuotempo could take the load. So the demo was pure Neapolitan theatre: a terminal, a timer, and searches connected to clinic twenty-three, twenty-four, twenty-eight\u2026 On the slides, a search dropped from seventy seconds to five. Sanitas bought, and became the biggest customer in Spain.",
  "words": [
   {
-   "offset": 990830,
-   "duration": 8217500,
+   "offset": 1000000,
+   "duration": 10250000,
    "text": "2011"
   },
   {
-   "offset": 11638750,
-   "duration": 6250000,
+   "offset": 17375000,
+   "duration": 6500000,
    "text": "Sanitas"
   },
   {
-   "offset": 19856660,
-   "duration": 1504580,
+   "offset": 24250000,
+   "duration": 1625000,
    "text": "one"
   },
   {
-   "offset": 21476660,
-   "duration": 810000,
+   "offset": 26000000,
+   "duration": 750000,
    "text": "of"
   },
   {
-   "offset": 22402910,
-   "duration": 1041660,
+   "offset": 26875000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 23560000,
-   "duration": 3125000,
+   "offset": 28125000,
+   "duration": 3750000,
    "text": "biggest"
   },
   {
-   "offset": 26800830,
-   "duration": 2083330,
+   "offset": 32000000,
+   "duration": 2375000,
    "text": "health"
   },
   {
-   "offset": 29000000,
-   "duration": 4745410,
+   "offset": 34500000,
+   "duration": 5125000,
    "text": "insurers"
   },
   {
-   "offset": 33861250,
-   "duration": 1157500,
+   "offset": 39750000,
+   "duration": 1250000,
    "text": "in"
   },
   {
-   "offset": 35134160,
-   "duration": 4166660,
+   "offset": 41125000,
+   "duration": 4625000,
    "text": "Spain"
   },
   {
-   "offset": 42310000,
-   "duration": 3240830,
+   "offset": 49000000,
+   "duration": 2875000,
    "text": "wanted"
   },
   {
-   "offset": 45666660,
-   "duration": 3240830,
+   "offset": 52000000,
+   "duration": 3125000,
    "text": "proof"
   },
   {
-   "offset": 49023330,
-   "duration": 1620410,
+   "offset": 55250000,
+   "duration": 1500000,
    "text": "that"
   },
   {
-   "offset": 50759160,
-   "duration": 6250000,
+   "offset": 56875000,
+   "duration": 7000000,
    "text": "Tuotempo"
   },
   {
-   "offset": 57125000,
-   "duration": 1736250,
+   "offset": 64000000,
+   "duration": 1750000,
    "text": "could"
   },
   {
-   "offset": 58976660,
-   "duration": 2083330,
+   "offset": 65875000,
+   "duration": 2250000,
    "text": "take"
   },
   {
-   "offset": 61175830,
-   "duration": 810000,
+   "offset": 68250000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 62101660,
-   "duration": 4050830,
+   "offset": 69375000,
+   "duration": 4250000,
    "text": "load"
   },
   {
-   "offset": 69675830,
-   "duration": 1851660,
+   "offset": 77625000,
+   "duration": 1625000,
    "text": "So"
   },
   {
-   "offset": 71643330,
-   "duration": 1157500,
+   "offset": 79375000,
+   "duration": 1250000,
    "text": "the"
   },
   {
-   "offset": 72916660,
-   "duration": 3125000,
+   "offset": 80750000,
+   "duration": 3000000,
    "text": "demo"
   },
   {
-   "offset": 76157500,
-   "duration": 1736250,
+   "offset": 83875000,
+   "duration": 2000000,
    "text": "was"
   },
   {
-   "offset": 78009160,
-   "duration": 2546250,
+   "offset": 86000000,
+   "duration": 2625000,
    "text": "pure"
   },
   {
-   "offset": 80671250,
-   "duration": 6250000,
+   "offset": 88750000,
+   "duration": 7000000,
    "text": "Neapolitan"
   },
   {
-   "offset": 87037080,
-   "duration": 4282500,
+   "offset": 95875000,
+   "duration": 4500000,
    "text": "theatre"
   },
   {
-   "offset": 94675830,
-   "duration": 462909,
+   "offset": 106250000,
+   "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 95254580,
-   "duration": 5208330,
+   "offset": 106750000,
+   "duration": 5625000,
    "text": "terminal"
   },
   {
-   "offset": 102199160,
-   "duration": 347080,
+   "offset": 114625000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 102662080,
-   "duration": 4861250,
+   "offset": 115250000,
+   "duration": 5000000,
    "text": "timer"
   },
   {
-   "offset": 109606660,
-   "duration": 1388750,
+   "offset": 122250000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 111111250,
-   "duration": 4976660,
+   "offset": 123625000,
+   "duration": 4375000,
    "text": "searches"
   },
   {
-   "offset": 116203750,
-   "duration": 4513750,
+   "offset": 128125000,
+   "duration": 4375000,
    "text": "connected"
   },
   {
-   "offset": 120833330,
-   "duration": 810000,
+   "offset": 132625000,
+   "duration": 1000000,
    "text": "to"
   },
   {
-   "offset": 121759160,
-   "duration": 3472080,
+   "offset": 133750000,
+   "duration": 3750000,
    "text": "clinic"
   },
   {
-   "offset": 125347080,
-   "duration": 6365830,
+   "offset": 137625000,
+   "duration": 6625000,
    "text": "twenty-three"
   },
   {
-   "offset": 133796250,
-   "duration": 6018330,
+   "offset": 147000000,
+   "duration": 6250000,
    "text": "twenty-four"
   },
   {
-   "offset": 141550830,
-   "duration": 7060000,
+   "offset": 154375000,
+   "duration": 6750000,
    "text": "twenty-eight"
   },
   {
-   "offset": 152315000,
-   "duration": 1388750,
+   "offset": 165125000,
+   "duration": 1250000,
    "text": "On"
   },
   {
-   "offset": 153819580,
-   "duration": 925830,
+   "offset": 166500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 154861250,
-   "duration": 5555410,
+   "offset": 167625000,
+   "duration": 6125000,
    "text": "slides"
   },
   {
-   "offset": 163078750,
-   "duration": 347080,
+   "offset": 175875000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 163541660,
-   "duration": 4050830,
+   "offset": 176500000,
+   "duration": 3250000,
    "text": "search"
   },
   {
-   "offset": 167708330,
-   "duration": 3356660,
+   "offset": 179875000,
+   "duration": 3375000,
    "text": "dropped"
   },
   {
-   "offset": 171180410,
-   "duration": 1967500,
+   "offset": 183375000,
+   "duration": 2000000,
    "text": "from"
   },
   {
-   "offset": 173263750,
-   "duration": 4050830,
+   "offset": 185500000,
+   "duration": 4625000,
    "text": "seventy"
   },
   {
-   "offset": 177430410,
-   "duration": 4166660,
+   "offset": 190250000,
+   "duration": 4500000,
    "text": "seconds"
   },
   {
-   "offset": 181712910,
-   "duration": 1041660,
+   "offset": 194875000,
+   "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 182870410,
-   "duration": 4861250,
+   "offset": 196125000,
+   "duration": 5250000,
    "text": "five"
   },
   {
-   "offset": 191435000,
-   "duration": 5555410,
+   "offset": 205375000,
+   "duration": 5125000,
    "text": "Sanitas"
   },
   {
-   "offset": 197106660,
-   "duration": 4050830,
+   "offset": 210625000,
+   "duration": 3500000,
    "text": "bought"
   },
   {
-   "offset": 203587910,
-   "duration": 810000,
+   "offset": 217000000,
+   "duration": 875000,
    "text": "and"
   },
   {
-   "offset": 204513750,
-   "duration": 3472080,
+   "offset": 218000000,
+   "duration": 3750000,
    "text": "became"
   },
   {
-   "offset": 208101660,
-   "duration": 1041660,
+   "offset": 221875000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 209259160,
-   "duration": 3472080,
+   "offset": 223125000,
+   "duration": 4000000,
    "text": "biggest"
   },
   {
-   "offset": 212847080,
-   "duration": 4513750,
+   "offset": 227250000,
+   "duration": 5375000,
    "text": "customer"
   },
   {
-   "offset": 217476660,
-   "duration": 1273330,
+   "offset": 232750000,
+   "duration": 1250000,
    "text": "in"
   },
   {
-   "offset": 218865830,
-   "duration": 4861250,
+   "offset": 234125000,
+   "duration": 5500000,
    "text": "Spain"
   }
  ]

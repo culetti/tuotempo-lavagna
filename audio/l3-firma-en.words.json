@@ -1,162 +1,163 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "By 2014, every email ended with a signature worthy of a multinational: Bologna, Barcelona, Lyon, Abu Dhabi. Behind most of those cities, one single person. And Bologna was still a living room.",
+ "spoken": "By 2014, every email ended with a signature worthy of a multinational: Bologna, Barcelona, Lyon, Abu Dhabi. Behind most of those cities, one single person. And Bologna was still a living room.",
  "words": [
   {
-   "offset": 1078750,
-   "duration": 10416660,
+   "offset": 1000000,
+   "duration": 13250000,
    "text": "By 2014"
   },
   {
-   "offset": 13925830,
-   "duration": 2199160,
+   "offset": 16875000,
+   "duration": 3000000,
    "text": "every"
   },
   {
-   "offset": 16240830,
-   "duration": 4513750,
+   "offset": 20000000,
+   "duration": 4125000,
    "text": "email"
   },
   {
-   "offset": 20870410,
-   "duration": 2546250,
+   "offset": 24750000,
+   "duration": 2875000,
    "text": "ended"
   },
   {
-   "offset": 23532500,
-   "duration": 1273330,
+   "offset": 27750000,
+   "duration": 1500000,
    "text": "with"
   },
   {
-   "offset": 24921250,
-   "duration": 462909,
+   "offset": 29375000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 25500000,
-   "duration": 4861250,
+   "offset": 30000000,
+   "duration": 6375000,
    "text": "signature"
   },
   {
-   "offset": 30476660,
-   "duration": 3703750,
+   "offset": 36500000,
+   "duration": 3625000,
    "text": "worthy"
   },
   {
-   "offset": 34296250,
-   "duration": 925830,
+   "offset": 40250000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 35337910,
-   "duration": 462909,
+   "offset": 41250000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 35916660,
-   "duration": 7638750,
+   "offset": 42000000,
+   "duration": 9250000,
    "text": "multinational"
   },
   {
-   "offset": 46449160,
-   "duration": 5324160,
+   "offset": 57125000,
+   "duration": 5500000,
    "text": "Bologna"
   },
   {
-   "offset": 53856660,
-   "duration": 6712910,
+   "offset": 64375000,
+   "duration": 7250000,
    "text": "Barcelona"
   },
   {
-   "offset": 63000000,
-   "duration": 4282500,
+   "offset": 73750000,
+   "duration": 3625000,
    "text": "Lyon"
   },
   {
-   "offset": 69250000,
-   "duration": 2546250,
+   "offset": 77875000,
+   "duration": 2625000,
    "text": "Abu"
   },
   {
-   "offset": 71912080,
-   "duration": 4745410,
+   "offset": 80625000,
+   "duration": 5250000,
    "text": "Dhabi"
   },
   {
-   "offset": 80092500,
-   "duration": 4398330,
+   "offset": 89875000,
+   "duration": 3875000,
    "text": "Behind"
   },
   {
-   "offset": 84606660,
-   "duration": 2893330,
+   "offset": 93875000,
+   "duration": 3000000,
    "text": "most"
   },
   {
-   "offset": 87615830,
-   "duration": 810000,
+   "offset": 97000000,
+   "duration": 750000,
    "text": "of"
   },
   {
-   "offset": 88541660,
-   "duration": 2083330,
+   "offset": 97875000,
+   "duration": 2250000,
    "text": "those"
   },
   {
-   "offset": 90740830,
-   "duration": 4976660,
+   "offset": 100250000,
+   "duration": 5250000,
    "text": "cities"
   },
   {
-   "offset": 98032500,
-   "duration": 2430410,
+   "offset": 108000000,
+   "duration": 2625000,
    "text": "one"
   },
   {
-   "offset": 100578750,
-   "duration": 3240830,
+   "offset": 110750000,
+   "duration": 3250000,
    "text": "single"
   },
   {
-   "offset": 103935000,
-   "duration": 5440000,
+   "offset": 114125000,
+   "duration": 5875000,
    "text": "person"
   },
   {
-   "offset": 113078750,
-   "duration": 1388750,
+   "offset": 124250000,
+   "duration": 1250000,
    "text": "And"
   },
   {
-   "offset": 114583330,
-   "duration": 5092500,
+   "offset": 125625000,
+   "duration": 5000000,
    "text": "Bologna"
   },
   {
-   "offset": 119791660,
-   "duration": 1851660,
+   "offset": 130750000,
+   "duration": 1625000,
    "text": "was"
   },
   {
-   "offset": 121759160,
-   "duration": 2546250,
+   "offset": 132500000,
+   "duration": 2625000,
    "text": "still"
   },
   {
-   "offset": 124421250,
-   "duration": 462909,
+   "offset": 135250000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 125000000,
-   "duration": 3125000,
+   "offset": 136000000,
+   "duration": 3625000,
    "text": "living"
   },
   {
-   "offset": 128240830,
-   "duration": 3472080,
+   "offset": 139750000,
+   "duration": 3375000,
    "text": "room"
   }
  ]

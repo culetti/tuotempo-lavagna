@@ -1,588 +1,588 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gef built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
  "spoken": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Jeff built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
  "words": [
   {
-   "offset": 1078750,
-   "duration": 6134160,
+   "offset": 1000000,
+   "duration": 6000000,
    "text": "Donatello"
   },
   {
-   "offset": 7328750,
-   "duration": 2430410,
+   "offset": 7125000,
+   "duration": 2125000,
    "text": "went"
   },
   {
-   "offset": 9875000,
-   "duration": 2893330,
+   "offset": 9375000,
+   "duration": 3125000,
    "text": "looking"
   },
   {
-   "offset": 12884160,
-   "duration": 1157500,
+   "offset": 12625000,
+   "duration": 1500000,
    "text": "for"
   },
   {
-   "offset": 14157500,
-   "duration": 578750,
+   "offset": 14250000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 14851660,
-   "duration": 3819580,
+   "offset": 15000000,
+   "duration": 3125000,
    "text": "world"
   },
   {
-   "offset": 18787080,
-   "duration": 1273330,
+   "offset": 18250000,
+   "duration": 1500000,
    "text": "where"
   },
   {
-   "offset": 20175830,
-   "duration": 5671250,
+   "offset": 19875000,
+   "duration": 5500000,
    "text": "computers"
   },
   {
-   "offset": 25962910,
-   "duration": 3009160,
+   "offset": 25500000,
+   "duration": 3625000,
    "text": "already"
   },
   {
-   "offset": 29087910,
-   "duration": 5440000,
+   "offset": 29250000,
+   "duration": 6125000,
    "text": "existed"
   },
   {
-   "offset": 36842500,
-   "duration": 1041660,
+   "offset": 39500000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 38000000,
-   "duration": 2777910,
+   "offset": 40750000,
+   "duration": 3125000,
    "text": "found"
   },
   {
-   "offset": 40893330,
-   "duration": 1388750,
+   "offset": 44000000,
+   "duration": 1875000,
    "text": "one"
   },
   {
-   "offset": 42398330,
-   "duration": 5787080,
+   "offset": 46000000,
+   "duration": 7375000,
    "text": "experiment"
   },
   {
-   "offset": 48300830,
-   "duration": 810000,
+   "offset": 53500000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 49226660,
-   "duration": 5324160,
+   "offset": 54625000,
+   "duration": 5500000,
    "text": "America"
   },
   {
-   "offset": 57907500,
-   "duration": 2893330,
+   "offset": 66500000,
+   "duration": 2750000,
    "text": "Ask"
   },
   {
-   "offset": 60916660,
-   "duration": 3935000,
+   "offset": 69375000,
+   "duration": 4125000,
    "text": "Mabel"
   },
   {
-   "offset": 66935000,
-   "duration": 694580,
+   "offset": 76625000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 67745410,
-   "duration": 3935000,
+   "offset": 77625000,
+   "duration": 4375000,
    "text": "medical"
   },
   {
-   "offset": 71796250,
-   "duration": 6712910,
+   "offset": 82125000,
+   "duration": 7500000,
    "text": "receptionist"
   },
   {
-   "offset": 78625000,
-   "duration": 810000,
+   "offset": 89750000,
+   "duration": 875000,
    "text": "you"
   },
   {
-   "offset": 79550830,
-   "duration": 1504580,
+   "offset": 90750000,
+   "duration": 1625000,
    "text": "could"
   },
   {
-   "offset": 81171250,
-   "duration": 1851660,
+   "offset": 92500000,
+   "duration": 2250000,
    "text": "book"
   },
   {
-   "offset": 83138750,
-   "duration": 5208330,
+   "offset": 94875000,
+   "duration": 5750000,
    "text": "online"
   },
   {
-   "offset": 92013750,
-   "duration": 1504580,
+   "offset": 104625000,
+   "duration": 1500000,
    "text": "In"
   },
   {
-   "offset": 93634160,
-   "duration": 4861250,
+   "offset": 106250000,
+   "duration": 4875000,
    "text": "Europe"
   },
   {
-   "offset": 101273330,
-   "duration": 5324160,
+   "offset": 114000000,
+   "duration": 5375000,
    "text": "nothing"
   },
   {
-   "offset": 110300830,
-   "duration": 1041660,
+   "offset": 123375000,
+   "duration": 1125000,
    "text": "And"
   },
   {
-   "offset": 111458330,
-   "duration": 4282500,
+   "offset": 124625000,
+   "duration": 3875000,
    "text": "remember"
   },
   {
-   "offset": 115856660,
-   "duration": 11226670,
+   "offset": 128625000,
+   "duration": 10625000,
    "text": "2006"
   },
   {
-   "offset": 129861250,
-   "duration": 2083330,
+   "offset": 141875000,
+   "duration": 2125000,
    "text": "no"
   },
   {
-   "offset": 132060000,
-   "duration": 4976660,
+   "offset": 144125000,
+   "duration": 4250000,
    "text": "iPhone"
   },
   {
-   "offset": 139004580,
-   "duration": 1851660,
+   "offset": 148625000,
+   "duration": 2000000,
    "text": "no"
   },
   {
-   "offset": 140972080,
-   "duration": 3935000,
+   "offset": 150750000,
+   "duration": 3375000,
    "text": "apps"
   },
   {
-   "offset": 146643330,
-   "duration": 1620410,
+   "offset": 154375000,
+   "duration": 1875000,
    "text": "no"
   },
   {
-   "offset": 148379580,
-   "duration": 4861250,
+   "offset": 156375000,
+   "duration": 4750000,
    "text": "cloud"
   },
   {
-   "offset": 156625000,
-   "duration": 2546250,
+   "offset": 165125000,
+   "duration": 1750000,
    "text": "Two"
   },
   {
-   "offset": 159287080,
-   "duration": 4050830,
+   "offset": 167000000,
+   "duration": 4875000,
    "text": "doctors"
   },
   {
-   "offset": 163453750,
-   "duration": 1736250,
+   "offset": 172000000,
+   "duration": 1250000,
    "text": "out"
   },
   {
-   "offset": 165305410,
-   "duration": 1273330,
+   "offset": 173375000,
+   "duration": 1125000,
    "text": "of"
   },
   {
-   "offset": 166694580,
-   "duration": 3819580,
+   "offset": 174625000,
+   "duration": 3250000,
    "text": "three"
   },
   {
-   "offset": 170629580,
-   "duration": 2777910,
+   "offset": 178000000,
+   "duration": 2625000,
    "text": "kept"
   },
   {
-   "offset": 173523330,
-   "duration": 925830,
+   "offset": 180750000,
+   "duration": 1375000,
    "text": "their"
   },
   {
-   "offset": 174565000,
-   "duration": 6018330,
+   "offset": 182250000,
+   "duration": 5750000,
    "text": "appointments"
   },
   {
-   "offset": 180699160,
-   "duration": 1273330,
+   "offset": 188125000,
+   "duration": 1375000,
    "text": "on"
   },
   {
-   "offset": 182087910,
-   "duration": 4861250,
+   "offset": 189625000,
+   "duration": 5125000,
    "text": "paper"
   },
   {
-   "offset": 190625000,
-   "duration": 1157500,
+   "offset": 198875000,
+   "duration": 1000000,
    "text": "They"
   },
   {
-   "offset": 191898330,
-   "duration": 3125000,
+   "offset": 200000000,
+   "duration": 2375000,
    "text": "called"
   },
   {
-   "offset": 195138750,
-   "duration": 925830,
+   "offset": 202500000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 196180410,
-   "duration": 2893330,
+   "offset": 203500000,
+   "duration": 3125000,
    "text": "third"
   },
   {
-   "offset": 199190000,
-   "duration": 3009160,
+   "offset": 206750000,
+   "duration": 2875000,
    "text": "friend"
   },
   {
-   "offset": 202315000,
-   "duration": 1041660,
+   "offset": 209750000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 203472080,
-   "duration": 5902910,
+   "offset": 210875000,
+   "duration": 6625000,
    "text": "Valencia"
   },
   {
-   "offset": 211805410,
-   "duration": 2546250,
+   "offset": 220750000,
+   "duration": 2750000,
    "text": "because"
   },
   {
-   "offset": 214467500,
-   "duration": 925830,
+   "offset": 223625000,
+   "duration": 1250000,
    "text": "there"
   },
   {
-   "offset": 215509160,
-   "duration": 1504580,
+   "offset": 225000000,
+   "duration": 1500000,
    "text": "was"
   },
   {
-   "offset": 217129580,
-   "duration": 2083330,
+   "offset": 226625000,
+   "duration": 2125000,
    "text": "no"
   },
   {
-   "offset": 219328750,
-   "duration": 3009160,
+   "offset": 228875000,
+   "duration": 3125000,
    "text": "AI"
   },
   {
-   "offset": 222453750,
-   "duration": 1736250,
+   "offset": 232125000,
+   "duration": 1375000,
    "text": "to"
   },
   {
-   "offset": 224305410,
-   "duration": 4976660,
+   "offset": 233625000,
+   "duration": 5375000,
    "text": "ask"
   },
   {
-   "offset": 232986250,
-   "duration": 1851660,
+   "offset": 243125000,
+   "duration": 1875000,
    "text": "He"
   },
   {
-   "offset": 234953750,
-   "duration": 1273330,
+   "offset": 245125000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 236342500,
-   "duration": 2662080,
+   "offset": 246500000,
+   "duration": 3000000,
    "text": "Gef"
   },
   {
-   "offset": 239120410,
-   "duration": 2546250,
+   "offset": 249625000,
+   "duration": 2250000,
    "text": "built"
   },
   {
-   "offset": 241782500,
-   "duration": 810000,
+   "offset": 252000000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 242708330,
+   "offset": 253000000,
    "duration": 3125000,
    "text": "first"
   },
   {
-   "offset": 245949160,
-   "duration": 3240830,
+   "offset": 256250000,
+   "duration": 3500000,
    "text": "product"
   },
   {
-   "offset": 249305410,
-   "duration": 4282500,
+   "offset": 259875000,
+   "duration": 5000000,
    "text": "together"
   },
   {
-   "offset": 256134160,
-   "duration": 3935000,
+   "offset": 267875000,
+   "duration": 3750000,
    "text": "starting"
   },
   {
-   "offset": 260185000,
-   "duration": 1388750,
+   "offset": 271750000,
+   "duration": 1750000,
    "text": "from"
   },
   {
-   "offset": 261690000,
-   "duration": 1041660,
+   "offset": 273625000,
+   "duration": 1500000,
    "text": "an"
   },
   {
-   "offset": 262847080,
-   "duration": 4976660,
+   "offset": 275250000,
+   "duration": 5750000,
    "text": "open-source"
   },
   {
-   "offset": 267940000,
-   "duration": 4976660,
+   "offset": 281125000,
+   "duration": 6000000,
    "text": "project"
   },
   {
-   "offset": 273032500,
-   "duration": 1157500,
+   "offset": 287875000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 274305410,
-   "duration": 4861250,
+   "offset": 289250000,
+   "duration": 5250000,
    "text": "rebuilding"
   },
   {
-   "offset": 279282500,
-   "duration": 1273330,
+   "offset": 294625000,
+   "duration": 1125000,
    "text": "it"
   },
   {
-   "offset": 280671250,
-   "duration": 2430410,
+   "offset": 295875000,
+   "duration": 2750000,
    "text": "piece"
   },
   {
-   "offset": 283217500,
-   "duration": 1388750,
+   "offset": 298750000,
+   "duration": 1500000,
    "text": "by"
   },
   {
-   "offset": 284722080,
-   "duration": 4398330,
+   "offset": 300375000,
+   "duration": 5000000,
    "text": "piece"
   },
   {
-   "offset": 291898330,
-   "duration": 1273330,
+   "offset": 308500000,
+   "duration": 1625000,
    "text": "with"
   },
   {
-   "offset": 293287080,
-   "duration": 2430410,
+   "offset": 310250000,
+   "duration": 2250000,
    "text": "help"
   },
   {
-   "offset": 295833330,
-   "duration": 1504580,
+   "offset": 312625000,
+   "duration": 1750000,
    "text": "from"
   },
   {
-   "offset": 297453750,
-   "duration": 3935000,
+   "offset": 314500000,
+   "duration": 4625000,
    "text": "Spanish"
   },
   {
-   "offset": 301504580,
-   "duration": 8565000,
+   "offset": 319250000,
+   "duration": 9750000,
    "text": "collaborators"
   },
   {
-   "offset": 313657500,
-   "duration": 3819580,
+   "offset": 333000000,
+   "duration": 2375000,
    "text": "So"
   },
   {
-   "offset": 319675830,
-   "duration": 3472080,
+   "offset": 335625000,
+   "duration": 4000000,
    "text": "somewhere"
   },
   {
-   "offset": 323263750,
-   "duration": 25810409,
+   "offset": 339750000,
+   "duration": 25500000,
    "text": "between 2005 and 2006"
   },
   {
-   "offset": 351851660,
-   "duration": 2546250,
+   "offset": 368375000,
+   "duration": 2250000,
    "text": "three"
   },
   {
-   "offset": 354513750,
-   "duration": 4282500,
+   "offset": 370750000,
+   "duration": 3625000,
    "text": "friends"
   },
   {
-   "offset": 358912080,
-   "duration": 3240830,
+   "offset": 374500000,
+   "duration": 3375000,
    "text": "founded"
   },
   {
-   "offset": 362268330,
-   "duration": 462909,
+   "offset": 378000000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 362847080,
-   "duration": 4861250,
+   "offset": 378625000,
+   "duration": 5750000,
    "text": "company"
   },
   {
-   "offset": 371180410,
-   "duration": 6250000,
+   "offset": 388375000,
+   "duration": 5750000,
    "text": "Tuotempo"
   },
   {
-   "offset": 377546250,
-   "duration": 1620410,
+   "offset": 394250000,
+   "duration": 1875000,
    "text": "was"
   },
   {
-   "offset": 379282500,
-   "duration": 2430410,
+   "offset": 396250000,
+   "duration": 2875000,
    "text": "born"
   },
   {
-   "offset": 381828750,
-   "duration": 4513750,
+   "offset": 399250000,
+   "duration": 5375000,
    "text": "remote"
   },
   {
-   "offset": 389120410,
-   "duration": 4513750,
+   "offset": 409375000,
+   "duration": 5000000,
    "text": "Bologna"
   },
   {
-   "offset": 393750000,
-   "duration": 1620410,
+   "offset": 414500000,
+   "duration": 1500000,
    "text": "on"
   },
   {
-   "offset": 395486250,
-   "duration": 1851660,
+   "offset": 416125000,
+   "duration": 2125000,
    "text": "one"
   },
   {
-   "offset": 397453750,
-   "duration": 2777910,
+   "offset": 418375000,
+   "duration": 3000000,
    "text": "end"
   },
   {
-   "offset": 402083330,
-   "duration": 4282500,
+   "offset": 423375000,
+   "duration": 5750000,
    "text": "Valencia"
   },
   {
-   "offset": 406481660,
-   "duration": 1041660,
+   "offset": 429250000,
+   "duration": 1125000,
    "text": "on"
   },
   {
-   "offset": 407638750,
-   "duration": 1041660,
+   "offset": 430500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 408796250,
-   "duration": 3009160,
+   "offset": 431625000,
+   "duration": 3625000,
    "text": "other"
   },
   {
-   "offset": 414236250,
-   "duration": 3009160,
+   "offset": 437750000,
+   "duration": 3125000,
    "text": "Skype"
   },
   {
-   "offset": 417361250,
-   "duration": 925830,
+   "offset": 441000000,
+   "duration": 875000,
    "text": "in"
   },
   {
-   "offset": 418402910,
-   "duration": 4976660,
+   "offset": 442000000,
+   "duration": 4625000,
    "text": "between"
   },
   {
-   "offset": 425810000,
-   "duration": 1157500,
+   "offset": 447000000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 427083330,
-   "duration": 578750,
+   "offset": 448250000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 427777910,
-   "duration": 2546250,
+   "offset": 448875000,
+   "duration": 2750000,
    "text": "cheap"
   },
   {
-   "offset": 430440000,
-   "duration": 3356660,
+   "offset": 451750000,
+   "duration": 3375000,
    "text": "flight"
   },
   {
-   "offset": 433912080,
-   "duration": 1736250,
+   "offset": 455250000,
+   "duration": 2250000,
    "text": "every"
   },
   {
-   "offset": 435763750,
-   "duration": 1967500,
+   "offset": 457625000,
+   "duration": 2375000,
    "text": "now"
   },
   {
-   "offset": 437847080,
-   "duration": 925830,
+   "offset": 460125000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 438888750,
-   "duration": 3125000,
+   "offset": 461375000,
+   "duration": 3625000,
    "text": "then"
   }
  ]

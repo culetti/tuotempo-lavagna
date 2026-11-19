@@ -1,237 +1,238 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "In 2009, the company got an office in Bologna, in via Ugo Bassi. On paper, a business-centre phone number. In reality, the living room of a family flat, with a sofa. Up to eight people worked in there, and customers came to meetings in that living room.",
+ "spoken": "In 2009, the company got an office in Bologna, in via Oogo Bassi. On paper, a business-centre phone number. In reality, the living room of a family flat, with a sofa. Up to eight people worked in there, and customers came to meetings in that living room.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 11574160,
+   "offset": 875000,
+   "duration": 10375000,
    "text": "In 2009"
   },
   {
-   "offset": 15430410,
-   "duration": 810000,
+   "offset": 11500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 16356660,
-   "duration": 3819580,
+   "offset": 12625000,
+   "duration": 4000000,
    "text": "company"
   },
   {
-   "offset": 20291660,
-   "duration": 1851660,
+   "offset": 16750000,
+   "duration": 1875000,
    "text": "got"
   },
   {
-   "offset": 22259160,
-   "duration": 1041660,
+   "offset": 18750000,
+   "duration": 1250000,
    "text": "an"
   },
   {
-   "offset": 23416660,
-   "duration": 3125000,
+   "offset": 20125000,
+   "duration": 4000000,
    "text": "office"
   },
   {
-   "offset": 26657500,
-   "duration": 1041660,
+   "offset": 24250000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 27815000,
-   "duration": 5092500,
+   "offset": 25375000,
+   "duration": 6000000,
    "text": "Bologna"
   },
   {
-   "offset": 35106660,
-   "duration": 1388750,
+   "offset": 34375000,
+   "duration": 1375000,
    "text": "in"
   },
   {
-   "offset": 36611250,
-   "duration": 3125000,
+   "offset": 35875000,
+   "duration": 3250000,
    "text": "via"
   },
   {
-   "offset": 39851660,
-   "duration": 3356660,
+   "offset": 39250000,
+   "duration": 2500000,
    "text": "Ugo"
   },
   {
-   "offset": 43324160,
-   "duration": 5787080,
+   "offset": 41875000,
+   "duration": 5750000,
    "text": "Bassi"
   },
   {
-   "offset": 52546250,
-   "duration": 1851660,
+   "offset": 51625000,
+   "duration": 1500000,
    "text": "On"
   },
   {
-   "offset": 54513750,
-   "duration": 4976660,
+   "offset": 53250000,
+   "duration": 5000000,
    "text": "paper"
   },
   {
-   "offset": 62037080,
-   "duration": 462909,
+   "offset": 60375000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 62615830,
-   "duration": 6365830,
+   "offset": 61125000,
+   "duration": 7375000,
    "text": "business-centre"
   },
   {
-   "offset": 69097080,
-   "duration": 2430410,
+   "offset": 68625000,
+   "duration": 2875000,
    "text": "phone"
   },
   {
-   "offset": 71643330,
-   "duration": 4282500,
+   "offset": 71625000,
+   "duration": 4375000,
    "text": "number"
   },
   {
-   "offset": 79629580,
-   "duration": 1273330,
+   "offset": 80125000,
+   "duration": 1375000,
    "text": "In"
   },
   {
-   "offset": 81018330,
-   "duration": 6250000,
+   "offset": 81625000,
+   "duration": 6000000,
    "text": "reality"
   },
   {
-   "offset": 89815000,
-   "duration": 925830,
+   "offset": 88125000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 90856660,
-   "duration": 3125000,
+   "offset": 89375000,
+   "duration": 3250000,
    "text": "living"
   },
   {
-   "offset": 94097080,
-   "duration": 2546250,
+   "offset": 92750000,
+   "duration": 2125000,
    "text": "room"
   },
   {
-   "offset": 96759160,
-   "duration": 1041660,
+   "offset": 95000000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 97916660,
-   "duration": 578750,
+   "offset": 96000000,
+   "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 98611250,
-   "duration": 3935000,
+   "offset": 96875000,
+   "duration": 4500000,
    "text": "family"
   },
   {
-   "offset": 102662080,
-   "duration": 4398330,
+   "offset": 101500000,
+   "duration": 4250000,
    "text": "flat"
   },
   {
-   "offset": 109259160,
-   "duration": 1388750,
+   "offset": 106125000,
+   "duration": 1500000,
    "text": "with"
   },
   {
-   "offset": 110763750,
-   "duration": 462909,
+   "offset": 107750000,
+   "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 111342500,
-   "duration": 5208330,
+   "offset": 108375000,
+   "duration": 5500000,
    "text": "sofa"
   },
   {
-   "offset": 120138750,
-   "duration": 1736250,
+   "offset": 117875000,
+   "duration": 1250000,
    "text": "Up"
   },
   {
-   "offset": 121990830,
-   "duration": 1388750,
+   "offset": 119250000,
+   "duration": 1375000,
    "text": "to"
   },
   {
-   "offset": 123495410,
-   "duration": 2315000,
+   "offset": 120750000,
+   "duration": 2375000,
    "text": "eight"
   },
   {
-   "offset": 125925830,
-   "duration": 3125000,
+   "offset": 123250000,
+   "duration": 3625000,
    "text": "people"
   },
   {
-   "offset": 129166660,
-   "duration": 3009160,
+   "offset": 127000000,
+   "duration": 3125000,
    "text": "worked"
   },
   {
-   "offset": 132291660,
-   "duration": 1157500,
+   "offset": 130250000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 133565000,
-   "duration": 2199160,
+   "offset": 131500000,
+   "duration": 3125000,
    "text": "there"
   },
   {
-   "offset": 138425830,
-   "duration": 1388750,
+   "offset": 137500000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 139930410,
-   "duration": 5324160,
+   "offset": 138875000,
+   "duration": 5750000,
    "text": "customers"
   },
   {
-   "offset": 145370410,
-   "duration": 2083330,
+   "offset": 144750000,
+   "duration": 2375000,
    "text": "came"
   },
   {
-   "offset": 147569580,
-   "duration": 1041660,
+   "offset": 147250000,
+   "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 148726660,
-   "duration": 4398330,
+   "offset": 148500000,
+   "duration": 4750000,
    "text": "meetings"
   },
   {
-   "offset": 153240830,
-   "duration": 925830,
+   "offset": 153375000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 154282500,
-   "duration": 1851660,
+   "offset": 154500000,
+   "duration": 2250000,
    "text": "that"
   },
   {
-   "offset": 156250000,
-   "duration": 2662080,
+   "offset": 156875000,
+   "duration": 3500000,
    "text": "living"
   },
   {
-   "offset": 159027910,
-   "duration": 3009160,
+   "offset": 160500000,
+   "duration": 3250000,
    "text": "room"
   }
  ]

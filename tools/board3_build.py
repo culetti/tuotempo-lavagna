@@ -73,11 +73,13 @@ for sec in T:
  assert wi==len(words),sid
  sections.append({'id':sid,'board':'lavagna3','title':titles[sid],'art':[sid],'narration':{'en':' '.join(c[0] for c in sec['cues']),'it':' '.join(c[1] for c in sec['cues'])},'cues':cues,'audio':f'audio/{sid}-en.mp3','photo':photos.get(sid),'notes':sectnotes[sid],'incomplete':False})
 cs=art['l3-consegne'];sc=cs['width']/cs['w']
-board={'id':'lavagna3','title':'L’espansione e gli schiaffi','years':'2009–2016','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
+board={'id':'lavagna3','title':'L’espansione e gli schiaffi','tag':'All’estero','years':'2009–2015','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
 unk=['Lavagna 3 · cravatte nel deserto: stop sulla foto vera di Don nel deserto (12/12/2008); nella foto non c’è la cravatta: le cravatte restano nel disegno e nel racconto.',
      'Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.',
      'Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos.']
 import sys;sys.path.insert(0,str(P/'tools'))
 from boardfiles import write_board
+# Lavagna 3 runs in parallel with Lavagna 2 (2009–2011): a small sign at its start, no change to the voice.
+labels.append({'section':labels[0]['section'],'text':'intanto, all’estero…','x':labels[0]['x'],'y':labels[0]['y']-95,'small':True})
 write_board('lavagna3',board,sections,labels,unk,art)
 print('sections',len(sections),'art',len(art),'voice',round(sum(c['duration'] for x in sections for c in x['cues']),1))

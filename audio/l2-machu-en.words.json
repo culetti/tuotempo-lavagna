@@ -1,357 +1,358 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark. And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud. A race down the mountain, an internet caf\u00e9 in Aguas Calientes, nine hours moving Tuotempo to another zone\u2026 and just as he finished, the service came back by itself, right where it had always been.",
+ "spoken": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark. And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud. A race down the mountain, an internet caf\u00e9 in Aguas Calientes, nine hours moving Tuotempo to another zone\u2026 and just as he finished, the service came back by itself, right where it had always been.",
  "words": [
   {
-   "offset": 1078750,
-   "duration": 3472080,
+   "offset": 875000,
+   "duration": 3750000,
    "text": "Earlier"
   },
   {
-   "offset": 4666660,
-   "duration": 2315000,
+   "offset": 4750000,
+   "duration": 2250000,
    "text": "that"
   },
   {
-   "offset": 7097080,
-   "duration": 3240830,
+   "offset": 7125000,
+   "duration": 3625000,
    "text": "year"
   },
   {
-   "offset": 12190000,
-   "duration": 1041660,
+   "offset": 13250000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 13347080,
-   "duration": 925830,
+   "offset": 14375000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 14388750,
-   "duration": 2893330,
+   "offset": 15500000,
+   "duration": 3500000,
    "text": "spring"
   },
   {
-   "offset": 17398330,
-   "duration": 925830,
+   "offset": 19125000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 18440000,
-   "duration": 7060000,
+   "offset": 20250000,
+   "duration": 10250000,
    "text": "2011"
   },
   {
-   "offset": 28393330,
-   "duration": 4050830,
+   "offset": 33625000,
+   "duration": 3875000,
    "text": "lightning"
   },
   {
-   "offset": 32560000,
-   "duration": 2893330,
+   "offset": 37625000,
+   "duration": 3500000,
    "text": "struck"
   },
   {
-   "offset": 35569580,
-   "duration": 3587910,
+   "offset": 41250000,
+   "duration": 4875000,
    "text": "Amazon"
   },
   {
-   "offset": 39273330,
-   "duration": 1041660,
+   "offset": 46250000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 40430410,
-   "duration": 4398330,
+   "offset": 47500000,
+   "duration": 5000000,
    "text": "Dublin"
   },
   {
-   "offset": 47259160,
-   "duration": 1041660,
+   "offset": 55625000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 48416660,
-   "duration": 6828750,
+   "offset": 57000000,
+   "duration": 6750000,
    "text": "Tuotempo"
   },
   {
-   "offset": 55361250,
-   "duration": 2777910,
+   "offset": 63875000,
+   "duration": 2125000,
    "text": "went"
   },
   {
-   "offset": 58254580,
-   "duration": 4629580,
+   "offset": 66125000,
+   "duration": 4750000,
    "text": "dark"
   },
   {
-   "offset": 66550830,
-   "duration": 1157500,
+   "offset": 74875000,
+   "duration": 1125000,
    "text": "And"
   },
   {
-   "offset": 67824160,
-   "duration": 1504580,
+   "offset": 76125000,
+   "duration": 1500000,
    "text": "one"
   },
   {
-   "offset": 69444580,
-   "duration": 810000,
+   "offset": 77750000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 70370410,
-   "duration": 810000,
+   "offset": 78750000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 71296250,
-   "duration": 5324160,
+   "offset": 79625000,
+   "duration": 5000000,
    "text": "founders"
   },
   {
-   "offset": 76736250,
-   "duration": 1736250,
+   "offset": 84750000,
+   "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 78587910,
-   "duration": 1504580,
+   "offset": 86625000,
+   "duration": 1250000,
    "text": "at"
   },
   {
-   "offset": 80208330,
-   "duration": 3587910,
+   "offset": 88000000,
+   "duration": 3750000,
    "text": "Machu"
   },
   {
-   "offset": 83912080,
-   "duration": 4976660,
+   "offset": 91875000,
+   "duration": 5250000,
    "text": "Picchu"
   },
   {
-   "offset": 91435000,
-   "duration": 3125000,
+   "offset": 101125000,
+   "duration": 3000000,
    "text": "hands"
   },
   {
-   "offset": 94675830,
-   "duration": 4166660,
+   "offset": 104250000,
+   "duration": 4375000,
    "text": "joined"
   },
   {
-   "offset": 101504580,
-   "duration": 2662080,
+   "offset": 111500000,
+   "duration": 2875000,
    "text": "praying"
   },
   {
-   "offset": 104282500,
-   "duration": 1041660,
+   "offset": 114500000,
+   "duration": 1250000,
    "text": "to"
   },
   {
-   "offset": 105440000,
-   "duration": 578750,
+   "offset": 115875000,
+   "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 106134160,
-   "duration": 3356660,
+   "offset": 116750000,
+   "duration": 3500000,
    "text": "different"
   },
   {
-   "offset": 109606660,
-   "duration": 2430410,
+   "offset": 120375000,
+   "duration": 2125000,
    "text": "kind"
   },
   {
-   "offset": 112152910,
-   "duration": 810000,
+   "offset": 122625000,
+   "duration": 875000,
    "text": "of"
   },
   {
-   "offset": 113078750,
-   "duration": 4861250,
+   "offset": 123625000,
+   "duration": 5375000,
    "text": "cloud"
   },
   {
-   "offset": 121643330,
-   "duration": 694580,
+   "offset": 133000000,
+   "duration": 875000,
    "text": "A"
   },
   {
-   "offset": 122453750,
-   "duration": 2662080,
+   "offset": 134000000,
+   "duration": 3250000,
    "text": "race"
   },
   {
-   "offset": 125231660,
-   "duration": 1967500,
+   "offset": 137375000,
+   "duration": 2375000,
    "text": "down"
   },
   {
-   "offset": 127315000,
-   "duration": 578750,
+   "offset": 139875000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 128009160,
-   "duration": 4976660,
+   "offset": 140750000,
+   "duration": 4750000,
    "text": "mountain"
   },
   {
-   "offset": 134606660,
-   "duration": 810000,
+   "offset": 147625000,
+   "duration": 1125000,
    "text": "an"
   },
   {
-   "offset": 135532500,
-   "duration": 4398330,
+   "offset": 148875000,
+   "duration": 4375000,
    "text": "internet"
   },
   {
-   "offset": 140046250,
-   "duration": 4513750,
+   "offset": 153375000,
+   "duration": 4500000,
    "text": "caf\u00e9"
   },
   {
-   "offset": 144675830,
-   "duration": 1388750,
+   "offset": 158000000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 146180410,
-   "duration": 3240830,
+   "offset": 159250000,
+   "duration": 3375000,
    "text": "Aguas"
   },
   {
-   "offset": 149537080,
-   "duration": 5671250,
+   "offset": 162750000,
+   "duration": 8500000,
    "text": "Calientes"
   },
   {
-   "offset": 157870410,
-   "duration": 2662080,
+   "offset": 174125000,
+   "duration": 3000000,
    "text": "nine"
   },
   {
-   "offset": 160648330,
+   "offset": 177250000,
    "duration": 3125000,
    "text": "hours"
   },
   {
-   "offset": 163888750,
-   "duration": 3125000,
+   "offset": 180500000,
+   "duration": 3000000,
    "text": "moving"
   },
   {
-   "offset": 167129580,
-   "duration": 6597080,
+   "offset": 183625000,
+   "duration": 6250000,
    "text": "Tuotempo"
   },
   {
-   "offset": 173842500,
-   "duration": 1273330,
+   "offset": 190000000,
+   "duration": 1750000,
    "text": "to"
   },
   {
-   "offset": 175231660,
-   "duration": 2777910,
+   "offset": 191875000,
+   "duration": 3625000,
    "text": "another"
   },
   {
-   "offset": 178125000,
-   "duration": 3472080,
+   "offset": 195625000,
+   "duration": 3500000,
    "text": "zone"
   },
   {
-   "offset": 184837910,
-   "duration": 1157500,
+   "offset": 204875000,
+   "duration": 1250000,
    "text": "and"
   },
   {
-   "offset": 186111250,
-   "duration": 2199160,
+   "offset": 206250000,
+   "duration": 2500000,
    "text": "just"
   },
   {
-   "offset": 188425830,
-   "duration": 694580,
+   "offset": 208875000,
+   "duration": 875000,
    "text": "as"
   },
   {
-   "offset": 189236250,
-   "duration": 925830,
+   "offset": 209875000,
+   "duration": 1125000,
    "text": "he"
   },
   {
-   "offset": 190277910,
-   "duration": 4513750,
+   "offset": 211125000,
+   "duration": 5375000,
    "text": "finished"
   },
   {
-   "offset": 196875000,
-   "duration": 810000,
+   "offset": 218875000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 197800830,
-   "duration": 3703750,
+   "offset": 220000000,
+   "duration": 4000000,
    "text": "service"
   },
   {
-   "offset": 201620410,
-   "duration": 2083330,
+   "offset": 224125000,
+   "duration": 2375000,
    "text": "came"
   },
   {
-   "offset": 203819580,
-   "duration": 2199160,
+   "offset": 226625000,
+   "duration": 2625000,
    "text": "back"
   },
   {
-   "offset": 206134160,
-   "duration": 1388750,
+   "offset": 229375000,
+   "duration": 1500000,
    "text": "by"
   },
   {
-   "offset": 207638750,
-   "duration": 5440000,
+   "offset": 231000000,
+   "duration": 6125000,
    "text": "itself"
   },
   {
-   "offset": 215277910,
-   "duration": 2315000,
+   "offset": 240125000,
+   "duration": 2000000,
    "text": "right"
   },
   {
-   "offset": 217708330,
-   "duration": 1157500,
+   "offset": 242250000,
+   "duration": 1750000,
    "text": "where"
   },
   {
-   "offset": 218981660,
-   "duration": 810000,
+   "offset": 244125000,
+   "duration": 625000,
    "text": "it"
   },
   {
-   "offset": 219907500,
-   "duration": 1157500,
+   "offset": 244875000,
+   "duration": 1500000,
    "text": "had"
   },
   {
-   "offset": 221180410,
-   "duration": 2777910,
+   "offset": 246500000,
+   "duration": 3500000,
    "text": "always"
   },
   {
-   "offset": 224074160,
-   "duration": 3356660,
+   "offset": 250125000,
+   "duration": 3750000,
    "text": "been"
   }
  ]

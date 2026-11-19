@@ -5,20 +5,20 @@ Usage: python3 tools/board1_tts.py football remote name"""
 import asyncio,json,re,sys,subprocess
 from pathlib import Path
 import edge_tts
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from voice import VOICE,RATE,SAY,UNSAY
 P=Path(__file__).resolve().parent.parent
-SAY=lambda t:re.sub(r'\bGef\b','Jeff',t)    # Gef is pronounced like 'Jeff'
-UNSAY=lambda t:re.sub(r'\bJeff\b','Gef',t)
 norm=lambda s:re.sub(r'[^0-9a-z]','',s.lower())
 dur=lambda f:float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(f)]).decode())
 async def one(sec):
     text=' '.join(c['en'] for c in sec['cues']);spoken=SAY(text)
-    c=edge_tts.Communicate(spoken,"en-GB-SoniaNeural",rate="+8%",boundary="WordBoundary")
+    c=edge_tts.Communicate(spoken,VOICE,rate=RATE,boundary="WordBoundary")
     words=[];mp3=P/'audio'/f"{sec['id']}-en.mp3"
     with open(mp3,'wb') as f:
         async for ch in c.stream():
             if ch['type']=='audio':f.write(ch['data'])
             elif ch['type']=='WordBoundary':words.append({'offset':ch['offset'],'duration':ch['duration'],'text':UNSAY(ch['text'])})
-    json.dump({'voice':'en-GB-SoniaNeural','rate':'+8%','boundary':'WordBoundary','text':text,'spoken':spoken,'words':words},open(P/'audio'/f"{sec['id']}-en.words.json",'w'),indent=1)
+    json.dump({'voice':VOICE,'rate':RATE,'boundary':'WordBoundary','text':text,'spoken':spoken,'words':words},open(P/'audio'/f"{sec['id']}-en.words.json",'w'),indent=1)
     total=dur(mp3);wi=0
     for k,cue in enumerate(sec['cues']):
         need=norm(cue['en']);got='';first=None

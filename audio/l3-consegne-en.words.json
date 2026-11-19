@@ -1,168 +1,168 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Gef took the baton, and the customers had a new point of reference. A handover between old friends.",
  "spoken": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Jeff took the baton, and the customers had a new point of reference. A handover between old friends.",
  "words": [
   {
-   "offset": 1310000,
-   "duration": 10301240,
+   "offset": 1000000,
+   "duration": 13875000,
    "text": "In 2015"
   },
   {
-   "offset": 14620410,
-   "duration": 1388750,
+   "offset": 17750000,
+   "duration": 1500000,
    "text": "one"
   },
   {
-   "offset": 16125000,
-   "duration": 810000,
+   "offset": 19375000,
+   "duration": 750000,
    "text": "of"
   },
   {
-   "offset": 17050830,
-   "duration": 1041660,
+   "offset": 20250000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 18208330,
-   "duration": 2083330,
+   "offset": 21250000,
+   "duration": 2375000,
    "text": "two"
   },
   {
-   "offset": 20407500,
-   "duration": 5208330,
+   "offset": 23750000,
+   "duration": 5375000,
    "text": "lunch-break"
   },
   {
-   "offset": 25731660,
-   "duration": 3587910,
+   "offset": 29250000,
+   "duration": 3625000,
    "text": "friends"
   },
   {
-   "offset": 29435000,
-   "duration": 1736250,
+   "offset": 33000000,
+   "duration": 2125000,
    "text": "from"
   },
   {
-   "offset": 31287080,
-   "duration": 4976660,
+   "offset": 35250000,
+   "duration": 5375000,
    "text": "Cezanne"
   },
   {
-   "offset": 36379580,
-   "duration": 2083330,
+   "offset": 40750000,
+   "duration": 2000000,
    "text": "took"
   },
   {
-   "offset": 38578750,
-   "duration": 810000,
+   "offset": 42875000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 39504580,
-   "duration": 4861250,
+   "offset": 44000000,
+   "duration": 5875000,
    "text": "customers"
   },
   {
-   "offset": 44481660,
-   "duration": 810000,
+   "offset": 50000000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 45407500,
-   "duration": 4629580,
+   "offset": 51125000,
+   "duration": 5000000,
    "text": "hand"
   },
   {
-   "offset": 53375000,
-   "duration": 2777910,
+   "offset": 60125000,
+   "duration": 2500000,
    "text": "Gef"
   },
   {
-   "offset": 56268330,
-   "duration": 1967500,
+   "offset": 62750000,
+   "duration": 2125000,
    "text": "took"
   },
   {
-   "offset": 58351660,
-   "duration": 925830,
+   "offset": 65000000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 59393330,
-   "duration": 4629580,
+   "offset": 66125000,
+   "duration": 4750000,
    "text": "baton"
   },
   {
-   "offset": 66569580,
-   "duration": 925830,
+   "offset": 73250000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 67611250,
-   "duration": 925830,
+   "offset": 74500000,
+   "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 68652910,
-   "duration": 5671250,
+   "offset": 75625000,
+   "duration": 6250000,
    "text": "customers"
   },
   {
-   "offset": 74440000,
-   "duration": 1620410,
+   "offset": 82000000,
+   "duration": 1625000,
    "text": "had"
   },
   {
-   "offset": 76175830,
-   "duration": 462909,
+   "offset": 83750000,
+   "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 76754580,
-   "duration": 2199160,
+   "offset": 84250000,
+   "duration": 2000000,
    "text": "new"
   },
   {
-   "offset": 79069580,
-   "duration": 2662080,
+   "offset": 86375000,
+   "duration": 3000000,
    "text": "point"
   },
   {
-   "offset": 81847080,
-   "duration": 925830,
+   "offset": 89500000,
+   "duration": 1125000,
    "text": "of"
   },
   {
-   "offset": 82888750,
-   "duration": 6481660,
+   "offset": 90750000,
+   "duration": 6875000,
    "text": "reference"
   },
   {
-   "offset": 93055410,
-   "duration": 462909,
+   "offset": 101625000,
+   "duration": 500000,
    "text": "A"
   },
   {
-   "offset": 93634160,
-   "duration": 6481660,
+   "offset": 102250000,
+   "duration": 6125000,
    "text": "handover"
   },
   {
-   "offset": 100231660,
-   "duration": 3819580,
+   "offset": 108500000,
+   "duration": 3750000,
    "text": "between"
   },
   {
-   "offset": 104166660,
-   "duration": 1967500,
+   "offset": 112375000,
+   "duration": 2250000,
    "text": "old"
   },
   {
-   "offset": 106250000,
-   "duration": 5787080,
+   "offset": 114750000,
+   "duration": 6250000,
    "text": "friends"
   }
  ]

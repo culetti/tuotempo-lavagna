@@ -1,252 +1,253 @@
 {
- "voice": "en-GB-SoniaNeural",
- "rate": "+8%",
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
  "boundary": "WordBoundary",
  "text": "Meanwhile, the servers. One night in 2009, the production server, in a data centre in Rome, switched itself off, and would not switch on again until someone went there in person. That was enough. Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.",
+ "spoken": "Meanwhile, the servers. One night in 2009, the production server, in a data centre in Rome, switched itself off, and would not switch on again until someone went there in person. That was enough. Tuotempo moved to Amazon's cloud in Dublin, and by early 2010 it was its only home.",
  "words": [
   {
-   "offset": 1078750,
-   "duration": 6018330,
+   "offset": 875000,
+   "duration": 5250000,
    "text": "Meanwhile"
   },
   {
-   "offset": 9065000,
-   "duration": 925830,
+   "offset": 6375000,
+   "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 10106660,
-   "duration": 6365830,
+   "offset": 7625000,
+   "duration": 7125000,
    "text": "servers"
   },
   {
-   "offset": 20138750,
-   "duration": 2315000,
+   "offset": 18875000,
+   "duration": 2000000,
    "text": "One"
   },
   {
-   "offset": 22569580,
-   "duration": 2893330,
+   "offset": 21000000,
+   "duration": 2500000,
    "text": "night"
   },
   {
-   "offset": 25578750,
-   "duration": 10994990,
+   "offset": 23625000,
+   "duration": 10875000,
    "text": "in 2009"
   },
   {
-   "offset": 38773330,
-   "duration": 810000,
+   "offset": 36250000,
+   "duration": 750000,
    "text": "the"
   },
   {
-   "offset": 39699160,
-   "duration": 4976660,
+   "offset": 37125000,
+   "duration": 5750000,
    "text": "production"
   },
   {
-   "offset": 44791660,
-   "duration": 4166660,
+   "offset": 43000000,
+   "duration": 4500000,
    "text": "server"
   },
   {
-   "offset": 50694580,
-   "duration": 1041660,
+   "offset": 49875000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 51851660,
-   "duration": 694580,
+   "offset": 51125000,
+   "duration": 875000,
    "text": "a"
   },
   {
-   "offset": 52662080,
-   "duration": 2893330,
+   "offset": 52125000,
+   "duration": 2875000,
    "text": "data"
   },
   {
-   "offset": 55671250,
-   "duration": 3125000,
+   "offset": 55125000,
+   "duration": 4125000,
    "text": "centre"
   },
   {
-   "offset": 58912080,
-   "duration": 1157500,
+   "offset": 59375000,
+   "duration": 1375000,
    "text": "in"
   },
   {
-   "offset": 60185000,
-   "duration": 3356660,
+   "offset": 60875000,
+   "duration": 3250000,
    "text": "Rome"
   },
   {
-   "offset": 66203750,
-   "duration": 3356660,
+   "offset": 66000000,
+   "duration": 3500000,
    "text": "switched"
   },
   {
-   "offset": 69675830,
-   "duration": 3819580,
+   "offset": 69625000,
+   "duration": 4250000,
    "text": "itself"
   },
   {
-   "offset": 73611250,
-   "duration": 2893330,
+   "offset": 74000000,
+   "duration": 3625000,
    "text": "off"
   },
   {
-   "offset": 79282500,
-   "duration": 810000,
+   "offset": 80750000,
+   "duration": 875000,
    "text": "and"
   },
   {
-   "offset": 80208330,
-   "duration": 1157500,
+   "offset": 81750000,
+   "duration": 1375000,
    "text": "would"
   },
   {
-   "offset": 81481660,
-   "duration": 2083330,
+   "offset": 83250000,
+   "duration": 2375000,
    "text": "not"
   },
   {
-   "offset": 83680410,
-   "duration": 2662080,
+   "offset": 85750000,
+   "duration": 3250000,
    "text": "switch"
   },
   {
-   "offset": 86458330,
-   "duration": 925830,
+   "offset": 89125000,
+   "duration": 1250000,
    "text": "on"
   },
   {
-   "offset": 87500000,
-   "duration": 3240830,
+   "offset": 90500000,
+   "duration": 3375000,
    "text": "again"
   },
   {
-   "offset": 90856660,
-   "duration": 2662080,
+   "offset": 94000000,
+   "duration": 2750000,
    "text": "until"
   },
   {
-   "offset": 93634160,
-   "duration": 3240830,
+   "offset": 96875000,
+   "duration": 3750000,
    "text": "someone"
   },
   {
-   "offset": 96990830,
-   "duration": 2083330,
+   "offset": 100750000,
+   "duration": 1875000,
    "text": "went"
   },
   {
-   "offset": 99190000,
-   "duration": 1041660,
+   "offset": 102750000,
+   "duration": 1750000,
    "text": "there"
   },
   {
-   "offset": 100347080,
-   "duration": 1157500,
+   "offset": 104625000,
+   "duration": 875000,
    "text": "in"
   },
   {
-   "offset": 101620410,
-   "duration": 5208330,
+   "offset": 105625000,
+   "duration": 5750000,
    "text": "person"
   },
   {
-   "offset": 110532500,
-   "duration": 2546250,
+   "offset": 115500000,
+   "duration": 1500000,
    "text": "That"
   },
   {
-   "offset": 113194580,
-   "duration": 1736250,
+   "offset": 117125000,
+   "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 115046250,
-   "duration": 5208330,
+   "offset": 119000000,
+   "duration": 5500000,
    "text": "enough"
   },
   {
-   "offset": 123638750,
-   "duration": 7291660,
+   "offset": 128500000,
+   "duration": 6250000,
    "text": "Tuotempo"
   },
   {
-   "offset": 131046250,
-   "duration": 3356660,
+   "offset": 134875000,
+   "duration": 2875000,
    "text": "moved"
   },
   {
-   "offset": 134518330,
-   "duration": 1041660,
+   "offset": 137875000,
+   "duration": 875000,
    "text": "to"
   },
   {
-   "offset": 135675830,
-   "duration": 4629580,
+   "offset": 138875000,
+   "duration": 6250000,
    "text": "Amazon's"
   },
   {
-   "offset": 140421250,
-   "duration": 3356660,
+   "offset": 145250000,
+   "duration": 3125000,
    "text": "cloud"
   },
   {
-   "offset": 143893330,
-   "duration": 1041660,
+   "offset": 148500000,
+   "duration": 1000000,
    "text": "in"
   },
   {
-   "offset": 145050830,
-   "duration": 4282500,
+   "offset": 149625000,
+   "duration": 4500000,
    "text": "Dublin"
   },
   {
-   "offset": 151995410,
-   "duration": 1157500,
+   "offset": 158875000,
+   "duration": 1000000,
    "text": "and"
   },
   {
-   "offset": 153268330,
-   "duration": 1620410,
+   "offset": 160000000,
+   "duration": 1500000,
    "text": "by"
   },
   {
-   "offset": 155004580,
-   "duration": 2546250,
+   "offset": 161625000,
+   "duration": 3250000,
    "text": "early"
   },
   {
-   "offset": 157666660,
-   "duration": 6828750,
+   "offset": 165000000,
+   "duration": 9000000,
    "text": "2010"
   },
   {
-   "offset": 164611250,
-   "duration": 1041660,
+   "offset": 174125000,
+   "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 165768330,
-   "duration": 1157500,
+   "offset": 175125000,
+   "duration": 1500000,
    "text": "was"
   },
   {
-   "offset": 167041660,
-   "duration": 1620410,
+   "offset": 176750000,
+   "duration": 1625000,
    "text": "its"
   },
   {
-   "offset": 168777910,
-   "duration": 2199160,
+   "offset": 178500000,
+   "duration": 2500000,
    "text": "only"
   },
   {
-   "offset": 171092500,
-   "duration": 4050830,
+   "offset": 181125000,
+   "duration": 4500000,
    "text": "home"
   }
  ]
