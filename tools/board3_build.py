@@ -20,12 +20,17 @@ def process(key,notes=()):
  Image.fromarray(out.astype('uint8')).save(A/f'{key}.png')
  contours,_=cv2.findContours(ink.astype('uint8')*255,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
  contours=sorted(contours,key=lambda c:(cv2.boundingRect(c)[0]//170,cv2.boundingRect(c)[1]))
+ extra=P/'from-gen'/f'{key}.extra-path.json'  # e.g. scribble over the Pulcinella mask (tools/l3_mask.py)
+ extra=json.load(open(extra)) if extra.exists() else None
+ ekey=(min(p[0] for p in extra if p)//170,min(p[1] for p in extra if p)) if extra else None
  paths=[]
  for c in contours:
   if cv2.arcLength(c,False)<14:continue
+  if extra and (cv2.boundingRect(c)[0]//170,cv2.boundingRect(c)[1])>ekey:paths+=extra;extra=None  # drawn in its place, column by column
   pts=cv2.approxPolyDP(c,1.3,True).reshape(-1,2).tolist()
   if len(pts)<2:continue
   paths+=pts+[pts[0],None]
+ if extra:paths+=extra
  w,h=im.size
  return {'src':f'assets/{key}.png','w':w,'h':h,'path':paths,'radius':8}
 W=1100;cols=[X0+150,X0+1450,X0+2750];rows=[380,1400]
