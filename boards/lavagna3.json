@@ -147,7 +147,7 @@
         "kind": "doc",
         "disclosure": "Testo originale della mail, ricomposto; mittente e destinatari coperti, importi omessi"
       },
-      "notes": "Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) non è confermata come Abu Dhabi: non usata.",
+      "notes": "Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) è lo stop del momento successivo.",
       "incomplete": false
     },
     {
@@ -158,30 +158,35 @@
         "l3-cravatte"
       ],
       "narration": {
-        "en": "One January, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
-        "it": "Un gennaio, due dei fondatori volarono laggiù in giacca e cravatta. E finirono nel deserto: due cravatte nella sabbia, lontanissimo da Bologna."
+        "en": "One winter, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
+        "it": "Un inverno, due dei fondatori volarono laggiù in giacca e cravatta. E finirono nel deserto: due cravatte nella sabbia, lontanissimo da Bologna."
       },
       "cues": [
         {
-          "en": "One January, two of the founders flew out there in jacket and tie.",
-          "it": "Un gennaio, due dei fondatori volarono laggiù in giacca e cravatta.",
+          "en": "One winter, two of the founders flew out there in jacket and tie.",
+          "it": "Un inverno, due dei fondatori volarono laggiù in giacca e cravatta.",
           "art": "l3-cravatte",
           "start": 0.131,
-          "end": 3.799999,
-          "duration": 3.668999
+          "end": 3.707416,
+          "duration": 3.576416
         },
         {
           "en": "And ended up in the desert: two ties in the sand, a long way from Bologna.",
           "it": "E finirono nel deserto: due cravatte nella sabbia, lontanissimo da Bologna.",
           "art": "l3-cravatte",
-          "start": 4.166666,
-          "end": 8.568,
-          "duration": 4.401334
+          "start": 4.074083,
+          "end": 8.472,
+          "duration": 4.397917
         }
       ],
       "audio": "audio/l3-cravatte-en.mp3",
-      "photo": null,
-      "notes": "Master §3 (giacca e cravatta nel deserto a gennaio: RICORDO; c’erano Lele e Don: CERTO, Lele 11/11) e §6 momento 11. Anno non noto. Disegno in attesa di una foto di Abu Dhabi da Don.",
+      "photo": {
+        "src": "assets/deserto-2008-12.jpg",
+        "caption": "Nel deserto · dicembre 2008",
+        "kind": "original",
+        "disclosure": "Foto originale"
+      },
+      "notes": "Master §3 (giacca e cravatta nel deserto: RICORDO; c’erano Lele e Don: CERTO, Lele 11/11; inizio ad Abu Dhabi a dicembre 2008) e §6 momento 11. In voce “one winter” invece di “one January”, per non stonare con la foto di dicembre. Stop: foto vera di Don nel deserto, EXIF 12/12/2008 (album Google Foto), confermata Abu Dhabi da Lele (Sync 18/11); didascalia prudente senza luogo.",
       "incomplete": false
     },
     {
@@ -368,7 +373,7 @@
     }
   ],
   "unknowns": [
-    "Lavagna 3 · cravatte nel deserto: disegno provvisorio; manca una foto confermata di Abu Dhabi (quella di Don nel deserto, EXIF 12/12/2008, non è confermata).",
+    "Lavagna 3 · cravatte nel deserto: stop sulla foto vera di Don nel deserto (12/12/2008); nella foto non c’è la cravatta: le cravatte restano nel disegno e nel racconto.",
     "Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.",
     "Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos."
   ]

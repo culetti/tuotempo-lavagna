@@ -373,38 +373,51 @@
         "l2-machu"
       ],
       "narration": {
-        "en": "Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day. And one of the founders was on top of Machu Picchu. Hands joined, praying to a different kind of cloud.",
-        "it": "Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero. E uno dei fondatori era in cima a Machu Picchu. A mani giunte, a pregare un altro tipo di nuvola."
+        "en": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark. And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud. A race down the mountain, an internet café in Aguas Calientes, nine hours moving Tuotempo to another zone… and just as he finished, the service came back by itself, right where it had always been.",
+        "it": "Qualche mese prima, nella primavera del 2011, un fulmine colpì Amazon a Dublino, e Tuotempo si spense. E uno dei fondatori era a Machu Picchu, a mani giunte, a pregare un altro tipo di nuvola. Una corsa giù dalla montagna, un internet café ad Aguas Calientes, nove ore a spostare Tuotempo su un’altra zona… e proprio alla fine, il servizio ripartì da solo, proprio dov’era sempre stato."
       },
       "cues": [
         {
-          "en": "Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day.",
-          "it": "Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero.",
+          "en": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark.",
+          "it": "Qualche mese prima, nella primavera del 2011, un fulmine colpì Amazon a Dublino, e Tuotempo si spense.",
           "art": "l2-machu",
           "start": 0.107875,
-          "end": 6.589375,
-          "duration": 6.4815
+          "end": 6.288416,
+          "duration": 6.180541
         },
         {
-          "en": "And one of the founders was on top of Machu Picchu.",
-          "it": "E uno dei fondatori era in cima a Machu Picchu.",
+          "en": "And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud.",
+          "it": "E uno dei fondatori era a Machu Picchu, a mani giunte, a pregare un altro tipo di nuvola.",
           "art": "l2-machu",
-          "start": 6.932875,
-          "end": 9.733791,
-          "duration": 2.800916
+          "start": 6.655083,
+          "end": 11.794,
+          "duration": 5.138917
         },
         {
-          "en": "Hands joined, praying to a different kind of cloud.",
-          "it": "A mani giunte, a pregare un altro tipo di nuvola.",
+          "en": "A race down the mountain, an internet café in Aguas Calientes, nine hours moving Tuotempo to another zone…",
+          "it": "Una corsa giù dalla montagna, un internet café ad Aguas Calientes, nove ore a spostare Tuotempo su un’altra zona…",
           "art": "l2-machu",
-          "start": 10.104166,
-          "end": 13.32,
-          "duration": 3.215834
+          "start": 12.164333,
+          "end": 18.159708,
+          "duration": 5.995375
+        },
+        {
+          "en": "and just as he finished, the service came back by itself, right where it had always been.",
+          "it": "e proprio alla fine, il servizio ripartì da solo, proprio dov’era sempre stato.",
+          "art": "l2-machu",
+          "start": 18.483791,
+          "end": 23.088,
+          "duration": 4.604209
         }
       ],
       "audio": "audio/l2-machu-en.mp3",
-      "photo": null,
-      "notes": "Master §3 (7 aprile 2011, “Blackout di tt_site”, giornata intera down, Lele a Machu Picchu) e §6 momento 7. Esiste una foto vera di Lele a mani giunte (Google Foto, album Tuotempo): disegno provvisorio finché non arriva il file.",
+      "photo": {
+        "src": "assets/machu-picchu-2011-04-07.jpg",
+        "caption": "Machu Picchu · 7 aprile 2011",
+        "kind": "original",
+        "disclosure": "Foto originale"
+      },
+      "notes": "Master §3 (“Due cadute di Amazon nel 2011”) e §6 momento 7. Licenza scenica decisa da Lele (Sync 18/11, [COWORK]): il fulmine di Dublino (in realtà 7/8/2011) raccontato insieme alla giornata di Lele a Machu Picchu (7/4/2011: corsa giù da Huayna Picchu, internet café di Aguas Calientes, 9 ore per spostare Tuotempo su un’altra zona, poi riparte tutto da solo sulla zona di prima). In voce solo “primavera 2011”, nessuna data del fulmine. Stop: foto vera IMG_0814 del 7/4/2011 (Drive Materiali, machu_picchu_2011-04-07_IMG_0814.jpg). Nessun ritaglio di giornale usato.",
       "incomplete": false
     },
     {
@@ -503,7 +516,7 @@
   "unknowns": [
     "Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).",
     "Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.",
-    "Lavagna 2 · Machu Picchu: disegno provvisorio; la foto vera (Lele a mani giunte, iPhone 3G) è nell’album Google Foto “Tuotempo”, non accessibile dal box.",
+    "Lavagna 2 · Machu Picchu: stop sulla foto vera IMG_0814 (7/4/2011); il disegno resta sulla lavagna. Racconto per licenza scenica (fulmine di Dublino + Machu Picchu), deciso da Lele.",
     "Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.",
     "Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico."
   ]

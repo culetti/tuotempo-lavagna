@@ -39,8 +39,8 @@
         "l4-milano"
       ],
       "narration": {
-        "en": "2016. Milan: three hospital demos in a single day. San Raffaele, Multimedica, and the European Institute of Oncology. Three of them in one car, back-to-back appointments, impossible parking. The dress code was jacket and tie… and one of them turned up in a leather jacket. Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original. On the way home they were sure they had won them. A few months later, they really had.",
-        "it": "2016. Milano: tre demo in tre ospedali, in un giorno solo. San Raffaele, Multimedica e l’Istituto Europeo di Oncologia. In tre su una macchina, appuntamenti a raffica, parcheggi impossibili. Il dress code era giacca e cravatta… e uno si presentò col giubbotto di pelle. Donatello raccontava il prodotto e la visione; gli altri intervenivano con uscite imbarazzanti, ma originali. Al ritorno erano convinti di averle prese. Qualche mese dopo, le avevano prese davvero."
+        "en": "2016. Milan: three hospital demos in a single day. San Raffaele, Multimedica, and the European Institute of Oncology. Three of them in one car, back-to-back appointments, impossible parking. The dress code was jacket and tie… and one of them turned up in a leather jacket. Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original. On the way home they were sure they had won them. A few months later, two of them were customers, and the third followed.",
+        "it": "2016. Milano: tre demo in tre ospedali, in un giorno solo. San Raffaele, Multimedica e l’Istituto Europeo di Oncologia. In tre su una macchina, appuntamenti a raffica, parcheggi impossibili. Il dress code era giacca e cravatta… e uno si presentò col giubbotto di pelle. Donatello raccontava il prodotto e la visione; gli altri intervenivano con uscite imbarazzanti, ma originali. Al ritorno erano convinti di averle prese. Qualche mese dopo due erano clienti, e il terzo arrivò dopo."
       },
       "cues": [
         {
@@ -79,17 +79,17 @@
           "en": "Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original.",
           "it": "Donatello raccontava il prodotto e la visione; gli altri intervenivano con uscite imbarazzanti, ma originali.",
           "art": "l4-milano",
-          "start": 18.324541,
-          "end": 24.099999,
-          "duration": 5.775458
+          "start": 18.333333,
+          "end": 24.074083,
+          "duration": 5.74075
         },
         {
-          "en": "On the way home they were sure they had won them. A few months later, they really had.",
-          "it": "Al ritorno erano convinti di averle prese. Qualche mese dopo, le avevano prese davvero.",
+          "en": "On the way home they were sure they had won them. A few months later, two of them were customers, and the third followed.",
+          "it": "Al ritorno erano convinti di averle prese. Qualche mese dopo due erano clienti, e il terzo arrivò dopo.",
           "art": "l4-milano",
-          "start": 24.467583,
-          "end": 29.64,
-          "duration": 5.172417
+          "start": 24.444458,
+          "end": 31.224,
+          "duration": 6.779542
         }
       ],
       "audio": "audio/l4-milano-en.mp3",
@@ -99,7 +99,7 @@
         "kind": "doc",
         "disclosure": "Testo originale della mail di IEO, ricomposto; mittente coperto"
       },
-      "notes": "Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata.",
+      "notes": "Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata. Voce corretta il 19/11 ([COWORK]): San Raffaele arriva solo nel 2018 (Gruppo San Donato), quindi “two of them were customers, and the third followed”.",
       "incomplete": false
     },
     {
@@ -202,62 +202,62 @@
         "l4-ciacco"
       ],
       "narration": {
-        "en": "The decisive dinner was in Bologna, at Ciacco, in via Farini. Gianfranco arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
-        "it": "La cena decisiva fu a Bologna, da Ciacco, in via Farini. Gianfranco arrivò dritto dalla Spagna, ancora col trolley. Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante. Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team. Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi. A fine serata l’idea era sul tavolo: uniamo le forze."
+        "en": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Gianfranco arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+        "it": "La cena decisiva fu una sera di ottobre 2018, a Bologna, da Ciacco, in via Farini. Gianfranco arrivò dritto dalla Spagna, ancora col trolley. Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante. Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team. Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi. A fine serata l’idea era sul tavolo: uniamo le forze."
       },
       "cues": [
         {
-          "en": "The decisive dinner was in Bologna, at Ciacco, in via Farini.",
-          "it": "La cena decisiva fu a Bologna, da Ciacco, in via Farini.",
+          "en": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini.",
+          "it": "La cena decisiva fu una sera di ottobre 2018, a Bologna, da Ciacco, in via Farini.",
           "art": "l4-ciacco",
           "start": 0.131,
-          "end": 4.008333,
-          "duration": 3.877333
+          "end": 6.126375,
+          "duration": 5.995375
         },
         {
           "en": "Gianfranco arrived straight from Spain, still pulling his trolley.",
           "it": "Gianfranco arrivò dritto dalla Spagna, ancora col trolley.",
           "art": "l4-ciacco",
-          "start": 4.351833,
-          "end": 7.905083,
-          "duration": 3.55325
+          "start": 6.469916,
+          "end": 10.023124,
+          "duration": 3.553208
         },
         {
           "en": "Around the table, the founders and the people from Docplanner. It began a little hesitantly.",
           "it": "Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante.",
           "art": "l4-ciacco",
-          "start": 8.275458,
-          "end": 13.784749,
-          "duration": 5.509291
+          "start": 10.3935,
+          "end": 15.914374,
+          "duration": 5.520874
         },
         {
           "en": "Then came the questions: which languages, which tools, how the team worked.",
           "it": "Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team.",
           "art": "l4-ciacco",
-          "start": 14.1435,
-          "end": 18.587958,
-          "duration": 4.444458
+          "start": 16.273166,
+          "end": 20.717583,
+          "duration": 4.444417
         },
         {
           "en": "Same tools, the same distributed way of working, similar services in different markets.",
           "it": "Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi.",
           "art": "l4-ciacco",
-          "start": 18.94675,
-          "end": 24.236083,
+          "start": 21.076375,
+          "end": 26.365708,
           "duration": 5.289333
         },
         {
           "en": "By the end of the evening, the idea was on the table: let's join forces.",
           "it": "A fine serata l’idea era sul tavolo: uniamo le forze.",
           "art": "l4-ciacco",
-          "start": 24.583333,
-          "end": 29.088,
-          "duration": 4.504667
+          "start": 26.712958,
+          "end": 31.224,
+          "duration": 4.511042
         }
       ],
       "audio": "audio/l4-ciacco-en.mp3",
       "photo": null,
-      "notes": "Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data della cena non nota (fra ottobre e novembre 2018).",
+      "notes": "Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data: con ogni probabilità la sera del 17/10/2018 (visita di Mariusz e dei due cofondatori a Bologna, [COWORK] 18/11); in voce “one evening in October 2018”.",
       "incomplete": false
     },
     {
@@ -337,7 +337,7 @@
   ],
   "unknowns": [
     "Lavagna 4 · tre demo a Milano: disegno provvisorio; nessuna foto della giornata (auto, ospedali); stop sulla mail IEO del 15/06/2016.",
-    "Lavagna 4 · cena da Ciacco: disegno provvisorio; sostituibile con una foto della trattoria Ciacco (via Farini) o della cena; data esatta non nota.",
+    "Lavagna 4 · cena da Ciacco: disegno provvisorio; sostituibile con una foto della trattoria Ciacco (via Farini) o della cena (probabilmente 17/10/2018).",
     "Lavagna 4 · due pretendenti e la scelta: nessun reperto mostrabile senza cifre; disegni della porta e del bivio.",
     "Lavagna 4 · il sì: nessun reperto; possibile stop futuro sulla mail “DOCPLANNER › JOIN › 13 MAY” se ritagliata senza dati sensibili."
   ]

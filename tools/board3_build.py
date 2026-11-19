@@ -47,14 +47,15 @@ dur=lambda f:float(subprocess.check_output(['ffprobe','-v','error','-show_entrie
 photos={
  'l3-spagna':{'src':'assets/l3-mail-acuerdos.png','caption':'«Acuerdos» · 24 settembre 2009','kind':'doc','disclosure':'Testo originale della mail, ricomposto; mittente coperto'},
  'l3-abudhabi':{'src':'assets/l3-mail-lastnotice.png','caption':'«Last Notice» · 21 marzo 2010','kind':'doc','disclosure':'Testo originale della mail, ricomposto; mittente e destinatari coperti, importi omessi'},
+ 'l3-cravatte':{'src':'assets/deserto-2008-12.jpg','caption':'Nel deserto · dicembre 2008','kind':'original','disclosure':'Foto originale'},
  'l3-sanitas':{'src':'assets/l3-sanitas-slides.png','caption':'tuOtempO_Sanitas_Performance.ppt · 20 luglio 2011','kind':'doc','disclosure':'Due slide originali: la stessa ricerca, 70 secondi senza cache, 5 con la cache'},
  'l3-firma':{'src':'assets/l3-mail-firma.png','caption':'La firma · 9 settembre 2014','kind':'doc','disclosure':'Mail originale, ricomposta; nome e recapiti coperti'},
 }
 titles={'l3-spagna':'La Spagna','l3-abudhabi':'Abu Dhabi','l3-cravatte':'Le cravatte nel deserto','l3-sanitas':'Il teatro napoletano','l3-firma':'La firma da multinazionale','l3-consegne':'Il passaggio di consegne'}
 sectnotes={
  'l3-spagna':'Master §3 “Come nasce la Spagna” e §6 momento 9. Telefonata delle 18:30 (RICORDO, data incerta: 2009 o poco prima); mail “Acuerdos” 24/09/2009 (CERTO): accordo di distribuzione con i partner Infomed per Tarragona, Lleida, Huesca e Andorra, circa 60 cliniche dentali. Nessun nome del collaboratore in voce. Stop: mail ricomposta dal testo originale (Gmail di Lele).',
- 'l3-abudhabi':'Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) non è confermata come Abu Dhabi: non usata.',
- 'l3-cravatte':'Master §3 (giacca e cravatta nel deserto a gennaio: RICORDO; c’erano Lele e Don: CERTO, Lele 11/11) e §6 momento 11. Anno non noto. Disegno in attesa di una foto di Abu Dhabi da Don.',
+ 'l3-abudhabi':'Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) è lo stop del momento successivo.',
+ 'l3-cravatte':'Master §3 (giacca e cravatta nel deserto: RICORDO; c’erano Lele e Don: CERTO, Lele 11/11; inizio ad Abu Dhabi a dicembre 2008) e §6 momento 11. In voce “one winter” invece di “one January”, per non stonare con la foto di dicembre. Stop: foto vera di Don nel deserto, EXIF 12/12/2008 (album Google Foto), confermata Abu Dhabi da Lele (Sync 18/11); didascalia prudente senza luogo.',
  'l3-sanitas':'Master §3 “Sanitas” e §6 momento 12. Il trucco del terminale col timer è RICORDO; la ppt del 20/07/2011 (allegato “tuOtempO_Sanita_Perfromance.ppt”, mail di Don) mostra 70 secondi senza cache e 5 con cache. Stop: due slide originali.',
  'l3-firma':'Master §3 (firme “BOLOGNA | BARCELONA | LYON | ABU DHABI” 2014–2018; a Lione e a Barcellona di fatto una persona; Bologna = la sala di via Ugo Bassi) e §6 momento 13. Stop: mail del 09/09/2014 con la firma, nome e recapiti coperti.',
  'l3-consegne':'Master §3 “Verso il 2016” e §6 momento 15: casella attivata il 22–23/09/2015, firma “Customer Services Director”. Mostrato solo come passaggio di consegne, senza dire che era uscito e rientrato (deciso da Lele 18/11). Le tre demo di Milano (momento 14) vanno nella Lavagna 4.',
@@ -73,7 +74,7 @@ for sec in T:
  sections.append({'id':sid,'board':'lavagna3','title':titles[sid],'art':[sid],'narration':{'en':' '.join(c[0] for c in sec['cues']),'it':' '.join(c[1] for c in sec['cues'])},'cues':cues,'audio':f'audio/{sid}-en.mp3','photo':photos.get(sid),'notes':sectnotes[sid],'incomplete':False})
 cs=art['l3-consegne'];sc=cs['width']/cs['w']
 board={'id':'lavagna3','title':'L’espansione e gli schiaffi','years':'2009–2016','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
-unk=['Lavagna 3 · cravatte nel deserto: disegno provvisorio; manca una foto confermata di Abu Dhabi (quella di Don nel deserto, EXIF 12/12/2008, non è confermata).',
+unk=['Lavagna 3 · cravatte nel deserto: stop sulla foto vera di Don nel deserto (12/12/2008); nella foto non c’è la cravatta: le cravatte restano nel disegno e nel racconto.',
      'Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.',
      'Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos.']
 import sys;sys.path.insert(0,str(P/'tools'))

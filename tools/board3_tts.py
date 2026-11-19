@@ -16,7 +16,9 @@ async def one(sec):
     return words
 async def main():
     out={}
+    only=set(sys.argv[1:])  # e.g. python3 tools/boardN_tts.py l4-milano: regenerate only those sections
     for sec in T:
+        if only and sec['id'] not in only:continue
         out[sec['id']]=await one(sec)
     json.dump(out,open('/tmp/b3words.json','w'))
 asyncio.run(main())

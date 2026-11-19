@@ -32,9 +32,10 @@
   ["Then, one summer night in 2011, at two in the morning, the building's main switch tripped.","Poi, una notte d'estate del 2011, alle due, saltò il generale del palazzo."],
   ["The next morning, the whole company's reminders were silent, until someone went and switched it back on.","La mattina dopo tutti i promemoria dell'azienda tacevano, finché qualcuno non andò a riaccenderlo."]]},
  {"id":"l2-machu","cues":[
-  ["Earlier that year, on the 7th of April 2011, Tuotempo's servers on Amazon went down for a whole day.","Qualche mese prima, il 7 aprile 2011, i server di Tuotempo su Amazon restarono giù per un giorno intero."],
-  ["And one of the founders was on top of Machu Picchu.","E uno dei fondatori era in cima a Machu Picchu."],
-  ["Hands joined, praying to a different kind of cloud.","A mani giunte, a pregare un altro tipo di nuvola."]]},
+  ["Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark.","Qualche mese prima, nella primavera del 2011, un fulmine colpì Amazon a Dublino, e Tuotempo si spense."],
+  ["And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud.","E uno dei fondatori era a Machu Picchu, a mani giunte, a pregare un altro tipo di nuvola."],
+  ["A race down the mountain, an internet café in Aguas Calientes, nine hours moving Tuotempo to another zone…","Una corsa giù dalla montagna, un internet café ad Aguas Calientes, nove ore a spostare Tuotempo su un’altra zona…"],
+  ["and just as he finished, the service came back by itself, right where it had always been.","e proprio alla fine, il servizio ripartì da solo, proprio dov’era sempre stato."]]},
  {"id":"l2-indip","cues":[
   ["Through all of this: no investors, no funding rounds.","In tutto questo: niente investitori, niente round."],
   ["Only friends and family who believed in it, and the customers.","Solo amici e famiglia che ci credevano, e i clienti."],

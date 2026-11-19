@@ -43,10 +43,10 @@ photos={
 }
 titles={'l4-milano':'Tre demo a Milano','l4-pretendenti':'Due pretendenti alla porta','l4-scelta':'La scelta','l4-ciacco':'La cena da Ciacco','l4-si':'Il sì'}
 sectnotes={
- 'l4-milano':'Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata.',
+ 'l4-milano':'Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata. Voce corretta il 19/11 ([COWORK]): San Raffaele arriva solo nel 2018 (Gruppo San Donato), quindi “two of them were customers, and the third followed”.',
  'l4-pretendenti':'Master §3 “Il finale” e §6 momento 17. Autunno 2018: term sheet del fondo 23/09–01/10/2018, Docplanner dal 15/10/2018 (CERTO). Il fondo resta anonimo; niente cifre (regola dell’11/11).',
  'l4-scelta':'Master §3 “Perché Docplanner” e §6 momento 18 (RICORDO, registrazione 11/11): Don torna dal fondo, il fondo capisce che i fondatori non vogliono ripartire con round ed espansione USA. Lasciato fuori l’aspetto personale.',
- 'l4-ciacco':'Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data della cena non nota (fra ottobre e novembre 2018).',
+ 'l4-ciacco':'Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data: con ogni probabilità la sera del 17/10/2018 (visita di Mariusz e dei due cofondatori a Bologna, [COWORK] 18/11); in voce “one evening in October 2018”.',
  'l4-si':'Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gianfranco.',
 }
 sections=[]
@@ -64,7 +64,7 @@ for sec in T:
 cs=art['l4-si'];sc=cs['width']/cs['w']
 board={'id':'lavagna4','title':'Verso Docplanner','years':'2016–2019','color':PURPLE,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+590*sc),'y':round(cs['y']+470*sc),'rx':150,'ry':120},'yearsAt':[X0+3250,2300]}}
 unk=['Lavagna 4 · tre demo a Milano: disegno provvisorio; nessuna foto della giornata (auto, ospedali); stop sulla mail IEO del 15/06/2016.',
-     'Lavagna 4 · cena da Ciacco: disegno provvisorio; sostituibile con una foto della trattoria Ciacco (via Farini) o della cena; data esatta non nota.',
+     'Lavagna 4 · cena da Ciacco: disegno provvisorio; sostituibile con una foto della trattoria Ciacco (via Farini) o della cena (probabilmente 17/10/2018).',
      'Lavagna 4 · due pretendenti e la scelta: nessun reperto mostrabile senza cifre; disegni della porta e del bivio.',
      'Lavagna 4 · il sì: nessun reperto; possibile stop futuro sulla mail “DOCPLANNER › JOIN › 13 MAY” se ritagliata senza dati sensibili.']
 import sys;sys.path.insert(0,str(P/'tools'))

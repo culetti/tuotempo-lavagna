@@ -51,6 +51,7 @@ memo='Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20
 photos={
  'l2-clients':{'src':'assets/memo2007-agenda.png','caption':'L’agenda · giovedì 14 giugno 2007','kind':'screen','disclosure':memo},
  'l2-troiano':{'src':'assets/memo2007-sincro.png','caption':'tuOtempO SINCRO · 2007','kind':'screen','disclosure':memo+'; la sincronizzazione con il gestionale era già annunciata'},
+ 'l2-machu':{'src':'assets/machu-picchu-2011-04-07.jpg','caption':'Machu Picchu · 7 aprile 2011','kind':'original','disclosure':'Foto originale'},
  'l2-voce':{'src':'assets/memo2007-voice.png','caption':'«Voice Message» · la promessa del 2007','kind':'screen','disclosure':memo+'; la voce arriverà nel 2009'},
 }
 titles={'l2-clients':'I primi clienti','l2-troiano':'Il troiano','l2-salotto':'Il salotto di via Ugo Bassi','l2-voce':'La voce','l2-cloud':'Dal server al cloud','l2-serverino':'Il serverino degli SMS','l2-machu':'Machu Picchu','l2-indip':'Indipendenti'}
@@ -61,7 +62,7 @@ sectnotes={
  'l2-voce':'Master §3 (voce nel 2009 con Voxeo, tesi su VoiceXML) e Reperto video 2007: nel 2007 la voce era una promessa (Lele 18/11). “Fra i primi” è RICORDO di Lele. Stop: fotogramma reale “Voice Message” del video 2007.',
  'l2-cloud':'Master §3 Hosting (server di produzione spento il 07/07/2009, AWS Dublino da settembre 2009, unico hosting da febbraio 2010) e §6 momento 5. Il down di 24 ore con Don a Manfredonia resta a braccio. Stop sul disegno (a braccio).',
  'l2-serverino':'Master §3 (macchinetta degli SMS in via Ugo Bassi, modem GSM, SIM dall’estero, SIM greca; “Serverino Down” 20/07/2011, generale saltato alle due di notte) e §6 momento 6. Nessun nome in voce (chi è salito a riaccenderla resta a braccio). Disegno in attesa di una foto del serverino.',
- 'l2-machu':'Master §3 (7 aprile 2011, “Blackout di tt_site”, giornata intera down, Lele a Machu Picchu) e §6 momento 7. Esiste una foto vera di Lele a mani giunte (Google Foto, album Tuotempo): disegno provvisorio finché non arriva il file.',
+ 'l2-machu':'Master §3 (“Due cadute di Amazon nel 2011”) e §6 momento 7. Licenza scenica decisa da Lele (Sync 18/11, [COWORK]): il fulmine di Dublino (in realtà 7/8/2011) raccontato insieme alla giornata di Lele a Machu Picchu (7/4/2011: corsa giù da Huayna Picchu, internet café di Aguas Calientes, 9 ore per spostare Tuotempo su un’altra zona, poi riparte tutto da solo sulla zona di prima). In voce solo “primavera 2011”, nessuna data del fulmine. Stop: foto vera IMG_0814 del 7/4/2011 (Drive Materiali, machu_picchu_2011-04-07_IMG_0814.jpg). Nessun ritaglio di giornale usato.',
  'l2-indip':'Master §3 “L’indipendenza” (niente round, family & friends) e §6 momento 8. La storia dei 20.000 € resta a braccio; nessuna cifra in voce. Stop sul disegno, poi chiusura della lavagna.',
 }
 sections=[]
@@ -84,7 +85,7 @@ boards=[{'id':'lavagna1','title':'Le origini','years':'2005–2007','color':'#bd
 labels1=[{'section':'origins','text':'1 · Bologna → Valencia','x':90,'y':105},{'section':'football','text':'2 · L’idea del calcetto','x':2130,'y':105},{'section':'remote','text':'3 · Nati da remoto','x':2130,'y':1400},{'section':'dentist','text':'4 · Client number one','x':110,'y':1400}]
 unk=['Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).',
      'Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.',
-     'Lavagna 2 · Machu Picchu: disegno provvisorio; la foto vera (Lele a mani giunte, iPhone 3G) è nell’album Google Foto “Tuotempo”, non accessibile dal box.',
+     'Lavagna 2 · Machu Picchu: stop sulla foto vera IMG_0814 (7/4/2011); il disegno resta sulla lavagna. Racconto per licenza scenica (fulmine di Dublino + Machu Picchu), deciso da Lele.',
      'Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.',
      'Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico.']
 import sys;sys.path.insert(0,str(P/'tools'))
