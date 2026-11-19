@@ -1,0 +1,443 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "2016. Milan: three hospital demos in a single day. San Raffaele, Multimedica, and the European Institute of Oncology. Three of them in one car, back-to-back appointments, impossible parking. The dress code was jacket and tie\u2026 and one of them turned up in a leather jacket. Donatello told the product and the vision; the others chipped in with remarks that were embarrassing, but original. On the way home they were sure they had won them. A few months later, two of them were customers, and the third followed.",
+ "words": [
+  {
+   "offset": 990830,
+   "duration": 9606250,
+   "text": "2016"
+  },
+  {
+   "offset": 14300830,
+   "duration": 4629580,
+   "text": "Milan"
+  },
+  {
+   "offset": 21708330,
+   "duration": 2777910,
+   "text": "three"
+  },
+  {
+   "offset": 24601660,
+   "duration": 4861250,
+   "text": "hospital"
+  },
+  {
+   "offset": 29578750,
+   "duration": 4398330,
+   "text": "demos"
+  },
+  {
+   "offset": 34092500,
+   "duration": 1388750,
+   "text": "in"
+  },
+  {
+   "offset": 35597080,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 36175830,
+   "duration": 3472080,
+   "text": "single"
+  },
+  {
+   "offset": 39763750,
+   "duration": 3703750,
+   "text": "day"
+  },
+  {
+   "offset": 46990830,
+   "duration": 3472080,
+   "text": "San"
+  },
+  {
+   "offset": 50578750,
+   "duration": 6712910,
+   "text": "Raffaele"
+  },
+  {
+   "offset": 59722080,
+   "duration": 7754580,
+   "text": "Multimedica"
+  },
+  {
+   "offset": 70023330,
+   "duration": 1273330,
+   "text": "and"
+  },
+  {
+   "offset": 71412080,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 72453750,
+   "duration": 5208330,
+   "text": "European"
+  },
+  {
+   "offset": 77777910,
+   "duration": 5092500,
+   "text": "Institute"
+  },
+  {
+   "offset": 82986250,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 84027910,
+   "duration": 6481660,
+   "text": "Oncology"
+  },
+  {
+   "offset": 94097080,
+   "duration": 2662080,
+   "text": "Three"
+  },
+  {
+   "offset": 96875000,
+   "duration": 1041660,
+   "text": "of"
+  },
+  {
+   "offset": 98032500,
+   "duration": 1736250,
+   "text": "them"
+  },
+  {
+   "offset": 99884160,
+   "duration": 1273330,
+   "text": "in"
+  },
+  {
+   "offset": 101273330,
+   "duration": 2430410,
+   "text": "one"
+  },
+  {
+   "offset": 103819580,
+   "duration": 3587910,
+   "text": "car"
+  },
+  {
+   "offset": 109953750,
+   "duration": 4861250,
+   "text": "back-to-back"
+  },
+  {
+   "offset": 114930410,
+   "duration": 6828750,
+   "text": "appointments"
+  },
+  {
+   "offset": 123958330,
+   "duration": 5324160,
+   "text": "impossible"
+  },
+  {
+   "offset": 129398330,
+   "duration": 5671250,
+   "text": "parking"
+  },
+  {
+   "offset": 138773330,
+   "duration": 1041660,
+   "text": "The"
+  },
+  {
+   "offset": 139930410,
+   "duration": 2546250,
+   "text": "dress"
+  },
+  {
+   "offset": 142592500,
+   "duration": 3009160,
+   "text": "code"
+  },
+  {
+   "offset": 145717500,
+   "duration": 1504580,
+   "text": "was"
+  },
+  {
+   "offset": 147337910,
+   "duration": 4282500,
+   "text": "jacket"
+  },
+  {
+   "offset": 151736250,
+   "duration": 1041660,
+   "text": "and"
+  },
+  {
+   "offset": 152893330,
+   "duration": 3935000,
+   "text": "tie"
+  },
+  {
+   "offset": 159722080,
+   "duration": 1273330,
+   "text": "and"
+  },
+  {
+   "offset": 161111250,
+   "duration": 1620410,
+   "text": "one"
+  },
+  {
+   "offset": 162847080,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 163888750,
+   "duration": 1851660,
+   "text": "them"
+  },
+  {
+   "offset": 165856660,
+   "duration": 2662080,
+   "text": "turned"
+  },
+  {
+   "offset": 168634160,
+   "duration": 1273330,
+   "text": "up"
+  },
+  {
+   "offset": 170023330,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 170949160,
+   "duration": 347080,
+   "text": "a"
+  },
+  {
+   "offset": 171412080,
+   "duration": 2662080,
+   "text": "leather"
+  },
+  {
+   "offset": 174190000,
+   "duration": 5671250,
+   "text": "jacket"
+  },
+  {
+   "offset": 183333330,
+   "duration": 6712910,
+   "text": "Donatello"
+  },
+  {
+   "offset": 190162080,
+   "duration": 2777910,
+   "text": "told"
+  },
+  {
+   "offset": 193055410,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 193981660,
+   "duration": 4513750,
+   "text": "product"
+  },
+  {
+   "offset": 198611250,
+   "duration": 810000,
+   "text": "and"
+  },
+  {
+   "offset": 199537080,
+   "duration": 694580,
+   "text": "the"
+  },
+  {
+   "offset": 200347080,
+   "duration": 3819580,
+   "text": "vision"
+  },
+  {
+   "offset": 207060000,
+   "duration": 1157500,
+   "text": "the"
+  },
+  {
+   "offset": 208333330,
+   "duration": 3125000,
+   "text": "others"
+  },
+  {
+   "offset": 211574160,
+   "duration": 2777910,
+   "text": "chipped"
+  },
+  {
+   "offset": 214467500,
+   "duration": 1388750,
+   "text": "in"
+  },
+  {
+   "offset": 215972080,
+   "duration": 1388750,
+   "text": "with"
+  },
+  {
+   "offset": 217476660,
+   "duration": 4745410,
+   "text": "remarks"
+  },
+  {
+   "offset": 222337910,
+   "duration": 1157500,
+   "text": "that"
+  },
+  {
+   "offset": 223611250,
+   "duration": 1041660,
+   "text": "were"
+  },
+  {
+   "offset": 224768330,
+   "duration": 6597080,
+   "text": "embarrassing"
+  },
+  {
+   "offset": 233333330,
+   "duration": 1504580,
+   "text": "but"
+  },
+  {
+   "offset": 234953750,
+   "duration": 5787080,
+   "text": "original"
+  },
+  {
+   "offset": 244444580,
+   "duration": 1273330,
+   "text": "On"
+  },
+  {
+   "offset": 245833330,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 246759160,
+   "duration": 2083330,
+   "text": "way"
+  },
+  {
+   "offset": 248958330,
+   "duration": 3819580,
+   "text": "home"
+  },
+  {
+   "offset": 252893330,
+   "duration": 1620410,
+   "text": "they"
+  },
+  {
+   "offset": 254629580,
+   "duration": 1041660,
+   "text": "were"
+  },
+  {
+   "offset": 255787080,
+   "duration": 3009160,
+   "text": "sure"
+  },
+  {
+   "offset": 258912080,
+   "duration": 1157500,
+   "text": "they"
+  },
+  {
+   "offset": 260185000,
+   "duration": 1967500,
+   "text": "had"
+  },
+  {
+   "offset": 262268330,
+   "duration": 2083330,
+   "text": "won"
+  },
+  {
+   "offset": 264467500,
+   "duration": 2662080,
+   "text": "them"
+  },
+  {
+   "offset": 270833330,
+   "duration": 694580,
+   "text": "A"
+  },
+  {
+   "offset": 271643330,
+   "duration": 2199160,
+   "text": "few"
+  },
+  {
+   "offset": 273958330,
+   "duration": 2777910,
+   "text": "months"
+  },
+  {
+   "offset": 276851660,
+   "duration": 4629580,
+   "text": "later"
+  },
+  {
+   "offset": 284027910,
+   "duration": 1736250,
+   "text": "two"
+  },
+  {
+   "offset": 285879580,
+   "duration": 1041660,
+   "text": "of"
+  },
+  {
+   "offset": 287037080,
+   "duration": 1388750,
+   "text": "them"
+  },
+  {
+   "offset": 288541660,
+   "duration": 925830,
+   "text": "were"
+  },
+  {
+   "offset": 289583330,
+   "duration": 6481660,
+   "text": "customers"
+  },
+  {
+   "offset": 298263750,
+   "duration": 1041660,
+   "text": "and"
+  },
+  {
+   "offset": 299421250,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 300347080,
+   "duration": 3356660,
+   "text": "third"
+  },
+  {
+   "offset": 303819580,
+   "duration": 5092500,
+   "text": "followed"
+  }
+ ]
+}

@@ -202,8 +202,8 @@
         "l4-ciacco"
       ],
       "narration": {
-        "en": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Gianfranco arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
-        "it": "La cena decisiva fu una sera di ottobre 2018, a Bologna, da Ciacco, in via Farini. Gianfranco arrivò dritto dalla Spagna, ancora col trolley. Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante. Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team. Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi. A fine serata l’idea era sul tavolo: uniamo le forze."
+        "en": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Gef arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+        "it": "La cena decisiva fu una sera di ottobre 2018, a Bologna, da Ciacco, in via Farini. Gef arrivò dritto dalla Spagna, ancora col trolley. Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante. Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team. Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi. A fine serata l’idea era sul tavolo: uniamo le forze."
       },
       "cues": [
         {
@@ -215,49 +215,49 @@
           "duration": 5.995375
         },
         {
-          "en": "Gianfranco arrived straight from Spain, still pulling his trolley.",
-          "it": "Gianfranco arrivò dritto dalla Spagna, ancora col trolley.",
+          "en": "Gef arrived straight from Spain, still pulling his trolley.",
+          "it": "Gef arrivò dritto dalla Spagna, ancora col trolley.",
           "art": "l4-ciacco",
-          "start": 6.469916,
-          "end": 10.023124,
-          "duration": 3.553208
+          "start": 6.460166,
+          "end": 9.515749,
+          "duration": 3.055583
         },
         {
           "en": "Around the table, the founders and the people from Docplanner. It began a little hesitantly.",
           "it": "Attorno al tavolo, i fondatori e quelli di Docplanner. L’inizio fu un po’ titubante.",
           "art": "l4-ciacco",
-          "start": 10.3935,
-          "end": 15.914374,
+          "start": 9.88425,
+          "end": 15.405124,
           "duration": 5.520874
         },
         {
           "en": "Then came the questions: which languages, which tools, how the team worked.",
           "it": "Poi arrivarono le domande: quali linguaggi, quali strumenti, come lavorava il team.",
           "art": "l4-ciacco",
-          "start": 16.273166,
-          "end": 20.717583,
-          "duration": 4.444417
+          "start": 15.763875,
+          "end": 20.208333,
+          "duration": 4.444458
         },
         {
           "en": "Same tools, the same distributed way of working, similar services in different markets.",
           "it": "Stessi strumenti, lo stesso modo di lavorare a distanza, servizi simili su mercati diversi.",
           "art": "l4-ciacco",
-          "start": 21.076375,
-          "end": 26.365708,
+          "start": 20.567125,
+          "end": 25.856458,
           "duration": 5.289333
         },
         {
           "en": "By the end of the evening, the idea was on the table: let's join forces.",
           "it": "A fine serata l’idea era sul tavolo: uniamo le forze.",
           "art": "l4-ciacco",
-          "start": 26.712958,
-          "end": 31.224,
-          "duration": 4.511042
+          "start": 26.203708,
+          "end": 30.72,
+          "duration": 4.516292
         }
       ],
       "audio": "audio/l4-ciacco-en.mp3",
       "photo": null,
-      "notes": "Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gianfranco arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data: con ogni probabilità la sera del 17/10/2018 (visita di Mariusz e dei due cofondatori a Bologna, [COWORK] 18/11); in voce “one evening in October 2018”.",
+      "notes": "Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gef (Gianfranco) arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data: con ogni probabilità la sera del 17/10/2018 (visita di Mariusz e dei due cofondatori a Bologna, [COWORK] 18/11); in voce “one evening in October 2018”.",
       "incomplete": false
     },
     {
@@ -268,8 +268,8 @@
         "l4-si"
       ],
       "narration": {
-        "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo… and the start of the next one. Over to Gianfranco.",
-        "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence. Ed era un sì. La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gianfranco."
+        "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo… and the start of the next one. Over to Gef.",
+        "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence. Ed era un sì. La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gef."
       },
       "cues": [
         {
@@ -289,17 +289,17 @@
           "duration": 1.05325
         },
         {
-          "en": "The end of the first chapter of Tuotempo… and the start of the next one. Over to Gianfranco.",
-          "it": "La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gianfranco.",
+          "en": "The end of the first chapter of Tuotempo… and the start of the next one. Over to Gef.",
+          "it": "La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gef.",
           "art": "l4-si",
           "start": 7.8935,
-          "end": 13.872,
-          "duration": 5.9785
+          "end": 13.44,
+          "duration": 5.5465
         }
       ],
       "audio": "audio/l4-si-en.mp3",
       "photo": null,
-      "notes": "Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gianfranco.",
+      "notes": "Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gef (Gianfranco).",
       "incomplete": false
     }
   ],

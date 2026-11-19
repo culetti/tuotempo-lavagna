@@ -1,0 +1,293 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "2011. Sanitas, one of the biggest health insurers in Spain, wanted proof that Tuotempo could take the load. So the demo was pure Neapolitan theatre: a terminal, a timer, and searches connected to clinic twenty-three, twenty-four, twenty-eight\u2026 On the slides, a search dropped from seventy seconds to five. Sanitas bought, and became the biggest customer in Spain.",
+ "words": [
+  {
+   "offset": 990830,
+   "duration": 8217500,
+   "text": "2011"
+  },
+  {
+   "offset": 11638750,
+   "duration": 6250000,
+   "text": "Sanitas"
+  },
+  {
+   "offset": 19856660,
+   "duration": 1504580,
+   "text": "one"
+  },
+  {
+   "offset": 21476660,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 22402910,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 23560000,
+   "duration": 3125000,
+   "text": "biggest"
+  },
+  {
+   "offset": 26800830,
+   "duration": 2083330,
+   "text": "health"
+  },
+  {
+   "offset": 29000000,
+   "duration": 4745410,
+   "text": "insurers"
+  },
+  {
+   "offset": 33861250,
+   "duration": 1157500,
+   "text": "in"
+  },
+  {
+   "offset": 35134160,
+   "duration": 4166660,
+   "text": "Spain"
+  },
+  {
+   "offset": 42310000,
+   "duration": 3240830,
+   "text": "wanted"
+  },
+  {
+   "offset": 45666660,
+   "duration": 3240830,
+   "text": "proof"
+  },
+  {
+   "offset": 49023330,
+   "duration": 1620410,
+   "text": "that"
+  },
+  {
+   "offset": 50759160,
+   "duration": 6250000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 57125000,
+   "duration": 1736250,
+   "text": "could"
+  },
+  {
+   "offset": 58976660,
+   "duration": 2083330,
+   "text": "take"
+  },
+  {
+   "offset": 61175830,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 62101660,
+   "duration": 4050830,
+   "text": "load"
+  },
+  {
+   "offset": 69675830,
+   "duration": 1851660,
+   "text": "So"
+  },
+  {
+   "offset": 71643330,
+   "duration": 1157500,
+   "text": "the"
+  },
+  {
+   "offset": 72916660,
+   "duration": 3125000,
+   "text": "demo"
+  },
+  {
+   "offset": 76157500,
+   "duration": 1736250,
+   "text": "was"
+  },
+  {
+   "offset": 78009160,
+   "duration": 2546250,
+   "text": "pure"
+  },
+  {
+   "offset": 80671250,
+   "duration": 6250000,
+   "text": "Neapolitan"
+  },
+  {
+   "offset": 87037080,
+   "duration": 4282500,
+   "text": "theatre"
+  },
+  {
+   "offset": 94675830,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 95254580,
+   "duration": 5208330,
+   "text": "terminal"
+  },
+  {
+   "offset": 102199160,
+   "duration": 347080,
+   "text": "a"
+  },
+  {
+   "offset": 102662080,
+   "duration": 4861250,
+   "text": "timer"
+  },
+  {
+   "offset": 109606660,
+   "duration": 1388750,
+   "text": "and"
+  },
+  {
+   "offset": 111111250,
+   "duration": 4976660,
+   "text": "searches"
+  },
+  {
+   "offset": 116203750,
+   "duration": 4513750,
+   "text": "connected"
+  },
+  {
+   "offset": 120833330,
+   "duration": 810000,
+   "text": "to"
+  },
+  {
+   "offset": 121759160,
+   "duration": 3472080,
+   "text": "clinic"
+  },
+  {
+   "offset": 125347080,
+   "duration": 6365830,
+   "text": "twenty-three"
+  },
+  {
+   "offset": 133796250,
+   "duration": 6018330,
+   "text": "twenty-four"
+  },
+  {
+   "offset": 141550830,
+   "duration": 7060000,
+   "text": "twenty-eight"
+  },
+  {
+   "offset": 152315000,
+   "duration": 1388750,
+   "text": "On"
+  },
+  {
+   "offset": 153819580,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 154861250,
+   "duration": 5555410,
+   "text": "slides"
+  },
+  {
+   "offset": 163078750,
+   "duration": 347080,
+   "text": "a"
+  },
+  {
+   "offset": 163541660,
+   "duration": 4050830,
+   "text": "search"
+  },
+  {
+   "offset": 167708330,
+   "duration": 3356660,
+   "text": "dropped"
+  },
+  {
+   "offset": 171180410,
+   "duration": 1967500,
+   "text": "from"
+  },
+  {
+   "offset": 173263750,
+   "duration": 4050830,
+   "text": "seventy"
+  },
+  {
+   "offset": 177430410,
+   "duration": 4166660,
+   "text": "seconds"
+  },
+  {
+   "offset": 181712910,
+   "duration": 1041660,
+   "text": "to"
+  },
+  {
+   "offset": 182870410,
+   "duration": 4861250,
+   "text": "five"
+  },
+  {
+   "offset": 191435000,
+   "duration": 5555410,
+   "text": "Sanitas"
+  },
+  {
+   "offset": 197106660,
+   "duration": 4050830,
+   "text": "bought"
+  },
+  {
+   "offset": 203587910,
+   "duration": 810000,
+   "text": "and"
+  },
+  {
+   "offset": 204513750,
+   "duration": 3472080,
+   "text": "became"
+  },
+  {
+   "offset": 208101660,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 209259160,
+   "duration": 3472080,
+   "text": "biggest"
+  },
+  {
+   "offset": 212847080,
+   "duration": 4513750,
+   "text": "customer"
+  },
+  {
+   "offset": 217476660,
+   "duration": 1273330,
+   "text": "in"
+  },
+  {
+   "offset": 218865830,
+   "duration": 4861250,
+   "text": "Spain"
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "When Docplanner came forward, Donatello went back to the fund. And the fund itself understood: the founders didn't want to start again from scratch, on the other side of the ocean. The choice fell on Docplanner.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 2199160,
+   "text": "When"
+  },
+  {
+   "offset": 3625000,
+   "duration": 5787080,
+   "text": "Docplanner"
+  },
+  {
+   "offset": 9527910,
+   "duration": 2430410,
+   "text": "came"
+  },
+  {
+   "offset": 12074160,
+   "duration": 4861250,
+   "text": "forward"
+  },
+  {
+   "offset": 19712910,
+   "duration": 6134160,
+   "text": "Donatello"
+  },
+  {
+   "offset": 25962910,
+   "duration": 2430410,
+   "text": "went"
+  },
+  {
+   "offset": 28509160,
+   "duration": 2083330,
+   "text": "back"
+  },
+  {
+   "offset": 30708330,
+   "duration": 810000,
+   "text": "to"
+  },
+  {
+   "offset": 31634160,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 32560000,
+   "duration": 4629580,
+   "text": "fund"
+  },
+  {
+   "offset": 40856660,
+   "duration": 1041660,
+   "text": "And"
+  },
+  {
+   "offset": 42013750,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 43055410,
+   "duration": 2893330,
+   "text": "fund"
+  },
+  {
+   "offset": 46065000,
+   "duration": 4050830,
+   "text": "itself"
+  },
+  {
+   "offset": 50231660,
+   "duration": 5902910,
+   "text": "understood"
+  },
+  {
+   "offset": 59143330,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 60300830,
+   "duration": 4745410,
+   "text": "founders"
+  },
+  {
+   "offset": 65162080,
+   "duration": 2546250,
+   "text": "didn't"
+  },
+  {
+   "offset": 67824160,
+   "duration": 1620410,
+   "text": "want"
+  },
+  {
+   "offset": 69560000,
+   "duration": 578750,
+   "text": "to"
+  },
+  {
+   "offset": 70254580,
+   "duration": 3009160,
+   "text": "start"
+  },
+  {
+   "offset": 73379580,
+   "duration": 2430410,
+   "text": "again"
+  },
+  {
+   "offset": 75925830,
+   "duration": 1504580,
+   "text": "from"
+  },
+  {
+   "offset": 77546250,
+   "duration": 4861250,
+   "text": "scratch"
+  },
+  {
+   "offset": 84490830,
+   "duration": 694580,
+   "text": "on"
+  },
+  {
+   "offset": 85300830,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 86458330,
+   "duration": 1851660,
+   "text": "other"
+  },
+  {
+   "offset": 88425830,
+   "duration": 2315000,
+   "text": "side"
+  },
+  {
+   "offset": 90856660,
+   "duration": 694580,
+   "text": "of"
+  },
+  {
+   "offset": 91666660,
+   "duration": 1157500,
+   "text": "the"
+  },
+  {
+   "offset": 92940000,
+   "duration": 4398330,
+   "text": "ocean"
+  },
+  {
+   "offset": 100722080,
+   "duration": 1736250,
+   "text": "The"
+  },
+  {
+   "offset": 102574160,
+   "duration": 3587910,
+   "text": "choice"
+  },
+  {
+   "offset": 106277910,
+   "duration": 2546250,
+   "text": "fell"
+  },
+  {
+   "offset": 108940000,
+   "duration": 1388750,
+   "text": "on"
+  },
+  {
+   "offset": 110444580,
+   "duration": 6828750,
+   "text": "Docplanner"
+  }
+ ]
+}

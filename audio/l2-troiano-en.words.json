@@ -1,0 +1,298 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. Everyone called it the Trojan horse: the most polite guest a computer ever had.",
+ "words": [
+  {
+   "offset": 990830,
+   "duration": 10532500,
+   "text": "2008"
+  },
+  {
+   "offset": 14416660,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 15458330,
+   "duration": 3587910,
+   "text": "first"
+  },
+  {
+   "offset": 19162080,
+   "duration": 2315000,
+   "text": "real"
+  },
+  {
+   "offset": 21592500,
+   "duration": 6597080,
+   "text": "integration"
+  },
+  {
+   "offset": 30620410,
+   "duration": 1157500,
+   "text": "with"
+  },
+  {
+   "offset": 31893330,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 32935000,
+   "duration": 4050830,
+   "text": "software"
+  },
+  {
+   "offset": 37101660,
+   "duration": 5671250,
+   "text": "dentists"
+  },
+  {
+   "offset": 42888750,
+   "duration": 2199160,
+   "text": "used"
+  },
+  {
+   "offset": 45203750,
+   "duration": 694580,
+   "text": "to"
+  },
+  {
+   "offset": 46013750,
+   "duration": 1967500,
+   "text": "run"
+  },
+  {
+   "offset": 48097080,
+   "duration": 925830,
+   "text": "their"
+  },
+  {
+   "offset": 49138750,
+   "duration": 7638750,
+   "text": "practices"
+  },
+  {
+   "offset": 60185000,
+   "duration": 2662080,
+   "text": "Back"
+  },
+  {
+   "offset": 62962910,
+   "duration": 3240830,
+   "text": "then"
+  },
+  {
+   "offset": 68634160,
+   "duration": 925830,
+   "text": "there"
+  },
+  {
+   "offset": 69675830,
+   "duration": 1041660,
+   "text": "were"
+  },
+  {
+   "offset": 70833330,
+   "duration": 2315000,
+   "text": "no"
+  },
+  {
+   "offset": 73263750,
+   "duration": 6250000,
+   "text": "APIs"
+  },
+  {
+   "offset": 79629580,
+   "duration": 1041660,
+   "text": "to"
+  },
+  {
+   "offset": 80787080,
+   "duration": 2315000,
+   "text": "plug"
+  },
+  {
+   "offset": 83217500,
+   "duration": 4629580,
+   "text": "into"
+  },
+  {
+   "offset": 91435000,
+   "duration": 2083330,
+   "text": "So"
+  },
+  {
+   "offset": 93634160,
+   "duration": 694580,
+   "text": "a"
+  },
+  {
+   "offset": 94444580,
+   "duration": 3240830,
+   "text": "small"
+  },
+  {
+   "offset": 97800830,
+   "duration": 4861250,
+   "text": "program"
+  },
+  {
+   "offset": 102777910,
+   "duration": 1967500,
+   "text": "went"
+  },
+  {
+   "offset": 104861250,
+   "duration": 810000,
+   "text": "to"
+  },
+  {
+   "offset": 105787080,
+   "duration": 1851660,
+   "text": "live"
+  },
+  {
+   "offset": 107754580,
+   "duration": 3935000,
+   "text": "inside"
+  },
+  {
+   "offset": 111805410,
+   "duration": 694580,
+   "text": "the"
+  },
+  {
+   "offset": 112615830,
+   "duration": 3472080,
+   "text": "clinic's"
+  },
+  {
+   "offset": 116203750,
+   "duration": 5440000,
+   "text": "computer"
+  },
+  {
+   "offset": 124537080,
+   "duration": 1273330,
+   "text": "and"
+  },
+  {
+   "offset": 125925830,
+   "duration": 4513750,
+   "text": "quietly"
+  },
+  {
+   "offset": 130555410,
+   "duration": 3009160,
+   "text": "told"
+  },
+  {
+   "offset": 133680410,
+   "duration": 6712910,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 140509160,
+   "duration": 1736250,
+   "text": "what"
+  },
+  {
+   "offset": 142361250,
+   "duration": 1273330,
+   "text": "was"
+  },
+  {
+   "offset": 143750000,
+   "duration": 3703750,
+   "text": "happening"
+  },
+  {
+   "offset": 147569580,
+   "duration": 694580,
+   "text": "in"
+  },
+  {
+   "offset": 148379580,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 149305410,
+   "duration": 4629580,
+   "text": "diary"
+  },
+  {
+   "offset": 157407500,
+   "duration": 4398330,
+   "text": "Everyone"
+  },
+  {
+   "offset": 161921250,
+   "duration": 2662080,
+   "text": "called"
+  },
+  {
+   "offset": 164699160,
+   "duration": 1157500,
+   "text": "it"
+  },
+  {
+   "offset": 165972080,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 166898330,
+   "duration": 3819580,
+   "text": "Trojan"
+  },
+  {
+   "offset": 170833330,
+   "duration": 4398330,
+   "text": "horse"
+  },
+  {
+   "offset": 178125000,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 179050830,
+   "duration": 2777910,
+   "text": "most"
+  },
+  {
+   "offset": 181944580,
+   "duration": 4282500,
+   "text": "polite"
+  },
+  {
+   "offset": 186342500,
+   "duration": 2777910,
+   "text": "guest"
+  },
+  {
+   "offset": 189236250,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 189815000,
+   "duration": 5092500,
+   "text": "computer"
+  },
+  {
+   "offset": 195023330,
+   "duration": 2199160,
+   "text": "ever"
+  },
+  {
+   "offset": 197337910,
+   "duration": 3935000,
+   "text": "had"
+  }
+ ]
+}

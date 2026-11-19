@@ -1,0 +1,163 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "By 2014, every email ended with a signature worthy of a multinational: Bologna, Barcelona, Lyon, Abu Dhabi. Behind most of those cities, one single person. And Bologna was still a living room.",
+ "words": [
+  {
+   "offset": 1078750,
+   "duration": 10416660,
+   "text": "By 2014"
+  },
+  {
+   "offset": 13925830,
+   "duration": 2199160,
+   "text": "every"
+  },
+  {
+   "offset": 16240830,
+   "duration": 4513750,
+   "text": "email"
+  },
+  {
+   "offset": 20870410,
+   "duration": 2546250,
+   "text": "ended"
+  },
+  {
+   "offset": 23532500,
+   "duration": 1273330,
+   "text": "with"
+  },
+  {
+   "offset": 24921250,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 25500000,
+   "duration": 4861250,
+   "text": "signature"
+  },
+  {
+   "offset": 30476660,
+   "duration": 3703750,
+   "text": "worthy"
+  },
+  {
+   "offset": 34296250,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 35337910,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 35916660,
+   "duration": 7638750,
+   "text": "multinational"
+  },
+  {
+   "offset": 46449160,
+   "duration": 5324160,
+   "text": "Bologna"
+  },
+  {
+   "offset": 53856660,
+   "duration": 6712910,
+   "text": "Barcelona"
+  },
+  {
+   "offset": 63000000,
+   "duration": 4282500,
+   "text": "Lyon"
+  },
+  {
+   "offset": 69250000,
+   "duration": 2546250,
+   "text": "Abu"
+  },
+  {
+   "offset": 71912080,
+   "duration": 4745410,
+   "text": "Dhabi"
+  },
+  {
+   "offset": 80092500,
+   "duration": 4398330,
+   "text": "Behind"
+  },
+  {
+   "offset": 84606660,
+   "duration": 2893330,
+   "text": "most"
+  },
+  {
+   "offset": 87615830,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 88541660,
+   "duration": 2083330,
+   "text": "those"
+  },
+  {
+   "offset": 90740830,
+   "duration": 4976660,
+   "text": "cities"
+  },
+  {
+   "offset": 98032500,
+   "duration": 2430410,
+   "text": "one"
+  },
+  {
+   "offset": 100578750,
+   "duration": 3240830,
+   "text": "single"
+  },
+  {
+   "offset": 103935000,
+   "duration": 5440000,
+   "text": "person"
+  },
+  {
+   "offset": 113078750,
+   "duration": 1388750,
+   "text": "And"
+  },
+  {
+   "offset": 114583330,
+   "duration": 5092500,
+   "text": "Bologna"
+  },
+  {
+   "offset": 119791660,
+   "duration": 1851660,
+   "text": "was"
+  },
+  {
+   "offset": 121759160,
+   "duration": 2546250,
+   "text": "still"
+  },
+  {
+   "offset": 124421250,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 125000000,
+   "duration": 3125000,
+   "text": "living"
+  },
+  {
+   "offset": 128240830,
+   "duration": 3472080,
+   "text": "room"
+  }
+ ]
+}

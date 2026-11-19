@@ -1,0 +1,238 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "In 2009, the company got an office in Bologna, in via Ugo Bassi. On paper, a business-centre phone number. In reality, the living room of a family flat, with a sofa. Up to eight people worked in there, and customers came to meetings in that living room.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 11574160,
+   "text": "In 2009"
+  },
+  {
+   "offset": 15430410,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 16356660,
+   "duration": 3819580,
+   "text": "company"
+  },
+  {
+   "offset": 20291660,
+   "duration": 1851660,
+   "text": "got"
+  },
+  {
+   "offset": 22259160,
+   "duration": 1041660,
+   "text": "an"
+  },
+  {
+   "offset": 23416660,
+   "duration": 3125000,
+   "text": "office"
+  },
+  {
+   "offset": 26657500,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 27815000,
+   "duration": 5092500,
+   "text": "Bologna"
+  },
+  {
+   "offset": 35106660,
+   "duration": 1388750,
+   "text": "in"
+  },
+  {
+   "offset": 36611250,
+   "duration": 3125000,
+   "text": "via"
+  },
+  {
+   "offset": 39851660,
+   "duration": 3356660,
+   "text": "Ugo"
+  },
+  {
+   "offset": 43324160,
+   "duration": 5787080,
+   "text": "Bassi"
+  },
+  {
+   "offset": 52546250,
+   "duration": 1851660,
+   "text": "On"
+  },
+  {
+   "offset": 54513750,
+   "duration": 4976660,
+   "text": "paper"
+  },
+  {
+   "offset": 62037080,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 62615830,
+   "duration": 6365830,
+   "text": "business-centre"
+  },
+  {
+   "offset": 69097080,
+   "duration": 2430410,
+   "text": "phone"
+  },
+  {
+   "offset": 71643330,
+   "duration": 4282500,
+   "text": "number"
+  },
+  {
+   "offset": 79629580,
+   "duration": 1273330,
+   "text": "In"
+  },
+  {
+   "offset": 81018330,
+   "duration": 6250000,
+   "text": "reality"
+  },
+  {
+   "offset": 89815000,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 90856660,
+   "duration": 3125000,
+   "text": "living"
+  },
+  {
+   "offset": 94097080,
+   "duration": 2546250,
+   "text": "room"
+  },
+  {
+   "offset": 96759160,
+   "duration": 1041660,
+   "text": "of"
+  },
+  {
+   "offset": 97916660,
+   "duration": 578750,
+   "text": "a"
+  },
+  {
+   "offset": 98611250,
+   "duration": 3935000,
+   "text": "family"
+  },
+  {
+   "offset": 102662080,
+   "duration": 4398330,
+   "text": "flat"
+  },
+  {
+   "offset": 109259160,
+   "duration": 1388750,
+   "text": "with"
+  },
+  {
+   "offset": 110763750,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 111342500,
+   "duration": 5208330,
+   "text": "sofa"
+  },
+  {
+   "offset": 120138750,
+   "duration": 1736250,
+   "text": "Up"
+  },
+  {
+   "offset": 121990830,
+   "duration": 1388750,
+   "text": "to"
+  },
+  {
+   "offset": 123495410,
+   "duration": 2315000,
+   "text": "eight"
+  },
+  {
+   "offset": 125925830,
+   "duration": 3125000,
+   "text": "people"
+  },
+  {
+   "offset": 129166660,
+   "duration": 3009160,
+   "text": "worked"
+  },
+  {
+   "offset": 132291660,
+   "duration": 1157500,
+   "text": "in"
+  },
+  {
+   "offset": 133565000,
+   "duration": 2199160,
+   "text": "there"
+  },
+  {
+   "offset": 138425830,
+   "duration": 1388750,
+   "text": "and"
+  },
+  {
+   "offset": 139930410,
+   "duration": 5324160,
+   "text": "customers"
+  },
+  {
+   "offset": 145370410,
+   "duration": 2083330,
+   "text": "came"
+  },
+  {
+   "offset": 147569580,
+   "duration": 1041660,
+   "text": "to"
+  },
+  {
+   "offset": 148726660,
+   "duration": 4398330,
+   "text": "meetings"
+  },
+  {
+   "offset": 153240830,
+   "duration": 925830,
+   "text": "in"
+  },
+  {
+   "offset": 154282500,
+   "duration": 1851660,
+   "text": "that"
+  },
+  {
+   "offset": 156250000,
+   "duration": 2662080,
+   "text": "living"
+  },
+  {
+   "offset": 159027910,
+   "duration": 3009160,
+   "text": "room"
+  }
+ ]
+}

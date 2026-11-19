@@ -112,57 +112,57 @@
         "cousin"
       ],
       "narration": {
-        "en": "Late 2005. In the lunch breaks at Cezanne, Donatello and Gianfranco were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
-        "it": "Fine 2005. Nelle pause pranzo in Cezanne, Donatello e Gianfranco cercano un'idea tutta loro. La preferita: prenotare online i campi da calcetto. Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello. Niente computer al banco, agenda di carta, nessuna voglia di cambiare. Il calcetto muore quel pomeriggio."
+        "en": "Late 2005. In the lunch breaks at Cezanne, Donatello and Gef were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
+        "it": "Fine 2005. Nelle pause pranzo in Cezanne, Donatello e Gef cercano un'idea tutta loro. La preferita: prenotare online i campi da calcetto. Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello. Niente computer al banco, agenda di carta, nessuna voglia di cambiare. Il calcetto muore quel pomeriggio."
       },
       "cues": [
         {
           "en": "Late 2005.",
           "it": "Fine 2005.",
-          "duration": 1.85,
+          "duration": 1.689791,
           "art": "lunch",
-          "start": 0.0,
-          "end": 2.478
+          "start": 0.107875,
+          "end": 1.797666
         },
         {
-          "en": "In the lunch breaks at Cezanne, Donatello and Gianfranco were hunting for an idea of their own.",
-          "it": "Nelle pause pranzo in Cezanne, Donatello e Gianfranco cercano un'idea tutta loro.",
-          "duration": 4.56,
+          "en": "In the lunch breaks at Cezanne, Donatello and Gef were hunting for an idea of their own.",
+          "it": "Nelle pause pranzo in Cezanne, Donatello e Gef cercano un'idea tutta loro.",
+          "duration": 4.733791,
           "art": "lunch",
-          "start": 2.478,
-          "end": 8.585
+          "start": 2.141208,
+          "end": 6.874999
         },
         {
           "en": "The favourite: booking five-a-side football pitches online.",
           "it": "La preferita: prenotare online i campi da calcetto.",
-          "duration": 1.99,
+          "duration": 3.333333,
           "art": "football",
-          "start": 8.585,
-          "end": 11.25
+          "start": 7.245375,
+          "end": 10.578708
         },
         {
           "en": "So they went to interview the only sports-centre owner they knew, Donatello's cousin.",
           "it": "Vanno a intervistare l'unica persona che conoscono con un centro sportivo, la cugina di Donatello.",
-          "duration": 3.53,
+          "duration": 4.351875,
           "art": "cousin",
-          "start": 11.25,
-          "end": 15.978
+          "start": 10.925916,
+          "end": 15.277791
         },
         {
           "en": "No computer at the desk, a paper diary, no intention to change.",
           "it": "Niente computer al banco, agenda di carta, nessuna voglia di cambiare.",
-          "duration": 3.28,
+          "duration": 3.923624,
           "art": "cousin",
-          "start": 15.978,
-          "end": 20.37
+          "start": 15.636583,
+          "end": 19.560207
         },
         {
           "en": "The football idea died that afternoon.",
           "it": "Il calcetto muore quel pomeriggio.",
-          "duration": 1.85,
+          "duration": 2.580584,
           "art": "cousin",
-          "start": 20.37,
-          "end": 22.848
+          "start": 19.907416,
+          "end": 22.488
         }
       ],
       "audio": "audio/football-en.mp3",
@@ -183,8 +183,8 @@
         "remote"
       ],
       "narration": {
-        "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
-        "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\", la receptionist medica che si poteva prenotare online. In Europa: niente. E ricordate il 2006: niente iPhone, niente app, niente cloud. Due medici su tre tengono gli appuntamenti su carta. Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere. Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli. Così, tra il 2005 e il 2006, tre amici fondano una società. Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra, Skype in mezzo, e ogni tanto un volo low cost."
+        "en": "Donatello went looking for a world where computers already existed, and found one experiment in America: 'Ask Mabel', the medical receptionist you could book online. In Europe: nothing. And remember 2006: no iPhone, no apps, no cloud. Two doctors out of three kept their appointments on paper. They called the third friend in Valencia, because there was no AI to ask. He and Gef built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators. So, somewhere between 2005 and 2006, three friends founded a company. Tuotempo was born remote: Bologna on one end, Valencia on the other, Skype in between, and a cheap flight every now and then.",
+        "it": "Donatello cerca un mondo dove i computer ci siano già e trova un esperimento in America: \"Ask Mabel\", la receptionist medica che si poteva prenotare online. In Europa: niente. E ricordate il 2006: niente iPhone, niente app, niente cloud. Due medici su tre tengono gli appuntamenti su carta. Chiamano il terzo amico a Valencia, perché non c'è nessuna AI a cui chiedere. Lui e Gef costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli. Così, tra il 2005 e il 2006, tre amici fondano una società. Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra, Skype in mezzo, e ogni tanto un volo low cost."
       },
       "cues": [
         {
@@ -236,36 +236,36 @@
           "end": 22.928207
         },
         {
-          "en": "He and Gianfranco built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators.",
-          "it": "Lui e Gianfranco costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli.",
-          "duration": 8.101832,
+          "en": "He and Gef built the first product together, starting from an open-source project and rebuilding it piece by piece, with help from Spanish collaborators.",
+          "it": "Lui e Gef costruiscono insieme il primo prodotto, partendo da un progetto open source e rifacendolo pezzo per pezzo, con l'aiuto di collaboratori spagnoli.",
+          "duration": 7.708333,
           "art": "remote",
           "start": 23.298625,
-          "end": 31.400457
+          "end": 31.006958
         },
         {
           "en": "So, somewhere between 2005 and 2006, three friends founded a company.",
           "it": "Così, tra il 2005 e il 2006, tre amici fondano una società.",
-          "duration": 5.405125,
+          "duration": 5.405083,
           "art": "remote",
-          "start": 31.75925,
-          "end": 37.164375
+          "start": 31.36575,
+          "end": 36.770833
         },
         {
           "en": "Tuotempo was born remote: Bologna on one end, Valencia on the other,",
           "it": "Tuotempo nasce remota: Bologna da una parte, Valencia dall'altra,",
-          "duration": 4.062499,
+          "duration": 4.0625,
           "art": "remote",
-          "start": 37.511583,
-          "end": 41.574082
+          "start": 37.118041,
+          "end": 41.180541
         },
         {
           "en": "Skype in between, and a cheap flight every now and then.",
           "it": "Skype in mezzo, e ogni tanto un volo low cost.",
-          "duration": 3.134875,
+          "duration": 3.120375,
           "art": "remote",
-          "start": 41.817125,
-          "end": 44.952
+          "start": 41.423625,
+          "end": 44.544
         }
       ],
       "audio": "audio/remote-en.mp3",
@@ -285,8 +285,8 @@
         "name"
       ],
       "narration": {
-        "en": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Gianfranco's idea won: not 'my time', but 'your time'. TuoTempo.",
-        "it": "Erano tutti e tre a Bologna, il prototipo era pronto, ma serviva ancora un nome, e un dominio che potessero permettersi. I nomi finivano sul foglio, e poi venivano cancellati. Alla fine vinse l'idea di Gianfranco: non \"mio tempo\", ma \"tuo tempo\". TuoTempo."
+        "en": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Gef's idea won: not 'my time', but 'your time'. TuoTempo.",
+        "it": "Erano tutti e tre a Bologna, il prototipo era pronto, ma serviva ancora un nome, e un dominio che potessero permettersi. I nomi finivano sul foglio, e poi venivano cancellati. Alla fine vinse l'idea di Gef: non \"mio tempo\", ma \"tuo tempo\". TuoTempo."
       },
       "cues": [
         {
@@ -306,27 +306,27 @@
           "duration": 2.372666
         },
         {
-          "en": "In the end, Gianfranco's idea won:",
-          "it": "Alla fine vinse l'idea di Gianfranco:",
+          "en": "In the end, Gef's idea won:",
+          "it": "Alla fine vinse l'idea di Gef:",
           "art": "name",
           "start": 8.993041,
-          "end": 11.168957,
-          "duration": 2.175916
+          "end": 10.763874,
+          "duration": 1.770833
         },
         {
           "en": "not 'my time', but 'your time'. TuoTempo.",
           "it": "non \"mio tempo\", ma \"tuo tempo\". TuoTempo.",
           "art": "name",
-          "start": 11.458333,
-          "end": 14.904,
-          "duration": 3.445667
+          "start": 11.041666,
+          "end": 14.472,
+          "duration": 3.430334
         }
       ],
       "audio": "audio/name-en.mp3",
       "photo": null,
       "notes": "Fonte: master raw/handover_storia-tuotempo_2026-11-07.md, Lavagna 3 \"Il nome TuoTempo\" (Slack Don/Lele/Gef, girato da Lele il 18/11; WhatsApp di Gef 18/11). Si partiva da MioTempo; TuoTempo proposto da Gianfranco (confermato da Don); poi le varianti: TuTempo (Don, dominio più caro, più ammiccante al mercato ispanico), TuTiempo (Lele, alla spagnola), InTempo, \"qualcosa con Ora\" (nome non preciso, quindi non scritto), Bookino (Lele, risata generale). Tutto nasce dalla caccia a un dominio libero o a buon mercato (il primo sito, giugno 2006, è su tuotempo.net). Quando e dove: tutti e tre a Bologna, Donatello già fuori da Cezanne da mesi, prototipo di agenda di Lele già pronto. Sul foglio i nomi nell'ordine del master; la voce non li elenca. Fuori dalla narrazione: le tracce dell'open source tolte in due diligence.",
       "incomplete": false,
-      "audioDuration": 14.904,
+      "audioDuration": 14.472,
       "candidateNames": [
         "MioTempo",
         "TuTempo",

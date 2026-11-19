@@ -1,0 +1,153 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "One winter, two of the founders flew out there in jacket and tie. And ended up in the desert: two ties in the sand, a long way from Bologna.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 2315000,
+   "text": "One"
+  },
+  {
+   "offset": 3740830,
+   "duration": 4745410,
+   "text": "winter"
+  },
+  {
+   "offset": 11263750,
+   "duration": 1620410,
+   "text": "two"
+  },
+  {
+   "offset": 13000000,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 13925830,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 14967500,
+   "duration": 4976660,
+   "text": "founders"
+  },
+  {
+   "offset": 20060000,
+   "duration": 2199160,
+   "text": "flew"
+  },
+  {
+   "offset": 22375000,
+   "duration": 2083330,
+   "text": "out"
+  },
+  {
+   "offset": 24574160,
+   "duration": 1388750,
+   "text": "there"
+  },
+  {
+   "offset": 26078750,
+   "duration": 1736250,
+   "text": "in"
+  },
+  {
+   "offset": 27930410,
+   "duration": 3935000,
+   "text": "jacket"
+  },
+  {
+   "offset": 31981660,
+   "duration": 925830,
+   "text": "and"
+  },
+  {
+   "offset": 33023330,
+   "duration": 4050830,
+   "text": "tie"
+  },
+  {
+   "offset": 40740830,
+   "duration": 1388750,
+   "text": "And"
+  },
+  {
+   "offset": 42245410,
+   "duration": 2546250,
+   "text": "ended"
+  },
+  {
+   "offset": 44907500,
+   "duration": 1388750,
+   "text": "up"
+  },
+  {
+   "offset": 46412080,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 47337910,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 48379580,
+   "duration": 4398330,
+   "text": "desert"
+  },
+  {
+   "offset": 55555410,
+   "duration": 1967500,
+   "text": "two"
+  },
+  {
+   "offset": 57638750,
+   "duration": 3240830,
+   "text": "ties"
+  },
+  {
+   "offset": 60995410,
+   "duration": 694580,
+   "text": "in"
+  },
+  {
+   "offset": 61805410,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 62731660,
+   "duration": 4282500,
+   "text": "sand"
+  },
+  {
+   "offset": 69444580,
+   "duration": 231660,
+   "text": "a"
+  },
+  {
+   "offset": 69791660,
+   "duration": 2430410,
+   "text": "long"
+  },
+  {
+   "offset": 72337910,
+   "duration": 1736250,
+   "text": "way"
+  },
+  {
+   "offset": 74190000,
+   "duration": 1851660,
+   "text": "from"
+  },
+  {
+   "offset": 76157500,
+   "duration": 5092500,
+   "text": "Bologna"
+  }
+ ]
+}

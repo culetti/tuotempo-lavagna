@@ -1,0 +1,293 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "Then came the first big hospital, in Abu Dhabi. It arrived through a former colleague from the Cezanne days, who had become the medical director of a hospital group. A big customer, far from home\u2026 and the first customer who didn't pay. In March 2010 came the first ever last notice: service suspended on the 1st of April.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 2546250,
+   "text": "Then"
+  },
+  {
+   "offset": 3972080,
+   "duration": 2546250,
+   "text": "came"
+  },
+  {
+   "offset": 6634160,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 7675830,
+   "duration": 3935000,
+   "text": "first"
+  },
+  {
+   "offset": 11726660,
+   "duration": 1736250,
+   "text": "big"
+  },
+  {
+   "offset": 13578750,
+   "duration": 5787080,
+   "text": "hospital"
+  },
+  {
+   "offset": 21217500,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 22375000,
+   "duration": 2893330,
+   "text": "Abu"
+  },
+  {
+   "offset": 25384160,
+   "duration": 4861250,
+   "text": "Dhabi"
+  },
+  {
+   "offset": 33912080,
+   "duration": 1273330,
+   "text": "It"
+  },
+  {
+   "offset": 35300830,
+   "duration": 4398330,
+   "text": "arrived"
+  },
+  {
+   "offset": 39815000,
+   "duration": 2315000,
+   "text": "through"
+  },
+  {
+   "offset": 42245410,
+   "duration": 578750,
+   "text": "a"
+  },
+  {
+   "offset": 42940000,
+   "duration": 3472080,
+   "text": "former"
+  },
+  {
+   "offset": 46527910,
+   "duration": 4513750,
+   "text": "colleague"
+  },
+  {
+   "offset": 51157500,
+   "duration": 1736250,
+   "text": "from"
+  },
+  {
+   "offset": 53009160,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 53935000,
+   "duration": 3935000,
+   "text": "Cezanne"
+  },
+  {
+   "offset": 57986250,
+   "duration": 3587910,
+   "text": "days"
+  },
+  {
+   "offset": 64351660,
+   "duration": 810000,
+   "text": "who"
+  },
+  {
+   "offset": 65277910,
+   "duration": 1273330,
+   "text": "had"
+  },
+  {
+   "offset": 66666660,
+   "duration": 2893330,
+   "text": "become"
+  },
+  {
+   "offset": 69675830,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 70601660,
+   "duration": 3703750,
+   "text": "medical"
+  },
+  {
+   "offset": 74421250,
+   "duration": 5092500,
+   "text": "director"
+  },
+  {
+   "offset": 79629580,
+   "duration": 1273330,
+   "text": "of"
+  },
+  {
+   "offset": 81018330,
+   "duration": 347080,
+   "text": "a"
+  },
+  {
+   "offset": 81481660,
+   "duration": 4861250,
+   "text": "hospital"
+  },
+  {
+   "offset": 86458330,
+   "duration": 3935000,
+   "text": "group"
+  },
+  {
+   "offset": 93981660,
+   "duration": 925830,
+   "text": "A"
+  },
+  {
+   "offset": 95023330,
+   "duration": 2199160,
+   "text": "big"
+  },
+  {
+   "offset": 97337910,
+   "duration": 5671250,
+   "text": "customer"
+  },
+  {
+   "offset": 105092500,
+   "duration": 2083330,
+   "text": "far"
+  },
+  {
+   "offset": 107291660,
+   "duration": 1967500,
+   "text": "from"
+  },
+  {
+   "offset": 109375000,
+   "duration": 3587910,
+   "text": "home"
+  },
+  {
+   "offset": 116550830,
+   "duration": 694580,
+   "text": "and"
+  },
+  {
+   "offset": 117361250,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 118402910,
+   "duration": 3125000,
+   "text": "first"
+  },
+  {
+   "offset": 121643330,
+   "duration": 4629580,
+   "text": "customer"
+  },
+  {
+   "offset": 126388750,
+   "duration": 1388750,
+   "text": "who"
+  },
+  {
+   "offset": 127893330,
+   "duration": 2893330,
+   "text": "didn't"
+  },
+  {
+   "offset": 130902910,
+   "duration": 3819580,
+   "text": "pay"
+  },
+  {
+   "offset": 138194580,
+   "duration": 1273330,
+   "text": "In"
+  },
+  {
+   "offset": 139583330,
+   "duration": 10069159,
+   "text": "March 2010"
+  },
+  {
+   "offset": 149768330,
+   "duration": 2315000,
+   "text": "came"
+  },
+  {
+   "offset": 152199160,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 153240830,
+   "duration": 3935000,
+   "text": "first"
+  },
+  {
+   "offset": 157291660,
+   "duration": 1736250,
+   "text": "ever"
+  },
+  {
+   "offset": 159143330,
+   "duration": 3009160,
+   "text": "last"
+  },
+  {
+   "offset": 162268330,
+   "duration": 4861250,
+   "text": "notice"
+  },
+  {
+   "offset": 170138750,
+   "duration": 3819580,
+   "text": "service"
+  },
+  {
+   "offset": 174074160,
+   "duration": 5208330,
+   "text": "suspended"
+  },
+  {
+   "offset": 179398330,
+   "duration": 1273330,
+   "text": "on"
+  },
+  {
+   "offset": 180787080,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 181712910,
+   "duration": 3009160,
+   "text": "1st"
+  },
+  {
+   "offset": 184837910,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 185763750,
+   "duration": 4282500,
+   "text": "April"
+  }
+ ]
+}

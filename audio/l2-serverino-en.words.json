@@ -1,0 +1,353 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "But the text messages still went through one old PC in the office, with a GSM modem and SIM cards shipped in from abroad, a Greek one among them. Patients replied one to confirm, zero to cancel. Then, one summer night in 2011, at two in the morning, the building's main switch tripped. The next morning, the whole company's reminders were silent, until someone went and switched it back on.",
+ "words": [
+  {
+   "offset": 990830,
+   "duration": 1736250,
+   "text": "But"
+  },
+  {
+   "offset": 2842500,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 3884160,
+   "duration": 3009160,
+   "text": "text"
+  },
+  {
+   "offset": 7009160,
+   "duration": 4629580,
+   "text": "messages"
+  },
+  {
+   "offset": 11754580,
+   "duration": 2662080,
+   "text": "still"
+  },
+  {
+   "offset": 14532500,
+   "duration": 2083330,
+   "text": "went"
+  },
+  {
+   "offset": 16731660,
+   "duration": 2199160,
+   "text": "through"
+  },
+  {
+   "offset": 19046250,
+   "duration": 2199160,
+   "text": "one"
+  },
+  {
+   "offset": 21361250,
+   "duration": 1851660,
+   "text": "old"
+  },
+  {
+   "offset": 23328750,
+   "duration": 3703750,
+   "text": "PC"
+  },
+  {
+   "offset": 27148330,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 28074160,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 29115830,
+   "duration": 4513750,
+   "text": "office"
+  },
+  {
+   "offset": 36291660,
+   "duration": 1388750,
+   "text": "with"
+  },
+  {
+   "offset": 37796250,
+   "duration": 578750,
+   "text": "a"
+  },
+  {
+   "offset": 38490830,
+   "duration": 4513750,
+   "text": "GSM"
+  },
+  {
+   "offset": 43120410,
+   "duration": 4050830,
+   "text": "modem"
+  },
+  {
+   "offset": 47287080,
+   "duration": 1504580,
+   "text": "and"
+  },
+  {
+   "offset": 48907500,
+   "duration": 4282500,
+   "text": "SIM"
+  },
+  {
+   "offset": 53305410,
+   "duration": 3240830,
+   "text": "cards"
+  },
+  {
+   "offset": 56662080,
+   "duration": 2430410,
+   "text": "shipped"
+  },
+  {
+   "offset": 59208330,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 60365830,
+   "duration": 1504580,
+   "text": "from"
+  },
+  {
+   "offset": 61986250,
+   "duration": 4282500,
+   "text": "abroad"
+  },
+  {
+   "offset": 68583330,
+   "duration": 347080,
+   "text": "a"
+  },
+  {
+   "offset": 69046250,
+   "duration": 2662080,
+   "text": "Greek"
+  },
+  {
+   "offset": 71824160,
+   "duration": 1388750,
+   "text": "one"
+  },
+  {
+   "offset": 73328750,
+   "duration": 2315000,
+   "text": "among"
+  },
+  {
+   "offset": 75759160,
+   "duration": 2430410,
+   "text": "them"
+  },
+  {
+   "offset": 81597080,
+   "duration": 4976660,
+   "text": "Patients"
+  },
+  {
+   "offset": 86690000,
+   "duration": 4629580,
+   "text": "replied"
+  },
+  {
+   "offset": 91435000,
+   "duration": 2199160,
+   "text": "one"
+  },
+  {
+   "offset": 93750000,
+   "duration": 1041660,
+   "text": "to"
+  },
+  {
+   "offset": 94907500,
+   "duration": 5902910,
+   "text": "confirm"
+  },
+  {
+   "offset": 103009160,
+   "duration": 3356660,
+   "text": "zero"
+  },
+  {
+   "offset": 106481660,
+   "duration": 1157500,
+   "text": "to"
+  },
+  {
+   "offset": 107754580,
+   "duration": 5671250,
+   "text": "cancel"
+  },
+  {
+   "offset": 117129580,
+   "duration": 3703750,
+   "text": "Then"
+  },
+  {
+   "offset": 123148330,
+   "duration": 2199160,
+   "text": "one"
+  },
+  {
+   "offset": 125462910,
+   "duration": 2546250,
+   "text": "summer"
+  },
+  {
+   "offset": 128125000,
+   "duration": 3009160,
+   "text": "night"
+  },
+  {
+   "offset": 131250000,
+   "duration": 8680830,
+   "text": "in 2011"
+  },
+  {
+   "offset": 141782500,
+   "duration": 1736250,
+   "text": "at"
+  },
+  {
+   "offset": 143634160,
+   "duration": 1504580,
+   "text": "two"
+  },
+  {
+   "offset": 145254580,
+   "duration": 694580,
+   "text": "in"
+  },
+  {
+   "offset": 146065000,
+   "duration": 694580,
+   "text": "the"
+  },
+  {
+   "offset": 146875000,
+   "duration": 4166660,
+   "text": "morning"
+  },
+  {
+   "offset": 153356660,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 154398330,
+   "duration": 4861250,
+   "text": "building's"
+  },
+  {
+   "offset": 159375000,
+   "duration": 2315000,
+   "text": "main"
+  },
+  {
+   "offset": 161805410,
+   "duration": 3240830,
+   "text": "switch"
+  },
+  {
+   "offset": 165162080,
+   "duration": 4629580,
+   "text": "tripped"
+  },
+  {
+   "offset": 173495410,
+   "duration": 925830,
+   "text": "The"
+  },
+  {
+   "offset": 174537080,
+   "duration": 3009160,
+   "text": "next"
+  },
+  {
+   "offset": 177662080,
+   "duration": 4282500,
+   "text": "morning"
+  },
+  {
+   "offset": 183796250,
+   "duration": 694580,
+   "text": "the"
+  },
+  {
+   "offset": 184606660,
+   "duration": 2430410,
+   "text": "whole"
+  },
+  {
+   "offset": 187152910,
+   "duration": 4513750,
+   "text": "company's"
+  },
+  {
+   "offset": 191782500,
+   "duration": 5324160,
+   "text": "reminders"
+  },
+  {
+   "offset": 197222080,
+   "duration": 925830,
+   "text": "were"
+  },
+  {
+   "offset": 198263750,
+   "duration": 5555410,
+   "text": "silent"
+  },
+  {
+   "offset": 206481660,
+   "duration": 2662080,
+   "text": "until"
+  },
+  {
+   "offset": 209259160,
+   "duration": 3356660,
+   "text": "someone"
+  },
+  {
+   "offset": 212731660,
+   "duration": 3240830,
+   "text": "went"
+  },
+  {
+   "offset": 216087910,
+   "duration": 810000,
+   "text": "and"
+  },
+  {
+   "offset": 217013750,
+   "duration": 3240830,
+   "text": "switched"
+  },
+  {
+   "offset": 220370410,
+   "duration": 925830,
+   "text": "it"
+  },
+  {
+   "offset": 221412080,
+   "duration": 2199160,
+   "text": "back"
+  },
+  {
+   "offset": 223726660,
+   "duration": 2893330,
+   "text": "on"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Gef took the baton, and the customers had a new point of reference. A handover between old friends.",
+ "spoken": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Jeff took the baton, and the customers had a new point of reference. A handover between old friends.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 10301240,
+   "text": "In 2015"
+  },
+  {
+   "offset": 14620410,
+   "duration": 1388750,
+   "text": "one"
+  },
+  {
+   "offset": 16125000,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 17050830,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 18208330,
+   "duration": 2083330,
+   "text": "two"
+  },
+  {
+   "offset": 20407500,
+   "duration": 5208330,
+   "text": "lunch-break"
+  },
+  {
+   "offset": 25731660,
+   "duration": 3587910,
+   "text": "friends"
+  },
+  {
+   "offset": 29435000,
+   "duration": 1736250,
+   "text": "from"
+  },
+  {
+   "offset": 31287080,
+   "duration": 4976660,
+   "text": "Cezanne"
+  },
+  {
+   "offset": 36379580,
+   "duration": 2083330,
+   "text": "took"
+  },
+  {
+   "offset": 38578750,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 39504580,
+   "duration": 4861250,
+   "text": "customers"
+  },
+  {
+   "offset": 44481660,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 45407500,
+   "duration": 4629580,
+   "text": "hand"
+  },
+  {
+   "offset": 53375000,
+   "duration": 2777910,
+   "text": "Gef"
+  },
+  {
+   "offset": 56268330,
+   "duration": 1967500,
+   "text": "took"
+  },
+  {
+   "offset": 58351660,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 59393330,
+   "duration": 4629580,
+   "text": "baton"
+  },
+  {
+   "offset": 66569580,
+   "duration": 925830,
+   "text": "and"
+  },
+  {
+   "offset": 67611250,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 68652910,
+   "duration": 5671250,
+   "text": "customers"
+  },
+  {
+   "offset": 74440000,
+   "duration": 1620410,
+   "text": "had"
+  },
+  {
+   "offset": 76175830,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 76754580,
+   "duration": 2199160,
+   "text": "new"
+  },
+  {
+   "offset": 79069580,
+   "duration": 2662080,
+   "text": "point"
+  },
+  {
+   "offset": 81847080,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 82888750,
+   "duration": 6481660,
+   "text": "reference"
+  },
+  {
+   "offset": 93055410,
+   "duration": 462909,
+   "text": "A"
+  },
+  {
+   "offset": 93634160,
+   "duration": 6481660,
+   "text": "handover"
+  },
+  {
+   "offset": 100231660,
+   "duration": 3819580,
+   "text": "between"
+  },
+  {
+   "offset": 104166660,
+   "duration": 1967500,
+   "text": "old"
+  },
+  {
+   "offset": 106250000,
+   "duration": 5787080,
+   "text": "friends"
+  }
+ ]
+}

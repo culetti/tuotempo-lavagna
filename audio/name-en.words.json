@@ -1,0 +1,224 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Gef's idea won: not 'my time', but 'your time'. TuoTempo.",
+ "spoken": "All three were in Bologna, the prototype was ready, but it still needed a name, and a domain they could afford. Names went on the sheet, and came off again. In the end, Jeff's idea won: not 'my time', but 'your time'. TuoTempo.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 1851660,
+   "text": "All"
+  },
+  {
+   "offset": 3277910,
+   "duration": 2893330,
+   "text": "three"
+  },
+  {
+   "offset": 6287080,
+   "duration": 1388750,
+   "text": "were"
+  },
+  {
+   "offset": 7791660,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 8949160,
+   "duration": 5092500,
+   "text": "Bologna"
+  },
+  {
+   "offset": 16125000,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 17166660,
+   "duration": 6018330,
+   "text": "prototype"
+  },
+  {
+   "offset": 23300830,
+   "duration": 1388750,
+   "text": "was"
+  },
+  {
+   "offset": 24805410,
+   "duration": 3472080,
+   "text": "ready"
+  },
+  {
+   "offset": 31055410,
+   "duration": 1273330,
+   "text": "but"
+  },
+  {
+   "offset": 32444580,
+   "duration": 1157500,
+   "text": "it"
+  },
+  {
+   "offset": 33717500,
+   "duration": 2546250,
+   "text": "still"
+  },
+  {
+   "offset": 36379580,
+   "duration": 2777910,
+   "text": "needed"
+  },
+  {
+   "offset": 39273330,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 39851660,
+   "duration": 3703750,
+   "text": "name"
+  },
+  {
+   "offset": 45754580,
+   "duration": 810000,
+   "text": "and"
+  },
+  {
+   "offset": 46680410,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 47259160,
+   "duration": 3703750,
+   "text": "domain"
+  },
+  {
+   "offset": 51078750,
+   "duration": 925830,
+   "text": "they"
+  },
+  {
+   "offset": 52120410,
+   "duration": 1620410,
+   "text": "could"
+  },
+  {
+   "offset": 53856660,
+   "duration": 5092500,
+   "text": "afford"
+  },
+  {
+   "offset": 62500000,
+   "duration": 3240830,
+   "text": "Names"
+  },
+  {
+   "offset": 65856660,
+   "duration": 2315000,
+   "text": "went"
+  },
+  {
+   "offset": 68287080,
+   "duration": 1041660,
+   "text": "on"
+  },
+  {
+   "offset": 69444580,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 70370410,
+   "duration": 4166660,
+   "text": "sheet"
+  },
+  {
+   "offset": 76851660,
+   "duration": 925830,
+   "text": "and"
+  },
+  {
+   "offset": 77893330,
+   "duration": 2315000,
+   "text": "came"
+  },
+  {
+   "offset": 80324160,
+   "duration": 1620410,
+   "text": "off"
+  },
+  {
+   "offset": 82060000,
+   "duration": 4166660,
+   "text": "again"
+  },
+  {
+   "offset": 89930410,
+   "duration": 1157500,
+   "text": "In"
+  },
+  {
+   "offset": 91203750,
+   "duration": 1504580,
+   "text": "the"
+  },
+  {
+   "offset": 92824160,
+   "duration": 3240830,
+   "text": "end"
+  },
+  {
+   "offset": 98032500,
+   "duration": 2777910,
+   "text": "Gef's"
+  },
+  {
+   "offset": 100925830,
+   "duration": 3587910,
+   "text": "idea"
+  },
+  {
+   "offset": 104629580,
+   "duration": 3009160,
+   "text": "won"
+  },
+  {
+   "offset": 110416660,
+   "duration": 2083330,
+   "text": "not"
+  },
+  {
+   "offset": 112615830,
+   "duration": 1273330,
+   "text": "my"
+  },
+  {
+   "offset": 114004580,
+   "duration": 4513750,
+   "text": "time"
+  },
+  {
+   "offset": 120486250,
+   "duration": 1620410,
+   "text": "but"
+  },
+  {
+   "offset": 122222080,
+   "duration": 1273330,
+   "text": "your"
+  },
+  {
+   "offset": 123611250,
+   "duration": 4629580,
+   "text": "time"
+  },
+  {
+   "offset": 131625000,
+   "duration": 9722080,
+   "text": "TuoTempo"
+  }
+ ]
+}

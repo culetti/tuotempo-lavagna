@@ -1,0 +1,404 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Gef arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+ "spoken": "The decisive dinner was one evening in October 2018, in Bologna, at Ciacco, in via Farini. Jeff arrived straight from Spain, still pulling his trolley. Around the table, the founders and the people from Docplanner. It began a little hesitantly. Then came the questions: which languages, which tools, how the team worked. Same tools, the same distributed way of working, similar services in different markets. By the end of the evening, the idea was on the table: let's join forces.",
+ "words": [
+  {
+   "offset": 1310000,
+   "duration": 1041660,
+   "text": "The"
+  },
+  {
+   "offset": 2467500,
+   "duration": 5440000,
+   "text": "decisive"
+  },
+  {
+   "offset": 8023330,
+   "duration": 2893330,
+   "text": "dinner"
+  },
+  {
+   "offset": 11032500,
+   "duration": 1620410,
+   "text": "was"
+  },
+  {
+   "offset": 12768330,
+   "duration": 2083330,
+   "text": "one"
+  },
+  {
+   "offset": 14967500,
+   "duration": 3472080,
+   "text": "evening"
+  },
+  {
+   "offset": 18555410,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 19481660,
+   "duration": 12731250,
+   "text": "October 2018"
+  },
+  {
+   "offset": 34759160,
+   "duration": 1157500,
+   "text": "in"
+  },
+  {
+   "offset": 36032500,
+   "duration": 5208330,
+   "text": "Bologna"
+  },
+  {
+   "offset": 43092500,
+   "duration": 1620410,
+   "text": "at"
+  },
+  {
+   "offset": 44828750,
+   "duration": 5324160,
+   "text": "Ciacco"
+  },
+  {
+   "offset": 52120410,
+   "duration": 1273330,
+   "text": "in"
+  },
+  {
+   "offset": 53509160,
+   "duration": 2546250,
+   "text": "via"
+  },
+  {
+   "offset": 56171250,
+   "duration": 5092500,
+   "text": "Farini"
+  },
+  {
+   "offset": 64601660,
+   "duration": 2430410,
+   "text": "Gef"
+  },
+  {
+   "offset": 67148330,
+   "duration": 4050830,
+   "text": "arrived"
+  },
+  {
+   "offset": 71315000,
+   "duration": 3240830,
+   "text": "straight"
+  },
+  {
+   "offset": 74671250,
+   "duration": 1736250,
+   "text": "from"
+  },
+  {
+   "offset": 76523330,
+   "duration": 4629580,
+   "text": "Spain"
+  },
+  {
+   "offset": 83699160,
+   "duration": 2777910,
+   "text": "still"
+  },
+  {
+   "offset": 86592500,
+   "duration": 3009160,
+   "text": "pulling"
+  },
+  {
+   "offset": 89717500,
+   "duration": 1273330,
+   "text": "his"
+  },
+  {
+   "offset": 91106660,
+   "duration": 4050830,
+   "text": "trolley"
+  },
+  {
+   "offset": 98842500,
+   "duration": 3587910,
+   "text": "Around"
+  },
+  {
+   "offset": 102546250,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 103587910,
+   "duration": 4629580,
+   "text": "table"
+  },
+  {
+   "offset": 110416660,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 111342500,
+   "duration": 5787080,
+   "text": "founders"
+  },
+  {
+   "offset": 117245410,
+   "duration": 1504580,
+   "text": "and"
+  },
+  {
+   "offset": 118865830,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 119907500,
+   "duration": 3819580,
+   "text": "people"
+  },
+  {
+   "offset": 123842500,
+   "duration": 1967500,
+   "text": "from"
+  },
+  {
+   "offset": 125925830,
+   "duration": 6597080,
+   "text": "Docplanner"
+  },
+  {
+   "offset": 136226660,
+   "duration": 1388750,
+   "text": "It"
+  },
+  {
+   "offset": 137731660,
+   "duration": 4398330,
+   "text": "began"
+  },
+  {
+   "offset": 142245410,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 142824160,
+   "duration": 3587910,
+   "text": "little"
+  },
+  {
+   "offset": 146527910,
+   "duration": 7523330,
+   "text": "hesitantly"
+  },
+  {
+   "offset": 157638750,
+   "duration": 2315000,
+   "text": "Then"
+  },
+  {
+   "offset": 160069580,
+   "duration": 2199160,
+   "text": "came"
+  },
+  {
+   "offset": 162384160,
+   "duration": 694580,
+   "text": "the"
+  },
+  {
+   "offset": 163194580,
+   "duration": 6365830,
+   "text": "questions"
+  },
+  {
+   "offset": 172337910,
+   "duration": 2199160,
+   "text": "which"
+  },
+  {
+   "offset": 174652910,
+   "duration": 6481660,
+   "text": "languages"
+  },
+  {
+   "offset": 182870410,
+   "duration": 2315000,
+   "text": "which"
+  },
+  {
+   "offset": 185300830,
+   "duration": 4629580,
+   "text": "tools"
+  },
+  {
+   "offset": 191898330,
+   "duration": 1041660,
+   "text": "how"
+  },
+  {
+   "offset": 193055410,
+   "duration": 1157500,
+   "text": "the"
+  },
+  {
+   "offset": 194328750,
+   "duration": 2546250,
+   "text": "team"
+  },
+  {
+   "offset": 196990830,
+   "duration": 5092500,
+   "text": "worked"
+  },
+  {
+   "offset": 205671250,
+   "duration": 3356660,
+   "text": "Same"
+  },
+  {
+   "offset": 209143330,
+   "duration": 5092500,
+   "text": "tools"
+  },
+  {
+   "offset": 216435000,
+   "duration": 1041660,
+   "text": "the"
+  },
+  {
+   "offset": 217592500,
+   "duration": 2777910,
+   "text": "same"
+  },
+  {
+   "offset": 220486250,
+   "duration": 5671250,
+   "text": "distributed"
+  },
+  {
+   "offset": 226273330,
+   "duration": 2083330,
+   "text": "way"
+  },
+  {
+   "offset": 228472080,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 229513750,
+   "duration": 4976660,
+   "text": "working"
+  },
+  {
+   "offset": 237152910,
+   "duration": 3472080,
+   "text": "similar"
+  },
+  {
+   "offset": 240740830,
+   "duration": 5787080,
+   "text": "services"
+  },
+  {
+   "offset": 246643330,
+   "duration": 1388750,
+   "text": "in"
+  },
+  {
+   "offset": 248148330,
+   "duration": 3703750,
+   "text": "different"
+  },
+  {
+   "offset": 251967500,
+   "duration": 6597080,
+   "text": "markets"
+  },
+  {
+   "offset": 262037080,
+   "duration": 1388750,
+   "text": "By"
+  },
+  {
+   "offset": 263541660,
+   "duration": 1504580,
+   "text": "the"
+  },
+  {
+   "offset": 265162080,
+   "duration": 1504580,
+   "text": "end"
+  },
+  {
+   "offset": 266782500,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 267708330,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 268634160,
+   "duration": 4976660,
+   "text": "evening"
+  },
+  {
+   "offset": 275810000,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 276851660,
+   "duration": 3935000,
+   "text": "idea"
+  },
+  {
+   "offset": 280902910,
+   "duration": 1504580,
+   "text": "was"
+  },
+  {
+   "offset": 282523330,
+   "duration": 1157500,
+   "text": "on"
+  },
+  {
+   "offset": 283796250,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 284722080,
+   "duration": 4398330,
+   "text": "table"
+  },
+  {
+   "offset": 292129580,
+   "duration": 2430410,
+   "text": "let's"
+  },
+  {
+   "offset": 294675830,
+   "duration": 2546250,
+   "text": "join"
+  },
+  {
+   "offset": 297337910,
+   "duration": 6365830,
+   "text": "forces"
+  }
+ ]
+}

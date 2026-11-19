@@ -1,0 +1,233 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "2018. One autumn, two suitors knocked at the living-room door at the same time. The first was a fund, which wanted to take Tuotempo to America. Nobody had gone looking for it: it simply turned up. A few weeks later, the second one knocked: Docplanner.",
+ "words": [
+  {
+   "offset": 990830,
+   "duration": 9027920,
+   "text": "2018"
+  },
+  {
+   "offset": 14069580,
+   "duration": 1967500,
+   "text": "One"
+  },
+  {
+   "offset": 16152910,
+   "duration": 4629580,
+   "text": "autumn"
+  },
+  {
+   "offset": 23097080,
+   "duration": 1851660,
+   "text": "two"
+  },
+  {
+   "offset": 25065000,
+   "duration": 4629580,
+   "text": "suitors"
+  },
+  {
+   "offset": 29810000,
+   "duration": 2662080,
+   "text": "knocked"
+  },
+  {
+   "offset": 32587910,
+   "duration": 694580,
+   "text": "at"
+  },
+  {
+   "offset": 33398330,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 34324160,
+   "duration": 4745410,
+   "text": "living-room"
+  },
+  {
+   "offset": 39185000,
+   "duration": 2662080,
+   "text": "door"
+  },
+  {
+   "offset": 41962910,
+   "duration": 1157500,
+   "text": "at"
+  },
+  {
+   "offset": 43236250,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 44162080,
+   "duration": 2546250,
+   "text": "same"
+  },
+  {
+   "offset": 46824160,
+   "duration": 4282500,
+   "text": "time"
+  },
+  {
+   "offset": 54745410,
+   "duration": 1041660,
+   "text": "The"
+  },
+  {
+   "offset": 55902910,
+   "duration": 3703750,
+   "text": "first"
+  },
+  {
+   "offset": 59722080,
+   "duration": 1388750,
+   "text": "was"
+  },
+  {
+   "offset": 61226660,
+   "duration": 578750,
+   "text": "a"
+  },
+  {
+   "offset": 61921250,
+   "duration": 4282500,
+   "text": "fund"
+  },
+  {
+   "offset": 68750000,
+   "duration": 1620410,
+   "text": "which"
+  },
+  {
+   "offset": 70486250,
+   "duration": 3240830,
+   "text": "wanted"
+  },
+  {
+   "offset": 73842500,
+   "duration": 810000,
+   "text": "to"
+  },
+  {
+   "offset": 74768330,
+   "duration": 2777910,
+   "text": "take"
+  },
+  {
+   "offset": 77662080,
+   "duration": 6712910,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 84490830,
+   "duration": 1388750,
+   "text": "to"
+  },
+  {
+   "offset": 85995410,
+   "duration": 5902910,
+   "text": "America"
+  },
+  {
+   "offset": 95486250,
+   "duration": 4398330,
+   "text": "Nobody"
+  },
+  {
+   "offset": 100000000,
+   "duration": 1620410,
+   "text": "had"
+  },
+  {
+   "offset": 101736250,
+   "duration": 1967500,
+   "text": "gone"
+  },
+  {
+   "offset": 103819580,
+   "duration": 3009160,
+   "text": "looking"
+  },
+  {
+   "offset": 106944580,
+   "duration": 1851660,
+   "text": "for"
+  },
+  {
+   "offset": 108912080,
+   "duration": 2199160,
+   "text": "it"
+  },
+  {
+   "offset": 114004580,
+   "duration": 1041660,
+   "text": "it"
+  },
+  {
+   "offset": 115162080,
+   "duration": 3819580,
+   "text": "simply"
+  },
+  {
+   "offset": 119097080,
+   "duration": 2893330,
+   "text": "turned"
+  },
+  {
+   "offset": 122106660,
+   "duration": 3356660,
+   "text": "up"
+  },
+  {
+   "offset": 129166660,
+   "duration": 694580,
+   "text": "A"
+  },
+  {
+   "offset": 129976660,
+   "duration": 2315000,
+   "text": "few"
+  },
+  {
+   "offset": 132407500,
+   "duration": 2546250,
+   "text": "weeks"
+  },
+  {
+   "offset": 135069580,
+   "duration": 4282500,
+   "text": "later"
+  },
+  {
+   "offset": 141666660,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 142592500,
+   "duration": 3819580,
+   "text": "second"
+  },
+  {
+   "offset": 146527910,
+   "duration": 2083330,
+   "text": "one"
+  },
+  {
+   "offset": 148726660,
+   "duration": 3935000,
+   "text": "knocked"
+  },
+  {
+   "offset": 155324160,
+   "duration": 6597080,
+   "text": "Docplanner"
+  }
+ ]
+}

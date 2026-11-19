@@ -299,8 +299,8 @@
         "l3-consegne"
       ],
       "narration": {
-        "en": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Gianfranco took the baton, and the customers had a new point of reference. A handover between old friends.",
-        "it": "Nel 2015 uno dei due amici della pausa pranzo in Cezanne prese in mano i clienti. Gianfranco prese il testimone, e i clienti ebbero un nuovo punto di riferimento. Un passaggio di consegne fra vecchi amici."
+        "en": "In 2015, one of the two lunch-break friends from Cezanne took the customers in hand. Gef took the baton, and the customers had a new point of reference. A handover between old friends.",
+        "it": "Nel 2015 uno dei due amici della pausa pranzo in Cezanne prese in mano i clienti. Gef prese il testimone, e i clienti ebbero un nuovo punto di riferimento. Un passaggio di consegne fra vecchi amici."
       },
       "cues": [
         {
@@ -312,20 +312,20 @@
           "duration": 4.872708
         },
         {
-          "en": "Gianfranco took the baton, and the customers had a new point of reference.",
-          "it": "Gianfranco prese il testimone, e i clienti ebbero un nuovo punto di riferimento.",
+          "en": "Gef took the baton, and the customers had a new point of reference.",
+          "it": "Gef prese il testimone, e i clienti ebbero un nuovo punto di riferimento.",
           "art": "l3-consegne",
-          "start": 5.338416,
-          "end": 9.412499,
-          "duration": 4.074083
+          "start": 5.3375,
+          "end": 8.937041,
+          "duration": 3.599541
         },
         {
           "en": "A handover between old friends.",
           "it": "Un passaggio di consegne fra vecchi amici.",
           "art": "l3-consegne",
-          "start": 9.780083,
-          "end": 12.024,
-          "duration": 2.243917
+          "start": 9.305541,
+          "end": 11.544,
+          "duration": 2.238459
         }
       ],
       "audio": "audio/l3-consegne-en.mp3",

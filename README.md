@@ -50,6 +50,11 @@ Durata automatica attuale: circa **3 minuti e 15 secondi**, più il tempo dei ci
 
 La mano reale da Pakutaso è stata integrata con chroma key, non è più quella da fumetto. Il file fornito non mostra una mano particolarmente pelosa; non sono stati aggiunti peli artificiali. La punta è ancorata al tratto. Restano da approvare artisticamente questo aspetto e lo stile complessivo.
 
+## Voce: "Gef" e rigenerazione (dal 19/11/2026)
+Nei testi (voce EN e sottotitoli EN/IT) Gianfranco è **Gef**. Gli script TTS passano a edge-tts "Jeff" (pronuncia corretta) ma tengono "Gef" nei sottotitoli e nei tempi parola per parola (`spoken` nei file `audio/*.words.json`). Lavagna 1 non ha un generatore: `python3 tools/board1_tts.py football remote name` rigenera la voce delle sezioni indicate e ritempra i loro sottotitoli direttamente in `boards/lavagna1.json`. Lavagne 2–4: `python3 tools/boardN_tts.py <sezioni>` e poi `python3 tools/boardN_build.py`.
+
+Sottotitoli: corpo circa +48% rispetto a prima (32 px su schermo 1920×1080, scala con lo schermo), al massimo 2 righe; durante gli stop foto i sottotitoli non compaiono.
+
 ## Ordine dei tratti (dal 18/11/2026)
 `build.py` passa ogni disegno per `tools/stroke_order.py`: la mano completa un oggetto prima di passare al successivo. Gli oggetti sono i blocchi d'inchiostro separati (figure, parole, cartelli); un blocco grande quanto una scena viene diviso in parti compatte, tenendo separato l'inchiostro colorato (es. l'auto viola). Oggetti da sinistra a destra, ogni parola scritta lettera per lettera da sinistra a destra. Le fini degli oggetti (`breaks`) servono al player per chiudere ogni sottotitolo su un oggetto finito (tolleranza ±8% del disegno). I file `boards/*.art.json` conservano l'ordine grezzo dei generatori: rigenerare una lavagna non perde la correzione. Anteprime: `python3 tools/preview_stroke_order.py` → `/workspace/previews/ordine-tratti/`.
 

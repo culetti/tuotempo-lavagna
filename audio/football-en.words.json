@@ -1,0 +1,294 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "Late 2005. In the lunch breaks at Cezanne, Donatello and Gef were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
+ "spoken": "Late 2005. In the lunch breaks at Cezanne, Donatello and Jeff were hunting for an idea of their own. The favourite: booking five-a-side football pitches online. So they went to interview the only sports-centre owner they knew, Donatello's cousin. No computer at the desk, a paper diary, no intention to change. The football idea died that afternoon.",
+ "words": [
+  {
+   "offset": 1078750,
+   "duration": 4050830,
+   "text": "Late"
+  },
+  {
+   "offset": 5245410,
+   "duration": 12731250,
+   "text": "2005"
+  },
+  {
+   "offset": 21412080,
+   "duration": 1157500,
+   "text": "In"
+  },
+  {
+   "offset": 22685000,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 23611250,
+   "duration": 3009160,
+   "text": "lunch"
+  },
+  {
+   "offset": 26736250,
+   "duration": 3240830,
+   "text": "breaks"
+  },
+  {
+   "offset": 30092500,
+   "duration": 1041660,
+   "text": "at"
+  },
+  {
+   "offset": 31250000,
+   "duration": 4976660,
+   "text": "Cezanne"
+  },
+  {
+   "offset": 38773330,
+   "duration": 6712910,
+   "text": "Donatello"
+  },
+  {
+   "offset": 46296250,
+   "duration": 1620410,
+   "text": "and"
+  },
+  {
+   "offset": 48032500,
+   "duration": 3356660,
+   "text": "Gef"
+  },
+  {
+   "offset": 51504580,
+   "duration": 925830,
+   "text": "were"
+  },
+  {
+   "offset": 52546250,
+   "duration": 4050830,
+   "text": "hunting"
+  },
+  {
+   "offset": 56712910,
+   "duration": 925830,
+   "text": "for"
+  },
+  {
+   "offset": 57754580,
+   "duration": 925830,
+   "text": "an"
+  },
+  {
+   "offset": 58796250,
+   "duration": 3819580,
+   "text": "idea"
+  },
+  {
+   "offset": 62731660,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 63773330,
+   "duration": 1273330,
+   "text": "their"
+  },
+  {
+   "offset": 65162080,
+   "duration": 3587910,
+   "text": "own"
+  },
+  {
+   "offset": 72453750,
+   "duration": 925830,
+   "text": "The"
+  },
+  {
+   "offset": 73495410,
+   "duration": 5671250,
+   "text": "favourite"
+  },
+  {
+   "offset": 81944580,
+   "duration": 3472080,
+   "text": "booking"
+  },
+  {
+   "offset": 85532500,
+   "duration": 6365830,
+   "text": "five-a-side"
+  },
+  {
+   "offset": 92013750,
+   "duration": 3935000,
+   "text": "football"
+  },
+  {
+   "offset": 96065000,
+   "duration": 3935000,
+   "text": "pitches"
+  },
+  {
+   "offset": 100115830,
+   "duration": 5671250,
+   "text": "online"
+  },
+  {
+   "offset": 109259160,
+   "duration": 1851660,
+   "text": "So"
+  },
+  {
+   "offset": 111226660,
+   "duration": 1157500,
+   "text": "they"
+  },
+  {
+   "offset": 112500000,
+   "duration": 2430410,
+   "text": "went"
+  },
+  {
+   "offset": 115046250,
+   "duration": 925830,
+   "text": "to"
+  },
+  {
+   "offset": 116087910,
+   "duration": 5092500,
+   "text": "interview"
+  },
+  {
+   "offset": 121296250,
+   "duration": 1504580,
+   "text": "the"
+  },
+  {
+   "offset": 122916660,
+   "duration": 2662080,
+   "text": "only"
+  },
+  {
+   "offset": 125694580,
+   "duration": 6944580,
+   "text": "sports-centre"
+  },
+  {
+   "offset": 132754580,
+   "duration": 2662080,
+   "text": "owner"
+  },
+  {
+   "offset": 135532500,
+   "duration": 1504580,
+   "text": "they"
+  },
+  {
+   "offset": 137152910,
+   "duration": 3472080,
+   "text": "knew"
+  },
+  {
+   "offset": 142708330,
+   "duration": 5671250,
+   "text": "Donatello's"
+  },
+  {
+   "offset": 148495410,
+   "duration": 4282500,
+   "text": "cousin"
+  },
+  {
+   "offset": 156365830,
+   "duration": 1967500,
+   "text": "No"
+  },
+  {
+   "offset": 158449160,
+   "duration": 5208330,
+   "text": "computer"
+  },
+  {
+   "offset": 163773330,
+   "duration": 1157500,
+   "text": "at"
+  },
+  {
+   "offset": 165046250,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 166087910,
+   "duration": 4166660,
+   "text": "desk"
+  },
+  {
+   "offset": 172222080,
+   "duration": 462909,
+   "text": "a"
+  },
+  {
+   "offset": 172800830,
+   "duration": 3240830,
+   "text": "paper"
+  },
+  {
+   "offset": 176157500,
+   "duration": 4050830,
+   "text": "diary"
+  },
+  {
+   "offset": 182638750,
+   "duration": 1504580,
+   "text": "no"
+  },
+  {
+   "offset": 184259160,
+   "duration": 4861250,
+   "text": "intention"
+  },
+  {
+   "offset": 189236250,
+   "duration": 925830,
+   "text": "to"
+  },
+  {
+   "offset": 190277910,
+   "duration": 5324160,
+   "text": "change"
+  },
+  {
+   "offset": 199074160,
+   "duration": 1157500,
+   "text": "The"
+  },
+  {
+   "offset": 200347080,
+   "duration": 4513750,
+   "text": "football"
+  },
+  {
+   "offset": 204976660,
+   "duration": 4282500,
+   "text": "idea"
+  },
+  {
+   "offset": 209375000,
+   "duration": 3125000,
+   "text": "died"
+  },
+  {
+   "offset": 212615830,
+   "duration": 1967500,
+   "text": "that"
+  },
+  {
+   "offset": 214699160,
+   "duration": 6597080,
+   "text": "afternoon"
+  }
+ ]
+}

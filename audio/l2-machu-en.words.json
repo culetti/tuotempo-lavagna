@@ -1,0 +1,358 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "Earlier that year, in the spring of 2011, lightning struck Amazon in Dublin, and Tuotempo went dark. And one of the founders was at Machu Picchu, hands joined, praying to a different kind of cloud. A race down the mountain, an internet caf\u00e9 in Aguas Calientes, nine hours moving Tuotempo to another zone\u2026 and just as he finished, the service came back by itself, right where it had always been.",
+ "words": [
+  {
+   "offset": 1078750,
+   "duration": 3472080,
+   "text": "Earlier"
+  },
+  {
+   "offset": 4666660,
+   "duration": 2315000,
+   "text": "that"
+  },
+  {
+   "offset": 7097080,
+   "duration": 3240830,
+   "text": "year"
+  },
+  {
+   "offset": 12190000,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 13347080,
+   "duration": 925830,
+   "text": "the"
+  },
+  {
+   "offset": 14388750,
+   "duration": 2893330,
+   "text": "spring"
+  },
+  {
+   "offset": 17398330,
+   "duration": 925830,
+   "text": "of"
+  },
+  {
+   "offset": 18440000,
+   "duration": 7060000,
+   "text": "2011"
+  },
+  {
+   "offset": 28393330,
+   "duration": 4050830,
+   "text": "lightning"
+  },
+  {
+   "offset": 32560000,
+   "duration": 2893330,
+   "text": "struck"
+  },
+  {
+   "offset": 35569580,
+   "duration": 3587910,
+   "text": "Amazon"
+  },
+  {
+   "offset": 39273330,
+   "duration": 1041660,
+   "text": "in"
+  },
+  {
+   "offset": 40430410,
+   "duration": 4398330,
+   "text": "Dublin"
+  },
+  {
+   "offset": 47259160,
+   "duration": 1041660,
+   "text": "and"
+  },
+  {
+   "offset": 48416660,
+   "duration": 6828750,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 55361250,
+   "duration": 2777910,
+   "text": "went"
+  },
+  {
+   "offset": 58254580,
+   "duration": 4629580,
+   "text": "dark"
+  },
+  {
+   "offset": 66550830,
+   "duration": 1157500,
+   "text": "And"
+  },
+  {
+   "offset": 67824160,
+   "duration": 1504580,
+   "text": "one"
+  },
+  {
+   "offset": 69444580,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 70370410,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 71296250,
+   "duration": 5324160,
+   "text": "founders"
+  },
+  {
+   "offset": 76736250,
+   "duration": 1736250,
+   "text": "was"
+  },
+  {
+   "offset": 78587910,
+   "duration": 1504580,
+   "text": "at"
+  },
+  {
+   "offset": 80208330,
+   "duration": 3587910,
+   "text": "Machu"
+  },
+  {
+   "offset": 83912080,
+   "duration": 4976660,
+   "text": "Picchu"
+  },
+  {
+   "offset": 91435000,
+   "duration": 3125000,
+   "text": "hands"
+  },
+  {
+   "offset": 94675830,
+   "duration": 4166660,
+   "text": "joined"
+  },
+  {
+   "offset": 101504580,
+   "duration": 2662080,
+   "text": "praying"
+  },
+  {
+   "offset": 104282500,
+   "duration": 1041660,
+   "text": "to"
+  },
+  {
+   "offset": 105440000,
+   "duration": 578750,
+   "text": "a"
+  },
+  {
+   "offset": 106134160,
+   "duration": 3356660,
+   "text": "different"
+  },
+  {
+   "offset": 109606660,
+   "duration": 2430410,
+   "text": "kind"
+  },
+  {
+   "offset": 112152910,
+   "duration": 810000,
+   "text": "of"
+  },
+  {
+   "offset": 113078750,
+   "duration": 4861250,
+   "text": "cloud"
+  },
+  {
+   "offset": 121643330,
+   "duration": 694580,
+   "text": "A"
+  },
+  {
+   "offset": 122453750,
+   "duration": 2662080,
+   "text": "race"
+  },
+  {
+   "offset": 125231660,
+   "duration": 1967500,
+   "text": "down"
+  },
+  {
+   "offset": 127315000,
+   "duration": 578750,
+   "text": "the"
+  },
+  {
+   "offset": 128009160,
+   "duration": 4976660,
+   "text": "mountain"
+  },
+  {
+   "offset": 134606660,
+   "duration": 810000,
+   "text": "an"
+  },
+  {
+   "offset": 135532500,
+   "duration": 4398330,
+   "text": "internet"
+  },
+  {
+   "offset": 140046250,
+   "duration": 4513750,
+   "text": "caf\u00e9"
+  },
+  {
+   "offset": 144675830,
+   "duration": 1388750,
+   "text": "in"
+  },
+  {
+   "offset": 146180410,
+   "duration": 3240830,
+   "text": "Aguas"
+  },
+  {
+   "offset": 149537080,
+   "duration": 5671250,
+   "text": "Calientes"
+  },
+  {
+   "offset": 157870410,
+   "duration": 2662080,
+   "text": "nine"
+  },
+  {
+   "offset": 160648330,
+   "duration": 3125000,
+   "text": "hours"
+  },
+  {
+   "offset": 163888750,
+   "duration": 3125000,
+   "text": "moving"
+  },
+  {
+   "offset": 167129580,
+   "duration": 6597080,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 173842500,
+   "duration": 1273330,
+   "text": "to"
+  },
+  {
+   "offset": 175231660,
+   "duration": 2777910,
+   "text": "another"
+  },
+  {
+   "offset": 178125000,
+   "duration": 3472080,
+   "text": "zone"
+  },
+  {
+   "offset": 184837910,
+   "duration": 1157500,
+   "text": "and"
+  },
+  {
+   "offset": 186111250,
+   "duration": 2199160,
+   "text": "just"
+  },
+  {
+   "offset": 188425830,
+   "duration": 694580,
+   "text": "as"
+  },
+  {
+   "offset": 189236250,
+   "duration": 925830,
+   "text": "he"
+  },
+  {
+   "offset": 190277910,
+   "duration": 4513750,
+   "text": "finished"
+  },
+  {
+   "offset": 196875000,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 197800830,
+   "duration": 3703750,
+   "text": "service"
+  },
+  {
+   "offset": 201620410,
+   "duration": 2083330,
+   "text": "came"
+  },
+  {
+   "offset": 203819580,
+   "duration": 2199160,
+   "text": "back"
+  },
+  {
+   "offset": 206134160,
+   "duration": 1388750,
+   "text": "by"
+  },
+  {
+   "offset": 207638750,
+   "duration": 5440000,
+   "text": "itself"
+  },
+  {
+   "offset": 215277910,
+   "duration": 2315000,
+   "text": "right"
+  },
+  {
+   "offset": 217708330,
+   "duration": 1157500,
+   "text": "where"
+  },
+  {
+   "offset": 218981660,
+   "duration": 810000,
+   "text": "it"
+  },
+  {
+   "offset": 219907500,
+   "duration": 1157500,
+   "text": "had"
+  },
+  {
+   "offset": 221180410,
+   "duration": 2777910,
+   "text": "always"
+  },
+  {
+   "offset": 224074160,
+   "duration": 3356660,
+   "text": "been"
+  }
+ ]
+}

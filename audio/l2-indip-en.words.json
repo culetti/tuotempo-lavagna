@@ -1,0 +1,148 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+8%",
+ "boundary": "WordBoundary",
+ "text": "Through all of this: no investors, no funding rounds. Only friends and family who believed in it, and the customers. They fought to stay independent. And they did.",
+ "words": [
+  {
+   "offset": 1078750,
+   "duration": 2662080,
+   "text": "Through"
+  },
+  {
+   "offset": 3856660,
+   "duration": 2083330,
+   "text": "all"
+  },
+  {
+   "offset": 6055410,
+   "duration": 1041660,
+   "text": "of"
+  },
+  {
+   "offset": 7212910,
+   "duration": 3356660,
+   "text": "this"
+  },
+  {
+   "offset": 13231660,
+   "duration": 1851660,
+   "text": "no"
+  },
+  {
+   "offset": 15199160,
+   "duration": 6944580,
+   "text": "investors"
+  },
+  {
+   "offset": 24111250,
+   "duration": 1851660,
+   "text": "no"
+  },
+  {
+   "offset": 26078750,
+   "duration": 4050830,
+   "text": "funding"
+  },
+  {
+   "offset": 30245410,
+   "duration": 5324160,
+   "text": "rounds"
+  },
+  {
+   "offset": 38888750,
+   "duration": 2662080,
+   "text": "Only"
+  },
+  {
+   "offset": 41666660,
+   "duration": 3819580,
+   "text": "friends"
+  },
+  {
+   "offset": 45601660,
+   "duration": 1157500,
+   "text": "and"
+  },
+  {
+   "offset": 46875000,
+   "duration": 4398330,
+   "text": "family"
+  },
+  {
+   "offset": 51388750,
+   "duration": 1273330,
+   "text": "who"
+  },
+  {
+   "offset": 52777910,
+   "duration": 3819580,
+   "text": "believed"
+  },
+  {
+   "offset": 56712910,
+   "duration": 810000,
+   "text": "in"
+  },
+  {
+   "offset": 57638750,
+   "duration": 2083330,
+   "text": "it"
+  },
+  {
+   "offset": 62384160,
+   "duration": 810000,
+   "text": "and"
+  },
+  {
+   "offset": 63310000,
+   "duration": 810000,
+   "text": "the"
+  },
+  {
+   "offset": 64236250,
+   "duration": 6944580,
+   "text": "customers"
+  },
+  {
+   "offset": 74884160,
+   "duration": 1388750,
+   "text": "They"
+  },
+  {
+   "offset": 76388750,
+   "duration": 3356660,
+   "text": "fought"
+  },
+  {
+   "offset": 79861250,
+   "duration": 810000,
+   "text": "to"
+  },
+  {
+   "offset": 80787080,
+   "duration": 2546250,
+   "text": "stay"
+  },
+  {
+   "offset": 83449160,
+   "duration": 8333330,
+   "text": "independent"
+  },
+  {
+   "offset": 95254580,
+   "duration": 1504580,
+   "text": "And"
+  },
+  {
+   "offset": 96875000,
+   "duration": 1620410,
+   "text": "they"
+  },
+  {
+   "offset": 98611250,
+   "duration": 4398330,
+   "text": "did"
+  }
+ ]
+}
