@@ -103,13 +103,13 @@
     {
       "id": "l2-troiano",
       "board": "lavagna2",
-      "title": "Il troiano",
+      "title": "Il sincro",
       "art": [
         "l2-troiano"
       ],
       "narration": {
-        "en": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. Everyone called it the Trojan horse: the most polite guest a computer ever had.",
-        "it": "2008: la prima integrazione vera, con il gestionale dei dentisti. Allora non c'erano API a cui collegarsi. Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda. Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto."
+        "en": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. They called it the sincro, and it never stopped talking to Tuotempo.",
+        "it": "2008: la prima integrazione vera, con il gestionale dei dentisti. Allora non c'erano API a cui collegarsi. Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda. Lo chiamavano il sincro, e non smetteva mai di parlare con Tuotempo."
       },
       "cues": [
         {
@@ -117,32 +117,32 @@
           "it": "2008: la prima integrazione vera, con il gestionale dei dentisti.",
           "art": "l2-troiano",
           "start": 0.0875,
-          "end": 6.35,
-          "duration": 6.2625
+          "end": 6.1625,
+          "duration": 6.075
         },
         {
           "en": "Back then, there were no APIs to plug into.",
           "it": "Allora non c'erano API a cui collegarsi.",
           "art": "l2-troiano",
-          "start": 6.7625,
-          "end": 9.575,
-          "duration": 2.8125
+          "start": 6.575,
+          "end": 9.3125,
+          "duration": 2.7375
         },
         {
           "en": "So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary.",
           "it": "Così un piccolo programma andò a vivere dentro il computer dello studio, e raccontava a Tuotempo cosa succedeva in agenda.",
           "art": "l2-troiano",
-          "start": 9.9875,
-          "end": 16.8875,
-          "duration": 6.9
+          "start": 9.7375,
+          "end": 16.475,
+          "duration": 6.7375
         },
         {
-          "en": "Everyone called it the Trojan horse: the most polite guest a computer ever had.",
-          "it": "Lo chiamavano tutti il troiano: l'ospite più educato che un computer abbia mai avuto.",
+          "en": "They called it the sincro, and it never stopped talking to Tuotempo.",
+          "it": "Lo chiamavano il sincro, e non smetteva mai di parlare con Tuotempo.",
           "art": "l2-troiano",
-          "start": 17.3,
-          "end": 22.632,
-          "duration": 5.332
+          "start": 16.875,
+          "end": 20.928,
+          "duration": 4.053
         }
       ],
       "audio": "audio/l2-troiano-en.mp3",
@@ -152,7 +152,7 @@
         "kind": "screen",
         "disclosure": "Original frame from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007); syncing with the practice software was already announced"
       },
-      "notes": "Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”: Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.",
+      "notes": "Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”, in voce chiamato «il sincro» (il troiano si racconta a braccio dal vivo): Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.",
       "incomplete": false
     },
     {
@@ -475,7 +475,7 @@
     },
     {
       "section": "l2-troiano",
-      "text": "2 · Il troiano",
+      "text": "2 · Il sincro",
       "x": 5480,
       "y": 310
     },
@@ -520,7 +520,7 @@
     "Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).",
     "Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.",
     "Lavagna 2 · Machu Picchu: stop sulla foto vera IMG_0814 (7/4/2011); il disegno resta sulla lavagna. Racconto per licenza scenica (fulmine di Dublino + Machu Picchu), deciso da Lele.",
-    "Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.",
+    "Lavagna 2 · sincro: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.",
     "Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico."
   ]
 }

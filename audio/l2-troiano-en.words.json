@@ -2,298 +2,288 @@
  "voice": "en-US-EmmaMultilingualNeural",
  "rate": "+0%",
  "boundary": "WordBoundary",
- "text": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. Everyone called it the Trojan horse: the most polite guest a computer ever had.",
- "spoken": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. Everyone called it the Trojan horse: the most polite guest a computer ever had.",
+ "text": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. They called it the sincro, and it never stopped talking to Tuotempo.",
+ "spoken": "2008: the first real integration, with the software dentists used to run their practices. Back then, there were no APIs to plug into. So a small program went to live inside the clinic's computer, and quietly told Tuotempo what was happening in the diary. They called it the sincro, and it never stopped talking to Tuotempo.",
  "words": [
   {
    "offset": 875000,
-   "duration": 9750000,
+   "duration": 9375000,
    "text": "2008"
   },
   {
-   "offset": 16625000,
+   "offset": 14750000,
    "duration": 1125000,
    "text": "the"
   },
   {
-   "offset": 17875000,
-   "duration": 3875000,
+   "offset": 16000000,
+   "duration": 3625000,
    "text": "first"
   },
   {
-   "offset": 21875000,
-   "duration": 2500000,
+   "offset": 19750000,
+   "duration": 2000000,
    "text": "real"
   },
   {
-   "offset": 24500000,
-   "duration": 7625000,
+   "offset": 21875000,
+   "duration": 8000000,
    "text": "integration"
   },
   {
-   "offset": 34500000,
-   "duration": 1250000,
+   "offset": 33000000,
+   "duration": 1375000,
    "text": "with"
   },
   {
-   "offset": 35875000,
+   "offset": 34500000,
    "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 37000000,
-   "duration": 5125000,
+   "offset": 35625000,
+   "duration": 5000000,
    "text": "software"
   },
   {
-   "offset": 42250000,
-   "duration": 5250000,
+   "offset": 40750000,
+   "duration": 5125000,
    "text": "dentists"
   },
   {
-   "offset": 47625000,
-   "duration": 2750000,
+   "offset": 46000000,
+   "duration": 2625000,
    "text": "used"
   },
   {
-   "offset": 50500000,
-   "duration": 1000000,
+   "offset": 48750000,
+   "duration": 875000,
    "text": "to"
   },
   {
-   "offset": 51625000,
+   "offset": 49750000,
    "duration": 2000000,
    "text": "run"
   },
   {
-   "offset": 53750000,
+   "offset": 51875000,
    "duration": 1375000,
    "text": "their"
   },
   {
-   "offset": 55250000,
+   "offset": 53375000,
    "duration": 8250000,
    "text": "practices"
   },
   {
-   "offset": 67625000,
-   "duration": 2625000,
+   "offset": 65750000,
+   "duration": 2125000,
    "text": "Back"
   },
   {
-   "offset": 70375000,
-   "duration": 3375000,
+   "offset": 68000000,
+   "duration": 2875000,
    "text": "then"
   },
   {
-   "offset": 75625000,
-   "duration": 1375000,
+   "offset": 72875000,
+   "duration": 1500000,
    "text": "there"
   },
   {
-   "offset": 77125000,
+   "offset": 74500000,
    "duration": 1125000,
    "text": "were"
   },
   {
-   "offset": 78375000,
-   "duration": 2500000,
+   "offset": 75750000,
+   "duration": 2125000,
    "text": "no"
   },
   {
-   "offset": 81000000,
-   "duration": 5750000,
+   "offset": 78000000,
+   "duration": 6000000,
    "text": "APIs"
   },
   {
-   "offset": 86875000,
+   "offset": 84125000,
    "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 88125000,
-   "duration": 3000000,
+   "offset": 85375000,
+   "duration": 2875000,
    "text": "plug"
   },
   {
-   "offset": 91250000,
-   "duration": 4500000,
+   "offset": 88375000,
+   "duration": 4750000,
    "text": "into"
   },
   {
-   "offset": 99875000,
-   "duration": 1875000,
+   "offset": 97375000,
+   "duration": 1750000,
    "text": "So"
   },
   {
-   "offset": 101875000,
+   "offset": 99250000,
    "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 102625000,
+   "offset": 100000000,
    "duration": 3250000,
    "text": "small"
   },
   {
-   "offset": 106000000,
-   "duration": 5500000,
+   "offset": 103375000,
+   "duration": 5125000,
    "text": "program"
   },
   {
-   "offset": 111625000,
-   "duration": 2000000,
+   "offset": 108625000,
+   "duration": 1750000,
    "text": "went"
   },
   {
-   "offset": 113750000,
+   "offset": 110500000,
    "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 115000000,
-   "duration": 2375000,
+   "offset": 111750000,
+   "duration": 2125000,
    "text": "live"
   },
   {
-   "offset": 117500000,
-   "duration": 4000000,
+   "offset": 114000000,
+   "duration": 3750000,
    "text": "inside"
   },
   {
-   "offset": 121625000,
+   "offset": 117875000,
    "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 122625000,
-   "duration": 4000000,
+   "offset": 118875000,
+   "duration": 4125000,
    "text": "clinic's"
   },
   {
-   "offset": 126750000,
-   "duration": 5875000,
+   "offset": 123125000,
+   "duration": 6000000,
    "text": "computer"
   },
   {
-   "offset": 137500000,
-   "duration": 1250000,
+   "offset": 132500000,
+   "duration": 1125000,
    "text": "and"
   },
   {
-   "offset": 138875000,
-   "duration": 4625000,
+   "offset": 133750000,
+   "duration": 5000000,
    "text": "quietly"
   },
   {
-   "offset": 143625000,
-   "duration": 3000000,
+   "offset": 138875000,
+   "duration": 3125000,
    "text": "told"
   },
   {
-   "offset": 146750000,
-   "duration": 6875000,
+   "offset": 142125000,
+   "duration": 7000000,
    "text": "Tuotempo"
   },
   {
-   "offset": 153750000,
-   "duration": 1250000,
+   "offset": 149250000,
+   "duration": 1625000,
    "text": "what"
   },
   {
-   "offset": 155125000,
-   "duration": 1375000,
+   "offset": 151000000,
+   "duration": 1250000,
    "text": "was"
   },
   {
-   "offset": 156625000,
-   "duration": 4625000,
+   "offset": 152375000,
+   "duration": 4875000,
    "text": "happening"
   },
   {
-   "offset": 161375000,
+   "offset": 157375000,
    "duration": 875000,
    "text": "in"
   },
   {
-   "offset": 162375000,
+   "offset": 158375000,
    "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 163375000,
-   "duration": 5500000,
+   "offset": 159375000,
+   "duration": 5375000,
    "text": "diary"
   },
   {
-   "offset": 173000000,
-   "duration": 5125000,
-   "text": "Everyone"
+   "offset": 168750000,
+   "duration": 1000000,
+   "text": "They"
   },
   {
-   "offset": 178250000,
-   "duration": 3125000,
+   "offset": 169875000,
+   "duration": 3000000,
    "text": "called"
   },
   {
-   "offset": 181500000,
+   "offset": 173000000,
    "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 182500000,
+   "offset": 174000000,
    "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 183625000,
-   "duration": 4250000,
-   "text": "Trojan"
+   "offset": 175125000,
+   "duration": 5875000,
+   "text": "sincro"
   },
   {
-   "offset": 188000000,
-   "duration": 5250000,
-   "text": "horse"
+   "offset": 183375000,
+   "duration": 1375000,
+   "text": "and"
   },
   {
-   "offset": 198500000,
+   "offset": 184875000,
+   "duration": 1125000,
+   "text": "it"
+  },
+  {
+   "offset": 186125000,
+   "duration": 2875000,
+   "text": "never"
+  },
+  {
+   "offset": 189125000,
+   "duration": 3375000,
+   "text": "stopped"
+  },
+  {
+   "offset": 192625000,
+   "duration": 3750000,
+   "text": "talking"
+  },
+  {
+   "offset": 196500000,
    "duration": 1000000,
-   "text": "the"
+   "text": "to"
   },
   {
-   "offset": 199625000,
-   "duration": 2750000,
-   "text": "most"
-  },
-  {
-   "offset": 202500000,
-   "duration": 4375000,
-   "text": "polite"
-  },
-  {
-   "offset": 207000000,
-   "duration": 2750000,
-   "text": "guest"
-  },
-  {
-   "offset": 209875000,
-   "duration": 500000,
-   "text": "a"
-  },
-  {
-   "offset": 210500000,
-   "duration": 5375000,
-   "text": "computer"
-  },
-  {
-   "offset": 216000000,
-   "duration": 2375000,
-   "text": "ever"
-  },
-  {
-   "offset": 218500000,
-   "duration": 4000000,
-   "text": "had"
+   "offset": 197625000,
+   "duration": 8000000,
+   "text": "Tuotempo"
   }
  ]
 }

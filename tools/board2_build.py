@@ -35,7 +35,7 @@ def process(key,notes=()):
  return {'src':f'assets/{key}.png','w':w,'h':h,'path':paths,'radius':8}
 W=880
 cols=[X0+120,X0+1090,X0+2060,X0+3030];rows=[380,1330]
-layout=[('l2-clients',0,0,'1 · I primi clienti'),('l2-troiano',1,0,'2 · Il troiano'),('l2-salotto',2,0,'3 · Il salotto di via Ugo Bassi'),('l2-voce',3,0,'4 · La voce'),
+layout=[('l2-clients',0,0,'1 · I primi clienti'),('l2-troiano',1,0,'2 · Il sincro'),('l2-salotto',2,0,'3 · Il salotto di via Ugo Bassi'),('l2-voce',3,0,'4 · La voce'),
         ('l2-cloud',0,1,'5 · Dal server al cloud'),('l2-serverino',1,1,'6 · Il serverino degli SMS'),('l2-machu',2,1,'7 · Machu Picchu'),('l2-indip',3,1,'8 · Indipendenti')]
 notes={'l2-cloud':[(90,610,'Roma'),(870,640,'Dublino')],'l2-salotto':[(40,660,'Bologna · via Ugo Bassi')]}
 art={};labels=[]
@@ -55,10 +55,10 @@ photos={
  'l2-machu':{'src':'assets/machu-picchu-2011-04-07.jpg','caption':'Machu Picchu · April 7, 2011','kind':'original','disclosure':'Original photo'},
  'l2-voce':{'src':'assets/memo2007-voice.png','caption':'“Voice Message” · the 2007 promise','kind':'screen','disclosure':memo+'; the voice message only arrived in 2009'},
 }
-titles={'l2-clients':'I primi clienti','l2-troiano':'Il troiano','l2-salotto':'Il salotto di via Ugo Bassi','l2-voce':'La voce','l2-cloud':'Dal server al cloud','l2-serverino':'Il serverino degli SMS','l2-machu':'Machu Picchu','l2-indip':'Indipendenti'}
+titles={'l2-clients':'I primi clienti','l2-troiano':'Il sincro','l2-salotto':'Il salotto di via Ugo Bassi','l2-voce':'La voce','l2-cloud':'Dal server al cloud','l2-serverino':'Il serverino degli SMS','l2-machu':'Machu Picchu','l2-indip':'Indipendenti'}
 sectnotes={
  'l2-clients':'Master §3 (primi clienti nelle mail 2007: studio dentistico, Clinica Tiro de Pichón, K-Sport, Hedoniste Day Spa, Japanese Beauty Center…; primo memo automatico agosto 2007) e §6 momento 1. Il gancio di §6 cita parrucchiere e tiro a volo: non trovati nell’elenco del master, quindi in voce solo tipologie verificate. Stop: fotogramma reale del video 2007.',
- 'l2-troiano':'Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”: Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.',
+ 'l2-troiano':'Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”, in voce chiamato «il sincro» (il troiano si racconta a braccio dal vivo): Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.',
  'l2-salotto':'Master §3 (marzo 2009 via Ugo Bassi 11) e §6 momento 3 (sala della casa dei genitori di Don, fino a 8 persone). Disegno in attesa di una foto della sala o del palazzo (chiedere a Don).',
  'l2-voce':'Master §3 (voce nel 2009 con Voxeo, tesi su VoiceXML) e Reperto video 2007: nel 2007 la voce era una promessa (Lele 18/11). “Fra i primi” è RICORDO di Lele. Stop: fotogramma reale “Voice Message” del video 2007.',
  'l2-cloud':'Master §3 Hosting (server di produzione spento il 07/07/2009, AWS Dublino da settembre 2009, unico hosting da febbraio 2010) e §6 momento 5. Il down di 24 ore con Don a Manfredonia resta a braccio. Stop sul disegno (a braccio).',
@@ -87,7 +87,7 @@ labels1=[{'section':'origins','text':'1 · Bologna → Valencia','x':90,'y':105}
 unk=['Lavagna 2 · via Ugo Bassi: disegno provvisorio; sostituibile con una foto vera della sala o del palazzo (da Don).',
      'Lavagna 2 · serverino degli SMS: disegno provvisorio; sostituibile con una foto vera del PC/modem o della salita estiva per riaccenderlo.',
      'Lavagna 2 · Machu Picchu: stop sulla foto vera IMG_0814 (7/4/2011); il disegno resta sulla lavagna. Racconto per licenza scenica (fulmine di Dublino + Machu Picchu), deciso da Lele.',
-     'Lavagna 2 · troiano: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.',
+     'Lavagna 2 · sincro: mail “Integrazione Orisdent” (marzo 2008) e manuale tuOtempO_help_ita (luglio 2008) non trovati nella Gmail personale; stop sul fotogramma SINCRO del video 2007.',
      'Lavagna 2 · primi clienti: il gancio §6 cita parrucchiere e tiro a volo, non presenti nell’elenco clienti 2007 del master (Clinica Tiro de Pichón è una clinica): in voce solo dentista, centro sportivo, day spa, centro estetico.']
 import sys;sys.path.insert(0,str(P/'tools'))
 from boardfiles import write_board
