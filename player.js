@@ -212,7 +212,7 @@ function instantDone(sec){const l=signOf(sec);if(l)l.write=1;for(const c of sec.
 // opts.from = index in FLAT, opts.at = seconds into that section's voice, opts.stop = go straight to its photo/pause stop.
 async function run(opts={}){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}for(const l of DATA.labels||[])if(l.small)l.write=0;
  const k=Math.max(0,Math.min(FLAT.length-1,opts.from||0)),kb=FLAT.length?FLAT[k].bi:0,at=opts.at>0.3?opts.at:0;curIdx=k;stage='section';
- $('photo').classList.remove('on');nameGag=null;subtitle(null);$('start').style.display='none';if(!('from' in opts))$('frame').classList.add('clean');$('progress').style.width=(k/PLAY_SECTIONS*95)+'%';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};
+ $('photo').classList.remove('on');nameGag=null;subtitle(null);$('start').style.display='none';uiPoke(false);$('progress').style.width=(k/PLAY_SECTIONS*95)+'%';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};
  for(let i=0;i<k+(opts.stop?1:0);i++)instantDone(FLAT[i].sec);for(let bi=0;bi<kb;bi++)finals[BOARDS[bi].id]=1;
  if(k>0||at||opts.stop){const a0=objects[(FLAT[k].sec.cues[0]||{}).art||FLAT[k].sec.art[0]];if(a0)cam={...cameraFor(a0)};}
  render();
@@ -236,6 +236,22 @@ function skipBack(){if(phase==='loading')return;if(phase==='ready'){run();return
 const SPEEDS=[1,2,4];
 function setSpeed(v){speed=v;if(audio)audio.playbackRate=v;const b=$('speedBadge');if(b){b.textContent=v+'×';b.style.display=v===1?'none':'block';}const sb=$('speedBtn');if(sb)sb.textContent='Velocità '+v+'×';}
 function speedStep(d){const i=SPEEDS.indexOf(speed);const n=i<0?(d>0?SPEEDS.find(x=>x>speed)||4:[...SPEEDS].reverse().find(x=>x<speed)||1):SPEEDS[Math.max(0,Math.min(SPEEDS.length-1,i+d))];setSpeed(n);}
+// Controls (seek bar, buttons) and cursor: in 'auto' mode they appear as soon as the pointer moves and fade out
+// after 2 s without movement (never while the pointer is over them or the bar is being dragged); the cursor hides with them.
+// H cycles: auto → always shown → always hidden → auto. The "Nascondi comandi" button pins them hidden (H brings them back).
+let uiMode='auto',uiTimer=null,uiOver=false,uiDrag=false;const UI_IDLE=2000;
+const uiShow=on=>$('frame').classList.toggle('ui',on);
+function uiPoke(show=true){clearTimeout(uiTimer);if(uiMode!=='auto'){uiShow(uiMode==='shown');return;}if(show)uiShow(true);
+ uiTimer=setTimeout(()=>{if(uiOver||uiDrag||$('start').style.display!=='none'){uiPoke(false);return;}uiShow(false);},show?UI_IDLE:600);}
+function uiToast(t){const el=$('uiToast');el.textContent=t;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),1400);}
+function uiSetMode(m){uiMode=m;$('hideBtn').textContent=m==='hidden'?'Mostra comandi':'Nascondi comandi';uiToast({auto:'Comandi automatici (col mouse)',shown:'Comandi sempre visibili',hidden:'Comandi nascosti · H per riaverli'}[m]);if(m==='auto')uiPoke(true);else{clearTimeout(uiTimer);uiShow(m==='shown');}}
+function uiCycle(){uiSetMode({auto:'shown',shown:'hidden',hidden:'auto'}[uiMode]);}
+function uiInit(){const tb=$('toolbar');let lx=-1,ly=-1;
+ document.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-lx)+Math.abs(e.clientY-ly)<2)return;lx=e.clientX;ly=e.clientY;uiPoke(true);});
+ document.addEventListener('pointerdown',()=>uiPoke(true));
+ tb.addEventListener('pointerenter',()=>{uiOver=true;uiPoke(true);});tb.addEventListener('pointerleave',()=>{uiOver=false;uiPoke(true);});
+ $('seek').addEventListener('pointerdown',()=>{uiDrag=true;});document.addEventListener('pointerup',()=>{if(uiDrag){uiDrag=false;uiPoke(true);}});
+ uiShow(true);}
 // Seek bar: board colours, photo-stop marks, click or drag to jump.
 function buildSeek(){const bar=$('seek');if(!bar)return;const tr=bar.querySelector('.track');
  BOARDS.forEach((b,bi)=>{const fs=FLAT.filter(f=>f.bi===bi);if(!fs.length)return;const a=fs[0].start,e=fs[fs.length-1].start+fs[fs.length-1].dur;const seg=document.createElement('i');seg.className='bseg';seg.style.left=(a/TOTAL*100)+'%';seg.style.width=((e-a)/TOTAL*100)+'%';seg.style.background=b.color;tr.append(seg);});
@@ -254,8 +270,8 @@ async function init(){if(ONLY){const t='TuoTempo · '+boardLabel(ONLY);document.
 $('frame').addEventListener('click',e=>{if(!e.target.closest('#toolbar'))next();});
 $('nextBtn').onclick=next;$('resetBtn').onclick=()=>{if(phase!=='loading')run();};$('langBtn').onclick=toggleLanguage;
 function fullscreen(){if(document.fullscreenElement){if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});}else if($('frame').requestFullscreen)$('frame').requestFullscreen().catch(()=>{});}
-$('fullBtn').onclick=fullscreen;$('backBtn').onclick=skipBack;$('fwdBtn').onclick=skipForward;$('speedBtn').onclick=()=>setSpeed(SPEEDS[(SPEEDS.indexOf(speed)+1)%SPEEDS.length]||1);buildSeek();setSpeed(speed);$('hideBtn').onclick=()=>$('frame').classList.toggle('clean');
-document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'){e.preventDefault();next();}else if(e.key==='ArrowRight'){e.preventDefault();skipForward();}else if(e.key==='ArrowLeft'){e.preventDefault();skipBack();}else if(e.key==='+'||e.key==='='){e.preventDefault();speedStep(1);}else if(e.key==='-'||e.key==='_'){e.preventDefault();speedStep(-1);}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')$('frame').classList.toggle('clean');});
+$('fullBtn').onclick=fullscreen;$('backBtn').onclick=skipBack;$('fwdBtn').onclick=skipForward;$('speedBtn').onclick=()=>setSpeed(SPEEDS[(SPEEDS.indexOf(speed)+1)%SPEEDS.length]||1);buildSeek();setSpeed(speed);$('hideBtn').onclick=()=>uiSetMode(uiMode==='hidden'?'auto':'hidden');uiInit();
+document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'){e.preventDefault();next();}else if(e.key==='ArrowRight'){e.preventDefault();skipForward();}else if(e.key==='ArrowLeft'){e.preventDefault();skipBack();}else if(e.key==='+'||e.key==='='){e.preventDefault();speedStep(1);}else if(e.key==='-'||e.key==='_'){e.preventDefault();speedStep(-1);}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')uiCycle();});
 // Read-only diagnostics for local verification; no network, telemetry or external API.
 window.Whiteboard={getState:()=>({waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress,finals:{...finals},board:currentSection?boardOf(currentSection.id).id:null,speed,stage,curIdx,pos:position(),total:TOTAL,audioTime:audio?audio.currentTime:null,audioRate:audio?audio.playbackRate:null}),next,restart:run,toggleLanguage,seekTo,skipForward,skipBack,setSpeed};
 init();

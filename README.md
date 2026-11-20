@@ -30,7 +30,8 @@ Aprire **index.html** in Chrome, Edge o Safari. È un file autonomo: include sce
 - **R**: ricomincia immediatamente anche durante una foto o un disegno.
 - **I**: cambia EN/IT subito, senza ricominciare (la voce resta EN).
 - **F** o pulsante: tutto schermo; ESC per uscire.
-- **H**: nasconde/mostra i comandi e la barra di avanzamento. All'avvio vengono nascosti; ricompaiono puntando il mouse direttamente sulla fascia inferiore.
+- **Comandi e barra**: compaiono appena si muove il mouse (o si tocca lo schermo) e spariscono con una dissolvenza dopo 2 secondi di mouse fermo, insieme al cursore; restano visibili finché il mouse è sopra la fascia comandi o si trascina la barra. Con i comandi visibili il sottotitolo sale un poco per non sovrapporsi.
+- **H**: cambia modalità comandi, con un breve avviso in alto: automatici (col mouse) → sempre visibili → sempre nascosti (per la proiezione: il mouse non li fa ricomparire) → automatici. Il pulsante «Nascondi comandi» li nasconde fissi; si riportano con H.
 - **→** (o pulsante **Avanti ▸▸**): salta alla fine della scena in corso (allo stop foto/pausa se c'è); su uno stop passa alla scena successiva.
 - **←** (o pulsante **◂◂ Indietro**): torna all'inizio della scena; se si è entro i primi 2 secondi, alla scena precedente.
 - **+** / **=** e **−** / **_** (o pulsante **Velocità**): 1× → 2× → 4×. Voce (playbackRate), disegno, mano e camera accelerano insieme; quando non si è a 1× compare l'indicatore in alto a destra.
