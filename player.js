@@ -16,7 +16,7 @@ const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
 class Cancelled extends Error{}
 function loadImage(src){return new Promise((res,rej)=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error('Immagine non caricabile: '+src.slice(0,80)));im.src=src;});}
 function setPhase(p){phase=p;document.body.dataset.phase=p;updateStatus();}
-function updateStatus(){const names={loading:'Caricamento…',ready:'Pronto · EN',camera:'',drawing:'',hold:'',photo:'In pausa',pause:'In pausa',boardEnd:'Fine lavagna · Spazio per continuare',name:'Il nome',final:'',ended:'Lavagne complete · R per ricominciare'};$('status').textContent=names[phase]??'';if(currentCue&&['drawing','hold'].includes(phase))$('status').textContent=lang.toUpperCase()+(audio?' · voce':' · senza voce');}
+function updateStatus(){const names={loading:'Caricamento…',ready:'Pronto · EN',camera:'',drawing:'',hold:'',photo:'Stop · Spazio per continuare',pause:'Stop · Spazio per continuare',boardEnd:'Fine lavagna · Spazio per continuare',name:'Il nome',final:'',ended:'Lavagne complete · R per ricominciare'};$('status').textContent=names[phase]??'';if(currentCue&&['drawing','hold'].includes(phase))$('status').textContent=lang.toUpperCase()+(audio?' · voce':' · senza voce');}
 function subtitle(cue=currentCue){showSubtitleAt(cue, cue===currentCue?subProgress:0);}
 let subProgress=0;
 function splitSubtitle(text, maxLen=72){
@@ -75,23 +75,29 @@ function cueProgress(cue, t, sectionAudio){
  return t;
 }
 function check(token){if(token!==runToken)throw new Cancelled();}
-function tween(ms,fn,token){return new Promise((resolve,reject)=>{let last=performance.now(),el=0;function tick(now){if(token!==runToken)return reject(new Cancelled());el+=Math.max(0,now-last)*speed;last=now;const t=Math.min(1,el/ms);fn(t);render();if(t<1)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});}
+function tween(ms,fn,token){return new Promise((resolve,reject)=>{let last=performance.now(),el=0;function tick(now){if(token!==runToken)return reject(new Cancelled());if(paused){last=now;requestAnimationFrame(tick);return;}el+=Math.max(0,now-last)*speed;last=now;const t=Math.min(1,el/ms);fn(t);render();if(t<1)requestAnimationFrame(tick);else resolve();}requestAnimationFrame(tick);});}
 async function moveCamera(target,token,ms=560){setPhase('camera');const from={...cam};await tween(ms,t=>{const e=ease(t);for(const k of ['cx','cy','w'])cam[k]=from[k]+(target[k]-from[k])*e;},token);}
 function cameraFor(o){const height=o.h*o.scale;const width=Math.max(o.width*1.14,height*1.7778*1.28);return {cx:o.x+o.width/2,cy:o.y+height/2+height*.055,w:width};}
 function drawSheet(g,s){if(s.alpha<=0)return;ctx.save();ctx.globalAlpha=s.alpha;ctx.translate(g.cx+s.dx,g.cy);ctx.rotate(s.rot);ctx.fillStyle='#fffdf6';ctx.strokeStyle='#555';ctx.lineWidth=3;ctx.lineJoin='round';ctx.beginPath();ctx.moveTo(-g.sw/2,-g.sh/2);ctx.lineTo(g.sw/2+3,-g.sh/2+2);ctx.lineTo(g.sw/2,g.sh/2);ctx.lineTo(-g.sw/2-2,g.sh/2-2);ctx.closePath();ctx.fill();ctx.stroke();ctx.restore();}
 function drawNameSheets(g){drawSheet(g,g.frame.oldSheet);drawSheet(g,g.frame.newSheet);}
+let paperDone=false;
+function markPaper(){const L=Object.values(objects);L.forEach((c,j)=>{c.paper=L.slice(0,j).some(a=>{const ix=Math.min(a.x+a.width,c.x+c.width)-Math.max(a.x,c.x),iy=Math.min(a.y+a.h*a.scale,c.y+c.h*c.scale)-Math.max(a.y,c.y);return ix>0&&iy>0&&ix*iy>.2*Math.min(a.width*a.h*a.scale,c.width*c.h*c.scale);});});paperDone=L.length>0;}
 function render(){ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#fff';ctx.fillRect(0,0,W,H);const z=W/cam.w;ctx.setTransform(z,0,0,z,W/2-cam.cx*z,H/2-cam.cy*z);
  // Each group is part of the same permanent whiteboard, never a slide replacement.
+ // Drawings are composited with 'multiply': their white paper never cuts ink already on the board (descenders of g j p q y,
+ // accents, lines of a neighbouring drawing); on the white board they look the same. Only a drawing laid largely on top of an
+ // earlier one (>20% of the smaller, e.g. Valencia over the map) keeps its opaque paper, so the scene underneath does not show through.
+ if(!paperDone)markPaper();
  if(nameGag)drawNameSheets(nameGag);
- for(const o of Object.values(objects)){if(!o.shown)continue;if(o.dirty){const c=o.comp.getContext('2d');c.globalCompositeOperation='copy';c.drawImage(o.mask,0,0);c.globalCompositeOperation='source-in';c.drawImage(o.image,0,0);o.dirty=false;}ctx.drawImage(o.comp,o.x,o.y,o.width,o.h*o.scale);}
+ for(const o of Object.values(objects)){if(!o.shown)continue;if(o.dirty){const c=o.comp.getContext('2d');c.globalCompositeOperation='copy';c.drawImage(o.mask,0,0);c.globalCompositeOperation='source-in';c.drawImage(o.image,0,0);o.dirty=false;}if(!o.paper)ctx.globalCompositeOperation='multiply';ctx.drawImage(o.comp,o.x,o.y,o.width,o.h*o.scale);ctx.globalCompositeOperation='source-over';}
  ctx.font='54px Hand';
- for(const l of (DATA.labels||[])){const sec=DATA.sections.find(s=>s.id===l.section);if(sec&&(l.small||sec.art.some(a=>objects[a]&&objects[a].shown))){ctx.fillStyle=boardOf(l.section).color;if(l.small){const w=l.write||0;if(w<=0)continue;ctx.font='italic 64px Hand';const tw=ctx.measureText(l.text).width;ctx.save();ctx.beginPath();ctx.rect(l.x-10,l.y-90,(tw+20)*w,130);ctx.clip();ctx.fillText(l.text,l.x,l.y);ctx.restore();}else{ctx.font='54px Hand';ctx.fillText(l.text,l.x,l.y);}}}
+ for(const l of (DATA.labels||[])){const sec=DATA.sections.find(s=>s.id===l.section);if(sec&&(l.small||sec.art.some(a=>objects[a]&&objects[a].shown))){ctx.fillStyle=boardOf(l.section).color;if(l.small){const w=l.write||0;if(w<=0)continue;ctx.font='italic 64px Hand';const tw=ctx.measureText(l.text).width;ctx.save();ctx.beginPath();ctx.rect(l.x-10,l.y-110,(tw+20)*w,180);ctx.clip();ctx.fillText(l.text,l.x,l.y);ctx.restore();}else{ctx.font='54px Hand';ctx.fillText(l.text,l.x,l.y);}}}
  ctx.font='54px Hand';
  for(const b of BOARDS){const fp=finals[b.id]||0;if(fp<=0)continue;const p=b.final.circle,col=b.color;ctx.strokeStyle=col;ctx.lineWidth=8;ctx.lineCap='round';ctx.beginPath();ctx.ellipse(p.x,p.y,p.rx,p.ry,-.13,-Math.PI/2,-Math.PI/2+Math.PI*2*Math.min(1,fp*1.6));ctx.stroke();if(fp>.65){ctx.font='72px Hand';ctx.fillStyle=col;const text=boardLabel(b);ctx.fillText(text.slice(0,Math.ceil((fp-.65)/.35*text.length)),b.final.yearsAt[0],b.final.yearsAt[1]);}}
  drawClosing();
  if(nameGag){const g=nameGag,f=g.frame,lh=Math.min(78,(g.sh-70)/f.list.length),top=g.cy-lh*(f.list.length-1)/2+20;g.hand=null;ctx.save();ctx.font='60px Hand';ctx.textAlign='left';
   if(f.oldSheet.alpha>0){ctx.save();ctx.globalAlpha=f.oldSheet.alpha;ctx.translate(g.cx+f.oldSheet.dx,g.cy);ctx.rotate(f.oldSheet.rot);ctx.translate(-g.cx,-g.cy);
-   f.list.forEach((it,i)=>{if(it.write<=0)return;const y=top+i*lh,w=ctx.measureText(it.label).width,x=g.cx-w/2;ctx.save();ctx.beginPath();ctx.rect(x-10,y-lh,(w+20)*it.write,lh*1.3);ctx.clip();ctx.fillStyle='#333';ctx.fillText(it.label,x,y);ctx.restore();
+   f.list.forEach((it,i)=>{if(it.write<=0)return;const y=top+i*lh,w=ctx.measureText(it.label).width,x=g.cx-w/2;ctx.save();ctx.beginPath();ctx.rect(x-10,y-Math.max(lh,75),(w+20)*it.write,Math.max(lh,75)+30);ctx.clip();ctx.fillStyle='#333';ctx.fillText(it.label,x,y);ctx.restore();
     if(it.cut>0){ctx.strokeStyle=RED;ctx.lineWidth=5;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x-12,y-18);ctx.lineTo(x-12+(w+24)*it.cut,y-15-3*it.cut);ctx.stroke();}
     if(f.handAt&&f.handAt.i===i&&f.oldSheet.dx===0)g.hand={x:x+w*f.handAt.p,y:f.handAt.kind==='cut'?y-16:y-8};});
    ctx.restore();}
@@ -112,26 +118,26 @@ let photoVideo=null,photoSeq=0;const clipEls={};
 function clipEl(src){let v=clipEls[src];if(!v){v=document.createElement('video');v.src=src;v.playsInline=true;v.preload='auto';v.volume=1;clipEls[src]=v;}return v;}
 function unlockClips(){for(const s of DATA.sections){const src=s.photo&&s.photo.video;if(!src)continue;const v=clipEl(src);if(v._unlocked)continue;v._unlocked=true;v.muted=true;const p=v.play();if(p&&p.then)p.then(()=>{v.pause();v.currentTime=0;v.muted=false;}).catch(()=>{v.muted=false;v._unlocked=false;});}}
 ['pointerdown','keydown','touchend'].forEach(ev=>document.addEventListener(ev,unlockClips,{capture:true}));
-function stopPhotoVideo(){photoSeq++;$('soundHint').classList.remove('on');if(photoVideo){try{photoVideo.pause();photoVideo.currentTime=0;}catch(e){}photoVideo=null;}}
+function stopPhotoVideo(){photoSeq++;clipPending=false;$('soundHint').classList.remove('on');if(photoVideo){try{photoVideo.pause();photoVideo.currentTime=0;}catch(e){}photoVideo=null;}}
 // A pause that counts only frames actually shown (a frame blocked by decoding the photo counts at most 100 ms).
-function holdFrames(ms,token){return new Promise((res,rej)=>{let el=0,last=null;const tick=now=>{if(token!==runToken)return rej(new Cancelled());if(last!==null)el+=Math.min(100,Math.max(0,now-last))*speed;last=now;if(el>=ms)res();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});}
-async function playPhotoVideo(ph,token){const seq=++photoSeq;try{await holdFrames((ph.videoDelay??1.5)*1000,token);}catch(e){return;}
+function holdFrames(ms,token){return new Promise((res,rej)=>{let el=0,last=null;const tick=now=>{if(token!==runToken)return rej(new Cancelled());if(paused){last=now;requestAnimationFrame(tick);return;}if(last!==null)el+=Math.min(100,Math.max(0,now-last))*speed;last=now;if(el>=ms)res();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});}
+async function playPhotoVideo(ph,token){const seq=++photoSeq;clipPending=true;try{await holdFrames((ph.videoDelay??1.5)*1000,token);}catch(e){return;}finally{if(seq===photoSeq)clipPending=false;}
  if(seq!==photoSeq||token!==runToken||!$('photo').classList.contains('on'))return;
  const v=clipEl(ph.video);v.pause();v.currentTime=0;v.muted=false;v.volume=1;v.playbackRate=speed;v.setAttribute('aria-label',ph.caption);photoVideo=v;
  const img=$('photoContent').querySelector('img');
  const show=()=>{if(photoVideo!==v)return;if(img&&img.isConnected)img.replaceWith(v);else if(!v.isConnected)$('photoContent').append(v);};
  v.addEventListener('playing',show,{once:true});
- try{await v.play();}catch(e){if(photoVideo!==v)return;
+ try{await v.play();if(paused&&photoVideo===v)v.pause();}catch(e){if(photoVideo!==v)return;
   // Sound refused by the browser: play muted and offer «click for sound».
-  try{v.muted=true;await v.play();}catch(e2){if(photoVideo===v)photoVideo=null;return;}
+  try{v.muted=true;await v.play();if(paused&&photoVideo===v)v.pause();}catch(e2){if(photoVideo===v)photoVideo=null;return;}
   const h=$('soundHint');h.classList.add('on');h.onclick=ev=>{ev.stopPropagation();v.muted=false;v.play().catch(()=>{});h.classList.remove('on');};}}
-async function startAudio(section,token,at=0){if(!section.audio)return null;const a=new Audio(section.audio);a.playbackRate=speed;audio=a;try{if(at>0){if(a.readyState<1)await new Promise(r=>a.addEventListener('loadedmetadata',r,{once:true}));check(token);a.currentTime=at;}await a.play();check(token);return a;}catch(e){if(e instanceof Cancelled)throw e;clearAudio();$('status').textContent='Audio non disponibile · sottotitoli attivi';return null;}}
+async function startAudio(section,token,at=0){if(!section.audio)return null;const a=new Audio(section.audio);a.playbackRate=speed;audio=a;try{if(at>0){if(a.readyState<1)await new Promise(r=>a.addEventListener('loadedmetadata',r,{once:true}));check(token);a.currentTime=at;}await a.play();check(token);if(paused)a.pause();return a;}catch(e){if(e instanceof Cancelled)throw e;clearAudio();$('status').textContent='Audio non disponibile · sottotitoli attivi';return null;}}
 function waitForNext(token){check(token);return new Promise((resolve,reject)=>{waiter={token,resolve,reject};});}
 async function showPhoto(section,token){check(token);stage='stop';clearAudio();subtitle(null);hand=null;render();const ph=section.photo;
  if(!ph){setPhase('pause');await waitForNext(token);check(token);return;}$('pol').className='pol '+ph.kind;$('photoContent').replaceChildren();
  if(ph.src){const img=document.createElement('img');img.src=ph.src;img.alt=ph.caption;$('photoContent').append(img);}else{const box=document.createElement('div');box.className='missing';const strong=document.createElement('strong');strong.textContent=ph.display;const span=document.createElement('span');span.textContent=ph.disclosure;box.append(strong,span);$('photoContent').append(box);}
  $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');if(ph.video)playPhotoVideo(ph,token);
- if(ph.intro){const introCue={en:ph.intro.en,it:ph.intro.it};showSubtitleAt(introCue,0);if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,t=>{const p=audio&&Number.isFinite(audio.duration)&&audio.duration>0?audio.currentTime/audio.duration:t;showSubtitleAt(introCue,p);},token);}clearAudio();}}
+ if(ph.intro){const introCue={en:ph.intro.en,it:ph.intro.it};showSubtitleAt(introCue,0);if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);if(paused)a.pause();}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,t=>{const p=audio&&Number.isFinite(audio.duration)&&audio.duration>0?audio.currentTime/audio.duration:t;showSubtitleAt(introCue,p);},token);}clearAudio();}}
  await waitForNext(token);check(token);stopPhotoVideo();$('photo').classList.remove('on');subtitle(null);
 }
 // Pure time-based filter: remembered alternatives, not a claimed historical order.
@@ -231,7 +237,7 @@ async function writeSign(section,token,at){const l=signOf(section);if(!l)return;
  await moveCamera({cx:l.x+tw/2,cy:l.y-20,w:1500},token,700);setPhase('drawing');await tween(1500,t=>{l.write=t;hand={x:l.x+tw*t,y:l.y-14};},token);hand=null;l.write=1;render();await tween(600,()=>{},token);}
 function instantDone(sec){const l=signOf(sec);if(l)l.write=1;for(const c of sec.cues||[])if(objects[c.art])revealTo(objects[c.art],1);for(const k of sec.art||[])if(objects[k])revealTo(objects[k],1);hand=null;}
 // opts.from = index in FLAT, opts.at = seconds into that section's voice, opts.stop = go straight to its photo/pause stop.
-async function run(opts={}){cancel();const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}for(const l of DATA.labels||[])if(l.small)l.write=0;
+async function run(opts={}){cancel();setPaused(false);const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}for(const l of DATA.labels||[])if(l.small)l.write=0;
  const k=Math.max(0,Math.min(FLAT.length-1,opts.from||0)),kb=FLAT.length?FLAT[k].bi:0,at=opts.at>0.3?opts.at:0;curIdx=k;stage='section';
  $('photo').classList.remove('on');nameGag=null;subtitle(null);$('start').style.display='none';uiPoke(false);$('progress').style.width=(k/PLAY_SECTIONS*95)+'%';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};
  for(let i=0;i<k+(opts.stop?1:0);i++)instantDone(FLAT[i].sec);for(let bi=0;bi<kb;bi++)finals[BOARDS[bi].id]=1;
@@ -263,7 +269,7 @@ function speedStep(d){const i=SPEEDS.indexOf(speed);const n=i<0?(d>0?SPEEDS.find
 let uiMode='auto',uiTimer=null,uiOver=false,uiDrag=false;const UI_IDLE=2000;
 const uiShow=on=>$('frame').classList.toggle('ui',on);
 function uiPoke(show=true){clearTimeout(uiTimer);if(uiMode!=='auto'){uiShow(uiMode==='shown');return;}if(show)uiShow(true);
- uiTimer=setTimeout(()=>{if(uiOver||uiDrag||$('start').style.display!=='none'){uiPoke(false);return;}uiShow(false);},show?UI_IDLE:600);}
+ uiTimer=setTimeout(()=>{if(paused||uiOver||uiDrag||$('start').style.display!=='none'){uiPoke(false);return;}uiShow(false);},show?UI_IDLE:600);}
 function uiToast(t){const el=$('uiToast');el.textContent=t;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),1400);}
 function uiSetMode(m){uiMode=m;$('hideBtn').textContent=m==='hidden'?'Mostra comandi':'Nascondi comandi';uiToast({auto:'Comandi automatici (col mouse)',shown:'Comandi sempre visibili',hidden:'Comandi nascosti · H per riaverli'}[m]);if(m==='auto')uiPoke(true);else{clearTimeout(uiTimer);uiShow(m==='shown');}}
 function uiCycle(){uiSetMode({auto:'shown',shown:'hidden',hidden:'auto'}[uiMode]);}
@@ -284,15 +290,28 @@ function buildSeek(){const bar=$('seek');if(!bar)return;const tr=bar.querySelect
  bar.addEventListener('pointerup',e=>{if(!drag)return;drag=false;seekTo(tAt(e));});
  bar.addEventListener('pointercancel',()=>{drag=false;});
  setInterval(()=>{if(!drag&&phase!=='loading')bar.querySelector('.fill').style.width=((phase==='ready'?0:position())/TOTAL*100)+'%';},200);}
-function next(){if(phase==='loading')return;if(phase==='ready'){run();return;}if(waiter){const w=waiter;waiter=null;if(w.token===runToken){setPhase('camera');w.resolve();}}}
+function next(){if(phase==='loading')return;if(phase==='ready'){run();return;}if(waiter){const w=waiter;waiter=null;setPaused(false);if(w.token===runToken){setPhase('camera');w.resolve();}}}
+// Pause (click on the board or Space): freezes voice, hand/strokes, every timer, the camera and the photo clip; the same key resumes.
+// On a photo stop that is waiting, Space/click still continue (unless its clip is still running: then they pause/resume the clip).
+// ←/→/R/seek resume playback from the new point; + − and I work while paused and keep the pause.
+let paused=false,clipPending=false;
+const clipBusy=()=>clipPending||(photoVideo&&!photoVideo.ended);
+function canPause(){if(['loading','ready','error','ended','boardEnd','name','pause'].includes(phase))return false;if(waiter)return !!clipBusy();return true;}
+function setPaused(on){paused=on;document.body.dataset.paused=on?'1':'';$('frame').classList.toggle('paused',on);const b=$('playBtn');if(b){b.textContent=on?'▶ Riprendi':'❚❚ Pausa';b.title=(on?'Riprendi':'Pausa')+' · Spazio o clic sulla lavagna';}
+ if(on){if(audio)audio.pause();if(photoVideo)photoVideo.pause();$('status').textContent='In pausa · Spazio per riprendere';uiPoke(true);}else{updateStatus();uiPoke(true);}}
+function pause(){if(paused||!canPause())return false;setPaused(true);return true;}
+function resume(){if(!paused)return false;setPaused(false);if(audio&&!audio.ended)audio.play().catch(()=>{});if(photoVideo&&!photoVideo.ended)photoVideo.play().catch(()=>{});return true;}
+function togglePause(){if(paused)return resume();return pause();}
+// Space / click on the board: start, resume, pause, or continue from a stop.
+function press(){if(phase==='loading')return;if(paused){resume();return;}if(phase==='ready'){run();return;}if(waiter&&!clipBusy()){next();return;}if(!pause()&&waiter)next();}
 function toggleLanguage(){lang=lang==='en'?'it':'en';subtitle();$('langBtn').textContent=lang.toUpperCase()+' · cambia lingua';}
 function showError(e){console.error(e);cancel();$('error').style.display='block';$('error').textContent='Impossibile aprire la lavagna: '+e.message;setPhase('error');}
 async function init(){if(ONLY){const t='TuoTempo · '+boardLabel(ONLY);document.title=t;const y=document.querySelector('#start p');if(y)y.textContent=boardLabel(ONLY);}try{const entries=await Promise.all(Object.entries(DATA.art).map(async([key,a])=>{const image=await loadImage(a.src),mask=document.createElement('canvas'),comp=document.createElement('canvas');mask.width=comp.width=a.w;mask.height=comp.height=a.h;const o={...a,image,mask,comp,scale:a.width/a.w,dirty:true,shown:false,progress:0};prepareSegments(o);return [key,o];}));objects=Object.fromEntries(entries);handImage=await loadImage(DATA.hand.src);await document.fonts.ready;$('loading').style.display='none';setPhase('ready');render();}catch(e){showError(e);}}
-$('frame').addEventListener('click',e=>{if(!e.target.closest('#toolbar'))next();});
-$('nextBtn').onclick=next;$('resetBtn').onclick=()=>{if(phase!=='loading')run();};$('langBtn').onclick=toggleLanguage;
+$('frame').addEventListener('click',e=>{if(!e.target.closest('#toolbar'))press();});
+$('nextBtn').onclick=next;$('playBtn').onclick=()=>{if(phase==='ready')run();else togglePause();};$('resetBtn').onclick=()=>{if(phase!=='loading')run();};$('langBtn').onclick=toggleLanguage;
 function fullscreen(){if(document.fullscreenElement){if(document.exitFullscreen)document.exitFullscreen().catch(()=>{});}else if($('frame').requestFullscreen)$('frame').requestFullscreen().catch(()=>{});}
 $('fullBtn').onclick=fullscreen;$('backBtn').onclick=skipBack;$('fwdBtn').onclick=skipForward;$('speedBtn').onclick=()=>setSpeed(SPEEDS[(SPEEDS.indexOf(speed)+1)%SPEEDS.length]||1);buildSeek();setSpeed(speed);$('hideBtn').onclick=()=>uiSetMode(uiMode==='hidden'?'auto':'hidden');uiInit();
-document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'){e.preventDefault();next();}else if(e.key==='ArrowRight'){e.preventDefault();skipForward();}else if(e.key==='ArrowLeft'){e.preventDefault();skipBack();}else if(e.key==='+'||e.key==='='){e.preventDefault();speedStep(1);}else if(e.key==='-'||e.key==='_'){e.preventDefault();speedStep(-1);}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')uiCycle();});
+document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'){e.preventDefault();press();}else if(e.key==='ArrowRight'){e.preventDefault();skipForward();}else if(e.key==='ArrowLeft'){e.preventDefault();skipBack();}else if(e.key==='+'||e.key==='='){e.preventDefault();speedStep(1);}else if(e.key==='-'||e.key==='_'){e.preventDefault();speedStep(-1);}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')uiCycle();});
 // Read-only diagnostics for local verification; no network, telemetry or external API.
-window.Whiteboard={getState:()=>({waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress,finals:{...finals},board:currentSection?boardOf(currentSection.id).id:null,speed,stage,curIdx,pos:position(),total:TOTAL,audioTime:audio?audio.currentTime:null,audioRate:audio?audio.playbackRate:null}),next,restart:run,toggleLanguage,seekTo,skipForward,skipBack,setSpeed};
+window.Whiteboard={getState:()=>({waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress,finals:{...finals},board:currentSection?boardOf(currentSection.id).id:null,speed,stage,curIdx,pos:position(),total:TOTAL,audioTime:audio?audio.currentTime:null,audioRate:audio?audio.playbackRate:null,paused,clipTime:photoVideo?photoVideo.currentTime:null,clipPaused:photoVideo?photoVideo.paused:null,progress:Object.fromEntries(Object.entries(objects).filter(([k,o])=>o.shown).map(([k,o])=>[k,o.progress]))}),next,press,pause,resume,restart:run,toggleLanguage,seekTo,skipForward,skipBack,setSpeed};
 init();

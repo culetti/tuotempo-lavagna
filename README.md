@@ -26,7 +26,9 @@ Per aggiungere una lavagna: creare `boards/lavagnaN.json` e `.art.json` e aggiun
 ## Aprire e presentare
 Aprire **index.html** in Chrome, Edge o Safari. È un file autonomo: include scene, immagini, mano e font; non servono rete, installazioni, server o accesso a Drive. Formato di disegno 1920×1080, rapporto 16:9 con bande esterne quando necessario.
 
-- **SPAZIO / clic**: avvia; dopo ogni foto riparte. Durante il disegno non salta per errore.
+- **SPAZIO / clic sulla lavagna**: il primo avvia. Durante la riproduzione mettono in **pausa** tutto (voce, mano e tratti, timer, camera, spezzone video) e il successivo riprende esattamente da lì; in pausa compare un piccolo ❚❚ semitrasparente in alto a destra e i comandi restano visibili. Sugli stop delle foto in attesa continuano come prima; se sullo stop sta girando lo spezzone (o la sua attesa di 1,5 s) lo mettono in pausa/riprendono, e a spezzone finito proseguono. Pulsante ❚❚ Pausa / ▶ Riprendi nella barra.
+- In pausa: ← → R e la barra di avanzamento saltano e **riprendono** la riproduzione; + − (velocità) e I (lingua) funzionano e la pausa resta. Test: `node /workspace/test_pause.cjs`.
+- Scritte e disegni non si tagliano: le note scritte nei disegni generati (`fit_note` in `tools/board2/3/4_build.py`) stanno sempre dentro l'immagine con discendenti e accenti; nel player i disegni si sovrappongono in 'multiply', così la carta bianca di un disegno non copre l'inchiostro del vicino. Solo un disegno appoggiato in gran parte sopra un altro (>20%, Valencia sulla mappa) tiene la carta opaca.
 - **R**: ricomincia immediatamente anche durante una foto o un disegno.
 - **I**: cambia EN/IT subito, senza ricominciare (la voce resta EN).
 - **F** o pulsante: tutto schermo; ESC per uscire.

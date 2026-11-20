@@ -10,9 +10,13 @@ P=Path(__file__).resolve().parent.parent;A=P/'assets'
 PURPLE='#7442b8';PRGB=np.array([116,66,184])
 X0=13280
 font=ImageFont.truetype(str(A/'PatrickHand-Regular.ttf'),46)
+def fit_note(dr,im,x,y,t,font,anchor,m=10):
+ # keep the whole lettering (ascenders, accents, descenders of g j p q y) inside the image, with a margin
+ l,tp,r,b=dr.textbbox((x,y),t,font=font,anchor=anchor);w,h=im.size
+ dx=max(0,m-l)-max(0,r-(w-m));dy=max(0,m-tp)-max(0,b-(h-m));return x+dx,y+dy
 def process(key,notes=()):
  im=Image.open(P/'from-gen'/f'{key}.jpg').convert('RGB');dr=ImageDraw.Draw(im)
- for (x,y,t) in notes: dr.text((x,y),t,font=font,fill=PURPLE,anchor='mt')
+ for (x,y,t) in notes: dr.text(fit_note(dr,im,x,y,t,font,'mt'),t,font=font,fill=PURPLE,anchor='mt')
  a=np.asarray(im).copy().astype(int);r,g,b=a[:,:,0],a[:,:,1],a[:,:,2]
  green=(r>g+30)&(b>g+30)
  gray=(0.299*r+0.587*g+0.114*b);ink=(gray<170)|green
