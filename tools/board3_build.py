@@ -38,9 +38,9 @@ def process(key,notes=()):
  w,h=im.size
  return {'src':f'assets/{key}.png','w':w,'h':h,'path':paths,'radius':8}
 W=1100;cols=[X0+150,X0+1450,X0+2750];rows=[380,1400]
-layout=[('l3-spagna',0,0,'1 · La Spagna'),('l3-abudhabi',1,0,'2 · Abu Dhabi'),('l3-cravatte',2,0,'3 · Le cravatte nel deserto'),
-        ('l3-sanitas',0,1,'4 · Il teatro napoletano'),('l3-firma',1,1,'5 · La firma da multinazionale'),('l3-consegne',2,1,'6 · Il passaggio di consegne')]
-notes={'l3-firma':[(150,560,'Bologna'),(487,560,'Barcellona'),(781,560,'Lione'),(1087,560,'Abu Dhabi')]}
+layout=[('l3-spagna',0,0,'1 · Spain'),('l3-abudhabi',1,0,'2 · Abu Dhabi'),('l3-cravatte',2,0,'3 · Ties in the desert'),
+        ('l3-sanitas',0,1,'4 · Neapolitan theatre'),('l3-firma',1,1,'5 · A multinational’s signature'),('l3-consegne',2,1,'6 · The handover')]
+notes={'l3-firma':[(150,560,'Bologna'),(487,560,'Barcelona'),(781,560,'Lyon'),(1087,560,'Abu Dhabi')]}
 art={};labels=[]
 for key,c,rw,label in layout:
  a=process(key,notes.get(key,()));a.update({'x':cols[c],'y':rows[rw],'width':W});art[key]=a
@@ -55,7 +55,7 @@ photos={
  'l3-sanitas':{'src':'assets/l3-sanitas-slides.png','caption':'tuOtempO_Sanitas_Performance.ppt · July 20, 2011','kind':'doc','disclosure':'Two original slides: the same search, 70 seconds without the cache, 5 with it'},
  'l3-firma':{'src':'assets/l3-mail-firma.png','caption':'The signature · September 9, 2014','kind':'doc','disclosure':'Original email, re-typeset; name and contact details hidden'},
 }
-titles={'l3-spagna':'La Spagna','l3-abudhabi':'Abu Dhabi','l3-cravatte':'Le cravatte nel deserto','l3-sanitas':'Il teatro napoletano','l3-firma':'La firma da multinazionale','l3-consegne':'Il passaggio di consegne'}
+titles={'l3-spagna':'Spain','l3-abudhabi':'Abu Dhabi','l3-cravatte':'Ties in the desert','l3-sanitas':'Neapolitan theatre','l3-firma':'A multinational’s signature','l3-consegne':'The handover'}
 sectnotes={
  'l3-spagna':'Master §3 “Come nasce la Spagna” e §6 momento 9. Telefonata delle 18:30 (RICORDO, data incerta: 2009 o poco prima); mail “Acuerdos” 24/09/2009 (CERTO): accordo di distribuzione con i partner Infomed per Tarragona, Lleida, Huesca e Andorra, circa 60 cliniche dentali. Nessun nome del collaboratore in voce. Stop: mail ricomposta dal testo originale (Gmail di Lele).',
  'l3-abudhabi':'Master §3 “Abu Dhabi: le date dalle mail” e §6 momento 10. L’ex collega di Cezanne diventato direttore sanitario (CERTO, Lele 11/11), nessun nome in voce. Mail 21/03/2010 “Automatic Suspension of Service on April 1st – Last Notice” (CERTO); scadenza poi spostata al 1° agosto (a braccio). Importi omessi. La foto di Don nel deserto (EXIF 12/12/2008) è lo stop del momento successivo.',
@@ -77,13 +77,13 @@ for sec in T:
  assert wi==len(words),sid
  sections.append({'id':sid,'board':'lavagna3','title':titles[sid],'art':[sid],'narration':{'en':' '.join(c[0] for c in sec['cues']),'it':' '.join(c[1] for c in sec['cues'])},'cues':cues,'audio':f'audio/{sid}-en.mp3','photo':photos.get(sid),'notes':sectnotes[sid],'incomplete':False})
 cs=art['l3-consegne'];sc=cs['width']/cs['w']
-board={'id':'lavagna3','title':'L’espansione e gli schiaffi','tag':'All’estero','years':'2009–2015','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
+board={'id':'lavagna3','title':'L’espansione e gli schiaffi','tag':'Abroad','years':'2009–2015','color':GREEN,'sections':[s['id'] for s in sections],'region':{'x':X0,'y':0,'w':4040,'h':2540},'final':{'circle':{'x':round(cs['x']+575*sc),'y':round(cs['y']+340*sc),'rx':120,'ry':120},'yearsAt':[X0+1760,2300]}}
 unk=['Lavagna 3 · cravatte nel deserto: stop sulla foto vera di Don nel deserto (12/12/2008); nella foto non c’è la cravatta: le cravatte restano nel disegno e nel racconto.',
      'Lavagna 3 · passaggio di consegne: nessun reperto; disegno della staffetta.',
      'Lavagna 3 · Spagna: la data della telefonata delle 18:30 è incerta (2009 o poco prima); in voce “2009” per l’arrivo della Spagna, datato dalla mail Acuerdos.']
 import sys;sys.path.insert(0,str(P/'tools'))
 from boardfiles import write_board
 # Lavagna 3 runs in parallel with Lavagna 2 (2009–2011): a small sign at its start, no change to the voice.
-labels.append({'section':labels[0]['section'],'text':'intanto, all’estero…','x':labels[0]['x'],'y':labels[0]['y']-95,'small':True})
+labels.append({'section':labels[0]['section'],'text':'meanwhile, abroad…','x':labels[0]['x'],'y':labels[0]['y']-95,'small':True})
 write_board('lavagna3',board,sections,labels,unk,art)
 print('sections',len(sections),'art',len(art),'voice',round(sum(c['duration'] for x in sections for c in x['cues']),1))

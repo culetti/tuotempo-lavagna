@@ -2,7 +2,7 @@
   "board": {
     "id": "lavagna2",
     "title": "Le architetture artigianali",
-    "tag": "In casa",
+    "tag": "At home",
     "years": "2007–2011",
     "color": "#1f5fbf",
     "sections": [
@@ -38,7 +38,7 @@
     {
       "id": "l2-clients",
       "board": "lavagna2",
-      "title": "I primi clienti",
+      "title": "The first clients",
       "art": [
         "l2-clients"
       ],
@@ -103,7 +103,7 @@
     {
       "id": "l2-troiano",
       "board": "lavagna2",
-      "title": "Il sincro",
+      "title": "The sincro",
       "art": [
         "l2-troiano"
       ],
@@ -158,7 +158,7 @@
     {
       "id": "l2-salotto",
       "board": "lavagna2",
-      "title": "Il salotto di via Ugo Bassi",
+      "title": "The living room in via Ugo Bassi",
       "art": [
         "l2-salotto"
       ],
@@ -208,7 +208,7 @@
     {
       "id": "l2-voce",
       "board": "lavagna2",
-      "title": "La voce",
+      "title": "The voice",
       "art": [
         "l2-voce"
       ],
@@ -263,7 +263,7 @@
     {
       "id": "l2-cloud",
       "board": "lavagna2",
-      "title": "Dal server al cloud",
+      "title": "From server to cloud",
       "art": [
         "l2-cloud"
       ],
@@ -321,7 +321,7 @@
     {
       "id": "l2-serverino",
       "board": "lavagna2",
-      "title": "Il serverino degli SMS",
+      "title": "The little SMS server",
       "art": [
         "l2-serverino"
       ],
@@ -426,7 +426,7 @@
     {
       "id": "l2-indip",
       "board": "lavagna2",
-      "title": "Indipendenti",
+      "title": "Independent",
       "art": [
         "l2-indip"
       ],
@@ -469,37 +469,37 @@
   "labels": [
     {
       "section": "l2-clients",
-      "text": "1 · I primi clienti",
+      "text": "1 · The first clients",
       "x": 4510,
       "y": 310
     },
     {
       "section": "l2-troiano",
-      "text": "2 · Il sincro",
+      "text": "2 · The sincro",
       "x": 5480,
       "y": 310
     },
     {
       "section": "l2-salotto",
-      "text": "3 · Il salotto di via Ugo Bassi",
+      "text": "3 · The living room in via Ugo Bassi",
       "x": 6450,
       "y": 310
     },
     {
       "section": "l2-voce",
-      "text": "4 · La voce",
+      "text": "4 · The voice",
       "x": 7420,
       "y": 310
     },
     {
       "section": "l2-cloud",
-      "text": "5 · Dal server al cloud",
+      "text": "5 · From server to cloud",
       "x": 4510,
       "y": 1260
     },
     {
       "section": "l2-serverino",
-      "text": "6 · Il serverino degli SMS",
+      "text": "6 · The little SMS server",
       "x": 5480,
       "y": 1260
     },
@@ -511,7 +511,7 @@
     },
     {
       "section": "l2-indip",
-      "text": "8 · Indipendenti",
+      "text": "8 · Independent",
       "x": 7420,
       "y": 1260
     }

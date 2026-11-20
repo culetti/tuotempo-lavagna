@@ -33,8 +33,8 @@ def process(key,notes=()):
  w,h=im.size
  return {'src':f'assets/{key}.png','w':w,'h':h,'path':paths,'radius':8}
 W=1100;cols=[X0+150,X0+1450,X0+2750];rows=[380,1400];bcols=[X0+800,X0+2100]
-layout=[('l4-milano',cols[0],rows[0],'1 · Tre demo a Milano'),('l4-pretendenti',cols[1],rows[0],'2 · Due pretendenti alla porta'),('l4-scelta',cols[2],rows[0],'3 · La scelta'),
-        ('l4-ciacco',bcols[0],rows[1],'4 · La cena da Ciacco'),('l4-si',bcols[1],rows[1],'5 · Il sì')]
+layout=[('l4-milano',cols[0],rows[0],'1 · Three demos in Milan'),('l4-pretendenti',cols[1],rows[0],'2 · Two suitors at the door'),('l4-scelta',cols[2],rows[0],'3 · The choice'),
+        ('l4-ciacco',bcols[0],rows[1],'4 · Dinner at Ciacco'),('l4-si',bcols[1],rows[1],'5 · The yes')]
 art={};labels=[]
 for key,x,y,label in layout:
  a=process(key);a.update({'x':x,'y':y,'width':W});art[key]=a
@@ -43,9 +43,9 @@ T=json.load(open(P/'tools/board4_text.json'))
 norm=lambda s:re.sub(r'[^0-9a-z]','',s.lower())
 dur=lambda f:float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(f)]).decode())
 photos={
- 'l4-milano':{'src':'assets/l4-mail-ieo.png','caption':'“analisi per attivazione tuOtempO” (activation analysis) · June 15, 2016','kind':'doc','disclosure':'Original text of the IEO email, re-typeset; sender hidden'},
+ 'l4-milano':{'src':'assets/l4-mail-ieo.png','caption':'“tuOtempO activation analysis” · IEO email · June 15, 2016','kind':'doc','disclosure':'Original text of the IEO email, re-typeset; sender hidden'},
 }
-titles={'l4-milano':'Tre demo a Milano','l4-pretendenti':'Due pretendenti alla porta','l4-scelta':'La scelta','l4-ciacco':'La cena da Ciacco','l4-si':'Il sì'}
+titles={'l4-milano':'Three demos in Milan','l4-pretendenti':'Two suitors at the door','l4-scelta':'The choice','l4-ciacco':'Dinner at Ciacco','l4-si':'The yes'}
 sectnotes={
  'l4-milano':'Master §3 (registrazione 11/11, RICORDO dei tre) e §6 momenti 14/16: San Raffaele, Multimedica, IEO in un giorno; giacca e cravatta, uno col giubbotto di pelle; Don racconta prodotto e visione. Anno ricostruito 2016 dalle mail (CERTO): giugno 2016 IEO “analisi per attivazione tuOtempO”, settembre 2016 Multimedica, dicembre 2016 app di test IEO. Stop: mail di IEO del 15/06/2016 (Gmail di Lele, sola lettura), mittente coperto. La macchina (Mercedes Classe B o Yaris) non è nominata. Voce corretta il 19/11 ([COWORK]): San Raffaele arriva solo nel 2018 (Gruppo San Donato), quindi “two of them were customers, and the third followed”.',
  'l4-pretendenti':'Master §3 “Il finale” e §6 momento 17. Autunno 2018: term sheet del fondo 23/09–01/10/2018, Docplanner dal 15/10/2018 (CERTO). Il fondo resta anonimo; niente cifre (regola dell’11/11).',

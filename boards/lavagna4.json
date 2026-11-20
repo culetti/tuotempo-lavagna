@@ -34,7 +34,7 @@
     {
       "id": "l4-milano",
       "board": "lavagna4",
-      "title": "Tre demo a Milano",
+      "title": "Three demos in Milan",
       "art": [
         "l4-milano"
       ],
@@ -95,7 +95,7 @@
       "audio": "audio/l4-milano-en.mp3",
       "photo": {
         "src": "assets/l4-mail-ieo.png",
-        "caption": "“analisi per attivazione tuOtempO” (activation analysis) · June 15, 2016",
+        "caption": "“tuOtempO activation analysis” · IEO email · June 15, 2016",
         "kind": "doc",
         "disclosure": "Original text of the IEO email, re-typeset; sender hidden"
       },
@@ -105,7 +105,7 @@
     {
       "id": "l4-pretendenti",
       "board": "lavagna4",
-      "title": "Due pretendenti alla porta",
+      "title": "Two suitors at the door",
       "art": [
         "l4-pretendenti"
       ],
@@ -155,7 +155,7 @@
     {
       "id": "l4-scelta",
       "board": "lavagna4",
-      "title": "La scelta",
+      "title": "The choice",
       "art": [
         "l4-scelta"
       ],
@@ -197,7 +197,7 @@
     {
       "id": "l4-ciacco",
       "board": "lavagna4",
-      "title": "La cena da Ciacco",
+      "title": "Dinner at Ciacco",
       "art": [
         "l4-ciacco"
       ],
@@ -263,7 +263,7 @@
     {
       "id": "l4-si",
       "board": "lavagna4",
-      "title": "Il sì",
+      "title": "The yes",
       "art": [
         "l4-si"
       ],
@@ -306,31 +306,31 @@
   "labels": [
     {
       "section": "l4-milano",
-      "text": "1 · Tre demo a Milano",
+      "text": "1 · Three demos in Milan",
       "x": 13420,
       "y": 310
     },
     {
       "section": "l4-pretendenti",
-      "text": "2 · Due pretendenti alla porta",
+      "text": "2 · Two suitors at the door",
       "x": 14720,
       "y": 310
     },
     {
       "section": "l4-scelta",
-      "text": "3 · La scelta",
+      "text": "3 · The choice",
       "x": 16020,
       "y": 310
     },
     {
       "section": "l4-ciacco",
-      "text": "4 · La cena da Ciacco",
+      "text": "4 · Dinner at Ciacco",
       "x": 14070,
       "y": 1330
     },
     {
       "section": "l4-si",
-      "text": "5 · Il sì",
+      "text": "5 · The yes",
       "x": 15370,
       "y": 1330
     }

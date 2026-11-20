@@ -109,3 +109,8 @@ Foto mano: Pakutaso, © susi-paku, file `GREEN_magic_TP_V.jpg` fornito. Font Pat
 Test Python: manifesto, quattro sezioni + nome, corrispondenza integrale voce EN, asset, build offline, ritaglio del dente. Test Node: caricamento immagini, switch EN/IT, reset durante disegno e foto, pause indefinite, ordine dei cinque stop, disclaimer e zoom finale, nessun errore runtime nel DOM simulato.
 
 Non è stata effettuata una prova in un browser reale né sul proiettore: il relativo strumento non era disponibile. Fullscreen, CSS dei polaroid e sincronizzazione con audio reale richiedono quindi una prova sul portatile prima dell'evento.
+
+## Inglese, numeri di scena, link a un momento (20/11)
+- Tutto il testo visibile del player è in inglese (comandi, stati, avvisi H, schermata iniziale, etichette delle scene, cartello «meanwhile, abroad…», etichette delle lavagne «At home · 2007–2011» / «Abroad · 2009–2015», note nei disegni Rome, Dublin, Barcelona, Lyon). Restano in italiano solo i sottotitoli IT (tasto I) e i nomi propri (Bologna · via Ugo Bassi, via San Felice, Alma Mater Studiorum). Le note nei disegni passano per `fit_note`.
+- Barra: tacche e numeri di scena «lavagna.scena» (2.3 = Lavagna 2, terza scena); al passaggio del mouse «Scene 2.3 · titolo · mm:ss». Stato: «Scene 2.3 · 04:12».
+- «🔗 Share this moment» copia `https://culetti.github.io/tuotempo-lavagna/#s=2.3&t=04:12` (toast «Link copied»; senza appunti mostra il link selezionabile). Un link con `#t=MM:SS` (o solo `#s=2.3`) apre la lavagna disegnata fino a quella scena e aspetta il clic: «Starts at Scene 2.3 · 04:12 — click to play». Il tempo è quello della barra (secondi di voce). Test: `node /workspace/test_link.cjs`.

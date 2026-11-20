@@ -33,7 +33,7 @@
   "sections": [
     {
       "id": "origins",
-      "title": "Da Bologna a Valencia",
+      "title": "From Bologna to Valencia",
       "art": [
         "university",
         "map",
@@ -105,7 +105,7 @@
     },
     {
       "id": "football",
-      "title": "L’idea del calcetto",
+      "title": "The five-a-side idea",
       "art": [
         "lunch",
         "football",
@@ -177,7 +177,7 @@
     },
     {
       "id": "remote",
-      "title": "Nati da remoto",
+      "title": "Born remote",
       "art": [
         "mabel",
         "remote"
@@ -280,7 +280,7 @@
     },
     {
       "id": "name",
-      "title": "Il nome",
+      "title": "The name",
       "art": [
         "name"
       ],
@@ -433,13 +433,13 @@
     },
     {
       "section": "football",
-      "text": "2 · L’idea del calcetto",
+      "text": "2 · The five-a-side idea",
       "x": 2130,
       "y": 105
     },
     {
       "section": "remote",
-      "text": "3 · Nati da remoto",
+      "text": "3 · Born remote",
       "x": 2130,
       "y": 1400
     },

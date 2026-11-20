@@ -2,7 +2,7 @@
   "board": {
     "id": "lavagna3",
     "title": "L’espansione e gli schiaffi",
-    "tag": "All’estero",
+    "tag": "Abroad",
     "years": "2009–2015",
     "color": "#2a8a4a",
     "sections": [
@@ -36,7 +36,7 @@
     {
       "id": "l3-spagna",
       "board": "lavagna3",
-      "title": "La Spagna",
+      "title": "Spain",
       "art": [
         "l3-spagna"
       ],
@@ -154,7 +154,7 @@
     {
       "id": "l3-cravatte",
       "board": "lavagna3",
-      "title": "Le cravatte nel deserto",
+      "title": "Ties in the desert",
       "art": [
         "l3-cravatte"
       ],
@@ -193,7 +193,7 @@
     {
       "id": "l3-sanitas",
       "board": "lavagna3",
-      "title": "Il teatro napoletano",
+      "title": "Neapolitan theatre",
       "art": [
         "l3-sanitas"
       ],
@@ -248,7 +248,7 @@
     {
       "id": "l3-firma",
       "board": "lavagna3",
-      "title": "La firma da multinazionale",
+      "title": "A multinational’s signature",
       "art": [
         "l3-firma"
       ],
@@ -295,7 +295,7 @@
     {
       "id": "l3-consegne",
       "board": "lavagna3",
-      "title": "Il passaggio di consegne",
+      "title": "The handover",
       "art": [
         "l3-consegne"
       ],
@@ -338,7 +338,7 @@
   "labels": [
     {
       "section": "l3-spagna",
-      "text": "1 · La Spagna",
+      "text": "1 · Spain",
       "x": 8980,
       "y": 310
     },
@@ -350,31 +350,31 @@
     },
     {
       "section": "l3-cravatte",
-      "text": "3 · Le cravatte nel deserto",
+      "text": "3 · Ties in the desert",
       "x": 11580,
       "y": 310
     },
     {
       "section": "l3-sanitas",
-      "text": "4 · Il teatro napoletano",
+      "text": "4 · Neapolitan theatre",
       "x": 8980,
       "y": 1330
     },
     {
       "section": "l3-firma",
-      "text": "5 · La firma da multinazionale",
+      "text": "5 · A multinational’s signature",
       "x": 10280,
       "y": 1330
     },
     {
       "section": "l3-consegne",
-      "text": "6 · Il passaggio di consegne",
+      "text": "6 · The handover",
       "x": 11580,
       "y": 1330
     },
     {
       "section": "l3-spagna",
-      "text": "intanto, all’estero…",
+      "text": "meanwhile, abroad…",
       "x": 8980,
       "y": 215,
       "small": true
