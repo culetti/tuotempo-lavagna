@@ -103,15 +103,25 @@ function revealTo(o,progress){o.shown=true;const m=o.mask.getContext('2d');m.str
  while(o.si<o.segments.length){const s=o.segments[o.si];if(s.start>target)break;const f=Math.min(1,(target-s.start)/s.len);const p=[s.a[0]+(s.b[0]-s.a[0])*f,s.a[1]+(s.b[1]-s.a[1])*f];m.beginPath();m.moveTo(...s.a);m.lineTo(...p);m.stroke();point=p;if(f>=1)o.si++;else break;}
  if(progress>=1){m.fillStyle='#000';m.fillRect(0,0,o.w,o.h);}o.progress=progress;o.dirty=true;if(point)hand={x:o.x+point[0]*o.scale,y:o.y+point[1]*o.scale};
 }
-function clearAudio(){if(audio){audio.pause();audio.currentTime=0;audio=null;}}
+function clearAudio(){if(audio){audio.pause();audio.currentTime=0;audio=null;}stopPhotoVideo();}
+// Photo stops with photo.video: the still is shown for photo.videoDelay seconds, then the clip plays in the same frame,
+// with its own sound; at the end it stays on its last frame. R, ←, →, Space (leaving the stop) stop it.
+let photoVideo=null,photoSeq=0;
+function stopPhotoVideo(){photoSeq++;if(photoVideo){try{photoVideo.pause();}catch(e){}photoVideo.removeAttribute('src');photoVideo.load();photoVideo=null;}}
+async function playPhotoVideo(ph,token){const seq=++photoSeq;try{await tween((ph.videoDelay??1.5)*1000,()=>{},token);}catch(e){return;}
+ if(seq!==photoSeq||token!==runToken||!$('photo').classList.contains('on'))return;
+ const v=document.createElement('video');v.src=ph.video;v.playsInline=true;v.preload='auto';v.playbackRate=speed;v.setAttribute('aria-label',ph.caption);photoVideo=v;
+ const img=$('photoContent').querySelector('img');
+ v.addEventListener('playing',()=>{if(photoVideo!==v)return;if(img&&img.isConnected)img.replaceWith(v);else if(!v.isConnected)$('photoContent').append(v);},{once:true});
+ try{await v.play();}catch(e){try{v.muted=true;await v.play();}catch(e2){if(photoVideo===v)photoVideo=null;}}}
 async function startAudio(section,token,at=0){if(!section.audio)return null;const a=new Audio(section.audio);a.playbackRate=speed;audio=a;try{if(at>0){if(a.readyState<1)await new Promise(r=>a.addEventListener('loadedmetadata',r,{once:true}));check(token);a.currentTime=at;}await a.play();check(token);return a;}catch(e){if(e instanceof Cancelled)throw e;clearAudio();$('status').textContent='Audio non disponibile · sottotitoli attivi';return null;}}
 function waitForNext(token){check(token);return new Promise((resolve,reject)=>{waiter={token,resolve,reject};});}
 async function showPhoto(section,token){check(token);stage='stop';clearAudio();subtitle(null);hand=null;render();const ph=section.photo;
  if(!ph){setPhase('pause');await waitForNext(token);check(token);return;}$('pol').className='pol '+ph.kind;$('photoContent').replaceChildren();
  if(ph.src){const img=document.createElement('img');img.src=ph.src;img.alt=ph.caption;$('photoContent').append(img);}else{const box=document.createElement('div');box.className='missing';const strong=document.createElement('strong');strong.textContent=ph.display;const span=document.createElement('span');span.textContent=ph.disclosure;box.append(strong,span);$('photoContent').append(box);}
- $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');
+ $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');if(ph.video)playPhotoVideo(ph,token);
  if(ph.intro){const introCue={en:ph.intro.en,it:ph.intro.it};showSubtitleAt(introCue,0);if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,t=>{const p=audio&&Number.isFinite(audio.duration)&&audio.duration>0?audio.currentTime/audio.duration:t;showSubtitleAt(introCue,p);},token);}clearAudio();}}
- await waitForNext(token);check(token);$('photo').classList.remove('on');subtitle(null);
+ await waitForNext(token);check(token);stopPhotoVideo();$('photo').classList.remove('on');subtitle(null);
 }
 // Pure time-based filter: remembered alternatives, not a claimed historical order.
 function nameFilterFrame(section,seconds){
@@ -234,7 +244,7 @@ function skipForward(){if(phase==='loading')return;if(phase==='ready'){run();ret
 function skipBack(){if(phase==='loading')return;if(phase==='ready'){run();return;}const f=FLAT[curIdx];if(!f)return;const into=position()-f.start;
  if(stage==='section'&&into>2)run({from:curIdx});else if(stage==='stop'||stage==='finale')run({from:curIdx});else run({from:Math.max(0,curIdx-1)});}
 const SPEEDS=[1,2,4];
-function setSpeed(v){speed=v;if(audio)audio.playbackRate=v;const b=$('speedBadge');if(b){b.textContent=v+'×';b.style.display=v===1?'none':'block';}const sb=$('speedBtn');if(sb)sb.textContent='Velocità '+v+'×';}
+function setSpeed(v){speed=v;if(audio)audio.playbackRate=v;if(photoVideo)photoVideo.playbackRate=v;const b=$('speedBadge');if(b){b.textContent=v+'×';b.style.display=v===1?'none':'block';}const sb=$('speedBtn');if(sb)sb.textContent='Velocità '+v+'×';}
 function speedStep(d){const i=SPEEDS.indexOf(speed);const n=i<0?(d>0?SPEEDS.find(x=>x>speed)||4:[...SPEEDS].reverse().find(x=>x<speed)||1):SPEEDS[Math.max(0,Math.min(SPEEDS.length-1,i+d))];setSpeed(n);}
 // Controls (seek bar, buttons) and cursor: in 'auto' mode they appear as soon as the pointer moves and fade out
 // after 2 s without movement (never while the pointer is over them or the bar is being dragged); the cursor hides with them.

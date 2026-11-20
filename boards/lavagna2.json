@@ -91,9 +91,11 @@
       "audio": "audio/l2-clients-en.mp3",
       "photo": {
         "src": "assets/memo2007-agenda.png",
-        "caption": "L’agenda · giovedì 14 giugno 2007",
+        "caption": "The calendar · Thursday, June 14, 2007",
         "kind": "screen",
-        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007)"
+        "disclosure": "Original frame, then a clip (1:16–1:29.6) from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007)",
+        "video": "assets/memo2007-agenda-clip.mp4",
+        "videoDelay": 1.5
       },
       "notes": "Master §3 (primi clienti nelle mail 2007: studio dentistico, Clinica Tiro de Pichón, K-Sport, Hedoniste Day Spa, Japanese Beauty Center…; primo memo automatico agosto 2007) e §6 momento 1. Il gancio di §6 cita parrucchiere e tiro a volo: non trovati nell’elenco del master, quindi in voce solo tipologie verificate. Stop: fotogramma reale del video 2007.",
       "incomplete": false
@@ -148,7 +150,7 @@
         "src": "assets/memo2007-sincro.png",
         "caption": "tuOtempO SINCRO · 2007",
         "kind": "screen",
-        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007); la sincronizzazione con il gestionale era già annunciata"
+        "disclosure": "Original frame from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007); syncing with the practice software was already announced"
       },
       "notes": "Master §3 marzo 2008 (integrazione Orisdent con Elite Computer, il “troiano”: Don “non era un malware, non esistevano le API”) e §6 momento 2. Nessun nome di gestionale in voce. Mail Orisdent 2008 e manuale tuOtempO_help_ita non trovati nella Gmail personale (ricerca 18/11): stop sul fotogramma SINCRO del video 2007.",
       "incomplete": false
@@ -251,9 +253,9 @@
       "audio": "audio/l2-voce-en.mp3",
       "photo": {
         "src": "assets/memo2007-voice.png",
-        "caption": "«Voice Message» · la promessa del 2007",
+        "caption": "“Voice Message” · the 2007 promise",
         "kind": "screen",
-        "disclosure": "Fotogramma originale del video promozionale «tuOtempO Memo» (YouTube, 20/07/2007); la voce arriverà nel 2009"
+        "disclosure": "Original frame from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007); the voice message only arrived in 2009"
       },
       "notes": "Master §3 (voce nel 2009 con Voxeo, tesi su VoiceXML) e Reperto video 2007: nel 2007 la voce era una promessa (Lele 18/11). “Fra i primi” è RICORDO di Lele. Stop: fotogramma reale “Voice Message” del video 2007.",
       "incomplete": false
@@ -414,9 +416,9 @@
       "audio": "audio/l2-machu-en.mp3",
       "photo": {
         "src": "assets/machu-picchu-2011-04-07.jpg",
-        "caption": "Machu Picchu · 7 aprile 2011",
+        "caption": "Machu Picchu · April 7, 2011",
         "kind": "original",
-        "disclosure": "Foto originale"
+        "disclosure": "Original photo"
       },
       "notes": "Master §3 (“Due cadute di Amazon nel 2011”) e §6 momento 7. Licenza scenica decisa da Lele (Sync 18/11, [COWORK]): il fulmine di Dublino (in realtà 7/8/2011) raccontato insieme alla giornata di Lele a Machu Picchu (7/4/2011: corsa giù da Huayna Picchu, internet café di Aguas Calientes, 9 ore per spostare Tuotempo su un’altra zona, poi riparte tutto da solo sulla zona di prima). In voce solo “primavera 2011”, nessuna data del fulmine. Stop: foto vera IMG_0814 del 7/4/2011 (Drive Materiali, machu_picchu_2011-04-07_IMG_0814.jpg). Nessun ritaglio di giornale usato.",
       "incomplete": false

@@ -39,7 +39,7 @@ T=json.load(open(P/'tools/board4_text.json'))
 norm=lambda s:re.sub(r'[^0-9a-z]','',s.lower())
 dur=lambda f:float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(f)]).decode())
 photos={
- 'l4-milano':{'src':'assets/l4-mail-ieo.png','caption':'«analisi per attivazione tuOtempO» · 15 giugno 2016','kind':'doc','disclosure':'Testo originale della mail di IEO, ricomposto; mittente coperto'},
+ 'l4-milano':{'src':'assets/l4-mail-ieo.png','caption':'“analisi per attivazione tuOtempO” (activation analysis) · June 15, 2016','kind':'doc','disclosure':'Original text of the IEO email, re-typeset; sender hidden'},
 }
 titles={'l4-milano':'Tre demo a Milano','l4-pretendenti':'Due pretendenti alla porta','l4-scelta':'La scelta','l4-ciacco':'La cena da Ciacco','l4-si':'Il sì'}
 sectnotes={

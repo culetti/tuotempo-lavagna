@@ -45,11 +45,11 @@ T=json.load(open(P/'tools/board3_text.json'))
 norm=lambda s:re.sub(r'[^0-9a-z]','',s.lower())
 dur=lambda f:float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(f)]).decode())
 photos={
- 'l3-spagna':{'src':'assets/l3-mail-acuerdos.png','caption':'«Acuerdos» · 24 settembre 2009','kind':'doc','disclosure':'Testo originale della mail, ricomposto; mittente coperto'},
- 'l3-abudhabi':{'src':'assets/l3-mail-lastnotice.png','caption':'«Last Notice» · 21 marzo 2010','kind':'doc','disclosure':'Testo originale della mail, ricomposto; mittente e destinatari coperti, importi omessi'},
- 'l3-cravatte':{'src':'assets/deserto-2008-12.jpg','caption':'Nel deserto · dicembre 2008','kind':'original','disclosure':'Foto originale'},
- 'l3-sanitas':{'src':'assets/l3-sanitas-slides.png','caption':'tuOtempO_Sanitas_Performance.ppt · 20 luglio 2011','kind':'doc','disclosure':'Due slide originali: la stessa ricerca, 70 secondi senza cache, 5 con la cache'},
- 'l3-firma':{'src':'assets/l3-mail-firma.png','caption':'La firma · 9 settembre 2014','kind':'doc','disclosure':'Mail originale, ricomposta; nome e recapiti coperti'},
+ 'l3-spagna':{'src':'assets/l3-mail-acuerdos.png','caption':'“Acuerdos” · September 24, 2009','kind':'doc','disclosure':'Original email text, re-typeset; sender hidden'},
+ 'l3-abudhabi':{'src':'assets/l3-mail-lastnotice.png','caption':'“Last Notice” · March 21, 2010','kind':'doc','disclosure':'Original email text, re-typeset; sender and recipients hidden, amounts left out'},
+ 'l3-cravatte':{'src':'assets/deserto-2008-12.jpg','caption':'In the desert · December 2008','kind':'original','disclosure':'Original photo'},
+ 'l3-sanitas':{'src':'assets/l3-sanitas-slides.png','caption':'tuOtempO_Sanitas_Performance.ppt · July 20, 2011','kind':'doc','disclosure':'Two original slides: the same search, 70 seconds without the cache, 5 with it'},
+ 'l3-firma':{'src':'assets/l3-mail-firma.png','caption':'The signature · September 9, 2014','kind':'doc','disclosure':'Original email, re-typeset; name and contact details hidden'},
 }
 titles={'l3-spagna':'La Spagna','l3-abudhabi':'Abu Dhabi','l3-cravatte':'Le cravatte nel deserto','l3-sanitas':'Il teatro napoletano','l3-firma':'La firma da multinazionale','l3-consegne':'Il passaggio di consegne'}
 sectnotes={

@@ -168,9 +168,9 @@
       "audio": "audio/football-en.mp3",
       "photo": {
         "src": "assets/agenda-2005.jpg",
-        "caption": "L’agenda di carta · 2005",
+        "caption": "The paper diary · 2005",
         "kind": "reconstruction",
-        "disclosure": "Ricostruzione AI · agenda del centro sportivo"
+        "disclosure": "AI reconstruction · the sports centre’s diary"
       },
       "notes": " Donatello, la cugina che uccide il calcetto. Lele, lo spavento e la richiesta \"almeno la sanità\". Gag delle due memorie diverse, 30 secondi: Lele \"io ho chiesto la sanità\", Don \"l'ha ucciso mia cugina\"; chiusura a due voci: \"la decisione l'abbiamo presa insieme, questo sì\".",
       "incomplete": false
@@ -271,9 +271,9 @@
       "audio": "audio/remote-en.mp3",
       "photo": {
         "src": "assets/sito-tuotempo-20060621-firefox.png",
-        "caption": "www.tuotempo.net · 21 giugno 2006",
+        "caption": "www.tuotempo.net · June 21, 2006",
         "kind": "original",
-        "disclosure": "Screenshot originale: il sito appena disegnato, aperto in Firefox"
+        "disclosure": "Original screenshot: the newly designed website, open in Firefox"
       },
       "notes": " Donatello, \"non c'era l'AI, sennò non l'avremmo chiamato\". Lele, il garage tecnologico di Valencia con gli amici volontari, e la donazione all'open source mai fatta \"per non farci sgamare\" (a braccio, senza nominare il progetto).",
       "incomplete": false
@@ -416,9 +416,9 @@
       "audio": "audio/dentist-en.mp3",
       "photo": {
         "src": "assets/dentista-viali-disegno.jpg",
-        "caption": "Il dentista dei viali · Bologna",
+        "caption": "The dentist on the boulevards · Bologna",
         "kind": "reconstruction",
-        "disclosure": "disegno · in attesa di una foto d’epoca"
+        "disclosure": "AI reconstruction · waiting for a photo from the time"
       },
       "notes": " Lele, il Mac del dentista con FileMaker e il tentativo di collegarsi al suo database mentre Don lo distraeva con le domande. Donatello, il suo dentista Fabio Rossi che diventa il primo cliente (l'intervista, la poltrona), e i dentisti come target sbagliato. Chiusura della lavagna sul \"client number one\".",
       "incomplete": false

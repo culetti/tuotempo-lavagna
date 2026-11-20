@@ -16,6 +16,7 @@ d['hand']['src']=uri(d['hand']['src'])
 for s in d['sections']:
  if s['photo'] and s['photo']['src']:s['photo']['src']=uri(s['photo']['src'])
  if s['photo'] and s['photo'].get('introAudio') and not str(s['photo']['introAudio']).startswith(('data:','http')):s['photo']['introAudio']=uri(s['photo']['introAudio'])
+ if s['photo'] and s['photo'].get('video') and not str(s['photo']['video']).startswith(('data:','http')):s['photo']['video']=uri(s['photo']['video'])
  if s['audio'] and not s['audio'].startswith(('data:','http')):s['audio']=uri(s['audio'])
 text=(P/'player.template.html').read_text().replace('__DATA__',json.dumps(d,ensure_ascii=False).replace('</','<\\/')).replace('__PLAYER__',(P/'player.js').read_text()).replace('__HAND_FONT__',uri('assets/PatrickHand-Regular.ttf')).replace('__TITLE_FONT__',uri('assets/Caveat-VariableFont_wght.ttf'))
 (P/'index.html').write_text(text,encoding='utf8')
