@@ -106,14 +106,25 @@ function revealTo(o,progress){o.shown=true;const m=o.mask.getContext('2d');m.str
 function clearAudio(){if(audio){audio.pause();audio.currentTime=0;audio=null;}stopPhotoVideo();}
 // Photo stops with photo.video: the still is shown for photo.videoDelay seconds, then the clip plays in the same frame,
 // with its own sound; at the end it stays on its last frame. R, ←, →, Space (leaving the stop) stop it.
-let photoVideo=null,photoSeq=0;
-function stopPhotoVideo(){photoSeq++;if(photoVideo){try{photoVideo.pause();}catch(e){}photoVideo.removeAttribute('src');photoVideo.load();photoVideo=null;}}
-async function playPhotoVideo(ph,token){const seq=++photoSeq;try{await tween((ph.videoDelay??1.5)*1000,()=>{},token);}catch(e){return;}
+let photoVideo=null,photoSeq=0;const clipEls={};
+// Video elements for photo clips are created and "unlocked" (muted play + pause) on the first click/key of the user,
+// so that later, when the stop is reached from a timer, they may play with sound (Safari/Chrome autoplay rules).
+function clipEl(src){let v=clipEls[src];if(!v){v=document.createElement('video');v.src=src;v.playsInline=true;v.preload='auto';v.volume=1;clipEls[src]=v;}return v;}
+function unlockClips(){for(const s of DATA.sections){const src=s.photo&&s.photo.video;if(!src)continue;const v=clipEl(src);if(v._unlocked)continue;v._unlocked=true;v.muted=true;const p=v.play();if(p&&p.then)p.then(()=>{v.pause();v.currentTime=0;v.muted=false;}).catch(()=>{v.muted=false;v._unlocked=false;});}}
+['pointerdown','keydown','touchend'].forEach(ev=>document.addEventListener(ev,unlockClips,{capture:true}));
+function stopPhotoVideo(){photoSeq++;$('soundHint').classList.remove('on');if(photoVideo){try{photoVideo.pause();photoVideo.currentTime=0;}catch(e){}photoVideo=null;}}
+// A pause that counts only frames actually shown (a frame blocked by decoding the photo counts at most 100 ms).
+function holdFrames(ms,token){return new Promise((res,rej)=>{let el=0,last=null;const tick=now=>{if(token!==runToken)return rej(new Cancelled());if(last!==null)el+=Math.min(100,Math.max(0,now-last))*speed;last=now;if(el>=ms)res();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});}
+async function playPhotoVideo(ph,token){const seq=++photoSeq;try{await holdFrames((ph.videoDelay??1.5)*1000,token);}catch(e){return;}
  if(seq!==photoSeq||token!==runToken||!$('photo').classList.contains('on'))return;
- const v=document.createElement('video');v.src=ph.video;v.playsInline=true;v.preload='auto';v.playbackRate=speed;v.setAttribute('aria-label',ph.caption);photoVideo=v;
+ const v=clipEl(ph.video);v.pause();v.currentTime=0;v.muted=false;v.volume=1;v.playbackRate=speed;v.setAttribute('aria-label',ph.caption);photoVideo=v;
  const img=$('photoContent').querySelector('img');
- v.addEventListener('playing',()=>{if(photoVideo!==v)return;if(img&&img.isConnected)img.replaceWith(v);else if(!v.isConnected)$('photoContent').append(v);},{once:true});
- try{await v.play();}catch(e){try{v.muted=true;await v.play();}catch(e2){if(photoVideo===v)photoVideo=null;}}}
+ const show=()=>{if(photoVideo!==v)return;if(img&&img.isConnected)img.replaceWith(v);else if(!v.isConnected)$('photoContent').append(v);};
+ v.addEventListener('playing',show,{once:true});
+ try{await v.play();}catch(e){if(photoVideo!==v)return;
+  // Sound refused by the browser: play muted and offer «click for sound».
+  try{v.muted=true;await v.play();}catch(e2){if(photoVideo===v)photoVideo=null;return;}
+  const h=$('soundHint');h.classList.add('on');h.onclick=ev=>{ev.stopPropagation();v.muted=false;v.play().catch(()=>{});h.classList.remove('on');};}}
 async function startAudio(section,token,at=0){if(!section.audio)return null;const a=new Audio(section.audio);a.playbackRate=speed;audio=a;try{if(at>0){if(a.readyState<1)await new Promise(r=>a.addEventListener('loadedmetadata',r,{once:true}));check(token);a.currentTime=at;}await a.play();check(token);return a;}catch(e){if(e instanceof Cancelled)throw e;clearAudio();$('status').textContent='Audio non disponibile · sottotitoli attivi';return null;}}
 function waitForNext(token){check(token);return new Promise((resolve,reject)=>{waiter={token,resolve,reject};});}
 async function showPhoto(section,token){check(token);stage='stop';clearAudio();subtitle(null);hand=null;render();const ph=section.photo;
