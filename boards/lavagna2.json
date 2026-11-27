@@ -369,7 +369,12 @@
         }
       ],
       "audio": "audio/l2-serverino-en.mp3",
-      "photo": null,
+      "photo": {
+        "src": "assets/l2-modem-gsm.jpg",
+        "caption": "A GSM modem with SIM slots · like the one in the office",
+        "kind": "small",
+        "disclosure": "Illustrative product image, not the original machine"
+      },
       "notes": "Master §3 (macchinetta degli SMS in via Ugo Bassi, modem GSM, SIM dall’estero, SIM greca; “Serverino Down” 20/07/2011, generale saltato alle due di notte) e §6 momento 6. Nessun nome in voce (chi è salito a riaccenderla resta a braccio). Disegno in attesa di una foto del serverino.",
       "incomplete": false
     },
