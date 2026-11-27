@@ -201,7 +201,12 @@
         }
       ],
       "audio": "audio/l2-salotto-en.mp3",
-      "photo": null,
+      "photo": {
+        "src": "assets/l2-ugobassi-2016.jpg",
+        "caption": "The office in Bologna · January 22, 2016",
+        "kind": "original",
+        "disclosure": "Original photo"
+      },
       "notes": "Master §3 (marzo 2009 via Ugo Bassi 11) e §6 momento 3 (sala della casa dei genitori di Don, fino a 8 persone). Disegno in attesa di una foto della sala o del palazzo (chiedere a Don).",
       "incomplete": false
     },
