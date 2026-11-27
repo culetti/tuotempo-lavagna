@@ -1,0 +1,274 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Every process was reviewed: how we sold, what we sold, how new clients were welcomed. And by the summer of 2023, Tuotempo was profitable. The plan had worked. Then, after a long, tough negotiation, a big new Connect client signed in Italy\u2026 and soon the hardest measures of the plan could be lifted.",
+ "spoken": "Every process was reviewed: how we sold, what we sold, how new clients were welcomed. And by the summer of 2023, Tuotempo was profitable. The plan had worked. Then, after a long, tough negotiation, a big new Connect client signed in Italy\u2026 and soon the hardest measures of the plan could be lifted.",
+ "words": [
+  {
+   "offset": 875000,
+   "duration": 2625000,
+   "text": "Every"
+  },
+  {
+   "offset": 3625000,
+   "duration": 5125000,
+   "text": "process"
+  },
+  {
+   "offset": 8875000,
+   "duration": 1750000,
+   "text": "was"
+  },
+  {
+   "offset": 10750000,
+   "duration": 5375000,
+   "text": "reviewed"
+  },
+  {
+   "offset": 23250000,
+   "duration": 1000000,
+   "text": "how"
+  },
+  {
+   "offset": 24375000,
+   "duration": 1250000,
+   "text": "we"
+  },
+  {
+   "offset": 25750000,
+   "duration": 4500000,
+   "text": "sold"
+  },
+  {
+   "offset": 32500000,
+   "duration": 1375000,
+   "text": "what"
+  },
+  {
+   "offset": 34000000,
+   "duration": 1125000,
+   "text": "we"
+  },
+  {
+   "offset": 35250000,
+   "duration": 4500000,
+   "text": "sold"
+  },
+  {
+   "offset": 42750000,
+   "duration": 875000,
+   "text": "how"
+  },
+  {
+   "offset": 43750000,
+   "duration": 1875000,
+   "text": "new"
+  },
+  {
+   "offset": 45750000,
+   "duration": 4500000,
+   "text": "clients"
+  },
+  {
+   "offset": 50375000,
+   "duration": 1250000,
+   "text": "were"
+  },
+  {
+   "offset": 51750000,
+   "duration": 5750000,
+   "text": "welcomed"
+  },
+  {
+   "offset": 61750000,
+   "duration": 1375000,
+   "text": "And"
+  },
+  {
+   "offset": 63250000,
+   "duration": 1500000,
+   "text": "by"
+  },
+  {
+   "offset": 64875000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 66125000,
+   "duration": 3750000,
+   "text": "summer"
+  },
+  {
+   "offset": 70000000,
+   "duration": 1250000,
+   "text": "of"
+  },
+  {
+   "offset": 71375000,
+   "duration": 10625000,
+   "text": "2023"
+  },
+  {
+   "offset": 84750000,
+   "duration": 6000000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 90875000,
+   "duration": 1625000,
+   "text": "was"
+  },
+  {
+   "offset": 92625000,
+   "duration": 7500000,
+   "text": "profitable"
+  },
+  {
+   "offset": 104250000,
+   "duration": 875000,
+   "text": "The"
+  },
+  {
+   "offset": 105250000,
+   "duration": 3125000,
+   "text": "plan"
+  },
+  {
+   "offset": 108500000,
+   "duration": 1750000,
+   "text": "had"
+  },
+  {
+   "offset": 110375000,
+   "duration": 5000000,
+   "text": "worked"
+  },
+  {
+   "offset": 119500000,
+   "duration": 2875000,
+   "text": "Then"
+  },
+  {
+   "offset": 122750000,
+   "duration": 3250000,
+   "text": "after"
+  },
+  {
+   "offset": 126125000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 126750000,
+   "duration": 3750000,
+   "text": "long"
+  },
+  {
+   "offset": 130875000,
+   "duration": 2750000,
+   "text": "tough"
+  },
+  {
+   "offset": 133750000,
+   "duration": 9125000,
+   "text": "negotiation"
+  },
+  {
+   "offset": 146500000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 147250000,
+   "duration": 2125000,
+   "text": "big"
+  },
+  {
+   "offset": 149500000,
+   "duration": 1875000,
+   "text": "new"
+  },
+  {
+   "offset": 151500000,
+   "duration": 4000000,
+   "text": "Connect"
+  },
+  {
+   "offset": 155625000,
+   "duration": 4125000,
+   "text": "client"
+  },
+  {
+   "offset": 159875000,
+   "duration": 3250000,
+   "text": "signed"
+  },
+  {
+   "offset": 163250000,
+   "duration": 1000000,
+   "text": "in"
+  },
+  {
+   "offset": 164375000,
+   "duration": 4375000,
+   "text": "Italy"
+  },
+  {
+   "offset": 172500000,
+   "duration": 1375000,
+   "text": "and"
+  },
+  {
+   "offset": 174000000,
+   "duration": 2125000,
+   "text": "soon"
+  },
+  {
+   "offset": 176250000,
+   "duration": 625000,
+   "text": "the"
+  },
+  {
+   "offset": 177000000,
+   "duration": 4375000,
+   "text": "hardest"
+  },
+  {
+   "offset": 181500000,
+   "duration": 4000000,
+   "text": "measures"
+  },
+  {
+   "offset": 185625000,
+   "duration": 750000,
+   "text": "of"
+  },
+  {
+   "offset": 186500000,
+   "duration": 750000,
+   "text": "the"
+  },
+  {
+   "offset": 187375000,
+   "duration": 3375000,
+   "text": "plan"
+  },
+  {
+   "offset": 190875000,
+   "duration": 1500000,
+   "text": "could"
+  },
+  {
+   "offset": 192500000,
+   "duration": 1125000,
+   "text": "be"
+  },
+  {
+   "offset": 193750000,
+   "duration": 5375000,
+   "text": "lifted"
+  }
+ ]
+}

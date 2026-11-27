@@ -3,11 +3,13 @@
 
 
 ## Link
-- Tutte le lavagne (2005–2019): https://culetti.github.io/tuotempo-lavagna/
+- Tutte le lavagne (2005–2026): https://culetti.github.io/tuotempo-lavagna/
 - Lavagna 1 · Le origini (2005–2007): https://culetti.github.io/tuotempo-lavagna/?lavagna=1
 - Lavagna 2 · Le architetture artigianali (In casa · 2007–2011): https://culetti.github.io/tuotempo-lavagna/?lavagna=2
 - Lavagna 3 · L’espansione e gli schiaffi (All’estero · 2009–2015): https://culetti.github.io/tuotempo-lavagna/?lavagna=3
 - Lavagna 4 · Verso Docplanner (2016–2019): https://culetti.github.io/tuotempo-lavagna/?lavagna=4
+- Lavagna 5 · La corsa (The race · 2019–2022): https://culetti.github.io/tuotempo-lavagna/?lavagna=5
+- Lavagna 6 · Di nuovo in rotta (Back on course · 2022–2026): https://culetti.github.io/tuotempo-lavagna/?lavagna=6
 
 Con `?lavagna=N` (oppure `#lavagnaN`, valido anche per il file `index.html` aperto in locale) la schermata iniziale mostra gli anni di quella lavagna, il player parte direttamente da lì e si ferma sulla sua chiusura (cerchio e anni), senza passare alla lavagna successiva né fare lo zoom finale su tutte. Senza parametro il player è quello completo. Si combina con `speed`, per esempio `?lavagna=3&speed=2`.
 
@@ -15,7 +17,7 @@ Con `?lavagna=N` (oppure `#lavagnaN`, valido anche per il file `index.html` aper
 Il vecchio `scenes.json` unico è diviso per lavagna, così per correggere una lavagna si apre solo il suo file:
 
 - `boards/common.json`: dati comuni (mano, dimensioni, finale legacy) e `boardOrder`, l'ordine delle lavagne.
-- `boards/lavagnaN.json` (N = 1…4): la lavagna (titolo, anni, colore, regione, cerchio finale), le `sections` con cue EN/IT, tempi, audio, stop (`photo`) e note, le `labels` e gli `unknowns`. **Le correzioni di testo si fanno qui.**
+- `boards/lavagnaN.json` (N = 1…6): la lavagna (titolo, anni, colore, regione, cerchio finale), le `sections` con cue EN/IT, tempi, audio, stop (`photo`) e note, le `labels` e gli `unknowns`. **Le correzioni di testo si fanno qui.**
 - `boards/lavagnaN.art.json`: i disegni della lavagna (immagine, posizione, percorsi del pennarello). File grosso, di solito non si tocca.
 - `build.py` legge i file nell'ordine di `boardOrder` (`tools/boardfiles.py`, `load_all`) e produce come prima un solo `index.html` autonomo.
 
@@ -43,7 +45,7 @@ Aprire **index.html** in Chrome, Edge o Safari. È un file autonomo: include sce
 
 I quattro spezzoni hanno foto/stop; tra 3 e 4 è incluso uno stop breve **Il nome, inventato insieme**, senza voce inventata. Lo stop del sito 2006 è dichiaratamente **immagine d'archivio da inserire**, non un falso screenshot. Le due ricostruzioni AI sono etichettate sempre.
 
-Durata automatica della sola Lavagna 1 nella prima versione: circa **3 minuti e 15 secondi** (voce attuale di tutte e quattro le lavagne: vedi sotto), più il tempo dei cinque stop scelto dai presentatori. Non viene imposta una durata alle parti a braccio; i 15 minuti sono il riferimento dell'intero intervento, non un conto alla rovescia di questa sola lavagna.
+Durata automatica della sola Lavagna 1 nella prima versione: circa **3 minuti e 15 secondi** (voce attuale di tutte e sei le lavagne: vedi sotto), più il tempo dei cinque stop scelto dai presentatori. Non viene imposta una durata alle parti a braccio; i 15 minuti sono il riferimento dell'intero intervento, non un conto alla rovescia di questa sola lavagna.
 
 ## Cosa manca prima della versione evento
 1. **Voce narrante EN**: nessun TTS gratuito già funzionante presente sul box; non sono stati attivati servizi. I testi EN sono in `audio/narration-en.txt`.
@@ -54,14 +56,14 @@ Durata automatica della sola Lavagna 1 nella prima versione: circa **3 minuti e 
 La mano reale da Pakutaso è stata integrata con chroma key, non è più quella da fumetto. Il file fornito non mostra una mano particolarmente pelosa; non sono stati aggiunti peli artificiali. La punta è ancorata al tratto. Restano da approvare artisticamente questo aspetto e lo stile complessivo.
 
 ## Voce: "Gef" e rigenerazione (dal 19/11/2026)
-Nei testi (voce EN e sottotitoli EN/IT) Gianfranco è **Gef**. Gli script TTS passano a edge-tts "Jeff" (pronuncia corretta) ma tengono "Gef" nei sottotitoli e nei tempi parola per parola (`spoken` nei file `audio/*.words.json`). Lavagna 1 non ha un generatore: `python3 tools/board1_tts.py football remote name` rigenera la voce delle sezioni indicate e ritempra i loro sottotitoli direttamente in `boards/lavagna1.json`. Lavagne 2–4: `python3 tools/boardN_tts.py <sezioni>` e poi `python3 tools/boardN_build.py`.
+Nei testi (voce EN e sottotitoli EN/IT) Gianfranco è **Gef**. Gli script TTS passano a edge-tts "Jeff" (pronuncia corretta) ma tengono "Gef" nei sottotitoli e nei tempi parola per parola (`spoken` nei file `audio/*.words.json`). Lavagna 1 non ha un generatore: `python3 tools/board1_tts.py football remote name` rigenera la voce delle sezioni indicate e ritempra i loro sottotitoli direttamente in `boards/lavagna1.json`. Lavagne 2–6: `python3 tools/boardN_tts.py <sezioni>` e poi `python3 tools/boardN_build.py`. Le Lavagne 5 e 6 (27/11/2026) usano il generatore comune `tools/boardlate.py` (colore, maschera dell'accento, note, cerchio finale); `board5_build.py`/`board6_build.py` contengono solo la configurazione. Nelle note delle sezioni, «ATTESA CLAUDE: dubbio N» segna le formulazioni prudenti in attesa di conferma (dubbi elencati nel Log del wiki, 27/11/2026). Disegni generati con AI (indicato negli `unknowns`); stop foto solo su reperti veri: mail Docplanner del 27/11/2018 ricomposta con mittente oscurato, card dei moduli della grafica Tuotempo 20 (dati nelle card inventati, dichiarato in didascalia).
 
 Sottotitoli (dal 20/11/2026, richiesta di Gef): testo bianco in grassetto (peso 600), carattere sans di sistema, circa 38 px su schermo 1920×1080 (scala con lo schermo), su una fascia scura semitrasparente (nero al 65%) con angoli arrotondati, centrati in basso, al massimo 2 righe. Quando compaiono i comandi i sottotitoli salgono sopra la barra. Durante gli stop foto i sottotitoli non compaiono.
 
 ## Voce Emma ed etichette degli anni (dal 19/11/2026)
-- **Voce**: tutta la narrazione è **en-US-EmmaMultilingualNeural, velocità +0%** (scelta di Lele sul campione 03), impostata in un solo punto, `tools/voice.py`, usato da `board1_tts.py` … `board4_tts.py`. Le correzioni di pronuncia valgono solo per il testo dato alla voce (`SPOKEN` in `tools/voice.py`); sottotitoli e tempi tengono il testo scritto: Gef → "Jeff", Ugo → "Oogo" (Emma diceva "Yugo"), Farini → "Fareeni" (Emma diceva "Fa-rai-ni"). Controllo fatto con una trascrizione automatica (faster-whisper) della voce generata.
-- Durate voce: L1 2'27", L2 2'35", L3 1'47", L4 1'50", totale 8'39".
-- **Etichette**: le lavagne possono avere un `tag` oltre agli anni. Lavagna 2 «In casa · 2007–2011», Lavagna 3 «All’estero · 2009–2015» (2 e 3 sono storie parallele). L'etichetta compare nella schermata iniziale di `?lavagna=N`, nel cerchio finale della lavagna e nella linea del tempo finale. La linea del tempo finale è in anni (2005 → 2019): le lavagne che si sovrappongono stanno su tracce parallele (Lavagna 3 sotto la 2).
+- **Voce**: tutta la narrazione è **en-US-EmmaMultilingualNeural, velocità +0%** (scelta di Lele sul campione 03), impostata in un solo punto, `tools/voice.py`, usato da `board1_tts.py` … `board6_tts.py`. Le correzioni di pronuncia valgono solo per il testo dato alla voce (`SPOKEN` in `tools/voice.py`); sottotitoli e tempi tengono il testo scritto: Gef → "Jeff", Ugo → "Oogo" (Emma diceva "Yugo"), Farini → "Fareeni" (Emma diceva "Fa-rai-ni"). Controllo fatto con una trascrizione automatica (faster-whisper) della voce generata.
+- Durate voce (27/11/2026): L1 2'27", L2 2'36", L3 1'47", L4 1'49", L5 1'40", L6 1'40", totale 11'58" (718 s).
+- **Etichette**: le lavagne possono avere un `tag` oltre agli anni. Lavagna 2 «In casa · 2007–2011», Lavagna 3 «All’estero · 2009–2015» (2 e 3 sono storie parallele). L'etichetta compare nella schermata iniziale di `?lavagna=N`, nel cerchio finale della lavagna e nella linea del tempo finale. Lavagna 5 «The race · 2019–2022» (arancio), Lavagna 6 «Back on course · 2022–2026» (magenta). La linea del tempo finale è in anni (2005 → 2026): le lavagne che si sovrappongono stanno su tracce parallele (Lavagna 3 sotto la 2).
 - **Cartello** «intanto, all’estero…» (etichetta `small` in `tools/board3_build.py`): la mano lo scrive all'inizio della Lavagna 3, prima della voce (circa 2,8 s, non conteggiati nella barra); la voce non cambia.
 
 ## Didascalie delle foto e video dell'agenda 2007 (dal 20/11/2026)

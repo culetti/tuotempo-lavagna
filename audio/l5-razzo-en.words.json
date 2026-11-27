@@ -1,0 +1,359 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Then came the great experiment of those years: hypergrowth. How fast can a company go, if you give it everything it needs: capital, people, skills? The team grew several times over, new offices opened in Latin America, and Tuotempo grew stronger in Italy and in Spain. But a company that had grown step by step for fifteen years was not a spaceship built for that speed\u2026 and every bolt creaked.",
+ "spoken": "Then came the great experiment of those years: hypergrowth. How fast can a company go, if you give it everything it needs: capital, people, skills? The team grew several times over, new offices opened in Latin America, and Tuotempo grew stronger in Italy and in Spain. But a company that had grown step by step for fifteen years was not a spaceship built for that speed\u2026 and every bolt creaked.",
+ "words": [
+  {
+   "offset": 1000000,
+   "duration": 1750000,
+   "text": "Then"
+  },
+  {
+   "offset": 2875000,
+   "duration": 2250000,
+   "text": "came"
+  },
+  {
+   "offset": 5250000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 6375000,
+   "duration": 2625000,
+   "text": "great"
+  },
+  {
+   "offset": 9125000,
+   "duration": 6750000,
+   "text": "experiment"
+  },
+  {
+   "offset": 16000000,
+   "duration": 875000,
+   "text": "of"
+  },
+  {
+   "offset": 17000000,
+   "duration": 2375000,
+   "text": "those"
+  },
+  {
+   "offset": 19500000,
+   "duration": 5125000,
+   "text": "years"
+  },
+  {
+   "offset": 28500000,
+   "duration": 8250000,
+   "text": "hypergrowth"
+  },
+  {
+   "offset": 40875000,
+   "duration": 1500000,
+   "text": "How"
+  },
+  {
+   "offset": 42500000,
+   "duration": 3500000,
+   "text": "fast"
+  },
+  {
+   "offset": 46125000,
+   "duration": 1250000,
+   "text": "can"
+  },
+  {
+   "offset": 47500000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 48250000,
+   "duration": 3875000,
+   "text": "company"
+  },
+  {
+   "offset": 52250000,
+   "duration": 3375000,
+   "text": "go"
+  },
+  {
+   "offset": 57875000,
+   "duration": 1250000,
+   "text": "if"
+  },
+  {
+   "offset": 59250000,
+   "duration": 1000000,
+   "text": "you"
+  },
+  {
+   "offset": 60375000,
+   "duration": 1875000,
+   "text": "give"
+  },
+  {
+   "offset": 62375000,
+   "duration": 1125000,
+   "text": "it"
+  },
+  {
+   "offset": 63625000,
+   "duration": 4750000,
+   "text": "everything"
+  },
+  {
+   "offset": 68500000,
+   "duration": 1125000,
+   "text": "it"
+  },
+  {
+   "offset": 69750000,
+   "duration": 5125000,
+   "text": "needs"
+  },
+  {
+   "offset": 78750000,
+   "duration": 5125000,
+   "text": "capital"
+  },
+  {
+   "offset": 84125000,
+   "duration": 3750000,
+   "text": "people"
+  },
+  {
+   "offset": 88125000,
+   "duration": 5875000,
+   "text": "skills"
+  },
+  {
+   "offset": 98250000,
+   "duration": 1000000,
+   "text": "The"
+  },
+  {
+   "offset": 99375000,
+   "duration": 3000000,
+   "text": "team"
+  },
+  {
+   "offset": 102500000,
+   "duration": 2000000,
+   "text": "grew"
+  },
+  {
+   "offset": 104625000,
+   "duration": 4250000,
+   "text": "several"
+  },
+  {
+   "offset": 109000000,
+   "duration": 3875000,
+   "text": "times"
+  },
+  {
+   "offset": 113000000,
+   "duration": 2875000,
+   "text": "over"
+  },
+  {
+   "offset": 118000000,
+   "duration": 1500000,
+   "text": "new"
+  },
+  {
+   "offset": 119625000,
+   "duration": 5500000,
+   "text": "offices"
+  },
+  {
+   "offset": 125250000,
+   "duration": 2875000,
+   "text": "opened"
+  },
+  {
+   "offset": 128250000,
+   "duration": 1250000,
+   "text": "in"
+  },
+  {
+   "offset": 129625000,
+   "duration": 2625000,
+   "text": "Latin"
+  },
+  {
+   "offset": 132375000,
+   "duration": 5625000,
+   "text": "America"
+  },
+  {
+   "offset": 141000000,
+   "duration": 1375000,
+   "text": "and"
+  },
+  {
+   "offset": 142500000,
+   "duration": 6125000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 148750000,
+   "duration": 2000000,
+   "text": "grew"
+  },
+  {
+   "offset": 150875000,
+   "duration": 5125000,
+   "text": "stronger"
+  },
+  {
+   "offset": 156125000,
+   "duration": 1250000,
+   "text": "in"
+  },
+  {
+   "offset": 157500000,
+   "duration": 4125000,
+   "text": "Italy"
+  },
+  {
+   "offset": 161750000,
+   "duration": 1500000,
+   "text": "and"
+  },
+  {
+   "offset": 163375000,
+   "duration": 1250000,
+   "text": "in"
+  },
+  {
+   "offset": 164750000,
+   "duration": 4875000,
+   "text": "Spain"
+  },
+  {
+   "offset": 173750000,
+   "duration": 1000000,
+   "text": "But"
+  },
+  {
+   "offset": 174875000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 175625000,
+   "duration": 4375000,
+   "text": "company"
+  },
+  {
+   "offset": 180125000,
+   "duration": 1500000,
+   "text": "that"
+  },
+  {
+   "offset": 181750000,
+   "duration": 1750000,
+   "text": "had"
+  },
+  {
+   "offset": 183625000,
+   "duration": 3125000,
+   "text": "grown"
+  },
+  {
+   "offset": 186875000,
+   "duration": 2750000,
+   "text": "step"
+  },
+  {
+   "offset": 189750000,
+   "duration": 1250000,
+   "text": "by"
+  },
+  {
+   "offset": 191125000,
+   "duration": 3250000,
+   "text": "step"
+  },
+  {
+   "offset": 194500000,
+   "duration": 1500000,
+   "text": "for"
+  },
+  {
+   "offset": 196125000,
+   "duration": 5000000,
+   "text": "fifteen"
+  },
+  {
+   "offset": 201250000,
+   "duration": 3875000,
+   "text": "years"
+  },
+  {
+   "offset": 205250000,
+   "duration": 1500000,
+   "text": "was"
+  },
+  {
+   "offset": 206875000,
+   "duration": 1875000,
+   "text": "not"
+  },
+  {
+   "offset": 208875000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 209500000,
+   "duration": 5500000,
+   "text": "spaceship"
+  },
+  {
+   "offset": 215125000,
+   "duration": 2500000,
+   "text": "built"
+  },
+  {
+   "offset": 217750000,
+   "duration": 1375000,
+   "text": "for"
+  },
+  {
+   "offset": 219250000,
+   "duration": 2125000,
+   "text": "that"
+  },
+  {
+   "offset": 221500000,
+   "duration": 4750000,
+   "text": "speed"
+  },
+  {
+   "offset": 231875000,
+   "duration": 1250000,
+   "text": "and"
+  },
+  {
+   "offset": 233250000,
+   "duration": 2375000,
+   "text": "every"
+  },
+  {
+   "offset": 235750000,
+   "duration": 2625000,
+   "text": "bolt"
+  },
+  {
+   "offset": 238500000,
+   "duration": 5375000,
+   "text": "creaked"
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Then came two bets. The first was the Marketplace. The second was Noa Notes: for the first time, a product for the doctor, not for the patient. It did not catch on\u2026 but the whole company threw itself into it, with an enthusiasm that was a lesson of its own.",
+ "spoken": "Then came two bets. The first was the Marketplace. The second was Noa Notes: for the first time, a product for the doctor, not for the patient. It did not catch on\u2026 but the whole company threw itself into it, with an enthusiasm that was a lesson of its own.",
+ "words": [
+  {
+   "offset": 1000000,
+   "duration": 1750000,
+   "text": "Then"
+  },
+  {
+   "offset": 2875000,
+   "duration": 2375000,
+   "text": "came"
+  },
+  {
+   "offset": 5375000,
+   "duration": 1875000,
+   "text": "two"
+  },
+  {
+   "offset": 7375000,
+   "duration": 5500000,
+   "text": "bets"
+  },
+  {
+   "offset": 17000000,
+   "duration": 875000,
+   "text": "The"
+  },
+  {
+   "offset": 18000000,
+   "duration": 3750000,
+   "text": "first"
+  },
+  {
+   "offset": 21875000,
+   "duration": 1500000,
+   "text": "was"
+  },
+  {
+   "offset": 23500000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 24500000,
+   "duration": 9625000,
+   "text": "Marketplace"
+  },
+  {
+   "offset": 38250000,
+   "duration": 750000,
+   "text": "The"
+  },
+  {
+   "offset": 39125000,
+   "duration": 4125000,
+   "text": "second"
+  },
+  {
+   "offset": 43375000,
+   "duration": 1750000,
+   "text": "was"
+  },
+  {
+   "offset": 45250000,
+   "duration": 2375000,
+   "text": "Noa"
+  },
+  {
+   "offset": 47750000,
+   "duration": 4750000,
+   "text": "Notes"
+  },
+  {
+   "offset": 55750000,
+   "duration": 1375000,
+   "text": "for"
+  },
+  {
+   "offset": 57250000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 58375000,
+   "duration": 3625000,
+   "text": "first"
+  },
+  {
+   "offset": 62125000,
+   "duration": 3500000,
+   "text": "time"
+  },
+  {
+   "offset": 67750000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 68375000,
+   "duration": 4000000,
+   "text": "product"
+  },
+  {
+   "offset": 72500000,
+   "duration": 1250000,
+   "text": "for"
+  },
+  {
+   "offset": 73875000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 75000000,
+   "duration": 5000000,
+   "text": "doctor"
+  },
+  {
+   "offset": 82375000,
+   "duration": 2375000,
+   "text": "not"
+  },
+  {
+   "offset": 84875000,
+   "duration": 1250000,
+   "text": "for"
+  },
+  {
+   "offset": 86250000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 87250000,
+   "duration": 6250000,
+   "text": "patient"
+  },
+  {
+   "offset": 97625000,
+   "duration": 1000000,
+   "text": "It"
+  },
+  {
+   "offset": 98750000,
+   "duration": 1375000,
+   "text": "did"
+  },
+  {
+   "offset": 100250000,
+   "duration": 2125000,
+   "text": "not"
+  },
+  {
+   "offset": 102500000,
+   "duration": 3375000,
+   "text": "catch"
+  },
+  {
+   "offset": 106000000,
+   "duration": 3125000,
+   "text": "on"
+  },
+  {
+   "offset": 112875000,
+   "duration": 1375000,
+   "text": "but"
+  },
+  {
+   "offset": 114375000,
+   "duration": 750000,
+   "text": "the"
+  },
+  {
+   "offset": 115250000,
+   "duration": 2625000,
+   "text": "whole"
+  },
+  {
+   "offset": 118000000,
+   "duration": 4625000,
+   "text": "company"
+  },
+  {
+   "offset": 122750000,
+   "duration": 2125000,
+   "text": "threw"
+  },
+  {
+   "offset": 125000000,
+   "duration": 4375000,
+   "text": "itself"
+  },
+  {
+   "offset": 129500000,
+   "duration": 3250000,
+   "text": "into"
+  },
+  {
+   "offset": 132875000,
+   "duration": 2000000,
+   "text": "it"
+  },
+  {
+   "offset": 137750000,
+   "duration": 1625000,
+   "text": "with"
+  },
+  {
+   "offset": 139500000,
+   "duration": 1000000,
+   "text": "an"
+  },
+  {
+   "offset": 140625000,
+   "duration": 8750000,
+   "text": "enthusiasm"
+  },
+  {
+   "offset": 149500000,
+   "duration": 1250000,
+   "text": "that"
+  },
+  {
+   "offset": 150875000,
+   "duration": 1250000,
+   "text": "was"
+  },
+  {
+   "offset": 152250000,
+   "duration": 750000,
+   "text": "a"
+  },
+  {
+   "offset": 153125000,
+   "duration": 4000000,
+   "text": "lesson"
+  },
+  {
+   "offset": 157250000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 158375000,
+   "duration": 1750000,
+   "text": "its"
+  },
+  {
+   "offset": 160250000,
+   "duration": 3625000,
+   "text": "own"
+  }
+ ]
+}

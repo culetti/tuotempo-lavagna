@@ -268,38 +268,38 @@
         "l4-si"
       ],
       "narration": {
-        "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo… and the start of the next one. Over to Gef.",
-        "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence. Ed era un sì. La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gef."
+        "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed. And it was a yes. The end of the first chapter of Tuotempo… and the start of a race.",
+        "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence. Ed era un sì. La fine del primo capitolo di Tuotempo… e l’inizio di una corsa."
       },
       "cues": [
         {
           "en": "In January 2019 came the preliminary agreement. In April, the due diligence was closed.",
           "it": "A gennaio 2019 arrivò il pre-accordo. Ad aprile si chiuse la due diligence.",
           "art": "l4-si",
-          "start": 0.0875,
-          "end": 6.4625,
-          "duration": 6.375
+          "start": 0.1,
+          "end": 6.5625,
+          "duration": 6.4625
         },
         {
           "en": "And it was a yes.",
           "it": "Ed era un sì.",
           "art": "l4-si",
-          "start": 6.875,
-          "end": 7.925,
-          "duration": 1.05
+          "start": 6.975,
+          "end": 7.9875,
+          "duration": 1.0125
         },
         {
-          "en": "The end of the first chapter of Tuotempo… and the start of the next one. Over to Gef.",
-          "it": "La fine del primo capitolo di Tuotempo… e l’inizio del prossimo. La parola a Gef.",
+          "en": "The end of the first chapter of Tuotempo… and the start of a race.",
+          "it": "La fine del primo capitolo di Tuotempo… e l’inizio di una corsa.",
           "art": "l4-si",
-          "start": 8.325,
-          "end": 14.184,
-          "duration": 5.859
+          "start": 8.3875,
+          "end": 12.744,
+          "duration": 4.3565
         }
       ],
       "audio": "audio/l4-si-en.mp3",
       "photo": null,
-      "notes": "Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gef (Gianfranco).",
+      "notes": "Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra. Chiusura cambiata il 27/11 (Lele: 2019–2026 nello stesso player): «…and the start of a race.» porta alla Lavagna 5 «The race» (prima «Over to Gef.»).",
       "incomplete": false
     }
   ],

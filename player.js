@@ -206,7 +206,7 @@ async function playSection(section,token,at=0){currentSection=section;stage='sec
 // Board label: "In casa · 2007–2011" (tag, when the board has one, then the years).
 const boardLabel=b=>b.tag?b.tag+' · '+b.years:b.years;
 // Closing shot: after the last board, zoom out over every board of the talk and draw one timeline under them all.
-// The timeline is in years (2005 → 2019); boards whose years overlap (2 and 3) run on parallel tracks.
+// The timeline is in years (2005 → 2026); boards whose years overlap (2 and 3) run on parallel tracks.
 let closing=0;const TL_Y=2840,TRACK=560;
 function timeline(){const xs=BOARDS.map(b=>b.region.x),x0=Math.min(...xs)+40,x1=Math.max(...BOARDS.map(b=>b.region.x+b.region.w))-40;
  const yr=b=>{const m=String(b.years).match(/(\d{4})\D+(\d{4})/);return m?[+m[1],+m[2]]:null;};const spans=BOARDS.map(yr);

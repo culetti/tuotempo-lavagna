@@ -1,0 +1,279 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "The pace was so fast that, one evening, on the way back from Poland, two of them changed planes in Vienna. They were so busy talking strategy that they didn't notice their flight leaving\u2026 right in front of them. It was the last one of the evening. That night, they slept at the airport.",
+ "spoken": "The pace was so fast that, one evening, on the way back from Poland, two of them changed planes in Vienna. They were so busy talking strategy that they didn't notice their flight leaving\u2026 right in front of them. It was the last one of the evening. That night, they slept at the airport.",
+ "words": [
+  {
+   "offset": 1125000,
+   "duration": 875000,
+   "text": "The"
+  },
+  {
+   "offset": 2125000,
+   "duration": 3000000,
+   "text": "pace"
+  },
+  {
+   "offset": 5250000,
+   "duration": 1500000,
+   "text": "was"
+  },
+  {
+   "offset": 6875000,
+   "duration": 2000000,
+   "text": "so"
+  },
+  {
+   "offset": 9000000,
+   "duration": 4125000,
+   "text": "fast"
+  },
+  {
+   "offset": 13250000,
+   "duration": 2250000,
+   "text": "that"
+  },
+  {
+   "offset": 15750000,
+   "duration": 2250000,
+   "text": "one"
+  },
+  {
+   "offset": 18125000,
+   "duration": 4750000,
+   "text": "evening"
+  },
+  {
+   "offset": 25500000,
+   "duration": 1125000,
+   "text": "on"
+  },
+  {
+   "offset": 26750000,
+   "duration": 750000,
+   "text": "the"
+  },
+  {
+   "offset": 27625000,
+   "duration": 1625000,
+   "text": "way"
+  },
+  {
+   "offset": 29375000,
+   "duration": 2500000,
+   "text": "back"
+  },
+  {
+   "offset": 32000000,
+   "duration": 1750000,
+   "text": "from"
+  },
+  {
+   "offset": 33875000,
+   "duration": 5125000,
+   "text": "Poland"
+  },
+  {
+   "offset": 42125000,
+   "duration": 1750000,
+   "text": "two"
+  },
+  {
+   "offset": 44000000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 45125000,
+   "duration": 1625000,
+   "text": "them"
+  },
+  {
+   "offset": 46875000,
+   "duration": 3750000,
+   "text": "changed"
+  },
+  {
+   "offset": 50750000,
+   "duration": 3500000,
+   "text": "planes"
+  },
+  {
+   "offset": 54375000,
+   "duration": 1000000,
+   "text": "in"
+  },
+  {
+   "offset": 55500000,
+   "duration": 5375000,
+   "text": "Vienna"
+  },
+  {
+   "offset": 65125000,
+   "duration": 1000000,
+   "text": "They"
+  },
+  {
+   "offset": 66250000,
+   "duration": 1250000,
+   "text": "were"
+  },
+  {
+   "offset": 67625000,
+   "duration": 2375000,
+   "text": "so"
+  },
+  {
+   "offset": 70125000,
+   "duration": 3250000,
+   "text": "busy"
+  },
+  {
+   "offset": 73500000,
+   "duration": 4250000,
+   "text": "talking"
+  },
+  {
+   "offset": 77875000,
+   "duration": 5750000,
+   "text": "strategy"
+  },
+  {
+   "offset": 83750000,
+   "duration": 1625000,
+   "text": "that"
+  },
+  {
+   "offset": 85500000,
+   "duration": 1125000,
+   "text": "they"
+  },
+  {
+   "offset": 86750000,
+   "duration": 2625000,
+   "text": "didn't"
+  },
+  {
+   "offset": 89500000,
+   "duration": 3625000,
+   "text": "notice"
+  },
+  {
+   "offset": 93250000,
+   "duration": 1625000,
+   "text": "their"
+  },
+  {
+   "offset": 95000000,
+   "duration": 3375000,
+   "text": "flight"
+  },
+  {
+   "offset": 98500000,
+   "duration": 4750000,
+   "text": "leaving"
+  },
+  {
+   "offset": 107125000,
+   "duration": 1625000,
+   "text": "right"
+  },
+  {
+   "offset": 108875000,
+   "duration": 1000000,
+   "text": "in"
+  },
+  {
+   "offset": 110000000,
+   "duration": 2750000,
+   "text": "front"
+  },
+  {
+   "offset": 112875000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 114000000,
+   "duration": 3125000,
+   "text": "them"
+  },
+  {
+   "offset": 121250000,
+   "duration": 875000,
+   "text": "It"
+  },
+  {
+   "offset": 122250000,
+   "duration": 1375000,
+   "text": "was"
+  },
+  {
+   "offset": 123750000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 125000000,
+   "duration": 3875000,
+   "text": "last"
+  },
+  {
+   "offset": 129000000,
+   "duration": 1375000,
+   "text": "one"
+  },
+  {
+   "offset": 130500000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 131625000,
+   "duration": 625000,
+   "text": "the"
+  },
+  {
+   "offset": 132375000,
+   "duration": 6000000,
+   "text": "evening"
+  },
+  {
+   "offset": 142500000,
+   "duration": 2000000,
+   "text": "That"
+  },
+  {
+   "offset": 144625000,
+   "duration": 4000000,
+   "text": "night"
+  },
+  {
+   "offset": 151000000,
+   "duration": 1250000,
+   "text": "they"
+  },
+  {
+   "offset": 152375000,
+   "duration": 3375000,
+   "text": "slept"
+  },
+  {
+   "offset": 155875000,
+   "duration": 875000,
+   "text": "at"
+  },
+  {
+   "offset": 156875000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 157875000,
+   "duration": 6750000,
+   "text": "airport"
+  }
+ ]
+}

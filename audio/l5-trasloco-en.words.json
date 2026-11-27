@@ -1,0 +1,259 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Before long, the office in via Ugo Bassi was bursting at the seams. Later that year, Tuotempo moved to new offices in via Garibaldi. Those were strange times: if someone asked for one more integrator, the answer was: \u201cWhy not three? Or five?\u201d There was only one rule: no bottlenecks.",
+ "spoken": "Before long, the office in via Oogo Bassi was bursting at the seams. Later that year, Tuotempo moved to new offices in via Garibaldi. Those were strange times: if someone asked for one more integrator, the answer was: \u201cWhy not three? Or five?\u201d There was only one rule: no bottlenecks.",
+ "words": [
+  {
+   "offset": 875000,
+   "duration": 3250000,
+   "text": "Before"
+  },
+  {
+   "offset": 4250000,
+   "duration": 3875000,
+   "text": "long"
+  },
+  {
+   "offset": 11000000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 12250000,
+   "duration": 4500000,
+   "text": "office"
+  },
+  {
+   "offset": 16875000,
+   "duration": 1125000,
+   "text": "in"
+  },
+  {
+   "offset": 18125000,
+   "duration": 3375000,
+   "text": "via"
+  },
+  {
+   "offset": 21625000,
+   "duration": 2625000,
+   "text": "Ugo"
+  },
+  {
+   "offset": 24375000,
+   "duration": 3875000,
+   "text": "Bassi"
+  },
+  {
+   "offset": 28375000,
+   "duration": 1875000,
+   "text": "was"
+  },
+  {
+   "offset": 30375000,
+   "duration": 4625000,
+   "text": "bursting"
+  },
+  {
+   "offset": 35125000,
+   "duration": 1000000,
+   "text": "at"
+  },
+  {
+   "offset": 36250000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 37250000,
+   "duration": 5875000,
+   "text": "seams"
+  },
+  {
+   "offset": 47125000,
+   "duration": 3125000,
+   "text": "Later"
+  },
+  {
+   "offset": 50375000,
+   "duration": 2125000,
+   "text": "that"
+  },
+  {
+   "offset": 52625000,
+   "duration": 3375000,
+   "text": "year"
+  },
+  {
+   "offset": 59250000,
+   "duration": 6250000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 65625000,
+   "duration": 2375000,
+   "text": "moved"
+  },
+  {
+   "offset": 68125000,
+   "duration": 875000,
+   "text": "to"
+  },
+  {
+   "offset": 69125000,
+   "duration": 1875000,
+   "text": "new"
+  },
+  {
+   "offset": 71125000,
+   "duration": 5750000,
+   "text": "offices"
+  },
+  {
+   "offset": 77000000,
+   "duration": 1375000,
+   "text": "in"
+  },
+  {
+   "offset": 78500000,
+   "duration": 2625000,
+   "text": "via"
+  },
+  {
+   "offset": 81250000,
+   "duration": 7625000,
+   "text": "Garibaldi"
+  },
+  {
+   "offset": 92875000,
+   "duration": 2375000,
+   "text": "Those"
+  },
+  {
+   "offset": 95375000,
+   "duration": 1375000,
+   "text": "were"
+  },
+  {
+   "offset": 96875000,
+   "duration": 4375000,
+   "text": "strange"
+  },
+  {
+   "offset": 101375000,
+   "duration": 5000000,
+   "text": "times"
+  },
+  {
+   "offset": 113000000,
+   "duration": 875000,
+   "text": "if"
+  },
+  {
+   "offset": 114000000,
+   "duration": 3750000,
+   "text": "someone"
+  },
+  {
+   "offset": 117875000,
+   "duration": 2625000,
+   "text": "asked"
+  },
+  {
+   "offset": 120625000,
+   "duration": 1375000,
+   "text": "for"
+  },
+  {
+   "offset": 122125000,
+   "duration": 2000000,
+   "text": "one"
+  },
+  {
+   "offset": 124250000,
+   "duration": 2000000,
+   "text": "more"
+  },
+  {
+   "offset": 126375000,
+   "duration": 6375000,
+   "text": "integrator"
+  },
+  {
+   "offset": 133125000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 134250000,
+   "duration": 3875000,
+   "text": "answer"
+  },
+  {
+   "offset": 138250000,
+   "duration": 3000000,
+   "text": "was"
+  },
+  {
+   "offset": 145250000,
+   "duration": 1625000,
+   "text": "Why"
+  },
+  {
+   "offset": 147000000,
+   "duration": 2500000,
+   "text": "not"
+  },
+  {
+   "offset": 149625000,
+   "duration": 3875000,
+   "text": "three"
+  },
+  {
+   "offset": 157750000,
+   "duration": 1125000,
+   "text": "Or"
+  },
+  {
+   "offset": 159000000,
+   "duration": 5000000,
+   "text": "five"
+  },
+  {
+   "offset": 167375000,
+   "duration": 1125000,
+   "text": "There"
+  },
+  {
+   "offset": 168625000,
+   "duration": 1875000,
+   "text": "was"
+  },
+  {
+   "offset": 170625000,
+   "duration": 2750000,
+   "text": "only"
+  },
+  {
+   "offset": 173500000,
+   "duration": 2625000,
+   "text": "one"
+  },
+  {
+   "offset": 176250000,
+   "duration": 3250000,
+   "text": "rule"
+  },
+  {
+   "offset": 183250000,
+   "duration": 1375000,
+   "text": "no"
+  },
+  {
+   "offset": 184750000,
+   "duration": 8375000,
+   "text": "bottlenecks"
+  }
+ ]
+}

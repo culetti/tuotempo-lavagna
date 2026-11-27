@@ -1,0 +1,264 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "2019. A new face arrived in the office: a manager from Turkey, used to big clients and to growing fast. In spring, the deal was done. And Tuotempo set off with a clear mission: to reach the doctors of the large private hospitals, and their patients, where Docplanner had never been.",
+ "spoken": "2019. A new face arrived in the office: a manager from Turkey, used to big clients and to growing fast. In spring, the deal was done. And Tuotempo set off with a clear mission: to reach the doctors of the large private hospitals, and their patients, where Docplanner had never been.",
+ "words": [
+  {
+   "offset": 875000,
+   "duration": 11375000,
+   "text": "2019"
+  },
+  {
+   "offset": 18625000,
+   "duration": 250000,
+   "text": "A"
+  },
+  {
+   "offset": 19000000,
+   "duration": 2375000,
+   "text": "new"
+  },
+  {
+   "offset": 21500000,
+   "duration": 3250000,
+   "text": "face"
+  },
+  {
+   "offset": 24875000,
+   "duration": 3750000,
+   "text": "arrived"
+  },
+  {
+   "offset": 28750000,
+   "duration": 875000,
+   "text": "in"
+  },
+  {
+   "offset": 29750000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 30875000,
+   "duration": 5500000,
+   "text": "office"
+  },
+  {
+   "offset": 39750000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 40375000,
+   "duration": 4750000,
+   "text": "manager"
+  },
+  {
+   "offset": 45250000,
+   "duration": 2250000,
+   "text": "from"
+  },
+  {
+   "offset": 47625000,
+   "duration": 4875000,
+   "text": "Turkey"
+  },
+  {
+   "offset": 55500000,
+   "duration": 2250000,
+   "text": "used"
+  },
+  {
+   "offset": 57875000,
+   "duration": 875000,
+   "text": "to"
+  },
+  {
+   "offset": 58875000,
+   "duration": 2125000,
+   "text": "big"
+  },
+  {
+   "offset": 61125000,
+   "duration": 5000000,
+   "text": "clients"
+  },
+  {
+   "offset": 66250000,
+   "duration": 1625000,
+   "text": "and"
+  },
+  {
+   "offset": 68000000,
+   "duration": 1000000,
+   "text": "to"
+  },
+  {
+   "offset": 69125000,
+   "duration": 3625000,
+   "text": "growing"
+  },
+  {
+   "offset": 72875000,
+   "duration": 6000000,
+   "text": "fast"
+  },
+  {
+   "offset": 83000000,
+   "duration": 1500000,
+   "text": "In"
+  },
+  {
+   "offset": 84625000,
+   "duration": 3875000,
+   "text": "spring"
+  },
+  {
+   "offset": 88750000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 90000000,
+   "duration": 2375000,
+   "text": "deal"
+  },
+  {
+   "offset": 92500000,
+   "duration": 1750000,
+   "text": "was"
+  },
+  {
+   "offset": 94375000,
+   "duration": 4125000,
+   "text": "done"
+  },
+  {
+   "offset": 102625000,
+   "duration": 1500000,
+   "text": "And"
+  },
+  {
+   "offset": 104250000,
+   "duration": 6625000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 111000000,
+   "duration": 2500000,
+   "text": "set"
+  },
+  {
+   "offset": 113625000,
+   "duration": 2250000,
+   "text": "off"
+  },
+  {
+   "offset": 116000000,
+   "duration": 1250000,
+   "text": "with"
+  },
+  {
+   "offset": 117375000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 118125000,
+   "duration": 2750000,
+   "text": "clear"
+  },
+  {
+   "offset": 121000000,
+   "duration": 4750000,
+   "text": "mission"
+  },
+  {
+   "offset": 132000000,
+   "duration": 1125000,
+   "text": "to"
+  },
+  {
+   "offset": 133250000,
+   "duration": 2500000,
+   "text": "reach"
+  },
+  {
+   "offset": 135875000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 137125000,
+   "duration": 4750000,
+   "text": "doctors"
+  },
+  {
+   "offset": 142000000,
+   "duration": 750000,
+   "text": "of"
+  },
+  {
+   "offset": 142875000,
+   "duration": 1000000,
+   "text": "the"
+  },
+  {
+   "offset": 144000000,
+   "duration": 3500000,
+   "text": "large"
+  },
+  {
+   "offset": 147625000,
+   "duration": 3625000,
+   "text": "private"
+  },
+  {
+   "offset": 151375000,
+   "duration": 7250000,
+   "text": "hospitals"
+  },
+  {
+   "offset": 161375000,
+   "duration": 1125000,
+   "text": "and"
+  },
+  {
+   "offset": 162625000,
+   "duration": 1500000,
+   "text": "their"
+  },
+  {
+   "offset": 164250000,
+   "duration": 6250000,
+   "text": "patients"
+  },
+  {
+   "offset": 172875000,
+   "duration": 1750000,
+   "text": "where"
+  },
+  {
+   "offset": 174750000,
+   "duration": 5875000,
+   "text": "Docplanner"
+  },
+  {
+   "offset": 180750000,
+   "duration": 1625000,
+   "text": "had"
+  },
+  {
+   "offset": 182500000,
+   "duration": 3125000,
+   "text": "never"
+  },
+  {
+   "offset": 185750000,
+   "duration": 3750000,
+   "text": "been"
+  }
+ ]
+}

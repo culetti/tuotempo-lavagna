@@ -1,0 +1,274 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Late 2022, Barcelona. Around a table, a new course for Tuotempo, with a new guide and a clear choice: the large accounts. A few weeks later the world changed again: money became expensive, and everyone was asked to tighten their belts. Over Christmas, a third plan was written: spend less, and sell better.",
+ "spoken": "Late 2022, Barcelona. Around a table, a new course for Tuotempo, with a new guide and a clear choice: the large accounts. A few weeks later the world changed again: money became expensive, and everyone was asked to tighten their belts. Over Christmas, a third plan was written: spend less, and sell better.",
+ "words": [
+  {
+   "offset": 1000000,
+   "duration": 2500000,
+   "text": "Late"
+  },
+  {
+   "offset": 3625000,
+   "duration": 9750000,
+   "text": "2022"
+  },
+  {
+   "offset": 13625000,
+   "duration": 8375000,
+   "text": "Barcelona"
+  },
+  {
+   "offset": 26000000,
+   "duration": 3250000,
+   "text": "Around"
+  },
+  {
+   "offset": 29375000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 30000000,
+   "duration": 4875000,
+   "text": "table"
+  },
+  {
+   "offset": 37375000,
+   "duration": 250000,
+   "text": "a"
+  },
+  {
+   "offset": 37750000,
+   "duration": 2250000,
+   "text": "new"
+  },
+  {
+   "offset": 40125000,
+   "duration": 3250000,
+   "text": "course"
+  },
+  {
+   "offset": 43500000,
+   "duration": 1625000,
+   "text": "for"
+  },
+  {
+   "offset": 45250000,
+   "duration": 7375000,
+   "text": "Tuotempo"
+  },
+  {
+   "offset": 55625000,
+   "duration": 1625000,
+   "text": "with"
+  },
+  {
+   "offset": 57375000,
+   "duration": 375000,
+   "text": "a"
+  },
+  {
+   "offset": 57875000,
+   "duration": 2375000,
+   "text": "new"
+  },
+  {
+   "offset": 60375000,
+   "duration": 3500000,
+   "text": "guide"
+  },
+  {
+   "offset": 64000000,
+   "duration": 1000000,
+   "text": "and"
+  },
+  {
+   "offset": 65125000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 65875000,
+   "duration": 2875000,
+   "text": "clear"
+  },
+  {
+   "offset": 68875000,
+   "duration": 4875000,
+   "text": "choice"
+  },
+  {
+   "offset": 78250000,
+   "duration": 1250000,
+   "text": "the"
+  },
+  {
+   "offset": 79625000,
+   "duration": 2875000,
+   "text": "large"
+  },
+  {
+   "offset": 82625000,
+   "duration": 6250000,
+   "text": "accounts"
+  },
+  {
+   "offset": 92875000,
+   "duration": 625000,
+   "text": "A"
+  },
+  {
+   "offset": 93625000,
+   "duration": 2500000,
+   "text": "few"
+  },
+  {
+   "offset": 96250000,
+   "duration": 3000000,
+   "text": "weeks"
+  },
+  {
+   "offset": 99375000,
+   "duration": 2750000,
+   "text": "later"
+  },
+  {
+   "offset": 102250000,
+   "duration": 1125000,
+   "text": "the"
+  },
+  {
+   "offset": 103500000,
+   "duration": 2875000,
+   "text": "world"
+  },
+  {
+   "offset": 106500000,
+   "duration": 4000000,
+   "text": "changed"
+  },
+  {
+   "offset": 110625000,
+   "duration": 3750000,
+   "text": "again"
+  },
+  {
+   "offset": 120250000,
+   "duration": 2500000,
+   "text": "money"
+  },
+  {
+   "offset": 122875000,
+   "duration": 3875000,
+   "text": "became"
+  },
+  {
+   "offset": 126875000,
+   "duration": 7125000,
+   "text": "expensive"
+  },
+  {
+   "offset": 138375000,
+   "duration": 1125000,
+   "text": "and"
+  },
+  {
+   "offset": 139625000,
+   "duration": 4375000,
+   "text": "everyone"
+  },
+  {
+   "offset": 144125000,
+   "duration": 1875000,
+   "text": "was"
+  },
+  {
+   "offset": 146125000,
+   "duration": 2750000,
+   "text": "asked"
+  },
+  {
+   "offset": 149000000,
+   "duration": 875000,
+   "text": "to"
+  },
+  {
+   "offset": 150000000,
+   "duration": 3500000,
+   "text": "tighten"
+  },
+  {
+   "offset": 153625000,
+   "duration": 1500000,
+   "text": "their"
+  },
+  {
+   "offset": 155250000,
+   "duration": 5250000,
+   "text": "belts"
+  },
+  {
+   "offset": 164625000,
+   "duration": 2625000,
+   "text": "Over"
+  },
+  {
+   "offset": 167375000,
+   "duration": 5875000,
+   "text": "Christmas"
+  },
+  {
+   "offset": 173750000,
+   "duration": 375000,
+   "text": "a"
+  },
+  {
+   "offset": 174250000,
+   "duration": 3250000,
+   "text": "third"
+  },
+  {
+   "offset": 177625000,
+   "duration": 2625000,
+   "text": "plan"
+  },
+  {
+   "offset": 180375000,
+   "duration": 1875000,
+   "text": "was"
+  },
+  {
+   "offset": 182375000,
+   "duration": 3625000,
+   "text": "written"
+  },
+  {
+   "offset": 190000000,
+   "duration": 3500000,
+   "text": "spend"
+  },
+  {
+   "offset": 193625000,
+   "duration": 3000000,
+   "text": "less"
+  },
+  {
+   "offset": 196875000,
+   "duration": 1250000,
+   "text": "and"
+  },
+  {
+   "offset": 198250000,
+   "duration": 2375000,
+   "text": "sell"
+  },
+  {
+   "offset": 200750000,
+   "duration": 4250000,
+   "text": "better"
+  }
+ ]
+}

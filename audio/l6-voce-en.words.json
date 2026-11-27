@@ -1,0 +1,314 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "Long meetings, three people around a table. Donatello: \u201cVoice has had its day: the future is chat.\u201d Gef: \u201cWe don't have the resources for something that big.\u201d And the new guide: \u201cWe need new products to sell.\u201d Make or buy? In the end, they built it at home. Years after that first robot call in the night, the voice was back.",
+ "spoken": "Long meetings, three people around a table. Donatello: \u201cVoice has had its day: the future is chat.\u201d Jeff: \u201cWe don't have the resources for something that big.\u201d And the new guide: \u201cWe need new products to sell.\u201d Make or buy? In the end, they built it at home. Years after that first robot call in the night, the voice was back.",
+ "words": [
+  {
+   "offset": 875000,
+   "duration": 2875000,
+   "text": "Long"
+  },
+  {
+   "offset": 3875000,
+   "duration": 5125000,
+   "text": "meetings"
+  },
+  {
+   "offset": 10875000,
+   "duration": 2375000,
+   "text": "three"
+  },
+  {
+   "offset": 13375000,
+   "duration": 3500000,
+   "text": "people"
+  },
+  {
+   "offset": 17000000,
+   "duration": 3125000,
+   "text": "around"
+  },
+  {
+   "offset": 20250000,
+   "duration": 500000,
+   "text": "a"
+  },
+  {
+   "offset": 20875000,
+   "duration": 5625000,
+   "text": "table"
+  },
+  {
+   "offset": 30500000,
+   "duration": 6750000,
+   "text": "Donatello"
+  },
+  {
+   "offset": 43375000,
+   "duration": 2875000,
+   "text": "Voice"
+  },
+  {
+   "offset": 46375000,
+   "duration": 1500000,
+   "text": "has"
+  },
+  {
+   "offset": 48000000,
+   "duration": 2000000,
+   "text": "had"
+  },
+  {
+   "offset": 50125000,
+   "duration": 1875000,
+   "text": "its"
+  },
+  {
+   "offset": 52125000,
+   "duration": 3000000,
+   "text": "day"
+  },
+  {
+   "offset": 59500000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 60500000,
+   "duration": 4125000,
+   "text": "future"
+  },
+  {
+   "offset": 64750000,
+   "duration": 1250000,
+   "text": "is"
+  },
+  {
+   "offset": 66125000,
+   "duration": 5375000,
+   "text": "chat"
+  },
+  {
+   "offset": 78375000,
+   "duration": 4000000,
+   "text": "Gef"
+  },
+  {
+   "offset": 87000000,
+   "duration": 1125000,
+   "text": "We"
+  },
+  {
+   "offset": 88250000,
+   "duration": 2375000,
+   "text": "don't"
+  },
+  {
+   "offset": 90750000,
+   "duration": 2000000,
+   "text": "have"
+  },
+  {
+   "offset": 92875000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 93875000,
+   "duration": 6875000,
+   "text": "resources"
+  },
+  {
+   "offset": 100875000,
+   "duration": 1500000,
+   "text": "for"
+  },
+  {
+   "offset": 102500000,
+   "duration": 3750000,
+   "text": "something"
+  },
+  {
+   "offset": 106375000,
+   "duration": 2125000,
+   "text": "that"
+  },
+  {
+   "offset": 108625000,
+   "duration": 3875000,
+   "text": "big"
+  },
+  {
+   "offset": 120125000,
+   "duration": 875000,
+   "text": "And"
+  },
+  {
+   "offset": 121125000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 122125000,
+   "duration": 2000000,
+   "text": "new"
+  },
+  {
+   "offset": 124250000,
+   "duration": 4250000,
+   "text": "guide"
+  },
+  {
+   "offset": 134375000,
+   "duration": 1250000,
+   "text": "We"
+  },
+  {
+   "offset": 135750000,
+   "duration": 2000000,
+   "text": "need"
+  },
+  {
+   "offset": 137875000,
+   "duration": 1375000,
+   "text": "new"
+  },
+  {
+   "offset": 139375000,
+   "duration": 4875000,
+   "text": "products"
+  },
+  {
+   "offset": 144375000,
+   "duration": 1125000,
+   "text": "to"
+  },
+  {
+   "offset": 145625000,
+   "duration": 4625000,
+   "text": "sell"
+  },
+  {
+   "offset": 157125000,
+   "duration": 2125000,
+   "text": "Make"
+  },
+  {
+   "offset": 159375000,
+   "duration": 1125000,
+   "text": "or"
+  },
+  {
+   "offset": 160625000,
+   "duration": 4000000,
+   "text": "buy"
+  },
+  {
+   "offset": 168625000,
+   "duration": 1000000,
+   "text": "In"
+  },
+  {
+   "offset": 169750000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 170750000,
+   "duration": 2625000,
+   "text": "end"
+  },
+  {
+   "offset": 173625000,
+   "duration": 1125000,
+   "text": "they"
+  },
+  {
+   "offset": 174875000,
+   "duration": 3125000,
+   "text": "built"
+  },
+  {
+   "offset": 178125000,
+   "duration": 1000000,
+   "text": "it"
+  },
+  {
+   "offset": 179250000,
+   "duration": 1000000,
+   "text": "at"
+  },
+  {
+   "offset": 180375000,
+   "duration": 4500000,
+   "text": "home"
+  },
+  {
+   "offset": 188875000,
+   "duration": 3375000,
+   "text": "Years"
+  },
+  {
+   "offset": 192375000,
+   "duration": 2875000,
+   "text": "after"
+  },
+  {
+   "offset": 195375000,
+   "duration": 2125000,
+   "text": "that"
+  },
+  {
+   "offset": 197625000,
+   "duration": 3250000,
+   "text": "first"
+  },
+  {
+   "offset": 201000000,
+   "duration": 3625000,
+   "text": "robot"
+  },
+  {
+   "offset": 204750000,
+   "duration": 2625000,
+   "text": "call"
+  },
+  {
+   "offset": 207500000,
+   "duration": 875000,
+   "text": "in"
+  },
+  {
+   "offset": 208500000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 209500000,
+   "duration": 4000000,
+   "text": "night"
+  },
+  {
+   "offset": 216625000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 217625000,
+   "duration": 3250000,
+   "text": "voice"
+  },
+  {
+   "offset": 221000000,
+   "duration": 1625000,
+   "text": "was"
+  },
+  {
+   "offset": 222750000,
+   "duration": 5000000,
+   "text": "back"
+  }
+ ]
+}

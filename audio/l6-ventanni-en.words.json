@@ -1,0 +1,259 @@
+{
+ "voice": "en-US-EmmaMultilingualNeural",
+ "rate": "+0%",
+ "boundary": "WordBoundary",
+ "text": "And here we are: 2026. The voice and chat assistants, built at home, are a success. Marketplace profiles are growing faster than ever, in Spain and in Italy. And the grid of modules is full\u2026 all of it starting from a simple agenda, twenty years ago. Twenty years of Tuotempo.",
+ "spoken": "And here we are: 2026. The voice and chat assistants, built at home, are a success. Marketplace profiles are growing faster than ever, in Spain and in Italy. And the grid of modules is full\u2026 all of it starting from a simple agenda, twenty years ago. Twenty years of Tuotempo.",
+ "words": [
+  {
+   "offset": 1000000,
+   "duration": 1375000,
+   "text": "And"
+  },
+  {
+   "offset": 2500000,
+   "duration": 2500000,
+   "text": "here"
+  },
+  {
+   "offset": 5125000,
+   "duration": 1625000,
+   "text": "we"
+  },
+  {
+   "offset": 6875000,
+   "duration": 3125000,
+   "text": "are"
+  },
+  {
+   "offset": 13000000,
+   "duration": 11875000,
+   "text": "2026"
+  },
+  {
+   "offset": 28875000,
+   "duration": 750000,
+   "text": "The"
+  },
+  {
+   "offset": 29750000,
+   "duration": 3625000,
+   "text": "voice"
+  },
+  {
+   "offset": 33500000,
+   "duration": 1250000,
+   "text": "and"
+  },
+  {
+   "offset": 34875000,
+   "duration": 2375000,
+   "text": "chat"
+  },
+  {
+   "offset": 37375000,
+   "duration": 7250000,
+   "text": "assistants"
+  },
+  {
+   "offset": 45125000,
+   "duration": 2500000,
+   "text": "built"
+  },
+  {
+   "offset": 47750000,
+   "duration": 875000,
+   "text": "at"
+  },
+  {
+   "offset": 48750000,
+   "duration": 3500000,
+   "text": "home"
+  },
+  {
+   "offset": 52625000,
+   "duration": 1250000,
+   "text": "are"
+  },
+  {
+   "offset": 54000000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 54750000,
+   "duration": 7250000,
+   "text": "success"
+  },
+  {
+   "offset": 66125000,
+   "duration": 6500000,
+   "text": "Marketplace"
+  },
+  {
+   "offset": 72750000,
+   "duration": 6125000,
+   "text": "profiles"
+  },
+  {
+   "offset": 79000000,
+   "duration": 1000000,
+   "text": "are"
+  },
+  {
+   "offset": 80125000,
+   "duration": 3750000,
+   "text": "growing"
+  },
+  {
+   "offset": 84000000,
+   "duration": 4875000,
+   "text": "faster"
+  },
+  {
+   "offset": 89000000,
+   "duration": 1875000,
+   "text": "than"
+  },
+  {
+   "offset": 91000000,
+   "duration": 3500000,
+   "text": "ever"
+  },
+  {
+   "offset": 94875000,
+   "duration": 1500000,
+   "text": "in"
+  },
+  {
+   "offset": 96500000,
+   "duration": 4500000,
+   "text": "Spain"
+  },
+  {
+   "offset": 101125000,
+   "duration": 1500000,
+   "text": "and"
+  },
+  {
+   "offset": 102750000,
+   "duration": 1250000,
+   "text": "in"
+  },
+  {
+   "offset": 104125000,
+   "duration": 5125000,
+   "text": "Italy"
+  },
+  {
+   "offset": 113375000,
+   "duration": 875000,
+   "text": "And"
+  },
+  {
+   "offset": 114375000,
+   "duration": 875000,
+   "text": "the"
+  },
+  {
+   "offset": 115375000,
+   "duration": 2375000,
+   "text": "grid"
+  },
+  {
+   "offset": 117875000,
+   "duration": 1125000,
+   "text": "of"
+  },
+  {
+   "offset": 119125000,
+   "duration": 5500000,
+   "text": "modules"
+  },
+  {
+   "offset": 124750000,
+   "duration": 1500000,
+   "text": "is"
+  },
+  {
+   "offset": 126375000,
+   "duration": 3125000,
+   "text": "full"
+  },
+  {
+   "offset": 131875000,
+   "duration": 2125000,
+   "text": "all"
+  },
+  {
+   "offset": 134125000,
+   "duration": 1125000,
+   "text": "of"
+  },
+  {
+   "offset": 135375000,
+   "duration": 1125000,
+   "text": "it"
+  },
+  {
+   "offset": 136625000,
+   "duration": 4250000,
+   "text": "starting"
+  },
+  {
+   "offset": 141000000,
+   "duration": 1750000,
+   "text": "from"
+  },
+  {
+   "offset": 142875000,
+   "duration": 625000,
+   "text": "a"
+  },
+  {
+   "offset": 143625000,
+   "duration": 4000000,
+   "text": "simple"
+  },
+  {
+   "offset": 147750000,
+   "duration": 5375000,
+   "text": "agenda"
+  },
+  {
+   "offset": 156250000,
+   "duration": 3125000,
+   "text": "twenty"
+  },
+  {
+   "offset": 159500000,
+   "duration": 2750000,
+   "text": "years"
+  },
+  {
+   "offset": 162375000,
+   "duration": 4000000,
+   "text": "ago"
+  },
+  {
+   "offset": 170375000,
+   "duration": 3250000,
+   "text": "Twenty"
+  },
+  {
+   "offset": 173750000,
+   "duration": 3500000,
+   "text": "years"
+  },
+  {
+   "offset": 177375000,
+   "duration": 1000000,
+   "text": "of"
+  },
+  {
+   "offset": 178500000,
+   "duration": 8125000,
+   "text": "Tuotempo"
+  }
+ ]
+}

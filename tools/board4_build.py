@@ -51,7 +51,7 @@ sectnotes={
  'l4-pretendenti':'Master §3 “Il finale” e §6 momento 17. Autunno 2018: term sheet del fondo 23/09–01/10/2018, Docplanner dal 15/10/2018 (CERTO). Il fondo resta anonimo; niente cifre (regola dell’11/11).',
  'l4-scelta':'Master §3 “Perché Docplanner” e §6 momento 18 (RICORDO, registrazione 11/11): Don torna dal fondo, il fondo capisce che i fondatori non vogliono ripartire con round ed espansione USA. Lasciato fuori l’aspetto personale.',
  'l4-ciacco':'Master §3 “La cena decisiva” e §6 momento 19 (RICORDO): trattoria Ciacco, via Farini, Bologna; Gef (Gianfranco) arriva dalla Spagna col trolley; affinità su strumenti e lavoro distribuito. Persone di Docplanner non nominate; la richiesta della quota resta fuori. Data: con ogni probabilità la sera del 17/10/2018 (visita di Mariusz e dei due cofondatori a Bologna, [COWORK] 18/11); in voce “one evening in October 2018”.',
- 'l4-si':'Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra; passa la parola al racconto di Gef (Gianfranco).',
+ 'l4-si':'Master §3 e §6 momento 20: assemblea 27/11/2018, nuova proposta approvata 30/01/2019, due diligence chiusa ad aprile 2019, “JOIN 13 MAY” 2019 (CERTO). Breve e positivo, nessuna cifra. Chiusura cambiata il 27/11 (Lele: 2019–2026 nello stesso player): «…and the start of a race.» porta alla Lavagna 5 «The race» (prima «Over to Gef.»).',
 }
 sections=[]
 for sec in T:

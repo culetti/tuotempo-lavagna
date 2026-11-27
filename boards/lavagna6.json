@@ -1,0 +1,361 @@
+{
+  "board": {
+    "id": "lavagna6",
+    "title": "Di nuovo in rotta",
+    "tag": "Back on course",
+    "years": "2022–2026",
+    "color": "#cc1f63",
+    "sections": [
+      "l6-rotta",
+      "l6-utile",
+      "l6-voce",
+      "l6-scommesse",
+      "l6-ventanni"
+    ],
+    "region": {
+      "x": 22160,
+      "y": 0,
+      "w": 4040,
+      "h": 2540
+    },
+    "final": {
+      "circle": {
+        "x": 25184,
+        "y": 1846,
+        "rx": 110,
+        "ry": 100
+      },
+      "yearsAt": [
+        25410,
+        2300
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "l6-rotta",
+      "board": "lavagna6",
+      "title": "A new course",
+      "art": [
+        "l6-rotta"
+      ],
+      "narration": {
+        "en": "Late 2022, Barcelona. Around a table, a new course for Tuotempo, with a new guide and a clear choice: the large accounts. A few weeks later the world changed again: money became expensive, and everyone was asked to tighten their belts. Over Christmas, a third plan was written: spend less, and sell better.",
+        "it": "Fine 2022, Barcellona. Attorno a un tavolo, una nuova rotta per Tuotempo, con una nuova guida e una scelta chiara: i grandi clienti. Poche settimane dopo il mondo cambia ancora: il denaro diventa caro, e a tutti si chiede di stringere la cinghia. Sotto Natale nasce un terzo piano: spendere meno, e vendere meglio."
+      },
+      "cues": [
+        {
+          "en": "Late 2022, Barcelona.",
+          "it": "Fine 2022, Barcellona.",
+          "art": "l6-rotta",
+          "start": 0.1,
+          "end": 2.2,
+          "duration": 2.1
+        },
+        {
+          "en": "Around a table, a new course for Tuotempo, with a new guide and a clear choice: the large accounts.",
+          "it": "Attorno a un tavolo, una nuova rotta per Tuotempo, con una nuova guida e una scelta chiara: i grandi clienti.",
+          "art": "l6-rotta",
+          "start": 2.6,
+          "end": 8.8875,
+          "duration": 6.2875
+        },
+        {
+          "en": "A few weeks later the world changed again: money became expensive, and everyone was asked to tighten their belts.",
+          "it": "Poche settimane dopo il mondo cambia ancora: il denaro diventa caro, e a tutti si chiede di stringere la cinghia.",
+          "art": "l6-rotta",
+          "start": 9.2875,
+          "end": 16.05,
+          "duration": 6.7625
+        },
+        {
+          "en": "Over Christmas, a third plan was written: spend less, and sell better.",
+          "it": "Sotto Natale nasce un terzo piano: spendere meno, e vendere meglio.",
+          "art": "l6-rotta",
+          "start": 16.4625,
+          "end": 20.88,
+          "duration": 4.4175
+        }
+      ],
+      "audio": "audio/l6-rotta-en.mp3",
+      "photo": null,
+      "notes": "M. (vocale 26/11): riunione a Barcellona fra settembre e novembre 2022, scelta dei large accounts; poi richiesta di tagliare i costi (denaro più caro); a Natale 2022 il terzo piano con un collega (non nominato). Formulazione prudente: «Late 2022». Nessun nome (M. = «a new guide»), nessuna cifra (cifre fuori).",
+      "incomplete": false
+    },
+    {
+      "id": "l6-utile",
+      "board": "lavagna6",
+      "title": "In the black",
+      "art": [
+        "l6-utile"
+      ],
+      "narration": {
+        "en": "Every process was reviewed: how we sold, what we sold, how new clients were welcomed. And by the summer of 2023, Tuotempo was profitable. The plan had worked. Then, after a long, tough negotiation, a big new Connect client signed in Italy… and soon the hardest measures of the plan could be lifted.",
+        "it": "Ogni processo viene rivisto: come si vendeva, cosa si vendeva, come si accoglievano i nuovi clienti. E nell’estate del 2023 Tuotempo è in utile. Il piano ha funzionato. Poi, dopo una trattativa lunga e dura, firma in Italia un grande nuovo cliente Connect… e presto le misure più dure del piano si possono togliere."
+      },
+      "cues": [
+        {
+          "en": "Every process was reviewed: how we sold, what we sold, how new clients were welcomed.",
+          "it": "Ogni processo viene rivisto: come si vendeva, cosa si vendeva, come si accoglievano i nuovi clienti.",
+          "art": "l6-utile",
+          "start": 0.0875,
+          "end": 5.75,
+          "duration": 5.6625
+        },
+        {
+          "en": "And by the summer of 2023, Tuotempo was profitable. The plan had worked.",
+          "it": "E nell’estate del 2023 Tuotempo è in utile. Il piano ha funzionato.",
+          "art": "l6-utile",
+          "start": 6.175,
+          "end": 11.5375,
+          "duration": 5.3625
+        },
+        {
+          "en": "Then, after a long, tough negotiation, a big new Connect client signed in Italy…",
+          "it": "Poi, dopo una trattativa lunga e dura, firma in Italia un grande nuovo cliente Connect…",
+          "art": "l6-utile",
+          "start": 11.95,
+          "end": 16.875,
+          "duration": 4.925
+        },
+        {
+          "en": "and soon the hardest measures of the plan could be lifted.",
+          "it": "e presto le misure più dure del piano si possono togliere.",
+          "art": "l6-utile",
+          "start": 17.25,
+          "end": 20.28,
+          "duration": 3.03
+        }
+      ],
+      "audio": "audio/l6-utile-en.mp3",
+      "photo": null,
+      "notes": "M.: revisione dei processi, personalizzazioni e API a pagamento, aumenti di prezzo (percentuali fuori dalla voce); profittabilità a giugno 2023; nuovo grande cliente Connect in Italia (nome oscurato); allentamento delle misure più dure all’inizio del 2024. Temi delicati del periodo fuori dalla voce. Formulazioni prudenti: «by the summer of 2023», «a big new Connect client signed in Italy» (cliente non nominato, nessun anno), «soon the hardest measures of the plan could be lifted» (misure non nominate). ATTESA CLAUDE: dubbio 7.",
+      "incomplete": false
+    },
+    {
+      "id": "l6-voce",
+      "board": "lavagna6",
+      "title": "Voice or chat?",
+      "art": [
+        "l6-voce"
+      ],
+      "narration": {
+        "en": "Long meetings, three people around a table. Donatello: “Voice has had its day: the future is chat.” Gef: “We don't have the resources for something that big.” And the new guide: “We need new products to sell.” Make or buy? In the end, they built it at home. Years after that first robot call in the night, the voice was back.",
+        "it": "Riunioni lunghe, tre persone attorno a un tavolo. Donatello: «La voce ha i giorni contati: il futuro è la chat». Gef: «Non abbiamo le risorse per una cosa così grande». E la nuova guida: «Servono prodotti nuovi da vendere». Comprare o costruire? Alla fine si fa in casa. Anni dopo quella prima chiamata robotica nella notte, la voce è tornata."
+      },
+      "cues": [
+        {
+          "en": "Long meetings, three people around a table.",
+          "it": "Riunioni lunghe, tre persone attorno a un tavolo.",
+          "art": "l6-voce",
+          "start": 0.0875,
+          "end": 2.65,
+          "duration": 2.5625
+        },
+        {
+          "en": "Donatello: “Voice has had its day: the future is chat.”",
+          "it": "Donatello: «La voce ha i giorni contati: il futuro è la chat».",
+          "art": "l6-voce",
+          "start": 3.05,
+          "end": 7.15,
+          "duration": 4.1
+        },
+        {
+          "en": "Gef: “We don't have the resources for something that big.”",
+          "it": "Gef: «Non abbiamo le risorse per una cosa così grande».",
+          "art": "l6-voce",
+          "start": 7.8375,
+          "end": 11.25,
+          "duration": 3.4125
+        },
+        {
+          "en": "And the new guide: “We need new products to sell.”",
+          "it": "E la nuova guida: «Servono prodotti nuovi da vendere».",
+          "art": "l6-voce",
+          "start": 12.0125,
+          "end": 15.025,
+          "duration": 3.0125
+        },
+        {
+          "en": "Make or buy? In the end, they built it at home.",
+          "it": "Comprare o costruire? Alla fine si fa in casa.",
+          "art": "l6-voce",
+          "start": 15.7125,
+          "end": 18.4875,
+          "duration": 2.775
+        },
+        {
+          "en": "Years after that first robot call in the night, the voice was back.",
+          "it": "Anni dopo quella prima chiamata robotica nella notte, la voce è tornata.",
+          "art": "l6-voce",
+          "start": 18.8875,
+          "end": 23.136,
+          "duration": 4.2485
+        }
+      ],
+      "audio": "audio/l6-voce-en.mp3",
+      "photo": {
+        "src": "assets/l6-cards-voice-chat.jpg",
+        "caption": "Voice Assistant and Chat Assistant · module cards",
+        "kind": "doc",
+        "disclosure": "Module cards from the Tuotempo 20 graphics (marketing, 2026); the data inside the cards is invented"
+      },
+      "notes": "M.: nel 2023 riunioni lunghe fra Gianfranco, Donatello e M.; Donatello «il Voice ha i giorni contati, il futuro è la chat», Gianfranco «non ci sono risorse», M. «servono prodotti nuovi»; make or buy → in house. Formulazione prudente: nessun anno in voce (riunioni 2023 per M., schede Voice e Chat Assistant 2025) e «Years after that first robot call» invece di «fourteen years». ATTESA CLAUDE: dubbio 6. Stop: schede 14 e 15 della grafica Tuotempo 20.",
+      "incomplete": false
+    },
+    {
+      "id": "l6-scommesse",
+      "board": "lavagna6",
+      "title": "Two bets",
+      "art": [
+        "l6-scommesse"
+      ],
+      "narration": {
+        "en": "Then came two bets. The first was the Marketplace. The second was Noa Notes: for the first time, a product for the doctor, not for the patient. It did not catch on… but the whole company threw itself into it, with an enthusiasm that was a lesson of its own.",
+        "it": "Poi arrivano due scommesse. La prima è il Marketplace. La seconda è Noa Notes: per la prima volta un prodotto per il medico, non per il paziente. Non ha attecchito… ma tutta l’azienda ci si è buttata, con un entusiasmo che è stato una lezione a sé."
+      },
+      "cues": [
+        {
+          "en": "Then came two bets.",
+          "it": "Poi arrivano due scommesse.",
+          "art": "l6-scommesse",
+          "start": 0.1,
+          "end": 1.2875,
+          "duration": 1.1875
+        },
+        {
+          "en": "The first was the Marketplace.",
+          "it": "La prima è il Marketplace.",
+          "art": "l6-scommesse",
+          "start": 1.7,
+          "end": 3.4125,
+          "duration": 1.7125
+        },
+        {
+          "en": "The second was Noa Notes: for the first time, a product for the doctor, not for the patient.",
+          "it": "La seconda è Noa Notes: per la prima volta un prodotto per il medico, non per il paziente.",
+          "art": "l6-scommesse",
+          "start": 3.825,
+          "end": 9.35,
+          "duration": 5.525
+        },
+        {
+          "en": "It did not catch on… but the whole company threw itself into it, with an enthusiasm that was a lesson of its own.",
+          "it": "Non ha attecchito… ma tutta l’azienda ci si è buttata, con un entusiasmo che è stato una lezione a sé.",
+          "art": "l6-scommesse",
+          "start": 9.7625,
+          "end": 16.752,
+          "duration": 6.9895
+        }
+      ],
+      "audio": "audio/l6-scommesse-en.mp3",
+      "photo": {
+        "src": "assets/l6-cards-marketplace-noa.jpg",
+        "caption": "Marketplace and Noa Notes · module cards",
+        "kind": "doc",
+        "disclosure": "Module cards from the Tuotempo 20 graphics (marketing, 2026); the data inside the cards is invented"
+      },
+      "notes": "M.: nel 2025 due scommesse, Marketplace (base del successo 2026) e Noa Notes (prodotto per il medico, non ha attecchito nel mercato Enterprise di Spagna e Italia, ma grande impegno di tutti). Formulazione prudente: «Then came two bets» (nessun anno: scheda Noa Notes 2024, vendita 2025; Marketplace 2018/2019 per N.). ATTESA CLAUDE: dubbio 8. Stop: schede Marketplace e Noa Notes.",
+      "incomplete": false
+    },
+    {
+      "id": "l6-ventanni",
+      "board": "lavagna6",
+      "title": "Twenty years",
+      "art": [
+        "l6-ventanni"
+      ],
+      "narration": {
+        "en": "And here we are: 2026. The voice and chat assistants, built at home, are a success. Marketplace profiles are growing faster than ever, in Spain and in Italy. And the grid of modules is full… all of it starting from a simple agenda, twenty years ago. Twenty years of Tuotempo.",
+        "it": "Ed eccoci: 2026. Gli assistenti vocale e chat, fatti in casa, sono un successo. I profili Marketplace crescono come mai prima, in Spagna e in Italia. E la griglia dei moduli è piena… tutto partito da una semplice agenda, vent’anni fa. Vent’anni di Tuotempo."
+      },
+      "cues": [
+        {
+          "en": "And here we are: 2026.",
+          "it": "Ed eccoci: 2026.",
+          "art": "l6-ventanni",
+          "start": 0.1,
+          "end": 2.4875,
+          "duration": 2.3875
+        },
+        {
+          "en": "The voice and chat assistants, built at home, are a success.",
+          "it": "Gli assistenti vocale e chat, fatti in casa, sono un successo.",
+          "art": "l6-ventanni",
+          "start": 2.8875,
+          "end": 6.2,
+          "duration": 3.3125
+        },
+        {
+          "en": "Marketplace profiles are growing faster than ever, in Spain and in Italy.",
+          "it": "I profili Marketplace crescono come mai prima, in Spagna e in Italia.",
+          "art": "l6-ventanni",
+          "start": 6.6125,
+          "end": 10.925,
+          "duration": 4.3125
+        },
+        {
+          "en": "And the grid of modules is full… all of it starting from a simple agenda, twenty years ago.",
+          "it": "E la griglia dei moduli è piena… tutto partito da una semplice agenda, vent’anni fa.",
+          "art": "l6-ventanni",
+          "start": 11.3375,
+          "end": 16.6375,
+          "duration": 5.3
+        },
+        {
+          "en": "Twenty years of Tuotempo.",
+          "it": "Vent’anni di Tuotempo.",
+          "art": "l6-ventanni",
+          "start": 17.0375,
+          "end": 19.032,
+          "duration": 1.9945
+        }
+      ],
+      "audio": "audio/l6-ventanni-en.mp3",
+      "photo": {
+        "src": "assets/l6-griglia.jpg",
+        "caption": "Twenty years of modules · from the Agenda to Claim Hub",
+        "kind": "doc",
+        "disclosure": "The full grid of the Tuotempo 20 graphics (marketing, 2026); the data inside the cards is invented"
+      },
+      "notes": "Chiusura proposta da M.: successo di Voice e Chat AI e crescita dei profili Marketplace in Spagna e Italia nel 2026; Claim Hub (Lele 24/11) nella griglia. «twenty years ago» invece di un anno (regola: nascita «tra il 2005 e il 2006»). Stop: griglia_bento della grafica Tuotempo 20.",
+      "incomplete": false
+    }
+  ],
+  "labels": [
+    {
+      "section": "l6-rotta",
+      "text": "1 · A new course",
+      "x": 22300,
+      "y": 310
+    },
+    {
+      "section": "l6-utile",
+      "text": "2 · In the black",
+      "x": 23600,
+      "y": 310
+    },
+    {
+      "section": "l6-voce",
+      "text": "3 · Voice or chat?",
+      "x": 24900,
+      "y": 310
+    },
+    {
+      "section": "l6-scommesse",
+      "text": "4 · Two bets",
+      "x": 22950,
+      "y": 1330
+    },
+    {
+      "section": "l6-ventanni",
+      "text": "5 · Twenty years",
+      "x": 24250,
+      "y": 1330
+    }
+  ],
+  "unknowns": [
+    "Lavagna 6 · disegni generati con l’AI (stile delle lavagne 1–4); stop solo su schede e griglia della grafica Tuotempo 20 (dati inventati, dichiarato).",
+    "Lavagna 6 · fatti in attesa di Claude: nome e primato del grande cliente Connect in Italia, anni di Voice/Chat e Noa Notes, secondo vocale di M. del 26/11 (Log 27/11)."
+  ]
+}
