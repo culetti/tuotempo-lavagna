@@ -58,7 +58,7 @@ photos={
  'l2-troiano':{'src':'assets/memo2007-sincro.png','caption':'tuOtempO SINCRO · 2007','kind':'screen','disclosure':memo+'; syncing with the practice software was already announced'},
  'l2-salotto':{'src':'assets/l2-ugobassi-2016.jpg','caption':'The office in Bologna · January 22, 2016','kind':'original','disclosure':'Original photo'},
  'l2-machu':{'src':'assets/machu-picchu-2011-04-07.jpg','caption':'Machu Picchu · April 7, 2011','kind':'original','disclosure':'Original photo'},
- 'l2-voce':{'src':'assets/memo2007-voice.png','caption':'“Voice Message” · the 2007 promise','kind':'screen','disclosure':memo+'; the voice message only arrived in 2009'},
+ 'l2-voce':{'src':'assets/memo2007-voice-tesi.png','caption':'“Voice Message” · the 2007 promise','kind':'screen','disclosure':memo+'; the voice message only arrived in 2009 + the master’s thesis that made it happen (collage)'},
 }
 titles={'l2-clients':'The first clients','l2-troiano':'The sincro','l2-salotto':'The living room in via Ugo Bassi','l2-voce':'The voice','l2-cloud':'From server to cloud','l2-serverino':'The little SMS server','l2-machu':'Machu Picchu','l2-indip':'Independent'}
 sectnotes={

@@ -2,247 +2,267 @@
  "voice": "en-US-EmmaMultilingualNeural",
  "rate": "+0%",
  "boundary": "WordBoundary",
- "text": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
- "spoken": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
+ "text": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years, and a master's thesis, to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
+ "spoken": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years, and a master's thesis, to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
  "words": [
   {
-   "offset": 875000,
+   "offset": 1000000,
    "duration": 1000000,
    "text": "In"
   },
   {
-   "offset": 2000000,
+   "offset": 2125000,
    "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 3125000,
-   "duration": 9250000,
+   "offset": 3250000,
+   "duration": 9750000,
    "text": "2007"
   },
   {
-   "offset": 12500000,
+   "offset": 13125000,
    "duration": 3875000,
    "text": "video"
   },
   {
-   "offset": 16500000,
+   "offset": 17125000,
    "duration": 1375000,
    "text": "there"
   },
   {
-   "offset": 18000000,
-   "duration": 1500000,
+   "offset": 18625000,
+   "duration": 1375000,
    "text": "was"
   },
   {
-   "offset": 19625000,
+   "offset": 20125000,
    "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 20375000,
-   "duration": 6625000,
+   "offset": 20875000,
+   "duration": 6500000,
    "text": "promise"
   },
   {
-   "offset": 31125000,
-   "duration": 4375000,
+   "offset": 32500000,
+   "duration": 4875000,
    "text": "patients"
   },
   {
-   "offset": 35625000,
-   "duration": 1625000,
+   "offset": 37500000,
+   "duration": 1750000,
    "text": "with"
   },
   {
-   "offset": 37375000,
+   "offset": 39375000,
    "duration": 2625000,
    "text": "only"
   },
   {
-   "offset": 40125000,
+   "offset": 42125000,
    "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 41000000,
-   "duration": 5375000,
+   "offset": 43000000,
+   "duration": 5500000,
    "text": "landline"
   },
   {
-   "offset": 46500000,
+   "offset": 48625000,
    "duration": 1500000,
    "text": "would"
   },
   {
-   "offset": 48125000,
-   "duration": 1375000,
+   "offset": 50250000,
+   "duration": 1500000,
    "text": "get"
   },
   {
-   "offset": 49625000,
+   "offset": 51875000,
    "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 50125000,
-   "duration": 3500000,
+   "offset": 52375000,
+   "duration": 3625000,
    "text": "voice"
   },
   {
-   "offset": 53750000,
+   "offset": 56125000,
    "duration": 3875000,
    "text": "message"
   },
   {
-   "offset": 57750000,
+   "offset": 60125000,
    "duration": 875000,
    "text": "at"
   },
   {
-   "offset": 58750000,
-   "duration": 4250000,
+   "offset": 61125000,
+   "duration": 4625000,
    "text": "home"
   },
   {
-   "offset": 67250000,
-   "duration": 875000,
+   "offset": 69875000,
+   "duration": 1000000,
    "text": "It"
   },
   {
-   "offset": 68250000,
-   "duration": 2000000,
+   "offset": 71000000,
+   "duration": 2250000,
    "text": "took"
   },
   {
-   "offset": 70375000,
-   "duration": 1875000,
+   "offset": 73375000,
+   "duration": 2125000,
    "text": "two"
   },
   {
-   "offset": 72375000,
-   "duration": 3125000,
+   "offset": 75625000,
+   "duration": 4125000,
    "text": "years"
   },
   {
-   "offset": 75625000,
-   "duration": 1000000,
-   "text": "to"
+   "offset": 80000000,
+   "duration": 1125000,
+   "text": "and"
   },
   {
-   "offset": 76750000,
-   "duration": 2500000,
-   "text": "keep"
-  },
-  {
-   "offset": 79375000,
-   "duration": 2875000,
-   "text": "it"
-  },
-  {
-   "offset": 86250000,
-   "duration": 11375000,
-   "text": "In 2009"
-  },
-  {
-   "offset": 100250000,
+   "offset": 81250000,
    "duration": 375000,
    "text": "a"
   },
   {
-   "offset": 100750000,
-   "duration": 4500000,
-   "text": "robot"
+   "offset": 81750000,
+   "duration": 5125000,
+   "text": "master's"
   },
   {
-   "offset": 105375000,
-   "duration": 3500000,
-   "text": "voice"
+   "offset": 87000000,
+   "duration": 4875000,
+   "text": "thesis"
   },
   {
-   "offset": 109000000,
-   "duration": 3750000,
-   "text": "started"
-  },
-  {
-   "offset": 112875000,
-   "duration": 3625000,
-   "text": "calling"
-  },
-  {
-   "offset": 116625000,
-   "duration": 5875000,
-   "text": "patients"
-  },
-  {
-   "offset": 122625000,
+   "offset": 92250000,
    "duration": 1125000,
    "text": "to"
   },
   {
-   "offset": 123875000,
-   "duration": 3750000,
-   "text": "remind"
+   "offset": 93500000,
+   "duration": 2625000,
+   "text": "keep"
   },
   {
-   "offset": 127750000,
-   "duration": 1375000,
-   "text": "them"
+   "offset": 96250000,
+   "duration": 2875000,
+   "text": "it"
+  },
+  {
+   "offset": 103250000,
+   "duration": 11000000,
+   "text": "In 2009"
+  },
+  {
+   "offset": 117500000,
+   "duration": 375000,
+   "text": "a"
+  },
+  {
+   "offset": 118000000,
+   "duration": 4125000,
+   "text": "robot"
+  },
+  {
+   "offset": 122250000,
+   "duration": 3250000,
+   "text": "voice"
+  },
+  {
+   "offset": 125625000,
+   "duration": 3500000,
+   "text": "started"
   },
   {
    "offset": 129250000,
-   "duration": 1125000,
+   "duration": 3750000,
+   "text": "calling"
+  },
+  {
+   "offset": 133125000,
+   "duration": 5750000,
+   "text": "patients"
+  },
+  {
+   "offset": 139000000,
+   "duration": 1375000,
+   "text": "to"
+  },
+  {
+   "offset": 140500000,
+   "duration": 3625000,
+   "text": "remind"
+  },
+  {
+   "offset": 144250000,
+   "duration": 1250000,
+   "text": "them"
+  },
+  {
+   "offset": 145625000,
+   "duration": 1000000,
    "text": "of"
   },
   {
-   "offset": 130500000,
-   "duration": 1500000,
+   "offset": 146750000,
+   "duration": 1625000,
    "text": "their"
   },
   {
-   "offset": 132125000,
-   "duration": 7625000,
+   "offset": 148500000,
+   "duration": 7875000,
    "text": "appointments"
   },
   {
-   "offset": 143875000,
-   "duration": 6500000,
+   "offset": 160375000,
+   "duration": 6375000,
    "text": "Tuotempo"
   },
   {
-   "offset": 150500000,
+   "offset": 166875000,
    "duration": 1750000,
    "text": "was"
   },
   {
-   "offset": 152375000,
+   "offset": 168750000,
    "duration": 2625000,
    "text": "among"
   },
   {
-   "offset": 155125000,
-   "duration": 750000,
+   "offset": 171500000,
+   "duration": 875000,
    "text": "the"
   },
   {
-   "offset": 156000000,
-   "duration": 3500000,
+   "offset": 172500000,
+   "duration": 3250000,
    "text": "first"
   },
   {
-   "offset": 159625000,
+   "offset": 175875000,
    "duration": 875000,
    "text": "to"
   },
   {
-   "offset": 160625000,
-   "duration": 2000000,
+   "offset": 176875000,
+   "duration": 2375000,
    "text": "do"
   },
   {
-   "offset": 162750000,
-   "duration": 3125000,
+   "offset": 179375000,
+   "duration": 3000000,
    "text": "it"
   }
  ]

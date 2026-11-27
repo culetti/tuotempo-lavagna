@@ -218,49 +218,49 @@
         "l2-voce"
       ],
       "narration": {
-        "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
-        "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale. Ci vollero due anni per mantenerla. Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti. Tuotempo fu tra i primi a farlo."
+        "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home. It took two years, and a master's thesis, to keep it. In 2009, a robot voice started calling patients to remind them of their appointments. Tuotempo was among the first to do it.",
+        "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale. Ci vollero due anni, e una tesi di laurea, per mantenerla. Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti. Tuotempo fu tra i primi a farlo."
       },
       "cues": [
         {
           "en": "In the 2007 video there was a promise: patients with only a landline would get a voice message at home.",
           "it": "Nel video del 2007 c'era una promessa: chi aveva solo il telefono di casa avrebbe ricevuto un messaggio vocale.",
           "art": "l2-voce",
-          "start": 0.0875,
-          "end": 6.3,
-          "duration": 6.2125
+          "start": 0.1,
+          "end": 6.575,
+          "duration": 6.475
         },
         {
-          "en": "It took two years to keep it.",
-          "it": "Ci vollero due anni per mantenerla.",
+          "en": "It took two years, and a master's thesis, to keep it.",
+          "it": "Ci vollero due anni, e una tesi di laurea, per mantenerla.",
           "art": "l2-voce",
-          "start": 6.725,
-          "end": 8.225,
-          "duration": 1.5
+          "start": 6.9875,
+          "end": 9.9125,
+          "duration": 2.925
         },
         {
           "en": "In 2009, a robot voice started calling patients to remind them of their appointments.",
           "it": "Nel 2009 una voce robotica cominciò a chiamare i pazienti per ricordare gli appuntamenti.",
           "art": "l2-voce",
-          "start": 8.625,
-          "end": 13.975,
-          "duration": 5.35
+          "start": 10.325,
+          "end": 15.6375,
+          "duration": 5.3125
         },
         {
           "en": "Tuotempo was among the first to do it.",
           "it": "Tuotempo fu tra i primi a farlo.",
           "art": "l2-voce",
-          "start": 14.3875,
-          "end": 16.968,
-          "duration": 2.5805
+          "start": 16.0375,
+          "end": 18.6,
+          "duration": 2.5625
         }
       ],
       "audio": "audio/l2-voce-en.mp3",
       "photo": {
-        "src": "assets/memo2007-voice.png",
+        "src": "assets/memo2007-voice-tesi.png",
         "caption": "“Voice Message” · the 2007 promise",
         "kind": "screen",
-        "disclosure": "Original frame from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007); the voice message only arrived in 2009"
+        "disclosure": "Original frame from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007); the voice message only arrived in 2009 + the master’s thesis that made it happen (collage)"
       },
       "notes": "Master §3 (voce nel 2009 con Voxeo, tesi su VoiceXML) e Reperto video 2007: nel 2007 la voce era una promessa (Lele 18/11). “Fra i primi” è RICORDO di Lele. Stop: fotogramma reale “Voice Message” del video 2007.",
       "incomplete": false
