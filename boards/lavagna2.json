@@ -43,49 +43,49 @@
         "l2-clients"
       ],
       "narration": {
-        "en": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
-        "it": "2007. I primi clienti non erano ospedali. Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico. Quell'estate partì il primo promemoria automatico. E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese."
+        "en": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in Amazing English accent.",
+        "it": "2007. I primi clienti non erano ospedali. Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico. Quell'estate partì il primo promemoria automatico. E per spiegare tutto, Tuotempo girò perfino un video promozionale, con un fantastico accento inglese."
       },
       "cues": [
         {
           "en": "2007.",
           "it": "2007.",
           "art": "l2-clients",
-          "start": 0.1,
-          "end": 1.15,
-          "duration": 1.05
+          "start": 0.0875,
+          "end": 1.1625,
+          "duration": 1.075
         },
         {
           "en": "The first customers weren't hospitals.",
           "it": "I primi clienti non erano ospedali.",
           "art": "l2-clients",
           "start": 1.725,
-          "end": 3.9625,
-          "duration": 2.2375
+          "end": 3.925,
+          "duration": 2.2
         },
         {
           "en": "They were a dental practice, a sports centre, a day spa, a beauty centre.",
           "it": "Erano uno studio dentistico, un centro sportivo, una day spa, un centro estetico.",
           "art": "l2-clients",
-          "start": 4.3875,
-          "end": 8.95,
-          "duration": 4.5625
+          "start": 4.3375,
+          "end": 9.1625,
+          "duration": 4.825
         },
         {
           "en": "That summer, the very first automatic reminder went out.",
           "it": "Quell'estate partì il primo promemoria automatico.",
           "art": "l2-clients",
-          "start": 9.3625,
-          "end": 12.8375,
-          "duration": 3.475
+          "start": 9.575,
+          "end": 13.025,
+          "duration": 3.45
         },
         {
-          "en": "And to explain it all, Tuotempo even made a promotional video, in English.",
-          "it": "E per spiegare tutto, Tuotempo girò perfino un video promozionale, in inglese.",
+          "en": "And to explain it all, Tuotempo even made a promotional video, in Amazing English accent.",
+          "it": "E per spiegare tutto, Tuotempo girò perfino un video promozionale, con un fantastico accento inglese.",
           "art": "l2-clients",
-          "start": 13.25,
-          "end": 18.36,
-          "duration": 5.11
+          "start": 13.45,
+          "end": 19.608,
+          "duration": 6.158
         }
       ],
       "audio": "audio/l2-clients-en.mp3",
@@ -93,7 +93,7 @@
         "src": "assets/memo2007-agenda.png",
         "caption": "The calendar · Thursday, June 14, 2007",
         "kind": "screen",
-        "disclosure": "Original frame, then a clip (1:16–1:29.6) from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007)",
+        "disclosure": "Original frame, then a clip (1:16–1:27.6) from the promotional video “tuOtempO Memo” (YouTube, 20/07/2007)",
         "video": "assets/memo2007-agenda-clip.mp4",
         "videoDelay": 1.5
       },

@@ -2,22 +2,22 @@
  "voice": "en-US-EmmaMultilingualNeural",
  "rate": "+0%",
  "boundary": "WordBoundary",
- "text": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
- "spoken": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in English.",
+ "text": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in Amazing English accent.",
+ "spoken": "2007. The first customers weren't hospitals. They were a dental practice, a sports centre, a day spa, a beauty centre. That summer, the very first automatic reminder went out. And to explain it all, Tuotempo even made a promotional video, in Amazing English accent.",
  "words": [
   {
-   "offset": 1000000,
-   "duration": 10500000,
+   "offset": 875000,
+   "duration": 10750000,
    "text": "2007"
   },
   {
    "offset": 17250000,
-   "duration": 1000000,
+   "duration": 1125000,
    "text": "The"
   },
   {
-   "offset": 18375000,
-   "duration": 3625000,
+   "offset": 18500000,
+   "duration": 3500000,
    "text": "first"
   },
   {
@@ -32,188 +32,198 @@
   },
   {
    "offset": 30875000,
-   "duration": 8750000,
+   "duration": 8375000,
    "text": "hospitals"
   },
   {
-   "offset": 43875000,
-   "duration": 1250000,
+   "offset": 43375000,
+   "duration": 1000000,
    "text": "They"
   },
   {
-   "offset": 45250000,
+   "offset": 44500000,
    "duration": 1375000,
    "text": "were"
   },
   {
-   "offset": 46750000,
+   "offset": 46000000,
    "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 47500000,
-   "duration": 3375000,
+   "offset": 46750000,
+   "duration": 3625000,
    "text": "dental"
   },
   {
-   "offset": 51000000,
-   "duration": 6125000,
+   "offset": 50500000,
+   "duration": 6500000,
    "text": "practice"
   },
   {
-   "offset": 57375000,
-   "duration": 500000,
+   "offset": 59125000,
+   "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 58000000,
-   "duration": 4250000,
+   "offset": 59875000,
+   "duration": 4125000,
    "text": "sports"
   },
   {
-   "offset": 62375000,
+   "offset": 64125000,
    "duration": 4750000,
    "text": "centre"
   },
   {
-   "offset": 69250000,
+   "offset": 71625000,
    "duration": 625000,
    "text": "a"
   },
   {
-   "offset": 70000000,
+   "offset": 72375000,
    "duration": 2125000,
    "text": "day"
   },
   {
-   "offset": 72250000,
-   "duration": 4500000,
+   "offset": 74625000,
+   "duration": 4375000,
    "text": "spa"
   },
   {
-   "offset": 79750000,
-   "duration": 625000,
+   "offset": 82000000,
+   "duration": 750000,
    "text": "a"
   },
   {
-   "offset": 80500000,
+   "offset": 82875000,
    "duration": 3250000,
    "text": "beauty"
   },
   {
-   "offset": 83875000,
-   "duration": 5625000,
+   "offset": 86250000,
+   "duration": 5375000,
    "text": "centre"
   },
   {
-   "offset": 93625000,
+   "offset": 95750000,
    "duration": 1875000,
    "text": "That"
   },
   {
-   "offset": 95625000,
+   "offset": 97750000,
    "duration": 4750000,
    "text": "summer"
   },
   {
-   "offset": 102250000,
+   "offset": 104625000,
    "duration": 1000000,
    "text": "the"
   },
   {
-   "offset": 103375000,
-   "duration": 3125000,
+   "offset": 105750000,
+   "duration": 3250000,
    "text": "very"
   },
   {
-   "offset": 106625000,
+   "offset": 109125000,
    "duration": 3750000,
    "text": "first"
   },
   {
-   "offset": 110500000,
-   "duration": 5875000,
+   "offset": 113000000,
+   "duration": 6000000,
    "text": "automatic"
   },
   {
-   "offset": 116500000,
-   "duration": 4875000,
+   "offset": 119125000,
+   "duration": 4500000,
    "text": "reminder"
   },
   {
-   "offset": 121500000,
+   "offset": 123750000,
    "duration": 2375000,
    "text": "went"
   },
   {
-   "offset": 124000000,
-   "duration": 4375000,
+   "offset": 126250000,
+   "duration": 4000000,
    "text": "out"
   },
   {
-   "offset": 132500000,
+   "offset": 134500000,
    "duration": 1375000,
    "text": "And"
   },
   {
-   "offset": 134000000,
-   "duration": 1375000,
+   "offset": 136000000,
+   "duration": 1250000,
    "text": "to"
   },
   {
-   "offset": 135500000,
-   "duration": 4375000,
+   "offset": 137375000,
+   "duration": 4625000,
    "text": "explain"
   },
   {
-   "offset": 140000000,
-   "duration": 1000000,
+   "offset": 142125000,
+   "duration": 875000,
    "text": "it"
   },
   {
-   "offset": 141125000,
-   "duration": 3375000,
+   "offset": 143125000,
+   "duration": 3750000,
    "text": "all"
   },
   {
-   "offset": 147250000,
-   "duration": 7000000,
+   "offset": 149375000,
+   "duration": 6500000,
    "text": "Tuotempo"
   },
   {
-   "offset": 154375000,
-   "duration": 3000000,
+   "offset": 156000000,
+   "duration": 2750000,
    "text": "even"
   },
   {
-   "offset": 157500000,
-   "duration": 1750000,
+   "offset": 158875000,
+   "duration": 1625000,
    "text": "made"
   },
   {
-   "offset": 159375000,
+   "offset": 160625000,
    "duration": 500000,
    "text": "a"
   },
   {
-   "offset": 160000000,
-   "duration": 5875000,
+   "offset": 161250000,
+   "duration": 6000000,
    "text": "promotional"
   },
   {
-   "offset": 166000000,
+   "offset": 167375000,
    "duration": 4500000,
    "text": "video"
   },
   {
-   "offset": 172250000,
-   "duration": 1375000,
+   "offset": 175875000,
+   "duration": 1125000,
    "text": "in"
   },
   {
-   "offset": 173750000,
-   "duration": 6125000,
+   "offset": 177125000,
+   "duration": 5000000,
+   "text": "Amazing"
+  },
+  {
+   "offset": 182250000,
+   "duration": 3500000,
    "text": "English"
+  },
+  {
+   "offset": 185875000,
+   "duration": 6500000,
+   "text": "accent"
   }
  ]
 }
