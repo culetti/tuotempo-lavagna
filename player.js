@@ -16,7 +16,7 @@ const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
 class Cancelled extends Error{}
 function loadImage(src){return new Promise((res,rej)=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>rej(new Error('Cannot load image: '+src.slice(0,80)));im.src=src;});}
 function setPhase(p){phase=p;document.body.dataset.phase=p;updateStatus();}
-function updateStatus(){const names={loading:'Loading…',ready:'Ready · EN',camera:'',drawing:'',hold:'',photo:'Stop · Space to continue',pause:'Stop · Space to continue',boardEnd:'End of board · Space to continue',name:'The name · Space to continue',final:'',ended:'All boards done · R to restart'};const sc=['camera','drawing','hold','photo','pause','name'].includes(phase)&&stage!=='finale'?sceneNow():'';$('status').textContent=paused?'Paused · '+sc+' · Space to resume':[sc,names[phase]??''].filter(Boolean).join(' · ')+(noVoice&&['drawing','hold'].includes(phase)?' · no voice':'');}
+function updateStatus(){const names={loading:'Loading…',ready:'Ready · EN',camera:'',drawing:'',hold:'',photo:'Stop · Space to continue',carousel:'Modules · → to skip',pause:'Stop · Space to continue',boardEnd:'End of board · Space to continue',name:'The name · Space to continue',final:'',ended:'All boards done · R to restart'};const sc=['camera','drawing','hold','photo','pause','name','carousel'].includes(phase)&&stage!=='finale'?sceneNow():'';$('status').textContent=paused?'Paused · '+sc+' · Space to resume':[sc,names[phase]??''].filter(Boolean).join(' · ')+(noVoice&&['drawing','hold'].includes(phase)?' · no voice':'');}
 function subtitle(cue=currentCue){showSubtitleAt(cue, cue===currentCue?subProgress:0);}
 let subProgress=0;
 function splitSubtitle(text, maxLen=72){
@@ -131,12 +131,58 @@ async function playPhotoVideo(ph,token){const seq=++photoSeq;clipPending=true;tr
   // Sound refused by the browser: play muted and offer «click for sound».
   try{v.muted=true;await v.play();if(paused&&photoVideo===v)v.pause();}catch(e2){if(photoVideo===v)photoVideo=null;return;}
   const h=$('soundHint');h.classList.add('on');h.onclick=ev=>{ev.stopPropagation();v.muted=false;v.play().catch(()=>{});h.classList.remove('on');};}}
+// Module carousel (photo.carousel, end of scene 6.5): the «Tuotempo 20» cards come to the front one by one in
+// chronological order, each with its year written in marker, then slide away for the next one; the last card (Claim Hub)
+// becomes its cell in the full grid, which zooms out; then the usual photo stop (the grid, Space to continue).
+// Time runs only on shown frames: Space/click pauses it, → skips to the grid, ← restarts it (or the scene), R/seek cancel it.
+const CAR={period:1600,enter:380,exit:330,write:520,lastHold:2400,zoom:2600,tail:500};
+let car=null;
+const carTotal=c=>(c.items.length-1)*CAR.period+CAR.enter+CAR.lastHold+CAR.zoom+CAR.tail;
+function carouselOff(fade){const ov=$('carousel');if(!ov)return;car=null;if(!ov.classList.contains('on'))return;
+ if(fade){ov.classList.add('fade');setTimeout(()=>{if(!car)ov.classList.remove('on','fade');},520);}else ov.classList.remove('on','fade');}
+function carouselBuild(c){const ov=$('carousel');ov.replaceChildren();ov.classList.remove('fade');const mk=(tag,cls,parent=ov)=>{const e=document.createElement(tag);if(cls)e.className=cls;parent.append(e);return e;};
+ const els={title:mk('div','ctitle'),note:mk('div','cnote'),tl:mk('div','ctl'),grid:mk('img','cgrid'),cards:[],years:[]};
+ els.title.textContent=c.title||'Twenty years of modules';els.note.textContent=c.note||'';els.grid.src=c.grid.src;els.grid.alt='The full grid of modules';
+ const line=mk('i','cline',els.tl);els.ticks=c.items.map(()=>mk('b','',els.tl));const ys=c.items.map(it=>parseInt(it.year,10));const y0=Math.min(...ys),y1=Math.max(...ys);
+ els.tickAt=ys.map(y=>(y-y0)/Math.max(1,y1-y0));const a=mk('span','cend',els.tl);a.textContent=y0;a.style.left='0%';const b=mk('span','cend',els.tl);b.textContent=y1;b.style.left='100%';line.style.width='100%';
+ for(const it of c.items){const im=mk('img','ccard');im.src=it.src;im.alt=it.name+' · '+it.year;els.cards.push(im);const y=mk('div','cyear');y.textContent=it.year;els.years.push(y);}
+ return els;}
+function carFrame(c,els,ms){const ov=$('carousel'),FW=ov.clientWidth||1920,FH=ov.clientHeight||1080,n=c.items.length,col=c.color||'#cc1f63';
+ const cl=v=>Math.min(1,Math.max(0,v)),eo=t=>1-Math.pow(1-t,3),ei=t=>t*t*t;
+ const zoomAt=(n-1)*CAR.period+CAR.enter+CAR.lastHold,zt=cl((ms-zoomAt)/CAR.zoom),ze=ease(zt);
+ const cardBox=i=>{const it=c.items[i],h=FH*(it.tall?.7:.56),w=h*it.w/it.h;return {w,h,cx:FW*.39,cy:FH*.47};};
+ let cur=0;for(let i=0;i<n;i++){const s=i*CAR.period;const el=els.cards[i],ye=els.years[i];const B=cardBox(i);
+  let x=B.cx,op=0,sc=1,rot=(i%2?1.4:-1.4);
+  if(ms>=s){cur=i;const tin=cl((ms-s)/CAR.enter),e=eo(tin);x=B.cx+(1-e)*FW*.62;sc=.82+.18*e;rot*=e;rot+=(1-e)*5;op=cl(tin*2.2);
+   const out=i<n-1?cl((ms-s-CAR.period)/CAR.exit):0;if(out>0){const o=ei(out);x=B.cx-o*FW*.75;sc=1-.14*o;rot=rot-o*4;op=1-o;}
+   if(i===n-1&&zt>0){op=1-cl(zt*3);}}
+  el.style.width=B.w+'px';el.style.height=B.h+'px';el.style.opacity=op;el.style.transform=`translate(${x-B.w/2}px,${B.cy-B.h/2}px) rotate(${rot}deg) scale(${sc})`;
+  // year written in marker to the right of the card
+  const fs=FW*.105;ye.style.fontSize=fs+'px';ye.style.color=col;const yx=B.cx+B.w/2+FW*.045;ye.style.left=yx+'px';ye.style.top=(B.cy-fs*.62)+'px';
+  const wt=ms>=s?cl((ms-s-CAR.enter*.45)/CAR.write):0;let yop=ms>=s?1:0;const yout=i<n-1?cl((ms-s-CAR.period)/(CAR.exit*.7)):cl(zt*3);yop*=1-yout;
+  ye.style.opacity=yop;ye.style.clipPath=`inset(-20% ${100-wt*100}% -30% -5%)`;ye.style.transform=`translateX(${-yout*FW*.12}px)`;}
+ // timeline strip: a dot per module, filled when its card arrives; the current one is larger
+ els.tl.style.opacity=1-cl(zt*2.5);els.ticks.forEach((t,i)=>{t.style.left=(els.tickAt[i]*100)+'%';const on=ms>=i*CAR.period;t.style.background=on?col:'#ddd';t.style.transform=`translate(-50%,-50%) scale(${i===cur&&zt<=0?1.9:1})`;});
+ // last card → its cell in the full grid → zoom out
+ const g=c.grid,last=cardBox(n-1),[x0,y0,x1,y1]=g.claim,gw0=last.w/(x1-x0),gh0=gw0*g.h/g.w,gl0=last.cx-last.w/2-x0*gw0,gt0=last.cy-last.h/2-y0*gh0;
+ const gw1=Math.min(FW*.86,FH*.74*g.w/g.h),gh1=gw1*g.h/g.w,gl1=(FW-gw1)/2,gt1=(FH-gh1)/2+FH*.02;
+ if(zt>0){const gw=gw0+(gw1-gw0)*ze,gh=gh0+(gh1-gh0)*ze;els.grid.style.display='block';els.grid.style.opacity=cl(zt*4);els.grid.style.width=gw+'px';els.grid.style.height=gh+'px';els.grid.style.transform=`translate(${gl0+(gl1-gl0)*ze}px,${gt0+(gt1-gt0)*ze}px)`;}
+ else els.grid.style.display='none';}
+async function playCarousel(c,token){check(token);const ov=$('carousel');const els=carouselBuild(c);
+ await Promise.all([els.grid,...els.cards].map(im=>im.decode?im.decode().catch(()=>{}):null));check(token);
+ const total=carTotal(c);car={ms:0,skip:false,total};ov.classList.add('on');setPhase('carousel');carFrame(c,els,0);
+ await new Promise((res,rej)=>{let last=null;const tick=now=>{if(token!==runToken||!car)return rej(new Cancelled());
+  if(car.skip){car.skip=false;car.ms=Math.max(car.ms,total-CAR.tail);}
+  if(paused){last=now;requestAnimationFrame(tick);return;}if(last!==null)car.ms+=Math.min(100,Math.max(0,now-last))*speed;last=now;
+  carFrame(c,els,Math.min(car.ms,total));if(car.ms>=total)res();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});}
 async function startAudio(section,token,at=0){if(!section.audio)return null;const a=new Audio(section.audio);a.playbackRate=speed;audio=a;try{if(at>0){if(a.readyState<1)await new Promise(r=>a.addEventListener('loadedmetadata',r,{once:true}));check(token);a.currentTime=at;}await a.play();check(token);if(paused)a.pause();return a;}catch(e){if(e instanceof Cancelled)throw e;clearAudio();noVoice=true;updateStatus();return null;}}
 function waitForNext(token){check(token);return new Promise((resolve,reject)=>{waiter={token,resolve,reject};});}
 async function showPhoto(section,token){check(token);stage='stop';clearAudio();subtitle(null);hand=null;render();const ph=section.photo;
- if(!ph){setPhase('pause');await waitForNext(token);check(token);return;}$('pol').className='pol '+ph.kind;$('photoContent').replaceChildren();
+ if(!ph){setPhase('pause');await waitForNext(token);check(token);return;}
+ if(ph.carousel)await playCarousel(ph.carousel,token);
+ $('pol').className='pol '+ph.kind;$('photoContent').replaceChildren();
  if(ph.src){const img=document.createElement('img');img.src=ph.src;img.alt=ph.caption;$('photoContent').append(img);}else{const box=document.createElement('div');box.className='missing';const strong=document.createElement('strong');strong.textContent=ph.display;const span=document.createElement('span');span.textContent=ph.disclosure;box.append(strong,span);$('photoContent').append(box);}
- $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');if(ph.video)playPhotoVideo(ph,token);
+ $('caption').textContent=ph.caption;$('disclosure').textContent=ph.disclosure||'';$('photo').classList.add('on');setPhase('photo');if(ph.carousel)carouselOff(true);if(ph.video)playPhotoVideo(ph,token);
  if(ph.intro){const introCue={en:ph.intro.en,it:ph.intro.it};showSubtitleAt(introCue,0);if(ph.introAudio){const a=new Audio(ph.introAudio);a.playbackRate=speed;audio=a;try{await a.play();check(token);if(paused)a.pause();}catch(e){if(e instanceof Cancelled)throw e;clearAudio();}if(audio&&Number.isFinite(audio.duration)){const left=Math.max(0,(audio.duration-audio.currentTime)*1000);if(left>80)await tween(left,t=>{const p=audio&&Number.isFinite(audio.duration)&&audio.duration>0?audio.currentTime/audio.duration:t;showSubtitleAt(introCue,p);},token);}clearAudio();}}
  await waitForNext(token);check(token);stopPhotoVideo();$('photo').classList.remove('on');subtitle(null);
 }
@@ -239,7 +285,7 @@ function instantDone(sec){const l=signOf(sec);if(l)l.write=1;for(const c of sec.
 // opts.from = index in FLAT, opts.at = seconds into that section's voice, opts.stop = go straight to its photo/pause stop.
 async function run(opts={}){cancel();noVoice=false;pendingStart=null;$('startHint').classList.remove('on');setPaused(false);const token=runToken;startAt=performance.now();currentCue=null;currentSection=null;finalProgress=0;finals={};closing=0;for(const o of Object.values(objects)){o.mask.getContext('2d').clearRect(0,0,o.w,o.h);o.shown=false;o.dirty=true;o.progress=0;o.si=0;}for(const l of DATA.labels||[])if(l.small)l.write=0;
  const k=Math.max(0,Math.min(FLAT.length-1,opts.from||0)),kb=FLAT.length?FLAT[k].bi:0,at=opts.at>0.3?opts.at:0;curIdx=k;stage='section';
- $('photo').classList.remove('on');nameGag=null;subtitle(null);$('start').style.display='none';uiPoke(false);$('progress').style.width=(k/PLAY_SECTIONS*95)+'%';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};
+ $('photo').classList.remove('on');carouselOff(false);nameGag=null;subtitle(null);$('start').style.display='none';uiPoke(false);$('progress').style.width=(k/PLAY_SECTIONS*95)+'%';cam={cx:BOARDS[0].region.x+900,cy:480,w:2000};
  for(let i=0;i<k+(opts.stop?1:0);i++)instantDone(FLAT[i].sec);for(let bi=0;bi<kb;bi++)finals[BOARDS[bi].id]=1;
  if(k>0||at||opts.stop){const a0=objects[(FLAT[k].sec.cues[0]||{}).art||FLAT[k].sec.art[0]];if(a0)cam={...cameraFor(a0)};}
  render();
@@ -257,8 +303,8 @@ function position(){const f=FLAT[curIdx];if(!f)return 0;if(phase==='ended')retur
 function seekTo(t){if(phase==='loading'||!FLAT.length)return;t=Math.max(0,Math.min(TOTAL,t));let k=FLAT.findIndex(f=>t<f.start+f.dur);if(k<0)k=FLAT.length-1;const f=FLAT[k],at=t-f.start;
  if(at>f.dur-0.35)run({from:k,stop:true});else run({from:k,at:f.sec.id==='name'?0:at});}
 // → : at a stop, continue; while a scene plays, jump to that scene's stop (photo or pause). ← : start of this scene, or of the previous one.
-function skipForward(){if(phase==='loading')return;if(phase==='ready'){startFromReady();return;}if(waiter){next();return;}if(stage==='section')run({from:curIdx,stop:true});}
-function skipBack(){if(phase==='loading')return;if(phase==='ready'){startFromReady();return;}const f=FLAT[curIdx];if(!f)return;const into=position()-f.start;
+function skipForward(){if(phase==='loading')return;if(car){car.skip=true;if(paused)resume();return;}if(phase==='ready'){startFromReady();return;}if(waiter){next();return;}if(stage==='section')run({from:curIdx,stop:true});}
+function skipBack(){if(phase==='loading')return;if(phase==='ready'){startFromReady();return;}const f=FLAT[curIdx];if(!f)return;if(car&&car.ms>1500){run({from:curIdx,stop:true});return;}const into=position()-f.start;
  if(stage==='section'&&into>2)run({from:curIdx});else if(stage==='stop'||stage==='finale')run({from:curIdx});else run({from:Math.max(0,curIdx-1)});}
 const SPEEDS=[1,2,4];
 function setSpeed(v){speed=v;if(audio)audio.playbackRate=v;if(photoVideo)photoVideo.playbackRate=v;const b=$('speedBadge');if(b){b.textContent=v+'×';b.style.display=v===1?'none':'block';}const sb=$('speedBtn');if(sb)sb.textContent='Speed '+v+'×';}
@@ -292,7 +338,7 @@ function buildSeek(){const bar=$('seek');if(!bar)return;const tr=bar.querySelect
  bar.addEventListener('pointerup',e=>{if(!drag)return;drag=false;seekTo(tAt(e));});
  bar.addEventListener('pointercancel',()=>{drag=false;});
  setInterval(()=>{if(!drag&&phase!=='loading')bar.querySelector('.fill').style.width=((phase==='ready'?(pendingStart?pendingStart.t:0):position())/TOTAL*100)+'%';if(phase!=='loading'&&phase!=='ready')updateStatus();},250);}
-function next(){if(phase==='loading')return;if(phase==='ready'){run();return;}if(waiter){const w=waiter;waiter=null;setPaused(false);if(w.token===runToken){setPhase('camera');w.resolve();}}}
+function next(){if(phase==='loading')return;if(car){car.skip=true;if(paused)resume();return;}if(phase==='ready'){run();return;}if(waiter){const w=waiter;waiter=null;setPaused(false);if(w.token===runToken){setPhase('camera');w.resolve();}}}
 // Scene numbers «board.scene» (2.3 = Lavagna 2, third scene), as on the seek bar; times mm:ss of the seek bar (voice time).
 const boardNo=f=>ALL_BOARDS.indexOf(BOARDS[f.bi])+1;
 const sceneNo=f=>boardNo(f)+'.'+(FLAT.filter(g=>g.bi===f.bi).indexOf(f)+1);
@@ -342,5 +388,5 @@ function fullscreen(){if(document.fullscreenElement){if(document.exitFullscreen)
 $('fullBtn').onclick=fullscreen;$('backBtn').onclick=skipBack;$('fwdBtn').onclick=skipForward;$('speedBtn').onclick=()=>setSpeed(SPEEDS[(SPEEDS.indexOf(speed)+1)%SPEEDS.length]||1);buildSeek();setSpeed(speed);$('hideBtn').onclick=()=>uiSetMode(uiMode==='hidden'?'auto':'hidden');uiInit();
 document.addEventListener('keydown',e=>{if(e.repeat||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;const k=e.key.toLowerCase();if(e.code==='Space'){e.preventDefault();press();}else if(e.key==='ArrowRight'){e.preventDefault();skipForward();}else if(e.key==='ArrowLeft'){e.preventDefault();skipBack();}else if(e.key==='+'||e.key==='='){e.preventDefault();speedStep(1);}else if(e.key==='-'||e.key==='_'){e.preventDefault();speedStep(-1);}else if(k==='r'){e.preventDefault();if(phase!=='loading')run();}else if(k==='i')toggleLanguage();else if(k==='f')fullscreen();else if(k==='h')uiCycle();});
 // Read-only diagnostics for local verification; no network, telemetry or external API.
-window.Whiteboard={getState:()=>({status:$('status').textContent,hint:$('startHint').classList.contains('on')?$('startHint').textContent:null,pending:pendingStart&&pendingStart.t,waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress,finals:{...finals},board:currentSection?boardOf(currentSection.id).id:null,speed,stage,curIdx,pos:position(),total:TOTAL,audioTime:audio?audio.currentTime:null,audioRate:audio?audio.playbackRate:null,paused,clipTime:photoVideo?photoVideo.currentTime:null,clipPaused:photoVideo?photoVideo.paused:null,progress:Object.fromEntries(Object.entries(objects).filter(([k,o])=>o.shown).map(([k,o])=>[k,o.progress]))}),next,press,pause,resume,shareLink,share,restart:run,toggleLanguage,seekTo,skipForward,skipBack,setSpeed};
+window.Whiteboard={getState:()=>({status:$('status').textContent,hint:$('startHint').classList.contains('on')?$('startHint').textContent:null,pending:pendingStart&&pendingStart.t,waiting:!!waiter,phase,lang,section:currentSection?.id,cue:currentCue?.en,token:runToken,shown:Object.keys(objects).filter(k=>objects[k].shown),cam:{...cam},nameFilter:nameGag?{...nameGag.frame}:null,finalProgress,finals:{...finals},board:currentSection?boardOf(currentSection.id).id:null,speed,stage,curIdx,pos:position(),total:TOTAL,audioTime:audio?audio.currentTime:null,audioRate:audio?audio.playbackRate:null,paused,clipTime:photoVideo?photoVideo.currentTime:null,clipPaused:photoVideo?photoVideo.paused:null,carousel:car?{ms:Math.round(car.ms),total:car.total}:null,progress:Object.fromEntries(Object.entries(objects).filter(([k,o])=>o.shown).map(([k,o])=>[k,o.progress]))}),next,press,pause,resume,shareLink,share,restart:run,toggleLanguage,seekTo,skipForward,skipBack,setSpeed};
 init();

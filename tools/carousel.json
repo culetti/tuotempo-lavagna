@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "src": "assets/carousel/00_agenda.webp",
+   "name": "Agenda",
+   "year": "2006",
+   "w": 326,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/01_booking.webp",
+   "name": "Online booking",
+   "year": "2007",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/02_memo.webp",
+   "name": "MEMO",
+   "year": "2007",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/03_connect.webp",
+   "name": "Connect",
+   "year": "2011",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/04_surveys.webp",
+   "name": "Surveys",
+   "year": "2013",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/05_waitlist.webp",
+   "name": "Waiting list",
+   "year": "2013",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/06_payment.webp",
+   "name": "Online payment",
+   "year": "2013",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/07_checkin.webp",
+   "name": "Check-in",
+   "year": "2014",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/08_docs.webp",
+   "name": "Online documents",
+   "year": "2015",
+   "w": 624,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/09_campaigns.webp",
+   "name": "Campaigns",
+   "year": "2015",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/10_app.webp",
+   "name": "App",
+   "year": "2015",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/17_marketplace.webp",
+   "name": "Marketplace",
+   "year": "2018–19",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/11_video.webp",
+   "name": "Videoconsultation",
+   "year": "2020",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/12_whatsapp.webp",
+   "name": "WhatsApp",
+   "year": "2022",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/13_leadflow.webp",
+   "name": "Leadflow",
+   "year": "2023",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/18_noa_notes.webp",
+   "name": "Noa Notes",
+   "year": "2024",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/14_voice.webp",
+   "name": "Voice Assistant",
+   "year": "2025",
+   "w": 551,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/15_chat.webp",
+   "name": "Chat Assistant",
+   "year": "2025",
+   "w": 628,
+   "h": 620
+  },
+  {
+   "src": "assets/carousel/16_claims.webp",
+   "name": "Claim Hub",
+   "year": "2026",
+   "w": 628,
+   "h": 620
+  }
+ ],
+ "grid": {
+  "src": "assets/carousel/griglia.webp",
+  "w": 2400,
+  "h": 1126,
+  "claim": [
+   0.8386,
+   0.6498,
+   0.9948,
+   0.9524
+  ]
+ }
+}
