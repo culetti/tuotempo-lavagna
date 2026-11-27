@@ -113,12 +113,19 @@ function clearAudio(){if(audio){audio.pause();audio.currentTime=0;audio=null;}st
 // Photo stops with photo.video: the still is shown for photo.videoDelay seconds, then the clip plays in the same frame,
 // with its own sound; at the end it stays on its last frame. R, ←, →, Space (leaving the stop) stop it.
 let photoVideo=null,photoSeq=0;const clipEls={};
-// Video elements for photo clips are created and "unlocked" (muted play + pause) on the first click/key of the user,
-// so that later, when the stop is reached from a timer, they may play with sound (Safari/Chrome autoplay rules).
-function clipEl(src){let v=clipEls[src];if(!v){v=document.createElement('video');v.src=src;v.playsInline=true;v.preload='auto';v.volume=1;clipEls[src]=v;}return v;}
-function unlockClips(){for(const s of DATA.sections){const src=s.photo&&s.photo.video;if(!src)continue;const v=clipEl(src);if(v._unlocked)continue;v._unlocked=true;v.muted=true;const p=v.play();if(p&&p.then)p.then(()=>{v.pause();v.currentTime=0;v.muted=false;}).catch(()=>{v.muted=false;v._unlocked=false;});}}
+// Video elements for photo clips are created and "unlocked" on the first click/key of the user, so that later, when the
+// stop is reached from a timer, they may play with sound (Safari/Chrome autoplay rules). The unlock is play()+pause() in
+// the same tick with the element muted and at volume 0: the clip never actually runs. (Before 27/11/2026 the unlock let
+// the clip run muted until the play() promise resolved and unmuted it in that callback: in some browsers the promo voice
+// was heard right at the start.) A clip is unmuted only by playPhotoVideo, inside its own stop; any other 'play' of a
+// clip element (not the current photoVideo) is stopped and muted at once.
+function clipSilence(v){try{v.pause();}catch(e){}v.muted=true;v.volume=0;}
+function clipEl(src){let v=clipEls[src];if(!v){v=document.createElement('video');v.src=src;v.playsInline=true;v.preload='auto';v.muted=true;v.volume=0;
+ const guard=()=>{if(photoVideo!==v){clipSilence(v);if(v.currentTime)try{v.currentTime=0;}catch(e){}}};v.addEventListener('play',guard);v.addEventListener('playing',guard);clipEls[src]=v;}return v;}
+function unlockClips(){for(const s of DATA.sections){const src=s.photo&&s.photo.video;if(!src)continue;const v=clipEl(src);if(v._unlocked)continue;v._unlocked=true;
+ v.muted=true;v.volume=0;let p;try{p=v.play();}catch(e){}clipSilence(v);if(p&&p.catch)p.catch(()=>{}).finally(()=>{if(photoVideo!==v)clipSilence(v);});}}
 ['pointerdown','keydown','touchend'].forEach(ev=>document.addEventListener(ev,unlockClips,{capture:true}));
-function stopPhotoVideo(){photoSeq++;clipPending=false;$('soundHint').classList.remove('on');if(photoVideo){try{photoVideo.pause();photoVideo.currentTime=0;}catch(e){}photoVideo=null;}}
+function stopPhotoVideo(){photoSeq++;clipPending=false;$('soundHint').classList.remove('on');if(photoVideo){try{photoVideo.pause();photoVideo.currentTime=0;}catch(e){}}photoVideo=null;for(const v of Object.values(clipEls))clipSilence(v);}
 // A pause that counts only frames actually shown (a frame blocked by decoding the photo counts at most 100 ms).
 function holdFrames(ms,token){return new Promise((res,rej)=>{let el=0,last=null;const tick=now=>{if(token!==runToken)return rej(new Cancelled());if(paused){last=now;requestAnimationFrame(tick);return;}if(last!==null)el+=Math.min(100,Math.max(0,now-last))*speed;last=now;if(el>=ms)res();else requestAnimationFrame(tick);};requestAnimationFrame(tick);});}
 async function playPhotoVideo(ph,token){const seq=++photoSeq;clipPending=true;try{await holdFrames((ph.videoDelay??1.5)*1000,token);}catch(e){return;}finally{if(seq===photoSeq)clipPending=false;}
@@ -150,7 +157,12 @@ function carouselBuild(c){const ov=$('carousel');ov.replaceChildren();ov.classLi
 function carFrame(c,els,ms){const ov=$('carousel'),FW=ov.clientWidth||1920,FH=ov.clientHeight||1080,n=c.items.length,col=c.color||'#cc1f63';
  const cl=v=>Math.min(1,Math.max(0,v)),eo=t=>1-Math.pow(1-t,3),ei=t=>t*t*t;
  const zoomAt=(n-1)*CAR.period+CAR.enter+CAR.lastHold,zt=cl((ms-zoomAt)/CAR.zoom),ze=ease(zt);
- const cardBox=i=>{const it=c.items[i],h=FH*(it.tall?.7:.56),w=h*it.w/it.h;return {w,h,cx:FW*.39,cy:FH*.47};};
+ // Card + year layout: the year (measured in the real font) must fit whole inside the frame with a margin, so a wide
+ // card is moved left and, if needed, shrunk; only as a last resort the year gets smaller (1920×1080 and 1280×720 alike).
+ if(els.ywFW!==FW||els.ywFH!==FH){els.yr=els.years.map(ye=>{ye.style.fontSize='100px';return Math.max(ye.scrollWidth,ye.getBoundingClientRect().width)/100;});els.ywFW=FW;els.ywFH=FH;}
+ const cardBox=i=>{const it=c.items[i];let h=FH*(it.tall?.7:.56),w=h*it.w/it.h,fs=Math.min(FW*.1,FH*.178);const gap=FW*.04,L=FW*.05,R=FW*.05,yr=(els.yr&&els.yr[i])||2.4;
+  let yw=fs*yr;const room=FW-L-R-gap;if(w+yw>room){const k=Math.max(.6,(room-yw)/w);w*=k;h*=k;}if(w+yw>room){fs*=(room-w)/yw;yw=fs*yr;}
+  const cx=Math.max(L+w/2,Math.min(FW*.39,FW-R-yw-gap-w/2));return {w,h,cx,cy:FH*.47,fs,yx:cx+w/2+gap};};
  let cur=0;for(let i=0;i<n;i++){const s=i*CAR.period;const el=els.cards[i],ye=els.years[i];const B=cardBox(i);
   let x=B.cx,op=0,sc=1,rot=(i%2?1.4:-1.4);
   if(ms>=s){cur=i;const tin=cl((ms-s)/CAR.enter),e=eo(tin);x=B.cx+(1-e)*FW*.62;sc=.82+.18*e;rot*=e;rot+=(1-e)*5;op=cl(tin*2.2);
@@ -158,9 +170,11 @@ function carFrame(c,els,ms){const ov=$('carousel'),FW=ov.clientWidth||1920,FH=ov
    if(i===n-1&&zt>0){op=1-cl(zt*3);}}
   el.style.width=B.w+'px';el.style.height=B.h+'px';el.style.opacity=op;el.style.transform=`translate(${x-B.w/2}px,${B.cy-B.h/2}px) rotate(${rot}deg) scale(${sc})`;
   // year written in marker to the right of the card
-  const fs=FW*.105;ye.style.fontSize=fs+'px';ye.style.color=col;const yx=B.cx+B.w/2+FW*.045;ye.style.left=yx+'px';ye.style.top=(B.cy-fs*.62)+'px';
+  const fs=B.fs;ye.style.fontSize=fs+'px';ye.style.color=col;// padding around the digits: the marker glyphs overhang their advance width, and the «writing» clip-path
+  // works on the element box, so without it the last digit was cut on the right (fixed 27/11/2026).
+  const yx=B.yx-fs*.12;ye.style.left=yx+'px';ye.style.top=(B.cy-fs*.62-fs*.12)+'px';
   const wt=ms>=s?cl((ms-s-CAR.enter*.45)/CAR.write):0;let yop=ms>=s?1:0;const yout=i<n-1?cl((ms-s-CAR.period)/(CAR.exit*.7)):cl(zt*3);yop*=1-yout;
-  ye.style.opacity=yop;ye.style.clipPath=`inset(-20% ${100-wt*100}% -30% -5%)`;ye.style.transform=`translateX(${-yout*FW*.12}px)`;}
+  ye.style.opacity=yop;ye.style.clipPath=`inset(0 ${100-wt*100}% 0 0)`;ye.style.transform=`translateX(${-yout*FW*.12}px)`;}
  // timeline strip: a dot per module, filled when its card arrives; the current one is larger
  els.tl.style.opacity=1-cl(zt*2.5);els.ticks.forEach((t,i)=>{t.style.left=(els.tickAt[i]*100)+'%';const on=ms>=i*CAR.period;t.style.background=on?col:'#ddd';t.style.transform=`translate(-50%,-50%) scale(${i===cur&&zt<=0?1.9:1})`;});
  // last card → its cell in the full grid → zoom out
